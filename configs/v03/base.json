@@ -1,0 +1,45 @@
+{
+  "device": "mps",
+  "precision": "float32",
+  "models": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "nodes": [
+    32,
+    128,
+    512
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "steps": 2048,
+  "pilot_steps": 200,
+  "batch_size": 16,
+  "micro_batch_size": 16,
+  "lr_candidates": [
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "eval_every": 256,
+  "dev_per_slice": 12,
+  "test_per_slice": 24,
+  "gradient_clip": 1.0,
+  "state_dim": 16,
+  "width": 128,
+  "bottleneck": 32,
+  "rank": 8,
+  "iterations": 16,
+  "graph_seed": 901,
+  "role_seed": 902,
+  "phase_seed": 903,
+  "memory_stop_driver_bytes": 17179869184,
+  "minimum_practical_ood_gain": 0.02,
+  "selection": "lowest macro validation cross entropy; no test tuning",
+  "data_seed_rule": "70000 + training seed; same batches across architecture and N",
+  "pilot_data_seed": 70101
+}

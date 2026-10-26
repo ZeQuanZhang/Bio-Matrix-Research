@@ -1,0 +1,50 @@
+{
+  "comparisons": [
+    {
+      "nodes": 32,
+      "v07_tps": 92.95075343927302,
+      "v08_sequential_c16_tps": 434.7817265193535,
+      "v08_triangular_c16_tps": 377.6809419916827,
+      "transformer_tps": 20789.438797747967,
+      "v08_seq_over_v07": 4.677549244433043,
+      "triangular_over_sequential": 0.8686679291128646,
+      "v08_seq_percent_transformer": 2.0913586496930914,
+      "bio_parameters": 314281,
+      "transformer_parameters": 314800
+    },
+    {
+      "nodes": 128,
+      "v07_tps": 73.05958950037018,
+      "v08_sequential_c16_tps": 223.033509967043,
+      "v08_triangular_c16_tps": 207.6543989806819,
+      "transformer_tps": 21421.798283102427,
+      "v08_seq_over_v07": 3.052761608603247,
+      "triangular_over_sequential": 0.9310457384245371,
+      "v08_seq_percent_transformer": 1.0411521340062866,
+      "bio_parameters": 320425,
+      "transformer_parameters": 320224
+    },
+    {
+      "nodes": 512,
+      "v07_tps": 40.79828664981511,
+      "v08_sequential_c16_tps": 85.1907862804727,
+      "v08_triangular_c16_tps": 58.322346326249054,
+      "transformer_tps": 17736.651734965628,
+      "v08_seq_over_v07": 2.088097154953902,
+      "triangular_over_sequential": 0.6846086164087631,
+      "v08_seq_percent_transformer": 0.4803092914799107,
+      "bio_parameters": 345001,
+      "transformer_parameters": 345216
+    }
+  ],
+  "verification": {
+    "status": "completed",
+    "tests": 26,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "initial_run": "../mps_20261024_c16_c32",
+  "initial_failures": 3,
+  "scope": "MPS FP32 B2 T64 d8; 3 timed samples; engineering only"
+}

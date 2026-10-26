@@ -1,0 +1,156 @@
+{
+  "complete": true,
+  "aggregate": {
+    "gru_add": {
+      "runs": 3,
+      "accuracy_mean": 0.537109375,
+      "accuracy_std": 0.064541842351009,
+      "loss_mean": 0.7719931301725722,
+      "reset_accuracy": 0.248046875,
+      "swap_accuracy": 0.2392578125,
+      "parameters": 11716,
+      "state_floats": 32,
+      "seconds": 27.059439036257874,
+      "events_per_second": 152503.93284396522,
+      "per_seed_accuracy": [
+        0.470703125,
+        0.541015625,
+        0.599609375
+      ]
+    },
+    "linear_add": {
+      "runs": 3,
+      "accuracy_mean": 0.7428385416666666,
+      "accuracy_std": 0.17238840815140083,
+      "loss_mean": 0.5254362845045082,
+      "reset_accuracy": 0.24576822916666666,
+      "swap_accuracy": 0.23046875,
+      "parameters": 7492,
+      "state_floats": 32,
+      "seconds": 19.087035955516814,
+      "events_per_second": 216177.46952983658,
+      "per_seed_accuracy": [
+        0.546875,
+        0.87109375,
+        0.810546875
+      ]
+    },
+    "gated_add": {
+      "runs": 3,
+      "accuracy_mean": 0.5986328125,
+      "accuracy_std": 0.08459534307698326,
+      "loss_mean": 0.6959541136293299,
+      "reset_accuracy": 0.251953125,
+      "swap_accuracy": 0.22786458333333334,
+      "parameters": 9540,
+      "state_floats": 32,
+      "seconds": 23.600188077684532,
+      "events_per_second": 174852.87997845482,
+      "per_seed_accuracy": [
+        0.5517578125,
+        0.5478515625,
+        0.6962890625
+      ]
+    },
+    "reaction_add": {
+      "runs": 3,
+      "accuracy_mean": 0.615234375,
+      "accuracy_std": 0.12348013998495112,
+      "loss_mean": 0.6952778175682064,
+      "reset_accuracy": 0.24739583333333334,
+      "swap_accuracy": 0.2333984375,
+      "parameters": 10308,
+      "state_floats": 32,
+      "seconds": 33.157940549674095,
+      "events_per_second": 124613.0794368506,
+      "per_seed_accuracy": [
+        0.54296875,
+        0.544921875,
+        0.7578125
+      ]
+    },
+    "gru_dynamic": {
+      "runs": 3,
+      "accuracy_mean": 0.6106770833333334,
+      "accuracy_std": 0.10458949421724197,
+      "loss_mean": 0.6679826548284297,
+      "reset_accuracy": 0.2561848958333333,
+      "swap_accuracy": 0.24641927083333334,
+      "parameters": 11716,
+      "state_floats": 32,
+      "seconds": 27.224236137786647,
+      "events_per_second": 151591.82963491156,
+      "per_seed_accuracy": [
+        0.5087890625,
+        0.60546875,
+        0.7177734375
+      ]
+    },
+    "gated_dynamic": {
+      "runs": 3,
+      "accuracy_mean": 0.666015625,
+      "accuracy_std": 0.18115431792219436,
+      "loss_mean": 0.6244694039465932,
+      "reset_accuracy": 0.23990885416666666,
+      "swap_accuracy": 0.2216796875,
+      "parameters": 9540,
+      "state_floats": 32,
+      "seconds": 23.627643713877962,
+      "events_per_second": 174911.0282973494,
+      "per_seed_accuracy": [
+        0.5693359375,
+        0.875,
+        0.5537109375
+      ]
+    },
+    "reaction_dynamic": {
+      "runs": 3,
+      "accuracy_mean": 0.5481770833333334,
+      "accuracy_std": 0.005552969436598952,
+      "loss_mean": 0.7583942596659549,
+      "reset_accuracy": 0.2490234375,
+      "swap_accuracy": 0.22005208333333334,
+      "parameters": 10308,
+      "state_floats": 32,
+      "seconds": 32.11785058666525,
+      "events_per_second": 128591.77709749456,
+      "per_seed_accuracy": [
+        0.5498046875,
+        0.5419921875,
+        0.552734375
+      ]
+    }
+  },
+  "paired_effects": {
+    "gated_add_minus_linear_add": [
+      0.0048828125,
+      -0.3232421875,
+      -0.1142578125
+    ],
+    "reaction_add_minus_gated_add": [
+      -0.0087890625,
+      -0.0029296875,
+      0.0615234375
+    ],
+    "reaction_dynamic_minus_gated_dynamic": [
+      -0.01953125,
+      -0.3330078125,
+      -0.0009765625
+    ],
+    "gru_dynamic_minus_gru_add": [
+      0.0380859375,
+      0.064453125,
+      0.1181640625
+    ],
+    "reaction_dynamic_minus_reaction_add": [
+      0.0068359375,
+      -0.0029296875,
+      -0.205078125
+    ],
+    "reaction_dynamic_minus_gru_dynamic": [
+      0.041015625,
+      -0.0634765625,
+      -0.1650390625
+    ]
+  }
+}

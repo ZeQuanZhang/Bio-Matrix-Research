@@ -1,0 +1,5 @@
+{
+  "status": "not_executed",
+  "reason": "Data-v1 draft superseded before formal execution; use results/v05/verified_streams",
+  "new_data_version": "lifelong-device-streams-v2"
+}

@@ -1,0 +1,94 @@
+{
+  "sampled_at": "2026-10-24T03:29:10.064770+08:00",
+  "source": "v07/graph.py",
+  "source_sha256": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+  "configuration": {
+    "degree": 8,
+    "shells": 4,
+    "seed": 6101,
+    "topology": "connected"
+  },
+  "operation": "Remove valid candidate edges with equal source and destination shell; retain both outward and inward edges; no rewiring",
+  "method": "For every source, BFS on directed source-to-target adjacency; SCC(source)=forward_reachable(source) intersect reverse_reachable(source). Ordered distinct-node pairs.",
+  "scope": "Static candidate message graph, ignoring learned gates/weights and global readout/learning-feedback paths. No training or runtime code changed.",
+  "results": [
+    {
+      "nodes": 32,
+      "edge_counts": {
+        "outward": 73,
+        "inward": 47,
+        "same_shell": 132
+      },
+      "before": {
+        "strong_components": 1,
+        "largest_strong_component": 32,
+        "center_reaches": 32,
+        "can_return_to_center": 32,
+        "same_shell_reachable_pairs": 390,
+        "same_shell_pairs": 390,
+        "all_directed_reachable_pairs": 992
+      },
+      "after": {
+        "strong_components": 1,
+        "largest_strong_component": 32,
+        "center_reaches": 32,
+        "can_return_to_center": 32,
+        "same_shell_reachable_pairs": 390,
+        "same_shell_pairs": 390,
+        "all_directed_reachable_pairs": 992
+      }
+    },
+    {
+      "nodes": 128,
+      "edge_counts": {
+        "outward": 186,
+        "inward": 100,
+        "same_shell": 738
+      },
+      "before": {
+        "strong_components": 1,
+        "largest_strong_component": 128,
+        "center_reaches": 128,
+        "can_return_to_center": 128,
+        "same_shell_reachable_pairs": 7138,
+        "same_shell_pairs": 7138,
+        "all_directed_reachable_pairs": 16256
+      },
+      "after": {
+        "strong_components": 21,
+        "largest_strong_component": 98,
+        "center_reaches": 128,
+        "can_return_to_center": 98,
+        "same_shell_reachable_pairs": 5158,
+        "same_shell_pairs": 7138,
+        "all_directed_reachable_pairs": 12491
+      }
+    },
+    {
+      "nodes": 512,
+      "edge_counts": {
+        "outward": 511,
+        "inward": 219,
+        "same_shell": 3366
+      },
+      "before": {
+        "strong_components": 1,
+        "largest_strong_component": 512,
+        "center_reaches": 512,
+        "can_return_to_center": 512,
+        "same_shell_reachable_pairs": 116454,
+        "same_shell_pairs": 116454,
+        "all_directed_reachable_pairs": 261632
+      },
+      "after": {
+        "strong_components": 293,
+        "largest_strong_component": 25,
+        "center_reaches": 512,
+        "can_return_to_center": 25,
+        "same_shell_reachable_pairs": 4452,
+        "same_shell_pairs": 116454,
+        "all_directed_reachable_pairs": 14330
+      }
+    }
+  ]
+}

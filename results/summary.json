@@ -1,0 +1,45 @@
+{
+  "complete": true,
+  "aggregate": {
+    "baseline": {
+      "runs": 3,
+      "test_loss_mean": 3.5128521900862317,
+      "test_loss_std": 0.005341305811333698,
+      "perplexity_mean": 33.544123464189376,
+      "tokens_per_second": 14231.265354632591,
+      "training_seconds": 718.2046156036134
+    },
+    "bio": {
+      "runs": 3,
+      "test_loss_mean": 3.511072791187364,
+      "test_loss_std": 0.01800812514489143,
+      "perplexity_mean": 33.48778590031337,
+      "tokens_per_second": 7678.310104457559,
+      "training_seconds": 1319.2903421643907
+    },
+    "stateless": {
+      "runs": 3,
+      "test_loss_mean": 3.511789517082639,
+      "test_loss_std": 0.018662321878387494,
+      "perplexity_mean": 33.51206740590524,
+      "tokens_per_second": 8010.942005579294,
+      "training_seconds": 1264.7461402888778
+    },
+    "paired_delta": {
+      "mean": -0.001779398898867986,
+      "values": [
+        0.00648945364862108,
+        0.012502348231132832,
+        -0.02432999857635787
+      ]
+    },
+    "bio_minus_stateless": {
+      "mean": -0.0007167258952753089,
+      "values": [
+        0.001192008319197857,
+        -0.00241891995672594,
+        -0.0009232660482978439
+      ]
+    }
+  }
+}

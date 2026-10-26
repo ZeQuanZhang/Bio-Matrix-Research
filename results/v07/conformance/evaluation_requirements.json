@@ -1,0 +1,102 @@
+{
+  "source": "BioMatrix_完整构想描述.md + V06_DESIGN.md + V07_DESIGN_AND_EXPERIMENT.md",
+  "requirements": [
+    {
+      "mechanism": "有限持续内部状态",
+      "acceptance": "同一状态跨chunk/optimizer持续，状态/消息容量对history长度恒定，保存恢复一致",
+      "status": "implemented_engineering_checks",
+      "remaining": "ContextStream source/offset schedule and resume tested by training owner; formal learned adaptation pending",
+      "coverage_tests": [
+        "v07.test_training.TrainingProtocol.test_context_stream_sources_masks_no_oracle_resets_and_exact_resume"
+      ]
+    },
+    {
+      "mechanism": "经验读取及频率先验控制",
+      "acceptance": "same当前input/target，完整与乱序remote历史有词频相同的配对差；stateless对照；真实语料rare remote repeat子集",
+      "status": "implemented_protocol_cpu_checked",
+      "remaining": "Public-text causal history gains require formal trained checkpoints",
+      "coverage_tests": [
+        "v07.test_evaluate.EvaluationProtocol.test_order_blind_history_cannot_pass_frequency_matched_order_control",
+        "v07.test_evaluate.EvaluationProtocol.test_scoring_subset_annotations_cannot_change_model_predictions"
+      ]
+    },
+    {
+      "mechanism": "无关后验隔离",
+      "acceptance": "异doc低重叠history对same targets的影响，与reset/related历史比较；合成正交query检查方向串扰",
+      "status": "implemented_controls_mechanism_tests",
+      "remaining": "Different-document and lexical absence are observable proxies, not guaranteed semantic/statistical independence",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_rule_feedback_preserves_orthogonal_experience_and_resets_credit",
+        "v07.test_evaluate.EvaluationProtocol.test_lexical_subsets_use_train_rarity_and_available_history_only"
+      ]
+    },
+    {
+      "mechanism": "旧情境再激活",
+      "acceptance": "A_B_A vs B_B_A、shuffled_A_B_A及B_A_A，总state年龄一致且targets一致",
+      "status": "implemented_protocol_cpu_checked",
+      "remaining": "Formal return/retention performance pending; B_B_A repeats B and must be interpreted with shuffle and recent-A controls",
+      "coverage_tests": [
+        "v07.test_evaluate.EvaluationProtocol.test_aba_controls_match_age_recent_history_and_remote_frequencies",
+        "v07.test_evaluate.EvaluationProtocol.test_credit_only_probe_invalidates_metadata_after_prefix_without_content_loss"
+      ]
+    },
+    {
+      "mechanism": "同情境规则变化",
+      "acceptance": "平衡规则翻转合成仅机制回归；真实公开文本自然状态修订需有可审核原文证据",
+      "status": "implemented_synthetic_mechanism_regression",
+      "remaining": "Public natural-change cue is an uncurated proxy, not a verified changing-rule benchmark",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_rule_feedback_preserves_orthogonal_experience_and_resets_credit"
+      ]
+    },
+    {
+      "mechanism": "长延迟有方向反馈",
+      "acceptance": "对应旧query/head的lag正确，不能写到当前query；固定预算，失配/overflow显式标记；梯度或有限差分参照",
+      "status": "implemented_bounded_lag_api_mechanism_regression",
+      "remaining": "Fixed horizon 8, no arbitrary delays, parameter updates invalidate all cached credit; natural LM uses automatic lag1",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_delayed_feedback_uses_old_query_once_and_respects_horizon"
+      ]
+    },
+    {
+      "mechanism": "节点外映射进入内部观测",
+      "acceptance": "改变external输入变换应改变Joseph key/value；外输出映射改变邻居消息；同input异state响应不同",
+      "status": "implemented_mechanism_regression",
+      "remaining": "Predictive benefit of heterogeneous observation transforms awaits training",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_input_mapping_enters_the_identical_fast_and_joseph_observation",
+        "v07.test_model.ModelCorrections.test_history_probability_and_phase_change_real_paths_and_observations"
+      ]
+    },
+    {
+      "mechanism": "不确定性与证据",
+      "acceptance": "Joseph PSD与观测校准、重复内部tick不多算独立观测，相关来源/噪声/规则改变响应；ECE分箱单独正确",
+      "status": "implemented_structure_calibration_arithmetic",
+      "remaining": "Token ECE does not establish probabilistic calibration of internal covariance or source independence",
+      "coverage_tests": [
+        "v07.test_evaluate.EvaluationProtocol.test_calibration_bins_count_boundaries_and_certainty_once",
+        "v07.test_model.ModelCorrections.test_history_probability_and_phase_change_real_paths_and_observations"
+      ]
+    },
+    {
+      "mechanism": "局部相位协作",
+      "acceptance": "相位改变应影响传播与输出；独立/耦合对照、局部而非全同步、收益与实际路径相关",
+      "status": "implemented_structure_mechanism_regression",
+      "remaining": "Functional collective computation and multiseed scaling benefit remain unmeasured",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_history_probability_and_phase_change_real_paths_and_observations"
+      ]
+    },
+    {
+      "mechanism": "规模与预算",
+      "acceptance": "32/128/512配对、多seed、容量/J/断图控制；披露真实params/state/FLOPs/time",
+      "status": "planned_engineering_controls",
+      "remaining": "Fixed Nd2 controls matrix entries, not total parameters or runtime state; formal GPU/quality evidence pending",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_local_write_participation_normalization_matches_population_response"
+      ]
+    }
+  ],
+  "verification": "Evaluation suite checked here; model/training additions checked by respective owners, root aggregate acceptance pending",
+  "public_evaluation": "check_evaluation.py writes source-hash-specific frozen CPU records; no optimizer updates"
+}

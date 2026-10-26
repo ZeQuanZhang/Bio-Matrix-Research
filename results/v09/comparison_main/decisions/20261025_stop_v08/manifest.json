@@ -1,0 +1,115 @@
+{
+  "format": "v09-local-comparison-1",
+  "created_at": "2026-10-24T17:47:20.932457+00:00",
+  "protocol": {
+    "config": {
+      "tokens": 12000000,
+      "nodes": [
+        32,
+        128,
+        512
+      ],
+      "seeds": [
+        11,
+        23,
+        37
+      ],
+      "conditions": [
+        "v08_seq",
+        "content_only",
+        "v09_dense",
+        "v09_sparse50",
+        "transformer"
+      ],
+      "evaluate_on_complete": true,
+      "evaluation_windows": 64,
+      "data_root": "data/v06/wikitext2",
+      "device": "mps",
+      "threads": 4,
+      "context_limit": 4096,
+      "validation_windows": 128,
+      "eval_every": 500000
+    },
+    "source_hashes": {
+      "v07/__init__.py": "4149d2344177a77d3e6c480199ce1ae1051044a312bc1154f79f1fb4a5f1c290",
+      "v07/common.py": "78f2ad472506cc644a26621c05c5eb2214ad3e537ab938cc67e0dfad960524a9",
+      "v07/data.py": "1dbe9bc5e63ee530a8fb47d4db8cb0a270641067f75df7c9ceb5fa145347d14d",
+      "v07/evaluate.py": "598cf490247ef35c3cafd0cb83ec6ed35dcf1d626bbd994f32cfe274299d5e6a",
+      "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+      "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+      "v07/profile.py": "2f4d5e12ae1a9f9eb30c15bfc711f3b79bb2a3086b8d3f4a124ea2482036ca68",
+      "v07/report.py": "5a1fc0831e3a9b75ddd716f15b85cb814634e9f05cc88170a472461e390fa8a4",
+      "v07/run.py": "8d75f8e0f60809972d5104927e05c05acedfd828ed209ff005d0073cee622405",
+      "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+      "v05/model.py": "a966293cc3ae183a07237483b3076a9097c1ffc1d30b0353299a03ba2a3a04c7",
+      "v05/run.py": "492ce9234fc29a9ec0cba539c679fb9568a12cdab379941601fb5c955de747fb",
+      "v08/__init__.py": "dfc0ad5d4b36d7bc6d3f8f8115380cb757f31c36e59803adb97214f135337d94",
+      "v08/benchmark.py": "6f384db239330d63f5e9813953462a0248863e5a5848d2d458ae2c3a17c4dadb",
+      "v08/model.py": "087e47af6039b053bd5448b471a276e393c1f5414ac27473df1bbdd8a009e230",
+      "v08/recurrence.py": "f61fe0e8a7333b1f86e2d80d9ea854d8d9578b6a37ea0754fc24fdd33b0ff4c4",
+      "v08/test_benchmark.py": "a3f8412e6f01105c691aaa772f645ba6d546241ad266de988ad511dadac31ca0",
+      "v08/test_model.py": "d2132ccda4dee47f8d7ddb44c9dcd2e7fc89de29eeb98322030ef53bccd6a9bd",
+      "v08/test_recurrence.py": "5fbc4c6bd7c74adaf629d4efd27c3d4278f6f5aa9161011b6972199768e70fee",
+      "v09/__init__.py": "9ea9a91aed2a25e7bb83b5664e6ce95ba591444b9b33d59e544e7d5c29214d71",
+      "v09/baselines.py": "98e9f084ea8cdb887080a9fd73d46c7fe7eca76c4867c2e5e09c7ce3f0f80652",
+      "v09/benchmark.py": "1b4859d41a880700d8a98c656fe674d0b1805db86b5cc991f94a7aec6d54b50c",
+      "v09/core.py": "82126f70ceeff71a6a1a349fabc9ed683e22cfa9e51931857803863513ab4a90",
+      "v09/diagnostics.py": "638f94a36310fcf3363792c2e04e031db402b9303a0743f6da000007ddd69d81",
+      "v09/evaluate.py": "51b425354a994b522fa93437042bf3b9fa7c28582877ba7318ae8a0bc72f3832",
+      "v09/experiment.py": "35ef71731f91e8e1de471190ff2a8e9ebc0d78c12cd7e634b13eba442ca331c5",
+      "v09/feedback.py": "a072d76dfd03006bf2b88a9e6469086d5e1ef9bbda2140a8e035a201da92367a",
+      "v09/model.py": "a9fc067d6a248bd9f237e5f77c917c552772d18c0d54c3bd1279b61790513bad",
+      "v09/test_baselines.py": "865143361f6a470d7bf664a51d2158334ee6b53cf0db117e9b16b88192c4521a",
+      "v09/test_benchmark.py": "6f74d81fed15a8c911d1482187c043cee228286528cc93fa86f9587ea3eb7234",
+      "v09/test_core.py": "7ab649b10ee52d4e28656de60dec5f2235ef8f5f4d2f07128addf5d25f1c2624",
+      "v09/test_diagnostics.py": "a1781d87fed78d14fa3e755c7fe3df3041324f3e2d118d5f2e7bbe1879e2f8f8",
+      "v09/test_evaluate.py": "1831ab6c82f79e91dd27cdbe24baf9169deaf95f966f92abf6a8242d793a6f90",
+      "v09/test_experiment.py": "58441c2b2f83fcd0c5d97ffd85dfaf102f957430673b20ec6c2618e4fead5bb1",
+      "v09/test_feedback.py": "26f9359053c3550cd7ef57de53637f7cf16025437f95579c3c1248d363714a42",
+      "v09/test_routing_stream.py": "33e1d6d05ff89453994f1bfbf4692c07f4cf035100a250e7a171fe88aa31b9a6",
+      "v09/test_train.py": "e0cf19ff03c5591aec83256b9ef92334f50d998414edc3145c9dc49657dfe308",
+      "v09/train.py": "d54a5caf223bc74fefbd2c8e3a5273f14a57e007307b5d2d59c76d9d802695e5",
+      "run_biomatrix_v09.py": "ca89ec9445dfe381bea91715a5ac8c0c326afc9c52e4423be8e5c1ebdd2101a3",
+      ".run/Bio-Matrix v0.9 验证与测速.run.xml": "ac371630c38e9d2add3c1f651b3f467508ceb51e375f7ceff201b35b52db492e",
+      "run_biomatrix_v09_compare.py": "d5a7fcd93153502a00daeef701ff8b5e14817e515166c1c6ccec35c388b4a616",
+      ".run/Bio-Matrix v0.9 对比实验.run.xml": "7adf9f1f93207d95c858d7dd92db707a8388e20f109bf9ed371e6e384e4d477b",
+      ".run/Bio-Matrix v0.9 训练.run.xml": "b49e6211ac5089f35e247a00362f9746795e8c836a5757e16c5caa85dace8d6a"
+    },
+    "data": {
+      "root": "data/v06/wikitext2",
+      "manifest_sha256": "5157e363d042a9dd64302be9fea5491775059bd437e364ffb369f2f1a0531ebd",
+      "tokenizer_sha256": "8a07d56860213cf851f88670f29a3cd9187ef541c8328313d02f9a2d9103ee9c",
+      "raw": {
+        "train": {
+          "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/6231e49f19a707241d6b84d9cff60a3a86b85a85/wikitext-2-raw-v1/train-00000-of-00001.parquet",
+          "sha256": "49280f3dd993cbdfd322186194133d5d1935f81e1c91064c239f2a70ebb02701",
+          "bytes": 6342468
+        },
+        "validation": {
+          "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/6231e49f19a707241d6b84d9cff60a3a86b85a85/wikitext-2-raw-v1/validation-00000-of-00001.parquet",
+          "sha256": "a10eb5a42c4264c45dd38bfef4da6a74ddef5fc22cb419e1a89d54c4cc6d748f",
+          "bytes": 656408
+        },
+        "test": {
+          "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/6231e49f19a707241d6b84d9cff60a3a86b85a85/wikitext-2-raw-v1/test-00000-of-00001.parquet",
+          "sha256": "3ee89cd6a2ab912afd5d01e98867b46a67d9ec7a9eca0910e5e4c3cdd4cc1925",
+          "bytes": 731216
+        }
+      },
+      "prepared_hashes": {
+        "tokenizer.json": "8a07d56860213cf851f88670f29a3cd9187ef541c8328313d02f9a2d9103ee9c",
+        "train_tokens.npy": "a97f9e658547ad4ab2b863ee979234ee2c4c33f3bb696a73be55953865f4418f",
+        "train_offsets.npy": "bb70305f877185352b97cd2669e11650463bbe7d866c1d62ac3d445f452aa1ca",
+        "validation_tokens.npy": "8fcf9d22079334affac960e3b71ca9f23ad4859e25d26af1d06a5656c56d19a8",
+        "validation_offsets.npy": "150b90a6eb59045f643863229ec621c6bed50bb90771ae1257af900269f937f1",
+        "test_tokens.npy": "3c1f11446fb068a03c4933f34cb1e432c34db941035c8e88f9a045d148b3abf3",
+        "test_offsets.npy": "5e07272c631f431fa1275d2fb20d26126d747a1cb7ddfbc064262219dff223c7"
+      }
+    },
+    "python": ".venv/bin/python",
+    "python_version": "3.12.13 (main, Mar 25 2026, 03:16:06) [Clang 22.1.1 ]",
+    "torch_version": "2.14.1"
+  },
+  "cells": 45,
+  "independent_jobs": 39
+}

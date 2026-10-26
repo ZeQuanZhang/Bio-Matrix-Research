@@ -1,0 +1,384 @@
+{
+  "v04": {
+    "source_sha256": "9e001ab8aace4770c2807cbfe386f5c0e6fd089d6bb9f9e5a7e775e29ba2198c",
+    "config": {
+      "version": "v04-latent-context-matrix-2",
+      "device": "auto",
+      "width": 48,
+      "matrix_size": 8,
+      "contexts": 3,
+      "modes": 4,
+      "operator_bases": 2,
+      "neighbors": 8,
+      "active_neighbors": 4,
+      "write_nodes": 4,
+      "read_nodes": 4,
+      "read_path": "shared",
+      "read_paths": [
+        "shared",
+        "separated"
+      ],
+      "internal_steps": 12,
+      "checkpoint_ticks": true,
+      "batch_size": 4,
+      "learning_rate": 0.001,
+      "train_steps": 1200,
+      "bptt_steps": 16,
+      "predictive_loss_weight": 0.05,
+      "eval_every": 100,
+      "checkpoint_every": 25,
+      "gradient_clip": 1.0,
+      "seeds": [
+        11,
+        23,
+        37
+      ],
+      "nodes": [
+        32,
+        128,
+        512
+      ],
+      "variants": [
+        "graph",
+        "full",
+        "matrix",
+        "probability",
+        "fourier"
+      ],
+      "development_quartets": 4,
+      "test_quartets": 8,
+      "graph_seed": 1901,
+      "role_seed": 1902,
+      "data_seed": 20261022,
+      "seen_capacity": 64,
+      "topology": "connected",
+      "progress_every": 1
+    },
+    "label_errors_against_hidden_truth": 0,
+    "quartet_balance_errors": 0,
+    "raw_report_reference": {
+      "train": {
+        "checked": 1092,
+        "errors": 0,
+        "unresolved": 0,
+        "method": "Separate raw-report ledger with auditor-only world and grounded flags; no stored truth field used."
+      },
+      "dev": {
+        "checked": 288,
+        "errors": 0,
+        "unresolved": 0,
+        "method": "Separate raw-report ledger with auditor-only world and grounded flags; no stored truth field used."
+      },
+      "test": {
+        "checked": 576,
+        "errors": 0,
+        "unresolved": 0,
+        "method": "Separate raw-report ledger with auditor-only world and grounded flags; no stored truth field used."
+      }
+    },
+    "hidden_fields_passed_to_model": [],
+    "stream_counts": {
+      "train": 512,
+      "dev": 128,
+      "test": 256
+    },
+    "independent_groups": {
+      "train": 128,
+      "dev": 32,
+      "test": 64
+    },
+    "exact_train_dev_overlap": 0,
+    "exact_train_test_overlap": 0,
+    "exact_dev_test_overlap": 0,
+    "structural_template_test_seen_in_train_fraction": 0.359375,
+    "structural_template_test_seen_in_dev_fraction": 0.203125,
+    "train_profiles": [
+      "duplicate",
+      "history",
+      "independent",
+      "outlier",
+      "partial",
+      "return",
+      "switch"
+    ],
+    "dev_profiles": [
+      "duplicate",
+      "history",
+      "independent",
+      "long",
+      "outlier",
+      "partial",
+      "return",
+      "switch"
+    ],
+    "test_profiles": [
+      "duplicate",
+      "history",
+      "independent",
+      "long",
+      "outlier",
+      "partial",
+      "return",
+      "switch"
+    ],
+    "independent_current_observation_accuracy": 1.0,
+    "invert_first_claim": {
+      "correct": 0,
+      "streams": 0,
+      "independent_base_groups": 0,
+      "accuracy": null
+    },
+    "invert_last_report_outlier": {
+      "correct": 8,
+      "streams": 32,
+      "independent_base_groups": 8,
+      "accuracy": 0.25
+    },
+    "low_reported_noise_by_profile": {
+      "history": {
+        "measured_mse": 0.009830079904333551,
+        "reported_variance": 0.010000000000000002,
+        "mse_over_reported": 0.983007990433355
+      },
+      "independent": {
+        "measured_mse": 0.010453270061740468,
+        "reported_variance": 0.010000000000000004,
+        "mse_over_reported": 1.0453270061740463
+      },
+      "outlier": {
+        "measured_mse": 0.011015554005082258,
+        "reported_variance": 0.010000000000000002,
+        "mse_over_reported": 1.1015554005082255
+      },
+      "switch": {
+        "measured_mse": 0.013969404257088834,
+        "reported_variance": 0.010000000000000005,
+        "mse_over_reported": 1.3969404257088827
+      },
+      "return": {
+        "measured_mse": 0.011764950697594385,
+        "reported_variance": 0.010000000000000005,
+        "mse_over_reported": 1.1764950697594379
+      },
+      "partial": {
+        "measured_mse": 0.008901287084082101,
+        "reported_variance": 0.010000000000000004,
+        "mse_over_reported": 0.8901287084082098
+      },
+      "duplicate": {
+        "measured_mse": 0.00992503911668607,
+        "reported_variance": 0.010000000000000002,
+        "mse_over_reported": 0.9925039116686069
+      },
+      "long": {
+        "measured_mse": 0.009311581891402014,
+        "reported_variance": 0.010000000000000005,
+        "mse_over_reported": 0.9311581891402009
+      }
+    },
+    "limits": [
+      "Exact hashes include random noise, report IDs and cues; no exact overlap does not establish unseen task structure.",
+      "Targets are checked against generator hidden truth; this is not an independent real-world annotation audit.",
+      "Four color counterfactuals share one base trajectory and are not four independent data sources.",
+      "A shared task grammar remains even when exact templates or delay lengths are held out.",
+      "Inputs are structured synthetic signals, not natural Chinese language."
+    ]
+  },
+  "v05": {
+    "source_sha256": "78c8f51bd6f7b800316cffbcb300782abffadb7a34a19ee60e1c33578ae9d78e",
+    "config": {
+      "version": "v05-consolidation-2",
+      "device": "auto",
+      "matrix_size": 8,
+      "contexts": 3,
+      "width": 32,
+      "modes": 4,
+      "bands": 3,
+      "trace_bands": 2,
+      "neighbors": 8,
+      "write_nodes": 4,
+      "read_nodes": 4,
+      "internal_steps": 16,
+      "checkpoint_events": true,
+      "seen_capacity": 128,
+      "graph_seed": 2901,
+      "role_seed": 2902,
+      "topology": "connected",
+      "read_path": "shared",
+      "read_paths": [
+        "shared",
+        "separated"
+      ],
+      "nodes": [
+        32,
+        128,
+        512
+      ],
+      "seeds": [
+        11,
+        23,
+        37
+      ],
+      "variants": [
+        "message",
+        "full",
+        "no_fourier",
+        "single_timescale",
+        "no_traces",
+        "no_consolidation",
+        "frequency_only",
+        "always_read"
+      ],
+      "stage": "core",
+      "credit": "full",
+      "bptt_steps": 16,
+      "batch_size": 4,
+      "train_steps": 1200,
+      "learning_rate": 0.001,
+      "predictive_loss_weight": 0.05,
+      "gradient_clip": 1.0,
+      "eval_every": 100,
+      "checkpoint_every": 25,
+      "progress_every": 1,
+      "development_quartets": 8,
+      "test_quartets": 32,
+      "data_seed": 20261023
+    },
+    "label_errors_against_hidden_truth": 0,
+    "quartet_balance_errors": 0,
+    "raw_report_reference": {
+      "train": {
+        "checked": 2416,
+        "errors": 0,
+        "unresolved": 0,
+        "method": "Separate raw-report ledger with auditor-only world and grounded flags; no stored truth field used."
+      },
+      "dev": {
+        "checked": 1244,
+        "errors": 0,
+        "unresolved": 0,
+        "method": "Separate raw-report ledger with auditor-only world and grounded flags; no stored truth field used."
+      },
+      "test": {
+        "checked": 5648,
+        "errors": 0,
+        "unresolved": 0,
+        "method": "Separate raw-report ledger with auditor-only world and grounded flags; no stored truth field used."
+      }
+    },
+    "hidden_fields_passed_to_model": [],
+    "stream_counts": {
+      "train": 512,
+      "dev": 256,
+      "test": 1152
+    },
+    "independent_groups": {
+      "train": 128,
+      "dev": 64,
+      "test": 288
+    },
+    "exact_train_dev_overlap": 0,
+    "exact_train_test_overlap": 0,
+    "exact_dev_test_overlap": 0,
+    "structural_template_test_seen_in_train_fraction": 0.1111111111111111,
+    "structural_template_test_seen_in_dev_fraction": 0.11458333333333333,
+    "train_profiles": [
+      "consolidation",
+      "delayed",
+      "history",
+      "independent",
+      "outlier",
+      "repetition",
+      "return",
+      "switch"
+    ],
+    "dev_profiles": [
+      "consolidation",
+      "delayed",
+      "history",
+      "independent",
+      "outlier",
+      "repetition",
+      "return",
+      "switch"
+    ],
+    "test_profiles": [
+      "consolidation",
+      "delayed",
+      "history",
+      "independent",
+      "long",
+      "outlier",
+      "repetition",
+      "return",
+      "switch"
+    ],
+    "independent_current_observation_accuracy": 1.0,
+    "invert_first_claim": {
+      "correct": 32,
+      "streams": 128,
+      "independent_base_groups": 32,
+      "accuracy": 0.25
+    },
+    "invert_last_report_outlier": {
+      "correct": 32,
+      "streams": 128,
+      "independent_base_groups": 32,
+      "accuracy": 0.25
+    },
+    "low_reported_noise_by_profile": {
+      "history": {
+        "measured_mse": 0.006216172646333195,
+        "reported_variance": 0.006400000000000001,
+        "mse_over_reported": 0.9712769759895615
+      },
+      "independent": {
+        "measured_mse": 0.00704728196295213,
+        "reported_variance": 0.006400000000000002,
+        "mse_over_reported": 1.10113780671127
+      },
+      "outlier": {
+        "measured_mse": 0.006850245855297132,
+        "reported_variance": 0.006400000000000002,
+        "mse_over_reported": 1.0703509148901766
+      },
+      "switch": {
+        "measured_mse": 0.006566952950083472,
+        "reported_variance": 0.006400000000000001,
+        "mse_over_reported": 1.0260863984505424
+      },
+      "return": {
+        "measured_mse": 0.0060272910383886566,
+        "reported_variance": 0.006400000000000002,
+        "mse_over_reported": 0.9417642247482273
+      },
+      "consolidation": {
+        "measured_mse": 0.0064817250962732045,
+        "reported_variance": 0.006400000000000003,
+        "mse_over_reported": 1.0127695462926878
+      },
+      "repetition": {
+        "measured_mse": 0.10215803128409885,
+        "reported_variance": 0.006400000000000002,
+        "mse_over_reported": 15.96219238814044
+      },
+      "delayed": {
+        "measured_mse": 0.006311450623543083,
+        "reported_variance": 0.006400000000000002,
+        "mse_over_reported": 0.9861641599286064
+      },
+      "long": {
+        "measured_mse": 0.006527547464020323,
+        "reported_variance": 0.0064,
+        "mse_over_reported": 1.0199292912531754
+      }
+    },
+    "limits": [
+      "Exact hashes include random noise, report IDs and cues; no exact overlap does not establish unseen task structure.",
+      "Targets are checked against generator hidden truth; this is not an independent real-world annotation audit.",
+      "Four color counterfactuals share one base trajectory and are not four independent data sources.",
+      "A shared task grammar remains even when exact templates or delay lengths are held out.",
+      "Inputs are structured synthetic signals, not natural Chinese language."
+    ]
+  }
+}

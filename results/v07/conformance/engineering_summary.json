@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "gate_report": "results/v07/conformance/checks/20261023T031248736696Z/report.json",
+  "tests": 55,
+  "requirements": 23,
+  "runtime_source_hashes": {
+    "v07/__init__.py": "4149d2344177a77d3e6c480199ce1ae1051044a312bc1154f79f1fb4a5f1c290",
+    "v07/common.py": "78f2ad472506cc644a26621c05c5eb2214ad3e537ab938cc67e0dfad960524a9",
+    "v07/data.py": "1dbe9bc5e63ee530a8fb47d4db8cb0a270641067f75df7c9ceb5fa145347d14d",
+    "v07/evaluate.py": "598cf490247ef35c3cafd0cb83ec6ed35dcf1d626bbd994f32cfe274299d5e6a",
+    "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "v07/profile.py": "2f4d5e12ae1a9f9eb30c15bfc711f3b79bb2a3086b8d3f4a124ea2482036ca68",
+    "v07/report.py": "5a1fc0831e3a9b75ddd716f15b85cb814634e9f05cc88170a472461e390fa8a4",
+    "v07/run.py": "8d75f8e0f60809972d5104927e05c05acedfd828ed209ff005d0073cee622405",
+    "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+    "v05/model.py": "a966293cc3ae183a07237483b3076a9097c1ffc1d30b0353299a03ba2a3a04c7",
+    "v05/run.py": "492ce9234fc29a9ec0cba539c679fb9568a12cdab379941601fb5c955de747fb"
+  },
+  "cpu_smoke": [
+    {
+      "id": "core_n32_message_s11",
+      "status": "completed",
+      "steps": [
+        1,
+        2
+      ],
+      "content_sha256": [
+        "0bfda02b2d967360a4d95fbdabf4d058810b34357d7be526fe1a1d58f53b2d0d",
+        "45c22c1e362e3a39a2a96b0d6a166324c57f19edcf6109829e43ee9ebfff1b86"
+      ],
+      "evaluation_sha256": "9dd66ca5d45bb91624e95782e98543ead6a65653261352532ea1cd1038d3b113"
+    },
+    {
+      "id": "core_n32_independent_s11",
+      "status": "completed",
+      "steps": [
+        1,
+        2
+      ],
+      "content_sha256": [
+        "0bfda02b2d967360a4d95fbdabf4d058810b34357d7be526fe1a1d58f53b2d0d",
+        "45c22c1e362e3a39a2a96b0d6a166324c57f19edcf6109829e43ee9ebfff1b86"
+      ],
+      "evaluation_sha256": "9dd66ca5d45bb91624e95782e98543ead6a65653261352532ea1cd1038d3b113"
+    },
+    {
+      "id": "core_n32_full_s11",
+      "status": "completed",
+      "steps": [
+        1,
+        2
+      ],
+      "content_sha256": [
+        "0bfda02b2d967360a4d95fbdabf4d058810b34357d7be526fe1a1d58f53b2d0d",
+        "45c22c1e362e3a39a2a96b0d6a166324c57f19edcf6109829e43ee9ebfff1b86"
+      ],
+      "evaluation_sha256": "9dd66ca5d45bb91624e95782e98543ead6a65653261352532ea1cd1038d3b113"
+    },
+    {
+      "id": "core_n32_transformer_s11",
+      "status": "completed",
+      "steps": [
+        1,
+        2
+      ],
+      "content_sha256": [
+        "0bfda02b2d967360a4d95fbdabf4d058810b34357d7be526fe1a1d58f53b2d0d",
+        "45c22c1e362e3a39a2a96b0d6a166324c57f19edcf6109829e43ee9ebfff1b86"
+      ],
+      "evaluation_sha256": "9dd66ca5d45bb91624e95782e98543ead6a65653261352532ea1cd1038d3b113"
+    },
+    {
+      "id": "core_n32_stateless_s11",
+      "status": "completed",
+      "steps": [
+        1,
+        2
+      ],
+      "content_sha256": [
+        "0bfda02b2d967360a4d95fbdabf4d058810b34357d7be526fe1a1d58f53b2d0d",
+        "45c22c1e362e3a39a2a96b0d6a166324c57f19edcf6109829e43ee9ebfff1b86"
+      ],
+      "evaluation_sha256": "9dd66ca5d45bb91624e95782e98543ead6a65653261352532ea1cd1038d3b113"
+    }
+  ],
+  "v06_preserved": {
+    "v06/run.py": true,
+    "v06/profile.py": true,
+    "v06/graph.py": true,
+    "v06/__init__.py": true,
+    "v06/model.py": true,
+    "v06/common.py": true,
+    "v06/test_v06.py": true,
+    "v06/evaluate.py": true,
+    "v06/report.py": true,
+    "v06/data.py": true
+  },
+  "cpu_resource": "results/v07/conformance/aligned_cpu_profile/preflight.json",
+  "data_only_budget": "results/v07/conformance/aligned_stream_budget/result.json",
+  "formal_training": "not_executed_in_this_local_artifact",
+  "gpu_results": "recorded_separately_under_results/v07/remote_a800"
+}

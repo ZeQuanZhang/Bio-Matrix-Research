@@ -1,0 +1,11 @@
+{
+  "previous_queue": "results/v09/comparison_main",
+  "decision": "results/v09/comparison_main/decisions/20261025_stop_v08/decision.json",
+  "excluded_conditions": [
+    "v08_seq"
+  ],
+  "old_v08_completed_targets": 2540622,
+  "old_checkpoints_preserved": true,
+  "old_results_and_source_snapshots_preserved": true,
+  "checkpoints_imported": false
+}

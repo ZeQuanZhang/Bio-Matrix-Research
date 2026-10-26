@@ -1,0 +1,52 @@
+{
+  "version": "v06-public-lm-1",
+  "device": "auto",
+  "nodes": [
+    32,
+    128,
+    512
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "variants": [
+    "message",
+    "independent",
+    "full",
+    "transformer"
+  ],
+  "matrix_size": 8,
+  "width": 64,
+  "bands": 3,
+  "modes": 3,
+  "trace_bands": 2,
+  "neighbors": 8,
+  "shells": 4,
+  "internal_steps": 4,
+  "graph_seed": 6101,
+  "topology": "connected",
+  "checkpoint_events": false,
+  "context_limit": 128,
+  "vocab_size": 4096,
+  "train_steps": 4000,
+  "batch_size": 2,
+  "sequence_tokens": 64,
+  "bptt_tokens": 16,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "warmup_steps": 200,
+  "gate_warmup_steps": 400,
+  "eval_every": 500,
+  "checkpoint_every": 50,
+  "validation_windows": 8,
+  "test_windows": 24,
+  "prefix_tokens": 64,
+  "target_tokens": 64,
+  "data_seed": 6201,
+  "evaluation_seed": 6202,
+  "cpu_threads": 4,
+  "stage": "core"
+}

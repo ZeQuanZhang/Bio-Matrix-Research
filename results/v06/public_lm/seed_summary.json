@@ -1,0 +1,62 @@
+[
+  {
+    "nodes": 32,
+    "baseline": "message",
+    "seeds": 1,
+    "mean_delta_nll": 0.00041360299413402873,
+    "seed_std": null,
+    "all_seed_deltas": [
+      0.00041360299413402873
+    ]
+  },
+  {
+    "nodes": 32,
+    "baseline": "independent",
+    "seeds": 1,
+    "mean_delta_nll": -0.0006545721165214976,
+    "seed_std": null,
+    "all_seed_deltas": [
+      -0.0006545721165214976
+    ]
+  },
+  {
+    "nodes": 32,
+    "baseline": "transformer",
+    "seeds": 1,
+    "mean_delta_nll": -0.2497479448793456,
+    "seed_std": null,
+    "all_seed_deltas": [
+      -0.2497479448793456
+    ]
+  },
+  {
+    "nodes": 128,
+    "baseline": "message",
+    "seeds": 1,
+    "mean_delta_nll": -0.003766097031378498,
+    "seed_std": null,
+    "all_seed_deltas": [
+      -0.003766097031378498
+    ]
+  },
+  {
+    "nodes": 128,
+    "baseline": "independent",
+    "seeds": 1,
+    "mean_delta_nll": -0.0003039666141072909,
+    "seed_std": null,
+    "all_seed_deltas": [
+      -0.0003039666141072909
+    ]
+  },
+  {
+    "nodes": 128,
+    "baseline": "transformer",
+    "seeds": 1,
+    "mean_delta_nll": -0.2524159746438575,
+    "seed_std": null,
+    "all_seed_deltas": [
+      -0.2524159746438575
+    ]
+  }
+]

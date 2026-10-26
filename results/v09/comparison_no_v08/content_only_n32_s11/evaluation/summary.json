@@ -1,0 +1,148 @@
+{
+  "status": "completed",
+  "coverage": {
+    "status": "sufficient",
+    "requested_windows": 64,
+    "candidate_nonoverlap_windows": 931,
+    "rejected_missing_other_document": 0,
+    "actual_windows": 64,
+    "actual_documents": 30,
+    "scored_positions": 16384,
+    "unique_scored_positions": 16384,
+    "duplicate_scored_positions": 0,
+    "eligible_candidate_target_positions": 238336,
+    "total_validation_tokens": 322869,
+    "fraction_of_validation_tokens": 0.05074503900962929
+  },
+  "sample_sha256": "3819f54825b861289778f4bac91cdd170aad4356eaa1be7c82fb68b1fec424dd",
+  "applicability": {
+    "A0R": "scored",
+    "U0R": "scored",
+    "shuffle_block_A0R": "scored",
+    "A0BR": "scored",
+    "U0BR": "scored",
+    "credit_only": "not_applicable",
+    "clear_slow": "not_applicable",
+    "base_only": "not_applicable"
+  },
+  "conditions": {
+    "A0BR": {
+      "nll": 5.051925055353195,
+      "scored_tokens": 16384,
+      "first_16_nll": 5.073810817571939,
+      "first_16_tokens": 1024,
+      "first_64_nll": 5.09418701517734,
+      "first_64_tokens": 4096,
+      "first_256_nll": 5.051925055353195,
+      "first_256_tokens": 16384
+    },
+    "A0R": {
+      "nll": 5.051925055353195,
+      "scored_tokens": 16384,
+      "first_16_nll": 5.073810817571939,
+      "first_16_tokens": 1024,
+      "first_64_nll": 5.09418701517734,
+      "first_64_tokens": 4096,
+      "first_256_nll": 5.051925055353195,
+      "first_256_tokens": 16384
+    },
+    "U0BR": {
+      "nll": 5.051925055353195,
+      "scored_tokens": 16384,
+      "first_16_nll": 5.073810817571939,
+      "first_16_tokens": 1024,
+      "first_64_nll": 5.09418701517734,
+      "first_64_tokens": 4096,
+      "first_256_nll": 5.051925055353195,
+      "first_256_tokens": 16384
+    },
+    "U0R": {
+      "nll": 5.051925055353195,
+      "scored_tokens": 16384,
+      "first_16_nll": 5.073810817571939,
+      "first_16_tokens": 1024,
+      "first_64_nll": 5.09418701517734,
+      "first_64_tokens": 4096,
+      "first_256_nll": 5.051925055353195,
+      "first_256_tokens": 16384
+    },
+    "shuffle_block_A0R": {
+      "nll": 5.051925055353195,
+      "scored_tokens": 16384,
+      "first_16_nll": 5.073810817571939,
+      "first_16_tokens": 1024,
+      "first_64_nll": 5.09418701517734,
+      "first_64_tokens": 4096,
+      "first_256_nll": 5.051925055353195,
+      "first_256_tokens": 16384
+    }
+  },
+  "contrasts": {
+    "history_gain": {
+      "status": "computed",
+      "nll_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 0.0,
+      "first_64_nll_difference": 0.0,
+      "first_256_nll_difference": 0.0
+    },
+    "ordered_history_gain": {
+      "status": "computed",
+      "nll_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 0.0,
+      "first_64_nll_difference": 0.0,
+      "first_256_nll_difference": 0.0
+    },
+    "ABA_retention_gain": {
+      "status": "computed",
+      "nll_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 0.0,
+      "first_64_nll_difference": 0.0,
+      "first_256_nll_difference": 0.0
+    },
+    "insertion_and_extra_age_cost": {
+      "status": "computed",
+      "nll_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 0.0,
+      "first_64_nll_difference": 0.0,
+      "first_256_nll_difference": 0.0
+    },
+    "old_credit_reset_cost": {
+      "status": "not_applicable"
+    },
+    "slow_content_contribution": {
+      "status": "not_applicable"
+    },
+    "bio_read_contribution": {
+      "status": "not_applicable"
+    }
+  },
+  "contrast_notes": "Positive history/ABA/slow/Bio contributions favor the retained component; insertion cost also includes B extra aging."
+}

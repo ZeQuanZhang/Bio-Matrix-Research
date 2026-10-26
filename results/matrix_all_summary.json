@@ -1,0 +1,364 @@
+{
+  "complete": true,
+  "core": {
+    "complete": true,
+    "aggregate": {
+      "gru_add": {
+        "runs": 3,
+        "accuracy_mean": 0.537109375,
+        "accuracy_std": 0.064541842351009,
+        "loss_mean": 0.7719931301725722,
+        "reset_accuracy": 0.248046875,
+        "swap_accuracy": 0.2392578125,
+        "parameters": 11716,
+        "state_floats": 32,
+        "seconds": 27.059439036257874,
+        "events_per_second": 152503.93284396522,
+        "per_seed_accuracy": [
+          0.470703125,
+          0.541015625,
+          0.599609375
+        ]
+      },
+      "linear_add": {
+        "runs": 3,
+        "accuracy_mean": 0.7428385416666666,
+        "accuracy_std": 0.17238840815140083,
+        "loss_mean": 0.5254362845045082,
+        "reset_accuracy": 0.24576822916666666,
+        "swap_accuracy": 0.23046875,
+        "parameters": 7492,
+        "state_floats": 32,
+        "seconds": 19.087035955516814,
+        "events_per_second": 216177.46952983658,
+        "per_seed_accuracy": [
+          0.546875,
+          0.87109375,
+          0.810546875
+        ]
+      },
+      "gated_add": {
+        "runs": 3,
+        "accuracy_mean": 0.5986328125,
+        "accuracy_std": 0.08459534307698326,
+        "loss_mean": 0.6959541136293299,
+        "reset_accuracy": 0.251953125,
+        "swap_accuracy": 0.22786458333333334,
+        "parameters": 9540,
+        "state_floats": 32,
+        "seconds": 23.600188077684532,
+        "events_per_second": 174852.87997845482,
+        "per_seed_accuracy": [
+          0.5517578125,
+          0.5478515625,
+          0.6962890625
+        ]
+      },
+      "reaction_add": {
+        "runs": 3,
+        "accuracy_mean": 0.615234375,
+        "accuracy_std": 0.12348013998495112,
+        "loss_mean": 0.6952778175682064,
+        "reset_accuracy": 0.24739583333333334,
+        "swap_accuracy": 0.2333984375,
+        "parameters": 10308,
+        "state_floats": 32,
+        "seconds": 33.157940549674095,
+        "events_per_second": 124613.0794368506,
+        "per_seed_accuracy": [
+          0.54296875,
+          0.544921875,
+          0.7578125
+        ]
+      },
+      "gru_dynamic": {
+        "runs": 3,
+        "accuracy_mean": 0.6106770833333334,
+        "accuracy_std": 0.10458949421724197,
+        "loss_mean": 0.6679826548284297,
+        "reset_accuracy": 0.2561848958333333,
+        "swap_accuracy": 0.24641927083333334,
+        "parameters": 11716,
+        "state_floats": 32,
+        "seconds": 27.224236137786647,
+        "events_per_second": 151591.82963491156,
+        "per_seed_accuracy": [
+          0.5087890625,
+          0.60546875,
+          0.7177734375
+        ]
+      },
+      "gated_dynamic": {
+        "runs": 3,
+        "accuracy_mean": 0.666015625,
+        "accuracy_std": 0.18115431792219436,
+        "loss_mean": 0.6244694039465932,
+        "reset_accuracy": 0.23990885416666666,
+        "swap_accuracy": 0.2216796875,
+        "parameters": 9540,
+        "state_floats": 32,
+        "seconds": 23.627643713877962,
+        "events_per_second": 174911.0282973494,
+        "per_seed_accuracy": [
+          0.5693359375,
+          0.875,
+          0.5537109375
+        ]
+      },
+      "reaction_dynamic": {
+        "runs": 3,
+        "accuracy_mean": 0.5481770833333334,
+        "accuracy_std": 0.005552969436598952,
+        "loss_mean": 0.7583942596659549,
+        "reset_accuracy": 0.2490234375,
+        "swap_accuracy": 0.22005208333333334,
+        "parameters": 10308,
+        "state_floats": 32,
+        "seconds": 32.11785058666525,
+        "events_per_second": 128591.77709749456,
+        "per_seed_accuracy": [
+          0.5498046875,
+          0.5419921875,
+          0.552734375
+        ]
+      }
+    },
+    "paired_effects": {
+      "gated_add_minus_linear_add": [
+        0.0048828125,
+        -0.3232421875,
+        -0.1142578125
+      ],
+      "reaction_add_minus_gated_add": [
+        -0.0087890625,
+        -0.0029296875,
+        0.0615234375
+      ],
+      "reaction_dynamic_minus_gated_dynamic": [
+        -0.01953125,
+        -0.3330078125,
+        -0.0009765625
+      ],
+      "gru_dynamic_minus_gru_add": [
+        0.0380859375,
+        0.064453125,
+        0.1181640625
+      ],
+      "reaction_dynamic_minus_reaction_add": [
+        0.0068359375,
+        -0.0029296875,
+        -0.205078125
+      ],
+      "reaction_dynamic_minus_gru_dynamic": [
+        0.041015625,
+        -0.0634765625,
+        -0.1650390625
+      ]
+    }
+  },
+  "extensions": {
+    "reaction32": {
+      "normal_accuracy": 0.5462239583333334,
+      "normal_std": 0.10263357499447164,
+      "noisy20_accuracy": 0.5455729166666666,
+      "noisy20_std": 0.14454884464976997,
+      "noisy35_accuracy": 0.4674479166666667,
+      "noisy20_reset": 0.24609375,
+      "seconds": 15.890536113971999,
+      "parameters": 10308,
+      "state_floats": 32
+    },
+    "reaction64": {
+      "normal_accuracy": 0.6178385416666666,
+      "normal_std": 0.00963453684046142,
+      "noisy20_accuracy": 0.6432291666666666,
+      "noisy20_std": 0.012556836928376244,
+      "noisy35_accuracy": 0.546875,
+      "noisy20_reset": 0.26171875,
+      "seconds": 16.034194331339677,
+      "parameters": 19844,
+      "state_floats": 64
+    },
+    "reaction96": {
+      "normal_accuracy": 0.5833333333333334,
+      "normal_std": 0.035174329841771095,
+      "noisy20_accuracy": 0.5807291666666666,
+      "noisy20_std": 0.10053061534873758,
+      "noisy35_accuracy": 0.5052083333333334,
+      "noisy20_reset": 0.26171875,
+      "seconds": 16.980870463735,
+      "parameters": 33476,
+      "state_floats": 96
+    },
+    "bayes": {
+      "normal_accuracy": 0.61328125,
+      "normal_std": 0.010334966058846057,
+      "noisy20_accuracy": 0.6510416666666666,
+      "noisy20_std": 0.014788823817188212,
+      "noisy35_accuracy": 0.5598958333333334,
+      "noisy20_reset": 0.2643229166666667,
+      "seconds": 62.677987160646204,
+      "parameters": 12452,
+      "state_floats": 64
+    },
+    "spectral_zero": {
+      "normal_accuracy": 0.59765625,
+      "normal_std": 0.013531646934131853,
+      "noisy20_accuracy": 0.6236979166666666,
+      "noisy20_std": 0.01626301562082916,
+      "noisy35_accuracy": 0.53515625,
+      "noisy20_reset": 0.2513020833333333,
+      "seconds": 30.168222854631797,
+      "parameters": 12932,
+      "state_floats": 64
+    },
+    "spectral_fixed": {
+      "normal_accuracy": 0.5716145833333334,
+      "normal_std": 0.048488401513972476,
+      "noisy20_accuracy": 0.6106770833333334,
+      "noisy20_std": 0.056110576631289696,
+      "noisy35_accuracy": 0.51953125,
+      "noisy20_reset": 0.23177083333333334,
+      "seconds": 30.443560266610195,
+      "parameters": 12932,
+      "state_floats": 64
+    },
+    "spectral_learned": {
+      "normal_accuracy": 0.61328125,
+      "normal_std": 0.01598701713256338,
+      "noisy20_accuracy": 0.6419270833333334,
+      "noisy20_std": 0.01578692142315383,
+      "noisy35_accuracy": 0.5533854166666666,
+      "noisy20_reset": 0.24609375,
+      "seconds": 33.06078000210497,
+      "parameters": 12948,
+      "state_floats": 64
+    },
+    "full": {
+      "normal_accuracy": 0.5950520833333334,
+      "normal_std": 0.020700668093209175,
+      "noisy20_accuracy": 0.6458333333333334,
+      "noisy20_std": 0.011933790872280834,
+      "noisy35_accuracy": 0.5559895833333334,
+      "noisy20_reset": 0.23177083333333334,
+      "seconds": 78.48878115636278,
+      "parameters": 15092,
+      "state_floats": 96
+    }
+  },
+  "signals": {
+    "spectral_zero": {
+      "seen16": 0.2653376416662165,
+      "seen64": 0.36063582088293816,
+      "unseen16": 0.2140832619467498,
+      "noise20": 0.2829007575552775,
+      "reset": 0.39886139235750306
+    },
+    "spectral_fixed": {
+      "seen16": 0.19604090558444418,
+      "seen64": 0.9569936710613547,
+      "unseen16": 0.17660968695160287,
+      "noise20": 0.2210347330148276,
+      "reset": 0.4024513423307023
+    },
+    "spectral_learned": {
+      "seen16": 0.196872009199069,
+      "seen64": 0.7736990639192906,
+      "unseen16": 0.17706459010605613,
+      "noise20": 0.22450303308020617,
+      "reset": 0.41750948997287196
+    }
+  },
+  "optimizers": {
+    "rosenbrock": {
+      "adam": {
+        "successes": 0,
+        "loss": 0.38691005172440784,
+        "std": 0.795546955992206,
+        "best": 0.38691005172440784,
+        "seconds": 0.09628052099869819
+      },
+      "adam_cosine": {
+        "successes": 0,
+        "loss": 0.8694270651787519,
+        "std": 1.4719611843082432,
+        "best": 0.8694270651787519,
+        "seconds": 0.09571714569901815
+      },
+      "gaussian_cosine": {
+        "successes": 1,
+        "loss": 0.6273478955030442,
+        "std": 1.0795834617774762,
+        "best": 0.5994169492798391,
+        "seconds": 0.1167075333010871
+      },
+      "gaussian_periodic_cosine": {
+        "successes": 1,
+        "loss": 0.6191758978646249,
+        "std": 1.0697042764609312,
+        "best": 0.5956271634204313,
+        "seconds": 0.1383306999996421
+      }
+    },
+    "rastrigin": {
+      "adam": {
+        "successes": 0,
+        "loss": 5.870246315002442,
+        "std": 3.331409798111909,
+        "best": 5.8702442169189455,
+        "seconds": 0.08640938339813146
+      },
+      "adam_cosine": {
+        "successes": 0,
+        "loss": 5.870246124267578,
+        "std": 3.331409665193699,
+        "best": 5.870243835449219,
+        "seconds": 0.08640865850175032
+      },
+      "gaussian_cosine": {
+        "successes": 0,
+        "loss": 5.870246505737304,
+        "std": 3.3314099310301017,
+        "best": 5.870244026184082,
+        "seconds": 0.10743882910319372
+      },
+      "gaussian_periodic_cosine": {
+        "successes": 0,
+        "loss": 5.870245933532715,
+        "std": 3.3314101019234985,
+        "best": 5.870243835449219,
+        "seconds": 0.12609939989924895
+      }
+    },
+    "ackley": {
+      "adam": {
+        "successes": 0,
+        "loss": 5.338018226623535,
+        "std": 1.6156627139009807,
+        "best": 5.338017368316651,
+        "seconds": 0.11830178730015177
+      },
+      "adam_cosine": {
+        "successes": 0,
+        "loss": 5.338018417358398,
+        "std": 1.6156623521202007,
+        "best": 5.338017368316651,
+        "seconds": 0.11733085419982672
+      },
+      "gaussian_cosine": {
+        "successes": 0,
+        "loss": 0.054933929443359376,
+        "std": 0.0010161214937496573,
+        "best": 0.04941577911376953,
+        "seconds": 0.14090951680118452
+      },
+      "gaussian_periodic_cosine": {
+        "successes": 0,
+        "loss": 0.05533542633056641,
+        "std": 0.002107024130086075,
+        "best": 0.05147361755371094,
+        "seconds": 0.15703540010144934
+      }
+    }
+  }
+}

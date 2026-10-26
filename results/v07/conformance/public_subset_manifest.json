@@ -1,0 +1,36 @@
+{
+  "definitions": {
+    "minimum_repeat_distance": 32,
+    "excluded_recent_tokens": 16,
+    "excluded_special_ids": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rare_train_frequency_quantile": 0.75,
+    "rare_train_frequency_cutoff": 513.0,
+    "train_frequency_sha256": "14f90142018010afe69deeb4fdc5525aaa6c872bd8806664279b18bdeef27c48",
+    "interpretation": "Model-independent public-text lexical evidence proxies; not ground-truth necessary long dependencies",
+    "unavailable": []
+  },
+  "windows_sha256": "801558d0f3808678eff7aaf1a6ef24abf688cc090383a39d703c129b99b52b89",
+  "subsets": {
+    "remote_repeat": {
+      "tokens": 614,
+      "windows": 64,
+      "first16_tokens": 137
+    },
+    "no_remote_token_match": {
+      "tokens": 2560,
+      "windows": 64,
+      "first16_tokens": 606
+    },
+    "remote_rare_repeat": {
+      "tokens": 114,
+      "windows": 41,
+      "first16_tokens": 33
+    }
+  },
+  "capability_result": false
+}

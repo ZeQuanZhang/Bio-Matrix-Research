@@ -1,0 +1,172 @@
+{
+  "source_hashes": {
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/test_model.py": "972291cc7afc7d504ac010cf9fbc45766352c0401670be1e256466ca481a9aa4",
+    "<LOCAL_HOME>/Downloads/BioMatrix_完整构想描述.md": "18107704525baa65a090f2c9c391389a8740c070dd90abe2b88ec0f1aa1be331",
+    "docs/V06_DESIGN.md": "743e9ec83c701610dfccb015374cff17fcaa1420f9e7b582d4230002d87720c6",
+    "docs/V07_DESIGN_AND_EXPERIMENT.md": "38415331a715dbd39552d9e07da091f61b7c323047e1421bc81d71caccdb8549"
+  },
+  "requirements": [
+    {
+      "id": "finite_dynamic_nodes",
+      "requirement": "节点保留多维m/p/x/slow、有限trace/response/support/phase；不存在情境完整状态副本",
+      "status": "implemented",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_phase_and_all_runtime_numeric_bounds_are_fixed",
+        "v07.test_model.ModelCorrections.test_stream_equivalence_fixed_state_and_lane_reset"
+      ],
+      "scope": "主干固定状态；H8信用元信息只含head/query/读权/正步长/valid，不含m/p/x/slow副本"
+    },
+    {
+      "id": "state_conditioned_external_input",
+      "requirement": "同一外部信号先经过各节点自己的状态条件外部映射，再影响内部写入",
+      "status": "implemented",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_input_mapping_enters_the_identical_fast_and_joseph_observation",
+        "v07.test_model.ModelCorrections.test_history_probability_and_phase_change_real_paths_and_observations"
+      ],
+      "scope": "A_i=diag(1+.1tanhD)+.15u_i v_i^T；value/key均映射，最终tick同一观测进入fast、Joseph、innovation、trace/query"
+    },
+    {
+      "id": "probabilistic_state",
+      "requirement": "不确定性实际影响更新、读取与耦合，且长期数值范围可控",
+      "status": "implemented_approximate_filter",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_stationary_covariance_has_psd_bound_and_correct_unobserved_limit",
+        "v07.test_model.ModelCorrections.test_history_probability_and_phase_change_real_paths_and_observations"
+      ],
+      "scope": "latent Gaussian滤波近似；受控增益+Joseph保PSD，m另投影到范数4；并非完整非线性后验或已校准事实确信"
+    },
+    {
+      "id": "multi_time_frequency",
+      "requirement": "保留有限时间带、动态多频Fourier、局部相位耦合及其真实路径作用",
+      "status": "implemented",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_time_bands_follow_their_declared_time_constants",
+        "v07.test_model.ModelCorrections.test_carrier_rotation_uses_one_token_time_independent_of_internal_steps",
+        "v07.test_model.ModelCorrections.test_history_probability_and_phase_change_real_paths_and_observations"
+      ],
+      "scope": "单模式+相邻交叉项，未构造无限Fourier组合；同步/分群本身不算能力证据"
+    },
+    {
+      "id": "solid_ball_jumps",
+      "requirement": "实心球体的有限壳离散、中心注入、向外强度门槛、允许向内回落",
+      "status": "implemented",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_solid_ball_candidate_budget_and_radial_paths",
+        "v07.test_model.ModelCorrections.test_zero_semantic_pulse_closes_and_large_pulse_opens_outward_gate",
+        "v07.test_model.ModelCorrections.test_distributed_slow_read_updates_reachable_inner_nodes_and_respects_cut"
+      ],
+      "scope": "每节点8固定候选，构图阶段距离O(N^2)，推理传播O(Nkd^2)；无运行时全连接两两图"
+    },
+    {
+      "id": "signed_local_credit",
+      "requirement": "误差信号修订对应经验子空间，精确核对实际直接读取路径",
+      "status": "implemented_conditional_vjp",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_head_vjp_matches_autograd",
+        "v07.test_model.ModelCorrections.test_direct_associative_feedback_matches_autograd_and_finite_difference"
+      ],
+      "scope": "head+实际query/weight条件VJP精确；完整间接动态信用由BPTT承担，缓存query/weight/head元信息固定为一阶资格记录"
+    },
+    {
+      "id": "network_scale_write",
+      "requirement": "扩大节点数时有效写入速度不能被均匀归一读悄悄稀释",
+      "status": "implemented_explicit_paired_protocol",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_local_write_participation_normalization_matches_population_response",
+        "v07.test_model.ModelCorrections.test_effective_participation_uses_actual_read_weights_without_erasing_confidence"
+      ],
+      "scope": "E=(sum a)^2/sum a^2，positive scale=E/32；none配对保留；不除掉共同confidence总幅度，不承诺任意异质query完全等价"
+    },
+    {
+      "id": "delayed_credit",
+      "requirement": "迟到反馈使用对应过去query，不把误差写到当前无关query",
+      "status": "implemented_bounded_explicit_feedback",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_delayed_feedback_uses_old_query_once_and_respects_horizon"
+      ],
+      "scope": "H=8；1..8显式lag一次消费，>8拒绝；optimizer更新失效全部head版本。自然LM主训练仍只用下一token自然lag1反馈，未宣称自动语义延迟归因"
+    },
+    {
+      "id": "orthogonal_experience",
+      "requirement": "修订当前经验不能经全局限幅缩放无关正交慢经验",
+      "status": "implemented_latent_subspace_guarantee",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_rule_feedback_preserves_orthogonal_experience_and_resets_credit",
+        "v07.test_model.ModelCorrections.test_capacity_projection_preserves_orthogonal_memory_on_immediate_and_delayed_feedback"
+      ],
+      "scope": "仅投影S q子空间，保S_perp；剩余容量耗尽时无法新增正交内容，明确记录capacity_clip_fraction/有效步长；语义是否学到正交仍需训练检验"
+    },
+    {
+      "id": "fast_slow_retention",
+      "requirement": "短动态清除后仍可检查慢经验；有独立清slow的因果对照",
+      "status": "implemented",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_rule_feedback_preserves_orthogonal_experience_and_resets_credit"
+      ],
+      "scope": "reset_fast仅保slow+support，clear_slow保fast/p/support且使信用缓存失效；原构想长期参数巩固规则仍开放，不额外发明持久权重在线巩固器"
+    },
+    {
+      "id": "valid_diagnostics",
+      "requirement": "无效位置只影响损失/诊断掩码，不能成为外部反馈或情境控制信号",
+      "status": "implemented",
+      "coverage_tests": [
+        "v07.test_model.ModelCorrections.test_diagnostic_mask_changes_only_valid_token_statistics"
+      ],
+      "scope": "model diagnostic_mask不改变任何state或logits；每有效token/lane聚合，min/max保留对应统计"
+    },
+    {
+      "id": "excluded_mechanisms",
+      "requirement": "不引入JEPA、完整路径历史、情境网络副本、新优化器、额外动态专家创建",
+      "status": "preserved_exclusion",
+      "coverage_tests": [],
+      "scope": "动态功能群从已有有效通路与矩阵活动中检验；不把未实现的新优化器/聚类误列为本轮缺失机制"
+    }
+  ],
+  "numeric_bounds": {
+    "m_x_slow": "Each dxd matrix Frobenius norm <=4 from valid initial state; m update uses full matrix projection, slow update preserves query-orthogonal component",
+    "p": "lambda_max <=1+(Q+1e-6)/(1-rho), rho=exp(-1/tau), default bound 9.19709654071045; exact arithmetic with FP32 stress recorded separately",
+    "trace": "Each EMA key vector norm <=1",
+    "response": "Each scalar response entry in [0,2]",
+    "support": "Each exposure component in [0,100]",
+    "innovation": "EMA of mapped value error; loose parameter-independent upper bound 25 for d>=4 and ||m||F<=4",
+    "z": "Unit circle coordinates, renormalized each internal tick; floating tolerance applies",
+    "read_query": "Each vector norm <=1, zero query allowed",
+    "read_weight": "Nonnegative and sums <=1 over nodes",
+    "feedback_gain": "Cached response*trust in [0,2]",
+    "read_scale": "[0,N/reference] in participation mode; 1 in none mode",
+    "evidence_count": "Diagnostic counter saturates at 2^31-1, never used as hidden history control",
+    "feedback_and_credit_prediction": "Conditional on fixed finite embedding parameters: norm <=max_j ||embedding_j||",
+    "feedback_and_credit_h": "Conditional on fixed finite read projection: norm <=sqrt(80)*||R||op; bypass additionally max embedding norm",
+    "credit_cache": "Exactly H=8 metadata frames of fixed dimensions; boolean validity cleared on optimizer version change"
+  },
+  "complexity": {
+    "main": "O(B*T*J*N*k*d^2)",
+    "covariance": "O(B*T*N*d^2)",
+    "input_filter": "O(B*T*J*N*d)",
+    "credit_metadata": "O(B*H*(N*d+2*N+2*width+1))",
+    "history_dependence": "H=8 is explicit fixed credit metadata, never node-state/context copies"
+  },
+  "runtime_storage_summary": [
+    {
+      "nodes": 32,
+      "bytes_per_stream": 75944
+    },
+    {
+      "nodes": 128,
+      "bytes_per_stream": 291368
+    },
+    {
+      "nodes": 512,
+      "bytes_per_stream": 1153064
+    }
+  ],
+  "pending_research": [
+    "Learned semantic relevance and history isolation on real public tasks",
+    "Distributed expert specialization and repeatable scale advantage",
+    "Long-term convergence, GPU performance and multi-seed outcomes",
+    "Parameter consolidation beyond ordinary global optimization remains an open design choice in the original description"
+  ]
+}

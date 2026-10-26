@@ -1,0 +1,158 @@
+{
+  "status": "completed_result_analysis",
+  "created_at": "2026-10-25T11:15:37.916793+08:00",
+  "condition": "v09_dense",
+  "nodes": 32,
+  "seed": 11,
+  "budget": 12000000,
+  "checkpoint_policy": "last",
+  "comparison": {
+    "cold": {
+      "content_nll": 5.036041080951691,
+      "dense_nll": 4.939364276826382,
+      "nll_gain": 0.09667680412530899,
+      "content_ppl": 153.859689652523,
+      "dense_ppl": 139.68142261104177,
+      "ppl_reduction_fraction": 0.09215062810474561
+    },
+    "warm": {
+      "content_nll": 5.051925055353195,
+      "dense_nll": 4.913513917945238,
+      "nll_gain": 0.13841113740795663,
+      "document_bootstrap_ci95": [
+        0.11872308516513207,
+        0.16012980155639694
+      ],
+      "bootstrap_repetitions": 10000,
+      "content_ppl": 156.3231056494694,
+      "dense_ppl": 136.11687857449192,
+      "ppl_reduction_fraction": 0.1292593758998548
+    },
+    "train_core": {
+      "content_seconds": 294.73306606907863,
+      "dense_seconds": 23927.82023805764,
+      "dense_over_content_time": 81.18471590985149,
+      "dense_effective_targets_per_second": 501.50828118115743,
+      "content_effective_targets_per_second": 40714.807334130186
+    },
+    "mechanism_contrasts": {
+      "history_gain": {
+        "status": "computed",
+        "nll_difference": 0.00022755663189855113,
+        "ci95": [
+          -0.00011238907940838152,
+          0.0006172295344706448
+        ],
+        "paired_documents": 30,
+        "bootstrap_repetitions": 2000,
+        "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+        "first_16_nll_difference": -2.4812215997371823e-05,
+        "first_64_nll_difference": 0.0006731206631229725,
+        "first_256_nll_difference": 0.00022755663189855113
+      },
+      "ordered_history_gain": {
+        "status": "computed",
+        "nll_difference": -8.96053915084849e-05,
+        "ci95": [
+          -0.00019883305359042746,
+          1.619248176604123e-06
+        ],
+        "paired_documents": 30,
+        "bootstrap_repetitions": 2000,
+        "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+        "first_16_nll_difference": -0.00034784371382556856,
+        "first_64_nll_difference": -0.00016499935645697406,
+        "first_256_nll_difference": -8.96053915084849e-05
+      },
+      "ABA_retention_gain": {
+        "status": "computed",
+        "nll_difference": -8.735859046282712e-05,
+        "ci95": [
+          -0.00027459005219742597,
+          9.581937116562227e-05
+        ],
+        "paired_documents": 30,
+        "bootstrap_repetitions": 2000,
+        "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+        "first_16_nll_difference": -0.0001565855709486641,
+        "first_64_nll_difference": -6.716105053783394e-05,
+        "first_256_nll_difference": -8.735859046282712e-05
+      },
+      "insertion_and_extra_age_cost": {
+        "status": "computed",
+        "nll_difference": 0.0007180393573662514,
+        "ci95": [
+          -7.425255696747429e-05,
+          0.0014890150560761238
+        ],
+        "paired_documents": 30,
+        "bootstrap_repetitions": 2000,
+        "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+        "first_16_nll_difference": 0.0018384388968115672,
+        "first_64_nll_difference": 0.0005807447450933978,
+        "first_256_nll_difference": 0.0007180393573662514
+      },
+      "old_credit_reset_cost": {
+        "status": "computed",
+        "nll_difference": 5.554272775043501e-07,
+        "ci95": [
+          5.765285115086102e-08,
+          1.415943238085178e-06
+        ],
+        "paired_documents": 30,
+        "bootstrap_repetitions": 2000,
+        "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+        "first_16_nll_difference": 2.1066807676106691e-07,
+        "first_64_nll_difference": 2.7609803510131314e-07,
+        "first_256_nll_difference": 5.554272775043501e-07
+      },
+      "slow_content_contribution": {
+        "status": "computed",
+        "nll_difference": 4.215787282646488e-05,
+        "ci95": [
+          1.6812178185572238e-05,
+          6.939394959666746e-05
+        ],
+        "paired_documents": 30,
+        "bootstrap_repetitions": 2000,
+        "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+        "first_16_nll_difference": 7.131201709853485e-05,
+        "first_64_nll_difference": 5.7936154917115346e-05,
+        "first_256_nll_difference": 4.215787282646488e-05
+      },
+      "bio_read_contribution": {
+        "status": "computed",
+        "nll_difference": 0.23876236396881723,
+        "ci95": [
+          0.213892829356776,
+          0.2652526355060928
+        ],
+        "paired_documents": 30,
+        "bootstrap_repetitions": 2000,
+        "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+        "first_16_nll_difference": 0.2726762376514671,
+        "first_64_nll_difference": 0.2422733558987602,
+        "first_256_nll_difference": 0.23876236396881723
+      }
+    }
+  },
+  "inputs_sha256": {
+    "results/v09/comparison_no_v08/content_only_n32_s11/result.json": "54f7693e97050c940c94e745c98bb52bf109417f3579cf44f306f9c8977cdc61",
+    "results/v09/comparison_no_v08/content_only_n32_s11/evaluation/summary.json": "998b666560e08c22aa6fdd8ff44ce6559b6bfdd7e4e8f7fd2895e4d0f4e4d6c0",
+    "results/v09/comparison_no_v08/content_only_n32_s11/evaluation/config.json": "74e624f5daa38b70db539a689620b4f4906a2141b71489163962f5397f810c15",
+    "results/v09/comparison_no_v08/content_only_n32_s11/validation.jsonl": "b7185e8291ccbbf654f64f5cf7c41b8735bb7988fb65354912b85bd74a46cf0b",
+    "results/v09/comparison_no_v08/content_only_n32_s11/evaluation/raw.jsonl": "2916366e29307c21e09cc288ba49290a24d3002021fadb4d417c34d3f7999346",
+    "results/v09/comparison_no_v08/v09_dense_n32_s11/result.json": "d98d5ff07d6a464f9b01a2e14237a9c7f680416278768267b805bf8ce423a843",
+    "results/v09/comparison_no_v08/v09_dense_n32_s11/evaluation/summary.json": "1570bfaf96dc8afd2e06dedcfe3f7ef9c7a6026f9819250bdf20a9e035ccee93",
+    "results/v09/comparison_no_v08/v09_dense_n32_s11/evaluation/config.json": "0bfebfc8448f484b2b7f8d4ba5557495a04b98482a4abcdb3ebcdc36a76f06e5",
+    "results/v09/comparison_no_v08/v09_dense_n32_s11/validation.jsonl": "eaed95acaf7a16e825007ec605684a922ab73468b0b4e0b04465aedcc064096c",
+    "results/v09/comparison_no_v08/v09_dense_n32_s11/evaluation/raw.jsonl": "daa5e9ba9122a6e0cc9c2c30003b8a2abd8dc23345256d07c9fef8f562f8ad8c"
+  },
+  "limitations": [
+    "One training seed and one node scale completed for dense.",
+    "Document bootstrap is conditional on these two checkpoints; no training-seed uncertainty.",
+    "base_only is an inference intervention of the trained dense checkpoint, not an independently trained content model.",
+    "Train core timing excludes validation, data preparation, logging and checkpoint I/O.",
+    "No new model inference, training, GPU allocation or source mutation."
+  ]
+}

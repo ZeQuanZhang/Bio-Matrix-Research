@@ -1,0 +1,18 @@
+{
+  "status": "proposal_completed",
+  "created_at": "2026-10-25T10:57:05.603647+08:00",
+  "proposal": "docs/V09_TRAINING_SPEED_OPTIMIZATION.md",
+  "proposal_sha256": "0e4baadc6fc81c8c44571c9fb14a9c48e437bddf09e1e3d6e3b59efa62b114ed",
+  "characters": 15652,
+  "local_links_missing": [],
+  "training_source_hashes_checked": 41,
+  "training_source_hash_mismatches": [],
+  "production_files_modified": false,
+  "new_gpu_or_training_run": false,
+  "remote_connection_used": false,
+  "reviews": [
+    "mathematical_and_algorithmic",
+    "systems_memory_and_measurement"
+  ],
+  "new_measurement": "CPU-only initial runtime state storage ledger"
+}

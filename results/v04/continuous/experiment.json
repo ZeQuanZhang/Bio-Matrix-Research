@@ -1,0 +1,64 @@
+{
+  "config": {
+    "version": "v04-latent-context-matrix-2",
+    "device": "auto",
+    "width": 48,
+    "matrix_size": 8,
+    "contexts": 3,
+    "modes": 4,
+    "operator_bases": 2,
+    "neighbors": 8,
+    "active_neighbors": 4,
+    "write_nodes": 4,
+    "read_nodes": 4,
+    "read_path": "shared",
+    "read_paths": [
+      "shared",
+      "separated"
+    ],
+    "internal_steps": 12,
+    "checkpoint_ticks": true,
+    "batch_size": 4,
+    "learning_rate": 0.001,
+    "train_steps": 1200,
+    "bptt_steps": 16,
+    "predictive_loss_weight": 0.05,
+    "eval_every": 100,
+    "checkpoint_every": 25,
+    "gradient_clip": 1.0,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "nodes": [
+      32,
+      128,
+      512
+    ],
+    "variants": [
+      "graph",
+      "full",
+      "matrix",
+      "probability",
+      "fourier"
+    ],
+    "development_quartets": 4,
+    "test_quartets": 8,
+    "graph_seed": 1901,
+    "role_seed": 1902,
+    "data_seed": 20261022,
+    "seen_capacity": 64,
+    "topology": "connected",
+    "progress_every": 1
+  },
+  "sources": {
+    "v04/data.py": "9e001ab8aace4770c2807cbfe386f5c0e6fd089d6bb9f9e5a7e775e29ba2198c",
+    "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+    "v04/run.py": "0b2625c41cd52f393b22e4092f8f74038a1be549327f99ffb8e53db40adf4b5f",
+    "v04/report.py": "59c36f8ad51ec9a647efc8cd13f7a75515ebae3be9f8176e0d1c1c0b56007b19",
+    "v03/graph.py": "7e327f9045b61160e80229e180338ddcf17f43bff3f6cf177fd78e84659da29f",
+    "matrix_lab/run.py": "de2e40bb69a49b8c90759fe683b6775f790cf447c2cd8b923f79cac173f61d95"
+  },
+  "device": "mps"
+}

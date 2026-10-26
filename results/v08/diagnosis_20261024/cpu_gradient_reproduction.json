@@ -1,0 +1,227 @@
+{
+  "config": {
+    "vocab_size": 4096,
+    "variant": "full",
+    "nodes": 32,
+    "matrix_size": 8,
+    "width": 64,
+    "bands": 3,
+    "modes": 3,
+    "trace_bands": 2,
+    "neighbors": 8,
+    "shells": 4,
+    "internal_steps": 4,
+    "graph_seed": 6101,
+    "topology": "connected",
+    "checkpoint_events": false,
+    "transformer_width": 64,
+    "transformer_layers": 2,
+    "transformer_ff": 256,
+    "transformer_heads": 4,
+    "context_limit": 256,
+    "covariance_tau": 4096.0,
+    "covariance_process": 0.002,
+    "local_write_normalization": "participation",
+    "local_write_reference": 32,
+    "credit_horizon": 32,
+    "block_size": 16,
+    "implementation": "triangular"
+  },
+  "seed": 11,
+  "documents": [
+    80,
+    78
+  ],
+  "starts": [
+    408957,
+    393432
+  ],
+  "steps": [
+    {
+      "step": 0,
+      "loss": 8.360859870910645,
+      "gradient_norm64": 4325622809309.598,
+      "gradient_norm32": 4325622677504.0,
+      "all_elements_finite": true,
+      "top": [
+        {
+          "name": "input_projection.bias",
+          "finite": true,
+          "norm64": 3784384784723.848,
+          "max_abs": 1884157640704.0,
+          "norm32": 3784384708608.0
+        },
+        {
+          "name": "embedding.weight",
+          "finite": true,
+          "norm64": 1906225666916.1392,
+          "max_abs": 389463343104.0,
+          "norm32": 1906225577984.0
+        },
+        {
+          "name": "node_shape",
+          "finite": true,
+          "norm64": 670065978328.3008,
+          "max_abs": 187022295040.0,
+          "norm32": 670065819648.0
+        },
+        {
+          "name": "input_projection.weight",
+          "finite": true,
+          "norm64": 521314873165.2574,
+          "max_abs": 92270272512.0,
+          "norm32": 521314861056.0
+        },
+        {
+          "name": "content_projection.weight",
+          "finite": true,
+          "norm64": 117650554611.29799,
+          "max_abs": 10640844800.0,
+          "norm32": 117650546688.0
+        },
+        {
+          "name": "controls.2.bias",
+          "finite": true,
+          "norm64": 98012117475.30473,
+          "max_abs": 60225155072.0,
+          "norm32": 98012119040.0
+        },
+        {
+          "name": "controls.2.weight",
+          "finite": true,
+          "norm64": 84067324282.68755,
+          "max_abs": 32897976320.0,
+          "norm32": 84067311616.0
+        },
+        {
+          "name": "controls.0.weight",
+          "finite": true,
+          "norm64": 56052390750.30857,
+          "max_abs": 15697044480.0,
+          "norm32": 56052391936.0
+        },
+        {
+          "name": "controls.0.bias",
+          "finite": true,
+          "norm64": 29172275521.320843,
+          "max_abs": 11465183232.0,
+          "norm32": 29172275200.0
+        },
+        {
+          "name": "drive_controls.weight",
+          "finite": true,
+          "norm64": 18453609948.345207,
+          "max_abs": 5706294272.0,
+          "norm32": 18453606400.0
+        },
+        {
+          "name": "output_diagonal",
+          "finite": true,
+          "norm64": 8013577195.201712,
+          "max_abs": 5625257472.0,
+          "norm32": 8013577216.0
+        },
+        {
+          "name": "fourier.weight",
+          "finite": true,
+          "norm64": 6597372361.052044,
+          "max_abs": 3824274688.0,
+          "norm32": 6597372416.0
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "loss": 8.346320152282715,
+      "gradient_norm64": 6.404495003994668e+19,
+      "gradient_norm32": Infinity,
+      "all_elements_finite": true,
+      "top": [
+        {
+          "name": "embedding.weight",
+          "finite": true,
+          "norm64": 4.851647511984271e+19,
+          "max_abs": 9.951674245442437e+18,
+          "norm32": Infinity
+        },
+        {
+          "name": "input_projection.bias",
+          "finite": true,
+          "norm64": 3.2434511375154627e+19,
+          "max_abs": 1.937230196685511e+19,
+          "norm32": Infinity
+        },
+        {
+          "name": "controls.2.weight",
+          "finite": true,
+          "norm64": 1.6765060736328219e+19,
+          "max_abs": 8.517836865787658e+18,
+          "norm32": 1.676506083023546e+19
+        },
+        {
+          "name": "controls.2.bias",
+          "finite": true,
+          "norm64": 1.5020784280137378e+19,
+          "max_abs": 1.3901355307902173e+19,
+          "norm32": 1.5020784588815335e+19
+        },
+        {
+          "name": "controls.0.weight",
+          "finite": true,
+          "norm64": 9.126515078449746e+18,
+          "max_abs": 1.876767667445039e+18,
+          "norm32": 9.12651495805236e+18
+        },
+        {
+          "name": "content_projection.weight",
+          "finite": true,
+          "norm64": 8.286182461952253e+18,
+          "max_abs": 7.501666845007544e+17,
+          "norm32": 8.286181860443161e+18
+        },
+        {
+          "name": "input_projection.weight",
+          "finite": true,
+          "norm64": 4.538832475789135e+18,
+          "max_abs": 6.576074592123617e+17,
+          "norm32": 4.538833202604671e+18
+        },
+        {
+          "name": "controls.0.bias",
+          "finite": true,
+          "norm64": 3.808562516089162e+18,
+          "max_abs": 1.399695756905939e+18,
+          "norm32": 3.8085623184474767e+18
+        },
+        {
+          "name": "output_diagonal",
+          "finite": true,
+          "norm64": 9.612433908487087e+17,
+          "max_abs": 6.290574715660534e+17,
+          "norm32": 9.6124336765875e+17
+        },
+        {
+          "name": "drive_controls.weight",
+          "finite": true,
+          "norm64": 7.521268600207794e+17,
+          "max_abs": 3.176702466620129e+17,
+          "norm32": 7.521268388551721e+17
+        },
+        {
+          "name": "raw_attention_temperature",
+          "finite": true,
+          "norm64": 6.976590256799744e+17,
+          "max_abs": 6.976590256799744e+17,
+          "norm32": 6.976590256799744e+17
+        },
+        {
+          "name": "fourier.weight",
+          "finite": true,
+          "norm64": 4.214544457613417e+17,
+          "max_abs": 4.0454795177230336e+17,
+          "norm32": 4.214544892375859e+17
+        }
+      ]
+    }
+  ]
+}

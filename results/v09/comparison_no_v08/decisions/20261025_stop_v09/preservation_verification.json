@@ -1,0 +1,155 @@
+{
+  "checked_at_utc": "2026-10-25T14:31:02.914538+00:00",
+  "status": "passed",
+  "scope": "Read-only artifact preservation verification; no forward/backward, training, resume, accelerator allocation or remote access.",
+  "method": {
+    "n128_checkpoint": "torch.load(map_location=cpu, weights_only=True), torch.set_num_threads(1)",
+    "n32_checkpoints": "SHA256 compared with completed evaluation config; saved evaluation checkpoint counters compared with training status",
+    "source_or_existing_result_files_modified": false
+  },
+  "queue_status": "aborted",
+  "completed_n32": [
+    {
+      "job": "content_only_n32_s11",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "step": 94422,
+      "visible_inputs": 12086016,
+      "last_checkpoint_sha256": "9e5b452ebcca29ef698917f2680c15b7633bd1e563d925c892d44c8fb8981f08",
+      "evaluation_checkpoint_hash_matches": true,
+      "evaluation_checkpoint_counters_match": true,
+      "windows": 64,
+      "documents": 30,
+      "scored_positions": 16384,
+      "sample_sha256": "3819f54825b861289778f4bac91cdd170aad4356eaa1be7c82fb68b1fec424dd"
+    },
+    {
+      "job": "v09_dense_n32_s11",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "step": 94422,
+      "visible_inputs": 12086016,
+      "last_checkpoint_sha256": "696ca386a2437e1d93e5ce673f0118d630a311bbbc93862ec8f5bbaf3e900731",
+      "evaluation_checkpoint_hash_matches": true,
+      "evaluation_checkpoint_counters_match": true,
+      "windows": 64,
+      "documents": 30,
+      "scored_positions": 16384,
+      "sample_sha256": "3819f54825b861289778f4bac91cdd170aad4356eaa1be7c82fb68b1fec424dd"
+    },
+    {
+      "job": "v09_sparse50_n32_s11",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "step": 94422,
+      "visible_inputs": 12086016,
+      "last_checkpoint_sha256": "db43e6dfbe2408f138b580ad028e9969d94fa4e1069b06033b1bbe1732103c92",
+      "evaluation_checkpoint_hash_matches": true,
+      "evaluation_checkpoint_counters_match": true,
+      "windows": 64,
+      "documents": 30,
+      "scored_positions": 16384,
+      "sample_sha256": "3819f54825b861289778f4bac91cdd170aad4356eaa1be7c82fb68b1fec424dd"
+    },
+    {
+      "job": "transformer_n32_s11",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "step": 94422,
+      "visible_inputs": 12086016,
+      "last_checkpoint_sha256": "c475afec11f33c77797fcfc1ab810605605fbb238de4f932fd84509bdf96df04",
+      "evaluation_checkpoint_hash_matches": true,
+      "evaluation_checkpoint_counters_match": true,
+      "windows": 64,
+      "documents": 30,
+      "scored_positions": 16384,
+      "sample_sha256": "3819f54825b861289778f4bac91cdd170aad4356eaa1be7c82fb68b1fec424dd"
+    }
+  ],
+  "aborted_n128": {
+    "job": "v09_dense_n128_s11",
+    "status": "aborted",
+    "step": 24388,
+    "completed_tokens": 3099250,
+    "visible_inputs": 3121664,
+    "validated_tokens": 3000029,
+    "train_seconds": 12156.481354889984,
+    "last_checkpoint_sha256": "bd0574f1fe17d6f5235f0b0560c5bb00897cc47a6aac55c9b8b30e98d5cb432d",
+    "last_checkpoint_bytes": 9607339,
+    "status_result_live_checkpoint_counters_match": true,
+    "checkpoint_protocol_matches_protocol_json": true,
+    "stream_protocol_matches_saved_protocol": true,
+    "stream_targets_match_completed_tokens": true,
+    "stream_inputs_match_visible_inputs": true,
+    "stream_inputs_equal_step_times_128": true,
+    "lane_ages": [
+      256,
+      256
+    ],
+    "lane_age_matches_step_times_64_mod_4096": true,
+    "lane_pending_present": [
+      true,
+      true
+    ],
+    "runtime_shapes": {
+      "m": [
+        2,
+        128,
+        8,
+        8
+      ],
+      "p": [
+        2,
+        128,
+        8,
+        8
+      ],
+      "x": [
+        2,
+        128,
+        3,
+        8,
+        8
+      ],
+      "slow": [
+        2,
+        128,
+        8,
+        8
+      ],
+      "credit_valid": [
+        2,
+        31
+      ]
+    },
+    "feedback_valid_count": 0,
+    "credit_valid_count": 0,
+    "feedback_note": "Expected invalidation after the completed optimizer update; runtime matrices remain saved.",
+    "checkpoint_sections_present": [
+      "format",
+      "protocol",
+      "model",
+      "optimizer",
+      "runtime_state",
+      "stream",
+      "rng",
+      "counters",
+      "runtime_attributes",
+      "best_snapshot"
+    ],
+    "checkpoint_cpu_load_succeeded": true,
+    "optimizer_state_entries": 31,
+    "optimizer_param_groups": 5,
+    "temporary_checkpoint_files": [],
+    "post_training_evaluation": "not_executed"
+  },
+  "limits": [
+    "N128 is preserved as an aborted partial run, not a completed 12M result; its post-training warm evaluation has not run.",
+    "No restore/forward execution was performed; this verifies saved artifact hashes and internal counters/protocol consistency, not a new training or deterministic-resume experiment.",
+    "Process/lock shutdown verification is recorded separately by the root agent."
+  ]
+}

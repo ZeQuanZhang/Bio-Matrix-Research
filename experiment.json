@@ -1,0 +1,35 @@
+{
+  "description": "Chinese Bio-LLM versus exactly parameter-matched standard causal Transformer",
+  "variants": [
+    "baseline",
+    "bio",
+    "stateless"
+  ],
+  "seeds": [
+    42,
+    137,
+    2026
+  ],
+  "width": 256,
+  "layers": 4,
+  "heads": 4,
+  "context": 256,
+  "batch_size": 16,
+  "steps": 5000,
+  "eval_every": 500,
+  "lr": 0.0006,
+  "selection": "best validation checkpoint per fixed training budget",
+  "primary_metric": "held-out Chinese next-token cross entropy",
+  "secondary_metrics": [
+    "perplexity",
+    "training throughput",
+    "sampled Metal allocation",
+    "state carry/reset/swap diagnostic"
+  ],
+  "limitations": [
+    "5.33M parameters, narrow machine-translated story corpus",
+    "equal tokens and parameter count, unequal compute",
+    "phenomenological biochemical model, no claim of exact biological simulation",
+    "no JEPA"
+  ]
+}

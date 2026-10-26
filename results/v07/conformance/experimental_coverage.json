@@ -1,0 +1,342 @@
+{
+  "core_full_training": {
+    "conditions": 45,
+    "train_steps": 24000,
+    "per_case_batch": 2,
+    "sequence_tokens": 128,
+    "bptt_tokens": 128
+  },
+  "supplementary_conditions": [
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "bypass",
+      "id": "mechanism_n128_bypass_s11",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "no_local",
+      "id": "mechanism_n128_no_local_s11",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "no_slow",
+      "id": "mechanism_n128_no_slow_s11",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "no_probability",
+      "id": "mechanism_n128_no_probability_s11",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "no_dynamic",
+      "id": "mechanism_n128_no_dynamic_s11",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "single_timescale",
+      "id": "mechanism_n128_single_timescale_s11",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "no_threshold",
+      "id": "mechanism_n128_no_threshold_s11",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "mechanism",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "full",
+      "reset_policy": "document",
+      "id": "mechanism_n128_full_s11_reset_policydocument",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "write_scale",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "full",
+      "local_write_normalization": "none",
+      "id": "write_scale_n32_full_s11_local_write_normalizationnone",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "write_scale",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "full",
+      "local_write_normalization": "none",
+      "id": "write_scale_n128_full_s11_local_write_normalizationnone",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "write_scale",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "full",
+      "local_write_normalization": "none",
+      "id": "write_scale_n512_full_s11_local_write_normalizationnone",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "iterations",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "independent",
+      "internal_steps": 2,
+      "id": "iterations_n128_independent_s11_internal_steps2",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "iterations",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "full",
+      "internal_steps": 2,
+      "id": "iterations_n128_full_s11_internal_steps2",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "iterations",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "independent",
+      "internal_steps": 8,
+      "id": "iterations_n128_independent_s11_internal_steps8",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "iterations",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "full",
+      "internal_steps": 8,
+      "id": "iterations_n128_full_s11_internal_steps8",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "topology",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "message",
+      "topology": "cut",
+      "id": "topology_n128_message_s11_topologycut",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "topology",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "independent",
+      "topology": "cut",
+      "id": "topology_n128_independent_s11_topologycut",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "topology",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "full",
+      "topology": "cut",
+      "id": "topology_n128_full_s11_topologycut",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "message",
+      "matrix_size": 32,
+      "id": "capacity_n32_message_s11_matrix_size32",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "independent",
+      "matrix_size": 32,
+      "id": "capacity_n32_independent_s11_matrix_size32",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "full",
+      "matrix_size": 32,
+      "id": "capacity_n32_full_s11_matrix_size32",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "message",
+      "matrix_size": 16,
+      "id": "capacity_n128_message_s11_matrix_size16",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "independent",
+      "matrix_size": 16,
+      "id": "capacity_n128_independent_s11_matrix_size16",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "full",
+      "matrix_size": 16,
+      "id": "capacity_n128_full_s11_matrix_size16",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "message",
+      "matrix_size": 8,
+      "id": "capacity_n512_message_s11_matrix_size8",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "independent",
+      "matrix_size": 8,
+      "id": "capacity_n512_independent_s11_matrix_size8",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "capacity",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "full",
+      "matrix_size": 8,
+      "id": "capacity_n512_full_s11_matrix_size8",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "credit",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "full",
+      "bptt_tokens": 16,
+      "id": "credit_n32_full_s11_bptt_tokens16",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "credit",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "no_local",
+      "bptt_tokens": 16,
+      "id": "credit_n32_no_local_s11_bptt_tokens16",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "credit",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "full",
+      "bptt_tokens": 64,
+      "id": "credit_n32_full_s11_bptt_tokens64",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "credit",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "no_local",
+      "bptt_tokens": 64,
+      "id": "credit_n32_no_local_s11_bptt_tokens64",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "credit",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "full",
+      "bptt_tokens": 128,
+      "id": "credit_n32_full_s11_bptt_tokens128",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    },
+    {
+      "stage": "credit",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "no_local",
+      "bptt_tokens": 128,
+      "id": "credit_n32_no_local_s11_bptt_tokens128",
+      "status": "not_executed",
+      "reason": "Supplementary stages are separately planned after the full core paired grid"
+    }
+  ],
+  "supplementary_counts": {
+    "mechanism": 8,
+    "write_scale": 3,
+    "iterations": 4,
+    "topology": 3,
+    "capacity": 9,
+    "credit": 6
+  }
+}

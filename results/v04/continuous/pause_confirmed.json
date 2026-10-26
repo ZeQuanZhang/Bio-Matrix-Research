@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-22T08:50:19.574320+00:00",
+  "queue_status": "paused_by_user",
+  "completed_conditions_preserved": 7,
+  "completed_files_verified_unchanged": 99,
+  "resumable_checkpoints": [
+    {
+      "condition": "matrix_N32_D8_J12_separated_connected_s11",
+      "step": 216,
+      "checkpoint": "results/v04/continuous/matrix_N32_D8_J12_separated_connected_s11/last.pt",
+      "sha256": "e8041fde5cc3faa533c6fd42f5d168c64e653f79f44547941d01382be86bda21"
+    }
+  ],
+  "v05_status": "not_started_user_requested_review_v04_first",
+  "runner_status_mapping": "The existing runner stores user-paused conditions as aborted with safe_checkpoint_step; this is an intentional pause, not a failure."
+}

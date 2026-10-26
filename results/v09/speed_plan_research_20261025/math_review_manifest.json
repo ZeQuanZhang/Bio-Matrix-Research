@@ -1,0 +1,28 @@
+{
+  "status": "research_note_completed",
+  "date": "2026-10-25",
+  "production_modified": false,
+  "new_training_or_gpu": false,
+  "note_sha256": "53b547c3aadc2f7203eb21bf648321c02d27ea0136000ee91ebd53f2e0547c0e",
+  "characters": 16976,
+  "local_inputs": {
+    "v09/core.py": "82126f70ceeff71a6a1a349fabc9ed683e22cfa9e51931857803863513ab4a90",
+    "v09/feedback.py": "a072d76dfd03006bf2b88a9e6469086d5e1ef9bbda2140a8e035a201da92367a",
+    "v09/model.py": "a9fc067d6a248bd9f237e5f77c917c552772d18c0d54c3bd1279b61790513bad",
+    "v08/recurrence.py": "f61fe0e8a7333b1f86e2d80d9ea854d8d9578b6a37ea0754fc24fdd33b0ff4c4",
+    "v08/model.py": "087e47af6039b053bd5448b471a276e393c1f5414ac27473df1bbdd8a009e230",
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "docs/V08_IMPROVEMENT_PLAN.md": "a3c573537d513dd5b651b3cb0cc546bd4727f0edb6eb01228b6efb0fb0946f28",
+    "results/v07/math_analysis_20261024/MATH_OPTIONS.md": "7a3e380deeef93f1bf941c463df9b13dcda31b8d5d9452f74e55487fba34c086",
+    "results/v09/speed_audit_20261025/profile_summary.json": "c08d874a3d43e989a7724cd7d7624dfcdcdaedf3bb19d2480c71f24cc07720c6",
+    "results/v09/speed_audit_20261025/f1_no_grad_cpu/result.json": "03a2b28851c21b37c54e04e5a42c3385f49330012233f93ed2d7e9a4717ad2ed"
+  },
+  "primary_sources": [
+    "https://arxiv.org/html/2406.06484v3",
+    "https://arxiv.org/html/2412.06464v3",
+    "https://github.com/fla-org/flash-linear-attention",
+    "https://arxiv.org/html/2205.14135v2",
+    "https://arxiv.org/html/1905.13002",
+    "https://proceedings.mlr.press/v119/katharopoulos20a.html"
+  ]
+}

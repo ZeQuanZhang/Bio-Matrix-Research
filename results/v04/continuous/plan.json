@@ -1,0 +1,636 @@
+{
+  "conditions": 90,
+  "updates": 108000,
+  "cases": [
+    {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "graph_N32_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "full_N32_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "matrix_N32_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "probability_N32_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "fourier_N32_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "graph_N32_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "full_N32_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "matrix_N32_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "probability_N32_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "fourier_N32_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "graph_N128_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "full_N128_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "matrix_N128_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "probability_N128_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "fourier_N128_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "graph_N128_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "full_N128_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "matrix_N128_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "probability_N128_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "fourier_N128_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "graph_N512_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "full_N512_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "matrix_N512_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "probability_N512_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "fourier_N512_D8_J12_shared_connected_s11"
+    },
+    {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "graph_N512_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "full_N512_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "matrix_N512_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "probability_N512_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "fourier_N512_D8_J12_separated_connected_s11"
+    },
+    {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "graph_N32_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "full_N32_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "matrix_N32_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "probability_N32_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "fourier_N32_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "graph_N32_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "full_N32_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "matrix_N32_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "probability_N32_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "fourier_N32_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "graph_N128_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "full_N128_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "matrix_N128_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "probability_N128_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "fourier_N128_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "graph_N128_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "full_N128_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "matrix_N128_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "probability_N128_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "fourier_N128_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "graph_N512_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "full_N512_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "matrix_N512_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "probability_N512_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "fourier_N512_D8_J12_shared_connected_s23"
+    },
+    {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "graph_N512_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "full_N512_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "matrix_N512_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "probability_N512_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "fourier_N512_D8_J12_separated_connected_s23"
+    },
+    {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "graph_N32_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "full_N32_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "matrix_N32_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "probability_N32_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "fourier_N32_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "graph_N32_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "full_N32_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "matrix_N32_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "probability_N32_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "fourier_N32_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "graph_N128_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "full_N128_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "matrix_N128_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "probability_N128_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "fourier_N128_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "graph_N128_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "full_N128_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "matrix_N128_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "probability_N128_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "fourier_N128_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "graph_N512_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "full_N512_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "matrix_N512_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "probability_N512_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "fourier_N512_D8_J12_shared_connected_s37"
+    },
+    {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "graph_N512_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "full_N512_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "matrix_N512_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "probability_N512_D8_J12_separated_connected_s37"
+    },
+    {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "fourier_N512_D8_J12_separated_connected_s37"
+    }
+  ]
+}

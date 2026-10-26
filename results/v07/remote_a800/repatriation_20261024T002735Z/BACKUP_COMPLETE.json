@@ -1,0 +1,76 @@
+{
+  "status": "completed_verified",
+  "completed_at": "2026-10-24T00:44:39.702812+00:00",
+  "backup_root": "results/v07/remote_a800/repatriation_20261024T002735Z",
+  "source_regular_file_bytes": 21329002714,
+  "source_regular_files": 174311,
+  "source_symlinks": 2909,
+  "experiment_conditions": {
+    "completed": 43,
+    "paused_saved_as_aborted": 2,
+    "pending_steps": {
+      "core_n512_independent_s37": 10593,
+      "core_n512_full_s37": 10474
+    }
+  },
+  "last_checkpoints_readable": 45,
+  "completed_result_files": 43,
+  "test_prediction_files": 43,
+  "remote_training_paused": true,
+  "remote_scheduler_alive": false,
+  "orphan_training_children": [],
+  "included_sources": {
+    "biomatrix": {
+      "source": "<REMOTE_WORKSPACE>/biomatrix",
+      "regular_files": 14863,
+      "symlinks": 43,
+      "bytes": 5705131966,
+      "local_storage": "biomatrix/"
+    },
+    "runtime/miniconda3": {
+      "source": "<REMOTE_RUNTIME>/miniconda3",
+      "regular_files": 55071,
+      "symlinks": 2866,
+      "bytes": 8124024743,
+      "local_storage": "runtime/miniconda3.tar.gz"
+    },
+    "runtime/torchinductor_root": {
+      "source": "<REMOTE_CACHE>/torchinductor",
+      "regular_files": 104376,
+      "symlinks": 0,
+      "bytes": 7499819165,
+      "local_storage": "runtime/torchinductor_root/"
+    },
+    "runtime/triton_cache": {
+      "source": "<REMOTE_CACHE>/triton",
+      "regular_files": 1,
+      "symlinks": 0,
+      "bytes": 26840,
+      "local_storage": "runtime/triton_cache/"
+    }
+  },
+  "excluded": [
+    "Remote user authentication material (.ssh and other credential configuration)",
+    "Operating system and driver installation outside the explicit software/data allowlist",
+    "Regenerable pip HTTP download cache"
+  ],
+  "non_regular_runtime_entries_recorded_not_copied": [
+    {
+      "path": "biomatrix/mps/pipe/log",
+      "mode": 4607
+    },
+    {
+      "path": "biomatrix/mps/pipe/control_privileged",
+      "mode": 49645
+    },
+    {
+      "path": "biomatrix/mps/pipe/control",
+      "mode": 49590
+    }
+  ],
+  "source_preexisting_dangling_symlinks": "source_symlink_audit.json",
+  "full_integrity": "full_integrity.json",
+  "recovery_document": "RECOVERY.md",
+  "initial_miniconda_attempt": "failed_rsync_recovered_by_verified_archive",
+  "actual_restore_on_new_machine_tested": false
+}

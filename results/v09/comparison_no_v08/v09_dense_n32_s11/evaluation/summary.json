@@ -1,0 +1,211 @@
+{
+  "status": "completed",
+  "coverage": {
+    "status": "sufficient",
+    "requested_windows": 64,
+    "candidate_nonoverlap_windows": 931,
+    "rejected_missing_other_document": 0,
+    "actual_windows": 64,
+    "actual_documents": 30,
+    "scored_positions": 16384,
+    "unique_scored_positions": 16384,
+    "duplicate_scored_positions": 0,
+    "eligible_candidate_target_positions": 238336,
+    "total_validation_tokens": 322869,
+    "fraction_of_validation_tokens": 0.05074503900962929
+  },
+  "sample_sha256": "3819f54825b861289778f4bac91cdd170aad4356eaa1be7c82fb68b1fec424dd",
+  "applicability": {
+    "A0R": "scored",
+    "U0R": "scored",
+    "shuffle_block_A0R": "scored",
+    "A0BR": "scored",
+    "U0BR": "scored",
+    "credit_only": "scored",
+    "clear_slow": "scored",
+    "base_only": "scored"
+  },
+  "conditions": {
+    "A0BR": {
+      "nll": 4.914231957302604,
+      "scored_tokens": 16384,
+      "first_16_nll": 4.908105983129644,
+      "first_16_tokens": 1024,
+      "first_64_nll": 4.959303227800774,
+      "first_64_tokens": 4096,
+      "first_256_nll": 4.914231957302604,
+      "first_256_tokens": 16384
+    },
+    "A0R": {
+      "nll": 4.913513917945238,
+      "scored_tokens": 16384,
+      "first_16_nll": 4.906267544232833,
+      "first_16_tokens": 1024,
+      "first_64_nll": 4.958722483055681,
+      "first_64_tokens": 4096,
+      "first_256_nll": 4.913513917945238,
+      "first_256_tokens": 16384
+    },
+    "U0BR": {
+      "nll": 4.9141445987121415,
+      "scored_tokens": 16384,
+      "first_16_nll": 4.907949397558696,
+      "first_16_tokens": 1024,
+      "first_64_nll": 4.959236066750236,
+      "first_64_tokens": 4096,
+      "first_256_nll": 4.9141445987121415,
+      "first_256_tokens": 16384
+    },
+    "U0R": {
+      "nll": 4.913741474577137,
+      "scored_tokens": 16384,
+      "first_16_nll": 4.906242732016835,
+      "first_16_tokens": 1024,
+      "first_64_nll": 4.959395603718804,
+      "first_64_tokens": 4096,
+      "first_256_nll": 4.913741474577137,
+      "first_256_tokens": 16384
+    },
+    "base_only": {
+      "nll": 5.152276837341333,
+      "scored_tokens": 16384,
+      "first_16_nll": 5.178943992552377,
+      "first_16_tokens": 1024,
+      "first_64_nll": 5.200996115052476,
+      "first_64_tokens": 4096,
+      "first_256_nll": 5.152276837341333,
+      "first_256_tokens": 16384
+    },
+    "clear_slow": {
+      "nll": 4.913556631245342,
+      "scored_tokens": 16384,
+      "first_16_nll": 4.906339066918008,
+      "first_16_tokens": 1024,
+      "first_64_nll": 4.958780695308633,
+      "first_64_tokens": 4096,
+      "first_256_nll": 4.913556631245342,
+      "first_256_tokens": 16384
+    },
+    "credit_only": {
+      "nll": 4.913514473372516,
+      "scored_tokens": 16384,
+      "first_16_nll": 4.9062677549009095,
+      "first_16_tokens": 1024,
+      "first_64_nll": 4.958722759153716,
+      "first_64_tokens": 4096,
+      "first_256_nll": 4.913514473372516,
+      "first_256_tokens": 16384
+    },
+    "shuffle_block_A0R": {
+      "nll": 4.91342431255373,
+      "scored_tokens": 16384,
+      "first_16_nll": 4.905919700519007,
+      "first_16_tokens": 1024,
+      "first_64_nll": 4.958557483699224,
+      "first_64_tokens": 4096,
+      "first_256_nll": 4.91342431255373,
+      "first_256_tokens": 16384
+    }
+  },
+  "contrasts": {
+    "history_gain": {
+      "status": "computed",
+      "nll_difference": 0.00022755663189855113,
+      "ci95": [
+        -0.00011238907940838152,
+        0.0006172295344706448
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": -2.4812215997371823e-05,
+      "first_64_nll_difference": 0.0006731206631229725,
+      "first_256_nll_difference": 0.00022755663189855113
+    },
+    "ordered_history_gain": {
+      "status": "computed",
+      "nll_difference": -8.96053915084849e-05,
+      "ci95": [
+        -0.00019883305359042746,
+        1.619248176604123e-06
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": -0.00034784371382556856,
+      "first_64_nll_difference": -0.00016499935645697406,
+      "first_256_nll_difference": -8.96053915084849e-05
+    },
+    "ABA_retention_gain": {
+      "status": "computed",
+      "nll_difference": -8.735859046282712e-05,
+      "ci95": [
+        -0.00027459005219742597,
+        9.581937116562227e-05
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": -0.0001565855709486641,
+      "first_64_nll_difference": -6.716105053783394e-05,
+      "first_256_nll_difference": -8.735859046282712e-05
+    },
+    "insertion_and_extra_age_cost": {
+      "status": "computed",
+      "nll_difference": 0.0007180393573662514,
+      "ci95": [
+        -7.425255696747429e-05,
+        0.0014890150560761238
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 0.0018384388968115672,
+      "first_64_nll_difference": 0.0005807447450933978,
+      "first_256_nll_difference": 0.0007180393573662514
+    },
+    "old_credit_reset_cost": {
+      "status": "computed",
+      "nll_difference": 5.554272775043501e-07,
+      "ci95": [
+        5.765285115086102e-08,
+        1.415943238085178e-06
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 2.1066807676106691e-07,
+      "first_64_nll_difference": 2.7609803510131314e-07,
+      "first_256_nll_difference": 5.554272775043501e-07
+    },
+    "slow_content_contribution": {
+      "status": "computed",
+      "nll_difference": 4.215787282646488e-05,
+      "ci95": [
+        1.6812178185572238e-05,
+        6.939394959666746e-05
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 7.131201709853485e-05,
+      "first_64_nll_difference": 5.7936154917115346e-05,
+      "first_256_nll_difference": 4.215787282646488e-05
+    },
+    "bio_read_contribution": {
+      "status": "computed",
+      "nll_difference": 0.23876236396881723,
+      "ci95": [
+        0.213892829356776,
+        0.2652526355060928
+      ],
+      "paired_documents": 30,
+      "bootstrap_repetitions": 2000,
+      "interpretation": "Document-resampled evaluation-sample CI; not training-seed uncertainty.",
+      "first_16_nll_difference": 0.2726762376514671,
+      "first_64_nll_difference": 0.2422733558987602,
+      "first_256_nll_difference": 0.23876236396881723
+    }
+  },
+  "contrast_notes": "Positive history/ABA/slow/Bio contributions favor the retained component; insertion cost also includes B extra aging."
+}

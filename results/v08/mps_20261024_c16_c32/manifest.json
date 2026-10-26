@@ -1,0 +1,49 @@
+{
+  "status": "running",
+  "created_utc": "2026-10-24T15:40:40.094262+00:00",
+  "args": {
+    "device": "mps",
+    "nodes": [
+      32,
+      128,
+      512
+    ],
+    "sequence_tokens": 64,
+    "batch": 2,
+    "threads": 4,
+    "seed": 11,
+    "warmup": 4,
+    "repeats": 3,
+    "data_root": "data/v06/wikitext2",
+    "output": "results/v08/mps_20261024_c16_c32",
+    "scope": "all",
+    "quiet": false
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "torch": "2.14.1",
+  "source_hashes": {
+    "v07/__init__.py": "4149d2344177a77d3e6c480199ce1ae1051044a312bc1154f79f1fb4a5f1c290",
+    "v07/common.py": "78f2ad472506cc644a26621c05c5eb2214ad3e537ab938cc67e0dfad960524a9",
+    "v07/data.py": "1dbe9bc5e63ee530a8fb47d4db8cb0a270641067f75df7c9ceb5fa145347d14d",
+    "v07/evaluate.py": "598cf490247ef35c3cafd0cb83ec6ed35dcf1d626bbd994f32cfe274299d5e6a",
+    "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "v07/profile.py": "2f4d5e12ae1a9f9eb30c15bfc711f3b79bb2a3086b8d3f4a124ea2482036ca68",
+    "v07/report.py": "5a1fc0831e3a9b75ddd716f15b85cb814634e9f05cc88170a472461e390fa8a4",
+    "v07/run.py": "8d75f8e0f60809972d5104927e05c05acedfd828ed209ff005d0073cee622405",
+    "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+    "v05/model.py": "a966293cc3ae183a07237483b3076a9097c1ffc1d30b0353299a03ba2a3a04c7",
+    "v05/run.py": "492ce9234fc29a9ec0cba539c679fb9568a12cdab379941601fb5c955de747fb",
+    "v08/test_model.py": "e64a0f7cd2deddfc5097668c258e6ac30fb92c67951910bef237eb2f3c6195a9",
+    "v08/benchmark.py": "ff9746a5c77ee7b96e0d0f63b66a5fff11d1ca2960e70c57865ac5cfb0c8232a",
+    "v08/recurrence.py": "f61fe0e8a7333b1f86e2d80d9ea854d8d9578b6a37ea0754fc24fdd33b0ff4c4",
+    "v08/__init__.py": "dfc0ad5d4b36d7bc6d3f8f8115380cb757f31c36e59803adb97214f135337d94",
+    "v08/test_recurrence.py": "5fbc4c6bd7c74adaf629d4efd27c3d4278f6f5aa9161011b6972199768e70fee",
+    "v08/model.py": "74603d922c7ea3c1b475f5ad27dd0f087e1458583364265bee2c8de4325d22c5",
+    "v08/test_benchmark.py": "a3f8412e6f01105c691aaa772f645ba6d546241ad266de988ad511dadac31ca0",
+    "run_biomatrix_v08.py": "c177c91ca3841f89d7ba1b35bf8ae667f81d83bb73a2cec3e3712e48fdd0043f"
+  },
+  "formal_training": false,
+  "timing_dtype": "float32",
+  "concurrency": 1
+}

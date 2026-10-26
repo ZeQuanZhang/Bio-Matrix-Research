@@ -1,0 +1,40 @@
+{
+  "completed": [
+    "core_n128_independent_s11",
+    "core_n32_transformer_s11",
+    "core_n32_message_s11",
+    "core_n32_full_s11",
+    "core_n32_independent_s11",
+    "core_n128_message_s11"
+  ],
+  "source_hashes": {
+    "v06/__init__.py": "5334d7a4e037a2d7a0142fa94ed7dd5f0250c08a1a9a54fa1e84d25abfda684a",
+    "v06/common.py": "03f2671fb07d8c2bf33f332bb6aeb068eedb8dc7f4362c572202e52885fae19a",
+    "v06/data.py": "ee314ad571feab5edba8cfd596f3d662564115a4ea7c7f927d13a6714e25fd77",
+    "v06/evaluate.py": "60915b8e25a9d446ce050d40a84724de8710a172aea3dacfd501048987a59899",
+    "v06/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v06/model.py": "1bb708bafae8100f550a21b69da7c93c3f5234c25428e8b294e5af30ef6cb96a",
+    "v06/profile.py": "f801362800c0c0c548a8afb97065dea354a0c46a0185e6fb3a5817848f3d1ef3",
+    "v06/report.py": "5a1fc0831e3a9b75ddd716f15b85cb814634e9f05cc88170a472461e390fa8a4",
+    "v06/run.py": "3ac1b8158e7a09778e156ff1274218d80ef4eb441eda357629cb01a20c0edcf6",
+    "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+    "v05/model.py": "a966293cc3ae183a07237483b3076a9097c1ffc1d30b0353299a03ba2a3a04c7",
+    "v05/run.py": "492ce9234fc29a9ec0cba539c679fb9568a12cdab379941601fb5c955de747fb"
+  },
+  "changes_to_training_source": false,
+  "additional_optimizer_updates": 0,
+  "posthoc_device": "cpu",
+  "posthoc_threads": 1,
+  "takeaways": [
+    "Same-budget graph variants currently beat the small Transformer in token NLL.",
+    "Coupling has only a tiny effect and scaling benefits are not established.",
+    "Frozen-weight readout deletion and per-token state reset show weak functional dependence on dynamic state.",
+    "Training cost on this Mac is much greater than Transformer."
+  ],
+  "limitations": [
+    "Only seed 11 completed so far.",
+    "24 test windows from 21 documents.",
+    "4000 updates / 512000 targets, no convergence guarantee.",
+    "Post-hoc ablations are not independently trained baselines."
+  ]
+}

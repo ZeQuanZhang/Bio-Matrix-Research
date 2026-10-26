@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "completed": 18,
+  "source_hashes_unchanged": true,
+  "checkpoints": 18,
+  "paired_sample_hashes": {
+    "32": true,
+    "128": true,
+    "512": true
+  },
+  "rows": [
+    {
+      "nodes": 32,
+      "v08_tokens_per_second": 426.48894254400795,
+      "v09_E_tokens_per_second": 507.76823108335196,
+      "v09_dense_tokens_per_second": 508.7654396433074,
+      "v09_sparse50_tokens_per_second": 483.0037550544219,
+      "dense_ratio": 1.192915897440435,
+      "sparse_ratio": 1.1325117884025384,
+      "sparse_actual_active_fraction": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "nodes": 128,
+      "v08_tokens_per_second": 252.04760653546538,
+      "v09_E_tokens_per_second": 264.27725162141536,
+      "v09_dense_tokens_per_second": 298.12097423734184,
+      "v09_sparse50_tokens_per_second": 232.53852318744856,
+      "dense_ratio": 1.182796291284732,
+      "sparse_ratio": 0.922597625043221,
+      "sparse_actual_active_fraction": [
+        0.6171875,
+        0.55859375,
+        0.5732421875
+      ]
+    },
+    {
+      "nodes": 512,
+      "v08_tokens_per_second": 87.76094738659509,
+      "v09_E_tokens_per_second": 97.2221184885797,
+      "v09_dense_tokens_per_second": 105.15730876136708,
+      "v09_sparse50_tokens_per_second": 129.28696554962795,
+      "dense_ratio": 1.198224402684937,
+      "sparse_ratio": 1.4731719449210923,
+      "sparse_actual_active_fraction": [
+        0.5087890625,
+        0.5087890625,
+        0.5107421875
+      ]
+    }
+  ]
+}

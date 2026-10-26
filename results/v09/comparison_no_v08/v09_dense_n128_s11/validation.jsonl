@@ -1,0 +1,6 @@
+{"nll": 6.029075615108013, "targets": 8192, "windows": 128, "cold_state": true, "step": 3935, "completed_tokens": 500089, "sample_sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"}
+{"nll": 5.672672659158707, "targets": 8192, "windows": 128, "cold_state": true, "step": 7870, "completed_tokens": 1000114, "sample_sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"}
+{"nll": 5.513224184513092, "targets": 8192, "windows": 128, "cold_state": true, "step": 11804, "completed_tokens": 1500042, "sample_sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"}
+{"nll": 5.448283202946186, "targets": 8192, "windows": 128, "cold_state": true, "step": 15739, "completed_tokens": 2000107, "sample_sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"}
+{"nll": 5.320208087563515, "targets": 8192, "windows": 128, "cold_state": true, "step": 19673, "completed_tokens": 2500091, "sample_sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"}
+{"nll": 5.287530221045017, "targets": 8192, "windows": 128, "cold_state": true, "step": 23607, "completed_tokens": 3000029, "sample_sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"}

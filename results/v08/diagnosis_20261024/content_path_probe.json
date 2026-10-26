@@ -1,0 +1,101 @@
+[
+  {
+    "group": "mask_final",
+    "epsilon": 0.0,
+    "steps": [
+      {
+        "step": 0,
+        "gradient_norm": 2.419565439224243,
+        "loss": 8.360860824584961,
+        "reached": 0.42138671875,
+        "single_token_intervention_logit_max": 2.5331974029541016e-07,
+        "single_token_read_port_transport_change": 3.0423734642681666e-08,
+        "erase_fresh_content_logit_max": 3.5762786865234375e-07
+      },
+      {
+        "step": 1,
+        "gradient_norm": 1.6420049667358398,
+        "loss": 8.317412376403809,
+        "reached": 0.15625,
+        "single_token_intervention_logit_max": 2.682209014892578e-07,
+        "single_token_read_port_transport_change": 2.082321337582016e-08,
+        "erase_fresh_content_logit_max": 3.2782554626464844e-07
+      },
+      {
+        "step": 2,
+        "gradient_norm": 1.6819336414337158,
+        "loss": 8.313567161560059,
+        "reached": 0.15625,
+        "single_token_intervention_logit_max": 2.384185791015625e-07,
+        "single_token_read_port_transport_change": 3.205154897045759e-08,
+        "erase_fresh_content_logit_max": 2.980232238769531e-07
+      }
+    ]
+  },
+  {
+    "group": "local",
+    "epsilon": 0.01,
+    "steps": [
+      {
+        "step": 0,
+        "gradient_norm": 2.471402168273926,
+        "loss": 8.36099910736084,
+        "reached": 0.42138671875,
+        "single_token_intervention_logit_max": 2.980232238769531e-07,
+        "single_token_read_port_transport_change": 3.3467436821865704e-08,
+        "erase_fresh_content_logit_max": 3.2782554626464844e-07
+      },
+      {
+        "step": 1,
+        "gradient_norm": 1.6363153457641602,
+        "loss": 8.316359519958496,
+        "reached": 0.15625,
+        "single_token_intervention_logit_max": 2.384185791015625e-07,
+        "single_token_read_port_transport_change": 2.5483616994392833e-08,
+        "erase_fresh_content_logit_max": 3.427267074584961e-07
+      },
+      {
+        "step": 2,
+        "gradient_norm": 1.7431435585021973,
+        "loss": 8.314045906066895,
+        "reached": 0.15625,
+        "single_token_intervention_logit_max": 2.682209014892578e-07,
+        "single_token_read_port_transport_change": 3.7085218451693436e-08,
+        "erase_fresh_content_logit_max": 3.2782554626464844e-07
+      }
+    ]
+  },
+  {
+    "group": "local_delta",
+    "epsilon": 0.001,
+    "steps": [
+      {
+        "step": 0,
+        "gradient_norm": 2.496094226837158,
+        "loss": 8.36086368560791,
+        "reached": 0.42138671875,
+        "single_token_intervention_logit_max": 3.2782554626464844e-07,
+        "single_token_read_port_transport_change": 3.039644269620112e-08,
+        "erase_fresh_content_logit_max": 2.980232238769531e-07
+      },
+      {
+        "step": 1,
+        "gradient_norm": 1.6438871622085571,
+        "loss": 8.31744384765625,
+        "reached": 0.15625,
+        "single_token_intervention_logit_max": 2.980232238769531e-07,
+        "single_token_read_port_transport_change": 2.1408389727639587e-08,
+        "erase_fresh_content_logit_max": 3.5762786865234375e-07
+      },
+      {
+        "step": 2,
+        "gradient_norm": 1.6832659244537354,
+        "loss": 8.31356143951416,
+        "reached": 0.15625,
+        "single_token_intervention_logit_max": 2.980232238769531e-07,
+        "single_token_read_port_transport_change": 3.3010003619438066e-08,
+        "erase_fresh_content_logit_max": 2.8312206268310547e-07
+      }
+    ]
+  }
+]

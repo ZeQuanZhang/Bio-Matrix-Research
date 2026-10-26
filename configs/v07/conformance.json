@@ -1,0 +1,295 @@
+{
+  "version": "v07-design-conformance-2",
+  "sources": [
+    "docs/sources/BIOMATRIX_FULL_IDEA.md",
+    "docs/V06_DESIGN.md",
+    "docs/V07_DESIGN_AND_EXPERIMENT.md",
+    "docs/V07_CONFORMANCE.md"
+  ],
+  "test_modules": [
+    "v07.test_model",
+    "v07.test_training",
+    "v07.test_evaluate"
+  ],
+  "requirements": [
+    {
+      "id": "R01",
+      "requirement": "稳定共享规则与单份固定容量运行状态分离",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_stream_equivalence_fixed_state_and_lane_reset",
+        "v07.test_evaluate.EvaluationProtocol.test_real_architectures_keep_weights_frozen_and_local_probe_is_inactive"
+      ]
+    },
+    {
+      "id": "R02",
+      "requirement": "节点自身动态输入映射实际进入fast及Joseph同一观测",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_input_mapping_enters_the_identical_fast_and_joseph_observation"
+      ]
+    },
+    {
+      "id": "R03",
+      "requirement": "历史、不确定性和相位改变真实计算通路",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_history_probability_and_phase_change_real_paths_and_observations"
+      ]
+    },
+    {
+      "id": "R04",
+      "requirement": "概率矩阵先验、PSD和有限数值幅度有对应更新与证明检查",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_stationary_covariance_has_psd_bound_and_correct_unobserved_limit",
+        "v07.test_model.ModelCorrections.test_phase_and_all_runtime_numeric_bounds_are_fixed"
+      ]
+    },
+    {
+      "id": "R05",
+      "requirement": "多时间带衰减与每token内部时间一致",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_time_bands_follow_their_declared_time_constants",
+        "v07.test_model.ModelCorrections.test_carrier_rotation_uses_one_token_time_independent_of_internal_steps"
+      ]
+    },
+    {
+      "id": "R06",
+      "requirement": "球体局部连接、中心写入、表面读取与向外脉冲跃迁",
+      "code": [
+        "v07/graph.py",
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_solid_ball_candidate_budget_and_radial_paths",
+        "v07.test_model.ModelCorrections.test_zero_semantic_pulse_closes_and_large_pulse_opens_outward_gate"
+      ]
+    },
+    {
+      "id": "R07",
+      "requirement": "内层可达慢矩阵获得对应读出反馈且断图隔离",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_distributed_slow_read_updates_reachable_inner_nodes_and_respects_cut"
+      ]
+    },
+    {
+      "id": "R08",
+      "requirement": "局部反馈匹配实际关联读出及完整输出头VJP",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_head_vjp_matches_autograd",
+        "v07.test_model.ModelCorrections.test_direct_associative_feedback_matches_autograd_and_finite_difference"
+      ]
+    },
+    {
+      "id": "R09",
+      "requirement": "有限延迟资格元信息、一次消费和明确信用范围",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_delayed_feedback_uses_old_query_once_and_respects_horizon"
+      ]
+    },
+    {
+      "id": "R10",
+      "requirement": "修订经验保留正交内容，清短期状态保留慢可塑权重",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_rule_feedback_preserves_orthogonal_experience_and_resets_credit",
+        "v07.test_model.ModelCorrections.test_capacity_projection_preserves_orthogonal_memory_on_immediate_and_delayed_feedback"
+      ]
+    },
+    {
+      "id": "R11",
+      "requirement": "节点规模下有效写入强度有校正及none配对",
+      "code": [
+        "v07/model.py",
+        "v07/run.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_local_write_participation_normalization_matches_population_response",
+        "v07.test_training.TrainingProtocol.test_budget_and_pair_plan",
+        "v07.test_model.ModelCorrections.test_effective_participation_uses_actual_read_weights_without_erasing_confidence"
+      ]
+    },
+    {
+      "id": "R12",
+      "requirement": "公开连续流包含独立情境、插入干扰和回到未见A后文",
+      "code": [
+        "v07/data.py",
+        "v07/run.py"
+      ],
+      "tests": [
+        "v07.test_training.TrainingProtocol.test_context_stream_sources_masks_no_oracle_resets_and_exact_resume",
+        "v07.test_training.TrainingProtocol.test_return_uses_unseen_A_continuation_without_replaying_prefix",
+        "v07.test_training.TrainingProtocol.test_document_reset_is_only_an_explicit_control",
+        "v07.test_training.TrainingProtocol.test_unmarked_independent_intrusion_and_return_seams_have_no_cached_specials",
+        "v07.test_training.TrainingProtocol.test_marked_real_doc_boundaries_preserve_only_real_boundary_supervision",
+        "v07.test_training.TrainingProtocol.test_content_bounds_trim_only_real_edge_specials_and_exclude_empty_docs"
+      ]
+    },
+    {
+      "id": "R13",
+      "requirement": "隐藏接缝标签和统计mask不控制模型运行反馈",
+      "code": [
+        "v07/run.py",
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_training.TrainingProtocol.test_hidden_loss_mask_does_not_suppress_feedback_or_change_runtime",
+        "v07.test_model.ModelCorrections.test_diagnostic_mask_changes_only_valid_token_statistics"
+      ]
+    },
+    {
+      "id": "R14",
+      "requirement": "逐有效token训练诊断跨TBPTT和lane reset正确聚合",
+      "code": [
+        "v07/run.py",
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_training.TrainingProtocol.test_training_diagnostics_weight_valid_tokens_across_bptt_and_lane_resets"
+      ]
+    },
+    {
+      "id": "R15",
+      "requirement": "运行状态、调度、游标、优化器和RNG精确恢复",
+      "code": [
+        "v07/run.py",
+        "v07/data.py"
+      ],
+      "tests": [
+        "v07.test_training.TrainingProtocol.test_runtime_and_stream_checkpoint_resume_exact_all_model_families",
+        "v07.test_training.TrainingProtocol.test_runner_resume_matches_uninterrupted_with_state_and_cursor",
+        "v07.test_training.TrainingProtocol.test_final_update_stop_resumes_validation_without_an_extra_update",
+        "v07.test_training.TrainingProtocol.test_failure_before_first_checkpoint_archives_uncommitted_logs_and_best",
+        "v07.test_training.TrainingProtocol.test_final_validation_log_is_uncommitted_until_checkpoint_and_best_are_saved"
+      ]
+    },
+    {
+      "id": "R16",
+      "requirement": "旧直通移到消融，同宽无状态及标准Transformer对照",
+      "code": [
+        "v07/model.py",
+        "v07/run.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_default_has_no_current_embedding_bypass",
+        "v07.test_training.TrainingProtocol.test_budget_and_pair_plan"
+      ]
+    },
+    {
+      "id": "R17",
+      "requirement": "Transformer逐lane重置及固定滑动上下文与分块无关",
+      "code": [
+        "v07/model.py"
+      ],
+      "tests": [
+        "v07.test_model.ModelCorrections.test_transformer_reset_masks_cached_history_per_lane",
+        "v07.test_model.ModelCorrections.test_transformer_sliding_context_is_chunk_size_invariant_after_reset"
+      ]
+    },
+    {
+      "id": "R18",
+      "requirement": "公开任务干预共用目标且无未来token泄漏",
+      "code": [
+        "v07/evaluate.py"
+      ],
+      "tests": [
+        "v07.test_evaluate.EvaluationProtocol.test_every_condition_scores_identical_visible_inputs_and_targets",
+        "v07.test_evaluate.EvaluationProtocol.test_targets_are_not_visible_before_their_own_position",
+        "v07.test_evaluate.EvaluationProtocol.test_reset_each_token_actually_starts_fresh"
+      ]
+    },
+    {
+      "id": "R19",
+      "requirement": "ABA对照匹配年龄、近期输入及远史词频",
+      "code": [
+        "v07/evaluate.py"
+      ],
+      "tests": [
+        "v07.test_evaluate.EvaluationProtocol.test_aba_controls_match_age_recent_history_and_remote_frequencies",
+        "v07.test_evaluate.EvaluationProtocol.test_order_blind_history_cannot_pass_frequency_matched_order_control"
+      ]
+    },
+    {
+      "id": "R20",
+      "requirement": "真实历史依赖代理子集预注册且只影响评分",
+      "code": [
+        "v07/evaluate.py"
+      ],
+      "tests": [
+        "v07.test_evaluate.EvaluationProtocol.test_scoring_subset_annotations_cannot_change_model_predictions",
+        "v07.test_evaluate.EvaluationProtocol.test_lexical_subsets_use_train_rarity_and_available_history_only"
+      ]
+    },
+    {
+      "id": "R21",
+      "requirement": "状态消融保留相同输入并隔离信用缓存失效影响",
+      "code": [
+        "v07/evaluate.py"
+      ],
+      "tests": [
+        "v07.test_evaluate.EvaluationProtocol.test_prefix_state_probes_call_model_api_without_changing_inputs",
+        "v07.test_evaluate.EvaluationProtocol.test_credit_only_probe_invalidates_metadata_after_prefix_without_content_loss"
+      ]
+    },
+    {
+      "id": "R22",
+      "requirement": "官方冻结数据、train-only分词器及ECE边界核验",
+      "code": [
+        "v07/data.py",
+        "v07/evaluate.py"
+      ],
+      "tests": [
+        "v07.test_training.TrainingProtocol.test_default_data_reuses_frozen_artifacts_without_download_or_fit",
+        "v07.test_evaluate.EvaluationProtocol.test_calibration_bins_count_boundaries_and_certainty_once"
+      ]
+    },
+    {
+      "id": "R23",
+      "requirement": "自然变化线索仅审计暴露，不作为规则反转标签或隐藏输入",
+      "code": [
+        "v07/data.py",
+        "v07/run.py"
+      ],
+      "tests": [
+        "v07.test_training.TrainingProtocol.test_change_proxy_annotations_do_not_change_stream_or_resets"
+      ]
+    }
+  ],
+  "empirical_questions": [
+    "多个种子及公开任务上是否形成可靠网络规模收益",
+    "局部协作群是否形成可复用的功能分工或节省实际计算",
+    "自然语言中的远期事实保持、规则反转、来源可信度和语义独立情境识别",
+    "超过固定信用范围的反馈归因和完整非线性递归梯度近似质量"
+  ],
+  "explicit_exclusions": [
+    "JEPA",
+    "逐节点完整大模型",
+    "全网多情境副本",
+    "无限路径或原始历史消息追加",
+    "新优化器",
+    "动态创建专家的额外控制器"
+  ]
+}

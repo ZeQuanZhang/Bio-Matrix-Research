@@ -1,0 +1,44 @@
+{
+  "completed_ids": [
+    "core_n128_independent_s11",
+    "core_n32_transformer_s11",
+    "core_n32_message_s11",
+    "core_n32_full_s11",
+    "core_n32_independent_s11",
+    "core_n128_message_s11"
+  ],
+  "seed": 11,
+  "windows": 24,
+  "documents": 21,
+  "statistics": {
+    "full_minus_transformer": {
+      "mean": -0.2497479448793456,
+      "document_cluster_bootstrap_95": [
+        -0.2801010872445962,
+        -0.21793930791679053
+      ]
+    },
+    "full_minus_independent": {
+      "mean": -0.0006545721165214976,
+      "document_cluster_bootstrap_95": [
+        -0.0011198636668268592,
+        -0.00020990831970067877
+      ]
+    },
+    "full_relevant_history_gain": {
+      "mean": -0.0035272863266679146,
+      "document_cluster_bootstrap_95": [
+        -0.00739000426789668,
+        -0.0003123760102122735
+      ]
+    },
+    "independent_n128_minus_n32": {
+      "mean": -0.0030185000699323914,
+      "document_cluster_bootstrap_95": [
+        -0.007418583730511355,
+        0.0014504070111657844
+      ]
+    }
+  },
+  "note": "Post-hoc document-cluster bootstrap; excludes seed/training uncertainty. One seed only."
+}

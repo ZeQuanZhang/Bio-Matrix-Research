@@ -1,0 +1,11 @@
+{
+  "status": "aborted",
+  "step": 24388,
+  "completed_tokens": 3099250,
+  "visible_inputs": 3121664,
+  "validated_step": 23607,
+  "validated_tokens": 3000029,
+  "best_nll": 5.287530221045017,
+  "best_step": 23607,
+  "train_seconds": 12156.481354889984
+}

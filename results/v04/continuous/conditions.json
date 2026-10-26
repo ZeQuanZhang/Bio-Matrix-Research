@@ -1,0 +1,1122 @@
+{
+  "graph_N32_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "graph_N32_D8_J12_shared_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T05:15:04.347485+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-22T05:22:04.541025+00:00",
+        "step": 1200,
+        "result": "results/v04/continuous/graph_N32_D8_J12_shared_connected_s11/result.json"
+      }
+    ],
+    "utc": "2026-10-22T05:22:04.541025+00:00",
+    "resumed_step": 0,
+    "step": 1200,
+    "result": "results/v04/continuous/graph_N32_D8_J12_shared_connected_s11/result.json"
+  },
+  "full_N32_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "full_N32_D8_J12_shared_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T05:22:04.653953+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-22T06:01:56.899171+00:00",
+        "step": 1200,
+        "result": "results/v04/continuous/full_N32_D8_J12_shared_connected_s11/result.json"
+      }
+    ],
+    "utc": "2026-10-22T06:01:56.899171+00:00",
+    "resumed_step": 0,
+    "step": 1200,
+    "result": "results/v04/continuous/full_N32_D8_J12_shared_connected_s11/result.json"
+  },
+  "matrix_N32_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "matrix_N32_D8_J12_shared_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T06:01:57.035335+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-22T06:33:31.826556+00:00",
+        "step": 1200,
+        "result": "results/v04/continuous/matrix_N32_D8_J12_shared_connected_s11/result.json"
+      }
+    ],
+    "utc": "2026-10-22T06:33:31.826556+00:00",
+    "resumed_step": 0,
+    "step": 1200,
+    "result": "results/v04/continuous/matrix_N32_D8_J12_shared_connected_s11/result.json"
+  },
+  "probability_N32_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "probability_N32_D8_J12_shared_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T06:33:31.976074+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-22T07:07:04.382867+00:00",
+        "step": 1200,
+        "result": "results/v04/continuous/probability_N32_D8_J12_shared_connected_s11/result.json"
+      }
+    ],
+    "utc": "2026-10-22T07:07:04.382867+00:00",
+    "resumed_step": 0,
+    "step": 1200,
+    "result": "results/v04/continuous/probability_N32_D8_J12_shared_connected_s11/result.json"
+  },
+  "fourier_N32_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "fourier_N32_D8_J12_shared_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T07:07:04.573598+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-22T07:45:58.060724+00:00",
+        "step": 1200,
+        "result": "results/v04/continuous/fourier_N32_D8_J12_shared_connected_s11/result.json"
+      }
+    ],
+    "utc": "2026-10-22T07:45:58.060724+00:00",
+    "resumed_step": 0,
+    "step": 1200,
+    "result": "results/v04/continuous/fourier_N32_D8_J12_shared_connected_s11/result.json"
+  },
+  "graph_N32_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "graph_N32_D8_J12_separated_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T07:45:58.207615+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-22T07:54:17.396361+00:00",
+        "step": 1200,
+        "result": "results/v04/continuous/graph_N32_D8_J12_separated_connected_s11/result.json"
+      }
+    ],
+    "utc": "2026-10-22T07:54:17.396361+00:00",
+    "resumed_step": 0,
+    "step": 1200,
+    "result": "results/v04/continuous/graph_N32_D8_J12_separated_connected_s11/result.json"
+  },
+  "full_N32_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "full_N32_D8_J12_separated_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T07:54:17.541685+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-22T08:39:46.419222+00:00",
+        "step": 1200,
+        "result": "results/v04/continuous/full_N32_D8_J12_separated_connected_s11/result.json"
+      }
+    ],
+    "utc": "2026-10-22T08:39:46.419222+00:00",
+    "resumed_step": 0,
+    "step": 1200,
+    "result": "results/v04/continuous/full_N32_D8_J12_separated_connected_s11/result.json"
+  },
+  "matrix_N32_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "matrix_N32_D8_J12_separated_connected_s11"
+    },
+    "status": "aborted",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-22T08:39:46.561723+00:00",
+        "resumed_step": 0
+      },
+      {
+        "status": "aborted",
+        "utc": "2026-10-22T08:46:19.110924+00:00",
+        "step": 216,
+        "safe_checkpoint_step": 216,
+        "reason": "User stop requested"
+      }
+    ],
+    "utc": "2026-10-22T08:46:19.110924+00:00",
+    "resumed_step": 0,
+    "step": 216,
+    "safe_checkpoint_step": 216,
+    "reason": "User stop requested"
+  },
+  "probability_N32_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "probability_N32_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N32_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "fourier_N32_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N128_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "graph_N128_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N128_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "full_N128_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N128_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "matrix_N128_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N128_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "probability_N128_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N128_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "fourier_N128_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N128_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "graph_N128_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N128_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "full_N128_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N128_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "matrix_N128_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N128_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "probability_N128_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N128_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "fourier_N128_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N512_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "graph_N512_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N512_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "full_N512_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N512_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "matrix_N512_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N512_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "probability_N512_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N512_D8_J12_shared_connected_s11": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "id": "fourier_N512_D8_J12_shared_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N512_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "graph_N512_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N512_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "full_N512_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N512_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "matrix_N512_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N512_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "probability_N512_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N512_D8_J12_separated_connected_s11": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "id": "fourier_N512_D8_J12_separated_connected_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N32_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "graph_N32_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N32_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "full_N32_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N32_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "matrix_N32_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N32_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "probability_N32_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N32_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "fourier_N32_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N32_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "graph_N32_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N32_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "full_N32_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N32_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "matrix_N32_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N32_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "probability_N32_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N32_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "fourier_N32_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N128_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "graph_N128_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N128_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "full_N128_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N128_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "matrix_N128_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N128_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "probability_N128_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N128_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "fourier_N128_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N128_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "graph_N128_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N128_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "full_N128_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N128_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "matrix_N128_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N128_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "probability_N128_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N128_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "fourier_N128_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N512_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "graph_N512_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N512_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "full_N512_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N512_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "matrix_N512_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N512_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "probability_N512_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N512_D8_J12_shared_connected_s23": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "id": "fourier_N512_D8_J12_shared_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N512_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "graph_N512_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N512_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "full_N512_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N512_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "matrix_N512_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N512_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "probability_N512_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N512_D8_J12_separated_connected_s23": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "id": "fourier_N512_D8_J12_separated_connected_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N32_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "graph_N32_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N32_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "full_N32_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N32_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "matrix_N32_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N32_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "probability_N32_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N32_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "fourier_N32_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N32_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "graph_N32_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N32_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "full",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "full_N32_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N32_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "matrix_N32_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N32_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "probability_N32_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N32_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "fourier_N32_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N128_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "graph_N128_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N128_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "full_N128_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N128_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "matrix_N128_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N128_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "probability_N128_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N128_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "fourier_N128_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N128_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "graph_N128_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N128_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "full",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "full_N128_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N128_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "matrix_N128_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N128_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "probability_N128_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N128_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "fourier_N128_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N512_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "graph_N512_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N512_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "full_N512_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N512_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "matrix_N512_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N512_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "probability_N512_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N512_D8_J12_shared_connected_s37": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "id": "fourier_N512_D8_J12_shared_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "graph_N512_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "graph",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "graph_N512_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "full_N512_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "full",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "full_N512_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "matrix_N512_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "matrix",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "matrix_N512_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "probability_N512_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "probability",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "probability_N512_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "fourier_N512_D8_J12_separated_connected_s37": {
+    "condition": {
+      "variant": "fourier",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "id": "fourier_N512_D8_J12_separated_connected_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  }
+}

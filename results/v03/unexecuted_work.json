@@ -1,0 +1,1291 @@
+{
+  "deferred_groups": [
+    {
+      "stage": "P1_confirmation",
+      "status": "not_executed",
+      "detail": "53/71两个追加种子；未作五种子确认。"
+    },
+    {
+      "stage": "C0_C4",
+      "status": "not_executed",
+      "detail": "训练匹配的独立无通信网络与共同clock控制。"
+    },
+    {
+      "stage": "A_stream_CoGenT",
+      "status": "not_executed",
+      "detail": "流式持久记忆与CoGenT组合验证。"
+    },
+    {
+      "stage": "P4_P5",
+      "status": "not_executed",
+      "detail": "固定稀疏专家、动态微专家与二阶/概率/多频率/新优化器。"
+    },
+    {
+      "stage": "P2_P3_repeated_seeds",
+      "status": "pending",
+      "detail": "种子23/37还有90/90个追加条件未完成；具体状态逐项保存在unexecuted_work.json。"
+    }
+  ],
+  "pending_repeat_conditions": [
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C1",
+        "nodes": 32,
+        "state_dim": 254,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C1_N32_d254_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C2",
+        "nodes": 32,
+        "state_dim": 254,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C2_N32_d254_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C3",
+        "nodes": 32,
+        "state_dim": 254,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C3_N32_d254_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C1",
+        "nodes": 128,
+        "state_dim": 62,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C1_N128_d62_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C2",
+        "nodes": 128,
+        "state_dim": 62,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C2_N128_d62_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C3",
+        "nodes": 128,
+        "state_dim": 62,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C3_N128_d62_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C1",
+        "nodes": 512,
+        "state_dim": 14,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C1_N512_d14_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C2",
+        "nodes": 512,
+        "state_dim": 14,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C2_N512_d14_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C3",
+        "nodes": 512,
+        "state_dim": 14,
+        "seed": 23,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C3_N512_d14_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 128,
+        "iterations": 2,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N128_d16_J2_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 128,
+        "iterations": 2,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N128_d16_J2_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 128,
+        "iterations": 2,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N128_d16_J2_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 128,
+        "iterations": 8,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N128_d16_J8_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 128,
+        "iterations": 8,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N128_d16_J8_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 128,
+        "iterations": 8,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N128_d16_J8_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 128,
+        "iterations": 32,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N128_d16_J32_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 128,
+        "iterations": 32,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N128_d16_J32_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 128,
+        "iterations": 32,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N128_d16_J32_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 512,
+        "iterations": 2,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N512_d16_J2_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 512,
+        "iterations": 2,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N512_d16_J2_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 512,
+        "iterations": 2,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N512_d16_J2_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 512,
+        "iterations": 8,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N512_d16_J8_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 512,
+        "iterations": 8,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N512_d16_J8_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 512,
+        "iterations": 8,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N512_d16_J8_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 512,
+        "iterations": 32,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N512_d16_J32_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 512,
+        "iterations": 32,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N512_d16_J32_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 512,
+        "iterations": 32,
+        "seed": 23,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N512_d16_J32_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 128,
+        "topology": "cut",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N128_d16_J16_cut_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 128,
+        "topology": "cut",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N128_d16_J16_cut_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 128,
+        "topology": "cut",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N128_d16_J16_cut_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 128,
+        "topology": "rewired",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N128_d16_J16_rewired_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 128,
+        "topology": "rewired",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N128_d16_J16_rewired_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 128,
+        "topology": "rewired",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N128_d16_J16_rewired_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 512,
+        "topology": "cut",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N512_d16_J16_cut_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 512,
+        "topology": "cut",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N512_d16_J16_cut_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 512,
+        "topology": "cut",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N512_d16_J16_cut_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 512,
+        "topology": "rewired",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N512_d16_J16_rewired_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 512,
+        "topology": "rewired",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N512_d16_J16_rewired_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 512,
+        "topology": "rewired",
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N512_d16_J16_rewired_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C1",
+        "nodes": 128,
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C1_N128_d16_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C2",
+        "nodes": 128,
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C2_N128_d16_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C3",
+        "nodes": 128,
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C3_N128_d16_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C1",
+        "nodes": 512,
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C1_N512_d16_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C2",
+        "nodes": 512,
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C2_N512_d16_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C3",
+        "nodes": 512,
+        "seed": 23,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C3_N512_d16_J16_connected_s23"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C1",
+        "nodes": 32,
+        "state_dim": 254,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C1_N32_d254_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C2",
+        "nodes": 32,
+        "state_dim": 254,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C2_N32_d254_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C3",
+        "nodes": 32,
+        "state_dim": 254,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C3_N32_d254_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C1",
+        "nodes": 128,
+        "state_dim": 62,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C1_N128_d62_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C2",
+        "nodes": 128,
+        "state_dim": 62,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C2_N128_d62_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C3",
+        "nodes": 128,
+        "state_dim": 62,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C3_N128_d62_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C1",
+        "nodes": 512,
+        "state_dim": 14,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C1_N512_d14_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C2",
+        "nodes": 512,
+        "state_dim": 14,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C2_N512_d14_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "capacity",
+        "model": "C3",
+        "nodes": 512,
+        "state_dim": 14,
+        "seed": 37,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "capacity_C3_N512_d14_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 128,
+        "iterations": 2,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N128_d16_J2_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 128,
+        "iterations": 2,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N128_d16_J2_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 128,
+        "iterations": 2,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N128_d16_J2_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 128,
+        "iterations": 8,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N128_d16_J8_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 128,
+        "iterations": 8,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N128_d16_J8_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 128,
+        "iterations": 8,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N128_d16_J8_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 128,
+        "iterations": 32,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N128_d16_J32_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 128,
+        "iterations": 32,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N128_d16_J32_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 128,
+        "iterations": 32,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N128_d16_J32_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 512,
+        "iterations": 2,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N512_d16_J2_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 512,
+        "iterations": 2,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N512_d16_J2_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 512,
+        "iterations": 2,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N512_d16_J2_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 512,
+        "iterations": 8,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N512_d16_J8_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 512,
+        "iterations": 8,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N512_d16_J8_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 512,
+        "iterations": 8,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N512_d16_J8_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C1",
+        "nodes": 512,
+        "iterations": 32,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C1_N512_d16_J32_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C2",
+        "nodes": 512,
+        "iterations": 32,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C2_N512_d16_J32_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "iterations",
+        "model": "C3",
+        "nodes": 512,
+        "iterations": 32,
+        "seed": 37,
+        "state_dim": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "iterations_C3_N512_d16_J32_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 128,
+        "topology": "cut",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N128_d16_J16_cut_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 128,
+        "topology": "cut",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N128_d16_J16_cut_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 128,
+        "topology": "cut",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N128_d16_J16_cut_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 128,
+        "topology": "rewired",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N128_d16_J16_rewired_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 128,
+        "topology": "rewired",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N128_d16_J16_rewired_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 128,
+        "topology": "rewired",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N128_d16_J16_rewired_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 512,
+        "topology": "cut",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N512_d16_J16_cut_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 512,
+        "topology": "cut",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N512_d16_J16_cut_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 512,
+        "topology": "cut",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N512_d16_J16_cut_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C1",
+        "nodes": 512,
+        "topology": "rewired",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C1_N512_d16_J16_rewired_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C2",
+        "nodes": 512,
+        "topology": "rewired",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C2_N512_d16_J16_rewired_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "topology",
+        "model": "C3",
+        "nodes": 512,
+        "topology": "rewired",
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "steps": 2048,
+        "id": "topology_C3_N512_d16_J16_rewired_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C1",
+        "nodes": 128,
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C1_N128_d16_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C2",
+        "nodes": 128,
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C2_N128_d16_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C3",
+        "nodes": 128,
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C3_N128_d16_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C1",
+        "nodes": 512,
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C1_N512_d16_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C2",
+        "nodes": 512,
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C2_N512_d16_J16_connected_s37"
+      },
+      "status": "not_executed"
+    },
+    {
+      "condition": {
+        "stage": "public",
+        "model": "C3",
+        "nodes": 512,
+        "seed": 37,
+        "state_dim": 16,
+        "iterations": 16,
+        "topology": "connected",
+        "steps": 2048,
+        "id": "public_C3_N512_d16_J16_connected_s37"
+      },
+      "status": "not_executed"
+    }
+  ]
+}

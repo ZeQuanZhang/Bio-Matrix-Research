@@ -1,0 +1,11 @@
+{
+  "test": "Damped two-sided block rotation plus gated-delta update vs co-rotating coordinate formulation",
+  "status": "passed",
+  "seed": 173,
+  "dtype": "float64",
+  "steps": 8,
+  "matrix_size": 8,
+  "scope": "Algebraic identity for proposed structured dynamics; not equivalence to all v0.7 nonlinear state rules; no performance or training test",
+  "forward_max_abs": 4.440892098500626e-16,
+  "gradient_max_abs": 2.6645352591003757e-15
+}

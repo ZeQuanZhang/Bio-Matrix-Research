@@ -1,0 +1,385 @@
+{
+  "baseline_targets_per_second": 649.6797413779045,
+  "groups": [
+    {
+      "extra_probe_jobs": 3,
+      "production_jobs": 3,
+      "status": "completed",
+      "probe_valid_targets": 6103,
+      "production_valid_targets": 7102,
+      "production_deltas": [
+        {
+          "id": "core_n32_message_s11",
+          "start_step": 2493,
+          "end_step": 2500,
+          "valid_targets": 1780
+        },
+        {
+          "id": "core_n32_independent_s11",
+          "start_step": 2066,
+          "end_step": 2077,
+          "valid_targets": 2781
+        },
+        {
+          "id": "core_n32_full_s11",
+          "start_step": 1946,
+          "end_step": 1956,
+          "valid_targets": 2541
+        }
+      ],
+      "total_valid_targets": 13205,
+      "go_to_all_process_exit_seconds": 13.469813998788595,
+      "combined_targets_per_second": 980.3401888984947,
+      "probe_targets_per_second": 453.0871770425985,
+      "production_targets_per_second": 527.2530118558963,
+      "production_snapshots": {
+        "production_start": {
+          "perf_counter": 19622025.658216838,
+          "time": 1792730342.7536917,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2493,
+              "cumulative_valid_targets": 633716
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2066,
+              "cumulative_valid_targets": 525192
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 1946,
+              "cumulative_valid_targets": 494676
+            }
+          ]
+        },
+        "production_end": {
+          "perf_counter": 19622039.130164225,
+          "time": 1792730356.2256389,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2500,
+              "cumulative_valid_targets": 635496
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2077,
+              "cumulative_valid_targets": 527973
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 1956,
+              "cumulative_valid_targets": 497217
+            }
+          ]
+        }
+      },
+      "resource_guards": [],
+      "total_wall_seconds": 273.724377181381,
+      "timed_gpu_util_mean": 78.38461538461539,
+      "timed_gpu_memory_max_mib": 7296.0,
+      "peak_host_memory_gib": 16.523418426513672,
+      "gpu_sample_count": 266,
+      "note": "Probe targets plus production cumulative-valid-target delta over exact go-to-all-probes-exit wall time; production log endpoints have up to one update publication offset."
+    },
+    {
+      "extra_probe_jobs": 5,
+      "production_jobs": 3,
+      "status": "completed",
+      "probe_valid_targets": 10172,
+      "production_valid_targets": 7882,
+      "production_deltas": [
+        {
+          "id": "core_n32_message_s11",
+          "start_step": 2532,
+          "end_step": 2544,
+          "valid_targets": 3051
+        },
+        {
+          "id": "core_n32_independent_s11",
+          "start_step": 2104,
+          "end_step": 2114,
+          "valid_targets": 2540
+        },
+        {
+          "id": "core_n32_full_s11",
+          "start_step": 1982,
+          "end_step": 1991,
+          "valid_targets": 2291
+        }
+      ],
+      "total_valid_targets": 18054,
+      "go_to_all_process_exit_seconds": 11.864499006420374,
+      "combined_targets_per_second": 1521.682457070478,
+      "probe_targets_per_second": 857.3476212097543,
+      "production_targets_per_second": 664.3348358607238,
+      "production_snapshots": {
+        "production_start": {
+          "perf_counter": 19622073.11007196,
+          "time": 1792730390.2055464,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2532,
+              "cumulative_valid_targets": 643628
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2104,
+              "cumulative_valid_targets": 534833
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 1982,
+              "cumulative_valid_targets": 503826
+            }
+          ]
+        },
+        "production_end": {
+          "perf_counter": 19622084.97768532,
+          "time": 1792730402.07316,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2544,
+              "cumulative_valid_targets": 646679
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2114,
+              "cumulative_valid_targets": 537373
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 1991,
+              "cumulative_valid_targets": 506117
+            }
+          ]
+        }
+      },
+      "resource_guards": [],
+      "total_wall_seconds": 45.83861843124032,
+      "timed_gpu_util_mean": 87.16666666666667,
+      "timed_gpu_memory_max_mib": 10238.0,
+      "peak_host_memory_gib": 18.947738647460938,
+      "gpu_sample_count": 45,
+      "note": "Probe targets plus production cumulative-valid-target delta over exact go-to-all-probes-exit wall time; production log endpoints have up to one update publication offset."
+    },
+    {
+      "extra_probe_jobs": 7,
+      "production_jobs": 3,
+      "status": "completed",
+      "probe_valid_targets": 14241,
+      "production_valid_targets": 8133,
+      "production_deltas": [
+        {
+          "id": "core_n32_message_s11",
+          "start_step": 2578,
+          "end_step": 2590,
+          "valid_targets": 3047
+        },
+        {
+          "id": "core_n32_independent_s11",
+          "start_step": 2142,
+          "end_step": 2152,
+          "valid_targets": 2547
+        },
+        {
+          "id": "core_n32_full_s11",
+          "start_step": 2012,
+          "end_step": 2022,
+          "valid_targets": 2539
+        }
+      ],
+      "total_valid_targets": 22374,
+      "go_to_all_process_exit_seconds": 12.373533315956593,
+      "combined_targets_per_second": 1808.2143094201767,
+      "probe_targets_per_second": 1150.9242862453177,
+      "production_targets_per_second": 657.2900231748591,
+      "production_snapshots": {
+        "production_start": {
+          "perf_counter": 19622120.277455717,
+          "time": 1792730437.3729305,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2578,
+              "cumulative_valid_targets": 655319
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2142,
+              "cumulative_valid_targets": 544475
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 2012,
+              "cumulative_valid_targets": 511461
+            }
+          ]
+        },
+        "production_end": {
+          "perf_counter": 19622132.655123953,
+          "time": 1792730449.7505987,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2590,
+              "cumulative_valid_targets": 658366
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2152,
+              "cumulative_valid_targets": 547022
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 2022,
+              "cumulative_valid_targets": 514000
+            }
+          ]
+        }
+      },
+      "resource_guards": [],
+      "total_wall_seconds": 47.67109842970967,
+      "timed_gpu_util_mean": 91.54545454545455,
+      "timed_gpu_memory_max_mib": 13374.0,
+      "peak_host_memory_gib": 22.146934509277344,
+      "gpu_sample_count": 46,
+      "note": "Probe targets plus production cumulative-valid-target delta over exact go-to-all-probes-exit wall time; production log endpoints have up to one update publication offset."
+    },
+    {
+      "extra_probe_jobs": 9,
+      "production_jobs": 3,
+      "status": "completed",
+      "probe_valid_targets": 18310,
+      "production_valid_targets": 8141,
+      "production_deltas": [
+        {
+          "id": "core_n32_message_s11",
+          "start_step": 2625,
+          "end_step": 2637,
+          "valid_targets": 3046
+        },
+        {
+          "id": "core_n32_independent_s11",
+          "start_step": 2180,
+          "end_step": 2190,
+          "valid_targets": 2549
+        },
+        {
+          "id": "core_n32_full_s11",
+          "start_step": 2048,
+          "end_step": 2058,
+          "valid_targets": 2546
+        }
+      ],
+      "total_valid_targets": 26451,
+      "go_to_all_process_exit_seconds": 12.570103414356709,
+      "combined_targets_per_second": 2104.2786306586377,
+      "probe_targets_per_second": 1456.630816504467,
+      "production_targets_per_second": 647.6478141541706,
+      "production_snapshots": {
+        "production_start": {
+          "perf_counter": 19622168.564589623,
+          "time": 1792730485.6600647,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2625,
+              "cumulative_valid_targets": 667271
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2180,
+              "cumulative_valid_targets": 554147
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 2048,
+              "cumulative_valid_targets": 520612
+            }
+          ]
+        },
+        "production_end": {
+          "perf_counter": 19622181.13903775,
+          "time": 1792730498.2345123,
+          "active": [
+            {
+              "id": "core_n32_message_s11",
+              "status": "running",
+              "step": 2637,
+              "cumulative_valid_targets": 670317
+            },
+            {
+              "id": "core_n32_independent_s11",
+              "status": "running",
+              "step": 2190,
+              "cumulative_valid_targets": 556696
+            },
+            {
+              "id": "core_n32_full_s11",
+              "status": "running",
+              "step": 2058,
+              "cumulative_valid_targets": 523158
+            }
+          ]
+        }
+      },
+      "resource_guards": [],
+      "total_wall_seconds": 48.477514531463385,
+      "timed_gpu_util_mean": 96.66666666666667,
+      "timed_gpu_memory_max_mib": 16508.0,
+      "peak_host_memory_gib": 25.39510726928711,
+      "gpu_sample_count": 47,
+      "note": "Probe targets plus production cumulative-valid-target delta over exact go-to-all-probes-exit wall time; production log endpoints have up to one update publication offset."
+    }
+  ],
+  "recommendation_workers": 12,
+  "gpu_reserve_gib": 12,
+  "verification": {
+    "groups": 4,
+    "workers": 24,
+    "all_completed_and_finite": true,
+    "timed_updates_per_worker": 8,
+    "timed_new_graphs": 0,
+    "source_fingerprint_count": 1,
+    "adapter_sha256s": [
+      "208cb6c1135019374642e491b4fce922192518338f4485f652f5ddc3c38a008c"
+    ],
+    "data_manifest_fingerprint_count": 1,
+    "peak_reserved_gib_by_group": {
+      "3": 1.087890625,
+      "5": 1.029296875,
+      "7": 1.029296875,
+      "9": 1.029296875
+    },
+    "winner": 12,
+    "winner_targets_per_second": 2104.2786306586377,
+    "winner_gpu_util": 96.66666666666667
+  },
+  "root": "results/v07/remote_a800/utilization_audit_20261023T042807Z/probe_raw_20261023T044159Z/parallel_tuning_20261023T0437"
+}

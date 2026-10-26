@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-26T10:37:04.271907+08:00",
+  "status": "passed",
+  "files": 393,
+  "total_bytes": 19106181,
+  "python_files": 132,
+  "all_python_ast_valid": true,
+  "all_json_and_jsonl_valid": true,
+  "known_credentials_absent": true,
+  "private_path_and_key_pattern_matches": 0,
+  "broken_local_markdown_links": 0,
+  "excluded_local_artifact_links": 144,
+  "no_new_training": true,
+  "scope": "Publication files, not all original local artifacts; no remote link or hardware test rerun",
+  "nested_sample_plans_removed": true,
+  "remaining_nested_sample_plans": 0
+}

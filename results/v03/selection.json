@@ -1,0 +1,9 @@
+{
+  "learning_rates": {
+    "C1": 0.003,
+    "C2": 0.003,
+    "C3": 0.003
+  },
+  "rule": "minimum independent pilot-dev CE; three equal-budget candidates per architecture",
+  "frozen_utc": "2026-10-21T12:23:13.492802+00:00"
+}

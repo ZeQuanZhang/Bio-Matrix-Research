@@ -1,0 +1,934 @@
+{
+  "status": "aborted",
+  "updated_at": 1792801816.925893,
+  "conditions": [
+    {
+      "id": "core_n32_message_s11",
+      "case": {
+        "id": "core_n32_message_s11",
+        "nodes": 32,
+        "seed": 11,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 0,
+      "step": 24000,
+      "loss": 6.9213409423828125,
+      "tokens_per_second": 250.585659142867,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "Explicit --resume-aborted requested",
+      "attempt": 2,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_independent_s11",
+      "case": {
+        "id": "core_n32_independent_s11",
+        "nodes": 32,
+        "seed": 11,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 1,
+      "step": 24000,
+      "loss": 7.002281188964844,
+      "tokens_per_second": 210.40202717241294,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "Explicit --resume-aborted requested",
+      "attempt": 2,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_full_s11",
+      "case": {
+        "id": "core_n32_full_s11",
+        "nodes": 32,
+        "seed": 11,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 2,
+      "step": 24000,
+      "loss": 6.944454193115234,
+      "tokens_per_second": 204.85185562658847,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "Explicit --resume-aborted requested",
+      "attempt": 2,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_transformer_s11",
+      "case": {
+        "id": "core_n32_transformer_s11",
+        "nodes": 32,
+        "seed": 11,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 3,
+      "step": 24000,
+      "loss": 5.080064296722412,
+      "tokens_per_second": 39738.68544500857,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_stateless_s11",
+      "case": {
+        "id": "core_n32_stateless_s11",
+        "nodes": 32,
+        "seed": 11,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 4,
+      "step": 24000,
+      "loss": 5.199612140655518,
+      "tokens_per_second": 117309.03789577831,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_message_s11",
+      "case": {
+        "id": "core_n128_message_s11",
+        "nodes": 128,
+        "seed": 11,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 3,
+      "step": 24000,
+      "loss": 6.96747350692749,
+      "tokens_per_second": 169.9864037451159,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_independent_s11",
+      "case": {
+        "id": "core_n128_independent_s11",
+        "nodes": 128,
+        "seed": 11,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 4,
+      "step": 24000,
+      "loss": 7.0723419189453125,
+      "tokens_per_second": 183.99847995106452,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_full_s11",
+      "case": {
+        "id": "core_n128_full_s11",
+        "nodes": 128,
+        "seed": 11,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 5,
+      "step": 24000,
+      "loss": 6.656704902648926,
+      "tokens_per_second": 184.02000684244638,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_transformer_s11",
+      "case": {
+        "id": "core_n128_transformer_s11",
+        "nodes": 128,
+        "seed": 11,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 6,
+      "step": 24000,
+      "loss": 5.080064296722412,
+      "tokens_per_second": 38666.645924261415,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_stateless_s11",
+      "case": {
+        "id": "core_n128_stateless_s11",
+        "nodes": 128,
+        "seed": 11,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 5.199612140655518,
+      "tokens_per_second": 119727.57812932081,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_message_s11",
+      "case": {
+        "id": "core_n512_message_s11",
+        "nodes": 512,
+        "seed": 11,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 8,
+      "step": 24000,
+      "loss": 6.921485424041748,
+      "tokens_per_second": 175.55864177635328,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_independent_s11",
+      "case": {
+        "id": "core_n512_independent_s11",
+        "nodes": 512,
+        "seed": 11,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 9,
+      "step": 24000,
+      "loss": 7.135807037353516,
+      "tokens_per_second": 191.2708284874719,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_full_s11",
+      "case": {
+        "id": "core_n512_full_s11",
+        "nodes": 512,
+        "seed": 11,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 10,
+      "step": 24000,
+      "loss": 6.999463081359863,
+      "tokens_per_second": 130.331846209042,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_transformer_s11",
+      "case": {
+        "id": "core_n512_transformer_s11",
+        "nodes": 512,
+        "seed": 11,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 11,
+      "step": 24000,
+      "loss": 5.147202014923096,
+      "tokens_per_second": 44383.259337936855,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_stateless_s11",
+      "case": {
+        "id": "core_n512_stateless_s11",
+        "nodes": 512,
+        "seed": 11,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 5.199612140655518,
+      "tokens_per_second": 111969.22003967625,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_message_s23",
+      "case": {
+        "id": "core_n32_message_s23",
+        "nodes": 32,
+        "seed": 23,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 7.019948482513428,
+      "tokens_per_second": 259.7361182498351,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_independent_s23",
+      "case": {
+        "id": "core_n32_independent_s23",
+        "nodes": 32,
+        "seed": 23,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 11,
+      "step": 24000,
+      "loss": 6.995835781097412,
+      "tokens_per_second": 209.0208562914826,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_full_s23",
+      "case": {
+        "id": "core_n32_full_s23",
+        "nodes": 32,
+        "seed": 23,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 6,
+      "step": 24000,
+      "loss": 7.251193046569824,
+      "tokens_per_second": 173.3611420715367,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_transformer_s23",
+      "case": {
+        "id": "core_n32_transformer_s23",
+        "nodes": 32,
+        "seed": 23,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 12,
+      "step": 24000,
+      "loss": 5.312955856323242,
+      "tokens_per_second": 32658.492192697977,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_stateless_s23",
+      "case": {
+        "id": "core_n32_stateless_s23",
+        "nodes": 32,
+        "seed": 23,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 13,
+      "step": 24000,
+      "loss": 5.255692481994629,
+      "tokens_per_second": 115979.89025707496,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_message_s23",
+      "case": {
+        "id": "core_n128_message_s23",
+        "nodes": 128,
+        "seed": 23,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 13,
+      "step": 24000,
+      "loss": 7.106453895568848,
+      "tokens_per_second": 251.6385411132775,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_independent_s23",
+      "case": {
+        "id": "core_n128_independent_s23",
+        "nodes": 128,
+        "seed": 23,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 12,
+      "step": 24000,
+      "loss": 7.217023849487305,
+      "tokens_per_second": 211.78704450815061,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_full_s23",
+      "case": {
+        "id": "core_n128_full_s23",
+        "nodes": 128,
+        "seed": 23,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 0,
+      "step": 24000,
+      "loss": 6.938411712646484,
+      "tokens_per_second": 211.61647079086146,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_transformer_s23",
+      "case": {
+        "id": "core_n128_transformer_s23",
+        "nodes": 128,
+        "seed": 23,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 5.312955856323242,
+      "tokens_per_second": 36675.50297697196,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_stateless_s23",
+      "case": {
+        "id": "core_n128_stateless_s23",
+        "nodes": 128,
+        "seed": 23,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 5.255692481994629,
+      "tokens_per_second": 107063.8644802954,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_message_s23",
+      "case": {
+        "id": "core_n512_message_s23",
+        "nodes": 512,
+        "seed": 23,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 8,
+      "step": 24000,
+      "loss": 5.871499061584473,
+      "tokens_per_second": 244.1856569341359,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_independent_s23",
+      "case": {
+        "id": "core_n512_independent_s23",
+        "nodes": 512,
+        "seed": 23,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 5,
+      "step": 24000,
+      "loss": 7.003281116485596,
+      "tokens_per_second": 207.882401457879,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_full_s23",
+      "case": {
+        "id": "core_n512_full_s23",
+        "nodes": 512,
+        "seed": 23,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 4,
+      "step": 24000,
+      "loss": 7.026521682739258,
+      "tokens_per_second": 193.08174016715392,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_transformer_s23",
+      "case": {
+        "id": "core_n512_transformer_s23",
+        "nodes": 512,
+        "seed": 23,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 5.32988977432251,
+      "tokens_per_second": 31625.900639057916,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_stateless_s23",
+      "case": {
+        "id": "core_n512_stateless_s23",
+        "nodes": 512,
+        "seed": 23,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 5.255692481994629,
+      "tokens_per_second": 111444.7000700589,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_message_s37",
+      "case": {
+        "id": "core_n32_message_s37",
+        "nodes": 32,
+        "seed": 37,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 7,
+      "step": 24000,
+      "loss": 7.078177452087402,
+      "tokens_per_second": 247.27621545799343,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_independent_s37",
+      "case": {
+        "id": "core_n32_independent_s37",
+        "nodes": 32,
+        "seed": 37,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 3,
+      "step": 24000,
+      "loss": 6.887325763702393,
+      "tokens_per_second": 219.85732481997908,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_full_s37",
+      "case": {
+        "id": "core_n32_full_s37",
+        "nodes": 32,
+        "seed": 37,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 1,
+      "step": 24000,
+      "loss": 6.516202926635742,
+      "tokens_per_second": 170.52978460794026,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_transformer_s37",
+      "case": {
+        "id": "core_n32_transformer_s37",
+        "nodes": 32,
+        "seed": 37,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 2,
+      "step": 24000,
+      "loss": 5.065685272216797,
+      "tokens_per_second": 39299.272919969066,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n32_stateless_s37",
+      "case": {
+        "id": "core_n32_stateless_s37",
+        "nodes": 32,
+        "seed": 37,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 2,
+      "step": 24000,
+      "loss": 4.993010520935059,
+      "tokens_per_second": 118744.81317709101,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_message_s37",
+      "case": {
+        "id": "core_n128_message_s37",
+        "nodes": 128,
+        "seed": 37,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 2,
+      "step": 24000,
+      "loss": 6.994400501251221,
+      "tokens_per_second": 253.9066308234348,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_independent_s37",
+      "case": {
+        "id": "core_n128_independent_s37",
+        "nodes": 128,
+        "seed": 37,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "completed",
+      "worker": 11,
+      "step": 24000,
+      "loss": 7.505557060241699,
+      "tokens_per_second": 203.2330875226203,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_full_s37",
+      "case": {
+        "id": "core_n128_full_s37",
+        "nodes": 128,
+        "seed": 37,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "completed",
+      "worker": 6,
+      "step": 24000,
+      "loss": 7.021970272064209,
+      "tokens_per_second": 196.640287277868,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_transformer_s37",
+      "case": {
+        "id": "core_n128_transformer_s37",
+        "nodes": 128,
+        "seed": 37,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 5,
+      "step": 24000,
+      "loss": 5.065685272216797,
+      "tokens_per_second": 40063.23473069663,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n128_stateless_s37",
+      "case": {
+        "id": "core_n128_stateless_s37",
+        "nodes": 128,
+        "seed": 37,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 5,
+      "step": 24000,
+      "loss": 4.993010520935059,
+      "tokens_per_second": 116052.74305855785,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_message_s37",
+      "case": {
+        "id": "core_n512_message_s37",
+        "nodes": 512,
+        "seed": 37,
+        "stage": "core",
+        "variant": "message"
+      },
+      "status": "completed",
+      "worker": 9,
+      "step": 24000,
+      "loss": 7.04652738571167,
+      "tokens_per_second": 206.78447605761596,
+      "stage": "队列完成",
+      "acceleration_status": "active",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_independent_s37",
+      "case": {
+        "id": "core_n512_independent_s37",
+        "nodes": 512,
+        "seed": 37,
+        "stage": "core",
+        "variant": "independent"
+      },
+      "status": "aborted",
+      "worker": 0,
+      "step": 10593,
+      "loss": 6.947711944580078,
+      "tokens_per_second": 174.06973440667292,
+      "stage": "队列已停止",
+      "acceleration_status": "active",
+      "reason": "Child exit=0; completed result absent or child unsuccessful; see stdout",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_full_s37",
+      "case": {
+        "id": "core_n512_full_s37",
+        "nodes": 512,
+        "seed": 37,
+        "stage": "core",
+        "variant": "full"
+      },
+      "status": "aborted",
+      "worker": 2,
+      "step": 10474,
+      "loss": 6.922360420227051,
+      "tokens_per_second": 163.55728593531697,
+      "stage": "队列已停止",
+      "acceleration_status": "active",
+      "reason": "Child exit=0; completed result absent or child unsuccessful; see stdout",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_transformer_s37",
+      "case": {
+        "id": "core_n512_transformer_s37",
+        "nodes": 512,
+        "seed": 37,
+        "stage": "core",
+        "variant": "transformer"
+      },
+      "status": "completed",
+      "worker": 5,
+      "step": 24000,
+      "loss": 5.083475112915039,
+      "tokens_per_second": 42822.073257474665,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    },
+    {
+      "id": "core_n512_stateless_s37",
+      "case": {
+        "id": "core_n512_stateless_s37",
+        "nodes": 512,
+        "seed": 37,
+        "stage": "core",
+        "variant": "stateless"
+      },
+      "status": "completed",
+      "worker": 5,
+      "step": 24000,
+      "loss": 4.993010520935059,
+      "tokens_per_second": 111883.75590261603,
+      "stage": "队列完成",
+      "acceleration_status": "eager",
+      "reason": "",
+      "attempt": 1,
+      "last_metric": null
+    }
+  ],
+  "workers": 14,
+  "scheduler_alive": false,
+  "scheduler_processes": [],
+  "workspace": "<REMOTE_WORKSPACE>/biomatrix/runs/v07-full-fp32-c32",
+  "action": null,
+  "log_tail": [
+    "completed: core_n32_full_s37 exit=0",
+    "completed: core_n512_message_s37 exit=0",
+    "completed: core_n128_independent_s37 exit=0",
+    "completed: core_n128_full_s37 exit=0",
+    "completed: core_n512_independent_s23 exit=0",
+    "completed: core_n512_full_s23 exit=0",
+    "aborted: core_n512_independent_s37 exit=0",
+    "aborted: core_n512_full_s37 exit=0"
+  ],
+  "orphan_children": [],
+  "sampled_at": 1792801865.3393447,
+  "gpu_telemetry": [
+    {
+      "name": "NVIDIA A800 80GB PCIe",
+      "utilization_percent": 0.0,
+      "memory_used_mib": 40.0,
+      "memory_total_mib": 81920.0,
+      "power_watts": 43.22,
+      "power_limit_watts": 300.0,
+      "temperature_c": 36.0
+    }
+  ]
+}

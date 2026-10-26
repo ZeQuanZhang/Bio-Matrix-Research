@@ -1,0 +1,65 @@
+{
+  "source": "BioMatrix_完整构想描述.md + V06_DESIGN.md + V07_DESIGN_AND_EXPERIMENT.md",
+  "requirements": [
+    {
+      "mechanism": "有限持续内部状态",
+      "acceptance": "同一状态跨chunk/optimizer持续，状态/消息容量对history长度恒定，保存恢复一致",
+      "status": "implemented_engineering_checks",
+      "remaining": "新scenario流需复查跨情境无state reset"
+    },
+    {
+      "mechanism": "经验读取及频率先验控制",
+      "acceptance": "same当前input/target，完整与乱序remote历史有词频相同的配对差；stateless对照；真实语料rare remote repeat子集",
+      "status": "evaluation_extension_proposed",
+      "remaining": "正向history收益需正式多种子训练"
+    },
+    {
+      "mechanism": "无关后验隔离",
+      "acceptance": "异doc低重叠history对same targets的影响，与reset/related历史比较；合成正交query检查方向串扰",
+      "status": "partially_implemented",
+      "remaining": "跨doc低重叠仅独立性代理，需注明且不喂context ID"
+    },
+    {
+      "mechanism": "旧情境再激活",
+      "acceptance": "A_B_A vs B_B_A、shuffled_A_B_A及B_A_A，总state年龄一致且targets一致",
+      "status": "evaluation_extension_proposed",
+      "remaining": "A_B_A当前混合年龄，真实切换流training待接入"
+    },
+    {
+      "mechanism": "同情境规则变化",
+      "acceptance": "平衡规则翻转合成仅机制回归；真实公开文本自然状态修订需有可审核原文证据",
+      "status": "not_yet_supported_as_capability_task",
+      "remaining": "WikiText无经过验证的时变规则标注，不能将后段文字随意命名为rule change"
+    },
+    {
+      "mechanism": "长延迟有方向反馈",
+      "acceptance": "对应旧query/head的lag正确，不能写到当前query；固定预算，失配/overflow显式标记；梯度或有限差分参照",
+      "status": "model_owner_design_pending",
+      "remaining": "当前只缓存上一token，trace不等于delay标签归因"
+    },
+    {
+      "mechanism": "节点外映射进入内部观测",
+      "acceptance": "改变external输入变换应改变Joseph key/value；外输出映射改变邻居消息；同input异state响应不同",
+      "status": "model_owner_fix_in_progress",
+      "remaining": "当前fresh drive广播同一key/value导致观测同质化"
+    },
+    {
+      "mechanism": "不确定性与证据",
+      "acceptance": "Joseph PSD与观测校准、重复内部tick不多算独立观测，相关来源/噪声/规则改变响应；ECE分箱单独正确",
+      "status": "partially_implemented",
+      "remaining": "token ECE不等于内部p置信可靠度"
+    },
+    {
+      "mechanism": "局部相位协作",
+      "acceptance": "相位改变应影响传播与输出；独立/耦合对照、局部而非全同步、收益与实际路径相关",
+      "status": "implemented_structure_unmeasured_capability",
+      "remaining": "正式学习、相位消融和规模交互待执行"
+    },
+    {
+      "mechanism": "规模与预算",
+      "acceptance": "32/128/512配对、多seed、容量/J/断图控制；披露真实params/state/FLOPs/time",
+      "status": "planned_not_executed",
+      "remaining": "固定Nd2非总状态/参数完全匹配；GPU资源与正式性能待测"
+    }
+  ]
+}

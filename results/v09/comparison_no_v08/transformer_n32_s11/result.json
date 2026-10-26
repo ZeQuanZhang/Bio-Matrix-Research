@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "step": 94422,
+  "completed_tokens": 12000000,
+  "visible_inputs": 12086016,
+  "validated_step": 94422,
+  "validated_tokens": 12000000,
+  "best_nll": 4.793298654258251,
+  "best_step": 90488,
+  "train_seconds": 986.7044713128707,
+  "test_evaluated": false,
+  "note": "Final update can consume an unscored input tail to keep C16/session boundaries; effective target budget is exact."
+}

@@ -1,0 +1,53 @@
+{
+  "version": "v04-latent-context-matrix-2",
+  "device": "auto",
+  "width": 48,
+  "matrix_size": 8,
+  "contexts": 3,
+  "modes": 4,
+  "operator_bases": 2,
+  "neighbors": 8,
+  "active_neighbors": 4,
+  "write_nodes": 4,
+  "read_nodes": 4,
+  "read_path": "shared",
+  "read_paths": [
+    "shared",
+    "separated"
+  ],
+  "internal_steps": 12,
+  "checkpoint_ticks": true,
+  "batch_size": 4,
+  "learning_rate": 0.001,
+  "train_steps": 1200,
+  "bptt_steps": 16,
+  "predictive_loss_weight": 0.05,
+  "eval_every": 100,
+  "checkpoint_every": 25,
+  "gradient_clip": 1.0,
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "nodes": [
+    32,
+    128,
+    512
+  ],
+  "variants": [
+    "graph",
+    "full",
+    "matrix",
+    "probability",
+    "fourier"
+  ],
+  "development_quartets": 4,
+  "test_quartets": 8,
+  "graph_seed": 1901,
+  "role_seed": 1902,
+  "data_seed": 20261022,
+  "seen_capacity": 64,
+  "topology": "connected",
+  "progress_every": 1
+}

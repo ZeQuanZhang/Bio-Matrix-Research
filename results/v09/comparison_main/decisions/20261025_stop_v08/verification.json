@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "queue_and_display_tests": 18,
+  "test_command": ".venv/bin/python -m unittest v09.test_experiment scripts.test_v09_compare_display -v",
+  "zero_terminal_pty_passed": true,
+  "normal_terminal_pty_passed": true,
+  "new_queue": "results/v09/comparison_no_v08",
+  "cells": 36,
+  "independent_jobs": 30,
+  "total_targets": 360000000,
+  "first_job": "content_only_n32_s11",
+  "new_training_started": false,
+  "remote_used": false,
+  "old_checkpoints_unchanged": true,
+  "old_source_snapshots_verified": true,
+  "old_result_registry_unchanged": true
+}

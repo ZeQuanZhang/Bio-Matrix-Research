@@ -1,0 +1,264 @@
+{
+  "created_at": "2026-10-25T10:41:45.942947+08:00",
+  "device": "local_mps_fp32",
+  "benchmark_shape": "B2 T64; context256; 6 warmup, 3 timed updates, one independent synchronized profile",
+  "records": [
+    {
+      "nodes": 32,
+      "conditions": {
+        "v09_dense": {
+          "source_result": "results/v09/mps_20261025_v09_final/v09_dense_n32/result.json",
+          "parameters": 315817,
+          "targets_per_second": 508.7654396433074,
+          "median_update_seconds": 0.2511760829947889,
+          "phase_seconds": {
+            "forward": 0.10428733297158033,
+            "loss": 0.00033708399860188365,
+            "backward": 0.14492241601692513,
+            "clip": 0.0012736670323647559,
+            "optimizer": 0.002708124986384064,
+            "state_bookkeeping": 0.0006293749902397394
+          },
+          "forward_regions_seconds": {
+            "pending_and_route": 0.0040205829427577555,
+            "coefficients": 0.04210449993843213,
+            "fast_recurrence": 0.005402166047133505,
+            "batched_read": 0.005212623975239694,
+            "serial_slow_commit": 0.04199691698886454
+          },
+          "context_limit": 256,
+          "actual_active_fraction": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "v09_sparse50": {
+          "source_result": "results/v09/mps_20261025_v09_final/v09_sparse50_n32/result.json",
+          "parameters": 315817,
+          "targets_per_second": 483.0037550544219,
+          "median_update_seconds": 0.2649364999961108,
+          "phase_seconds": {
+            "forward": 0.10911662498256192,
+            "loss": 0.00033725000685080886,
+            "backward": 0.14729799999622628,
+            "clip": 0.001204625004902482,
+            "optimizer": 0.002977334021124989,
+            "state_bookkeeping": 0.000592124997638166
+          },
+          "forward_regions_seconds": {
+            "pending_and_route": 0.008654500998090953,
+            "coefficients": 0.04277125094085932,
+            "fast_recurrence": 0.0052361670532263815,
+            "batched_read": 0.005063374002929777,
+            "serial_slow_commit": 0.042316081933677197
+          },
+          "context_limit": 256,
+          "actual_active_fraction": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "transformer": {
+          "source_result": "results/v09/mps_20261025_v09_final/transformer_n32/result.json",
+          "parameters": 316608,
+          "targets_per_second": 20652.79506627256,
+          "median_update_seconds": 0.00634087499929592,
+          "phase_seconds": {
+            "forward": 0.0015775420470163226,
+            "loss": 0.0006085409549996257,
+            "backward": 0.002513584040571004,
+            "clip": 0.0015863750013522804,
+            "optimizer": 0.0018885829485952854,
+            "state_bookkeeping": 8.375034667551517e-06
+          },
+          "forward_regions_seconds": {},
+          "context_limit": 256,
+          "actual_active_fraction": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "transformer_speed_over_dense": 40.59394262462505
+    },
+    {
+      "nodes": 128,
+      "conditions": {
+        "v09_dense": {
+          "source_result": "results/v09/mps_20261025_v09_final/v09_dense_n128/result.json",
+          "parameters": 321961,
+          "targets_per_second": 298.12097423734184,
+          "median_update_seconds": 0.429414291982539,
+          "phase_seconds": {
+            "forward": 0.17624408297706395,
+            "loss": 0.0003522500046528876,
+            "backward": 0.2541000419878401,
+            "clip": 0.0012858330155722797,
+            "optimizer": 0.003096124972216785,
+            "state_bookkeeping": 0.0005911670159548521
+          },
+          "forward_regions_seconds": {
+            "pending_and_route": 0.004903792054392397,
+            "coefficients": 0.1009333329857327,
+            "fast_recurrence": 0.006601249100640416,
+            "batched_read": 0.01007725001545623,
+            "serial_slow_commit": 0.04830179002601653
+          },
+          "context_limit": 256,
+          "actual_active_fraction": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "v09_sparse50": {
+          "source_result": "results/v09/mps_20261025_v09_final/v09_sparse50_n128/result.json",
+          "parameters": 321961,
+          "targets_per_second": 232.53852318744856,
+          "median_update_seconds": 0.5519627500325441,
+          "phase_seconds": {
+            "forward": 0.24356708402046934,
+            "loss": 0.00035162497078999877,
+            "backward": 0.31804375001229346,
+            "clip": 0.0014190410147421062,
+            "optimizer": 0.0029343339847400784,
+            "state_bookkeeping": 0.0010437910095788538
+          },
+          "forward_regions_seconds": {
+            "pending_and_route": 0.01132400007918477,
+            "coefficients": 0.0965616669273004,
+            "fast_recurrence": 0.012143416912294924,
+            "batched_read": 0.010531042993534356,
+            "serial_slow_commit": 0.08880349900573492,
+            "scatter_and_summary": 0.004420290992129594
+          },
+          "context_limit": 256,
+          "actual_active_fraction": [
+            0.6171875,
+            0.55859375,
+            0.5732421875
+          ]
+        },
+        "transformer": {
+          "source_result": "results/v09/mps_20261025_v09_final/transformer_n128/result.json",
+          "parameters": 322032,
+          "targets_per_second": 20866.022456853178,
+          "median_update_seconds": 0.0060096250381320715,
+          "phase_seconds": {
+            "forward": 0.0015465420437976718,
+            "loss": 0.00036504195304587483,
+            "backward": 0.002354291034862399,
+            "clip": 0.0009044589824043214,
+            "optimizer": 0.0014770830166526139,
+            "state_bookkeeping": 8.207978680729866e-06
+          },
+          "forward_regions_seconds": {},
+          "context_limit": 256,
+          "actual_active_fraction": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "transformer_speed_over_dense": 69.99179614997902
+    },
+    {
+      "nodes": 512,
+      "conditions": {
+        "v09_dense": {
+          "source_result": "results/v09/mps_20261025_v09_final/v09_dense_n512/result.json",
+          "parameters": 346537,
+          "targets_per_second": 105.15730876136708,
+          "median_update_seconds": 1.2207792910048738,
+          "phase_seconds": {
+            "forward": 0.48555295797996223,
+            "loss": 0.0004062920343130827,
+            "backward": 0.7158624999574386,
+            "clip": 0.0013745000469498336,
+            "optimizer": 0.002878582978155464,
+            "state_bookkeeping": 0.0005945829907432199
+          },
+          "forward_regions_seconds": {
+            "pending_and_route": 0.008528501959517598,
+            "coefficients": 0.3505061249015853,
+            "fast_recurrence": 0.014143874985165894,
+            "batched_read": 0.031474541989155114,
+            "serial_slow_commit": 0.07337491592625156
+          },
+          "context_limit": 256,
+          "actual_active_fraction": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "v09_sparse50": {
+          "source_result": "results/v09/mps_20261025_v09_final/v09_sparse50_n512/result.json",
+          "parameters": 346537,
+          "targets_per_second": 129.28696554962795,
+          "median_update_seconds": 0.9936485000071116,
+          "phase_seconds": {
+            "forward": 0.3968807500205003,
+            "loss": 0.0004045839887112379,
+            "backward": 0.553406624996569,
+            "clip": 0.002362916013225913,
+            "optimizer": 0.002989833999890834,
+            "state_bookkeeping": 0.0010017909808084369
+          },
+          "forward_regions_seconds": {
+            "pending_and_route": 0.014102372981142253,
+            "coefficients": 0.21429995901416987,
+            "fast_recurrence": 0.016647042997647077,
+            "batched_read": 0.020667999982833862,
+            "serial_slow_commit": 0.1069767489680089,
+            "scatter_and_summary": 0.004260707006324083
+          },
+          "context_limit": 256,
+          "actual_active_fraction": [
+            0.5087890625,
+            0.5087890625,
+            0.5107421875
+          ]
+        },
+        "transformer": {
+          "source_result": "results/v09/mps_20261025_v09_final/transformer_n512/result.json",
+          "parameters": 347280,
+          "targets_per_second": 20134.932429447104,
+          "median_update_seconds": 0.005866999970749021,
+          "phase_seconds": {
+            "forward": 0.0015903750318102539,
+            "loss": 0.000587833987083286,
+            "backward": 0.0023935409844852984,
+            "clip": 0.0017173340311273932,
+            "optimizer": 0.00188654096564278,
+            "state_bookkeeping": 1.0292045772075653e-05
+          },
+          "forward_regions_seconds": {},
+          "context_limit": 256,
+          "actual_active_fraction": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "transformer_speed_over_dense": 191.47439837148363
+    }
+  ],
+  "current_training_context_limit": 4096,
+  "limits": [
+    "Short engineering updates do not establish a context4096 long-training speed ratio.",
+    "Region measurements describe forward only; backward attribution requires additional profiling.",
+    "No new GPU benchmark was run; current training sources and budget are unchanged."
+  ],
+  "priorities": [
+    "Fuse spatial/control and neighbor operations with matching backward.",
+    "Fuse ordered slow-state/Joseph updates while preserving each observation and local-rate gradients.",
+    "Remove discarded F1 autograd construction; reduce synchronization and data movement where measured.",
+    "Treat frequency/topology/batch changes as separate training experiments."
+  ]
+}

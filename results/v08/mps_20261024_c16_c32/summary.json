@@ -1,0 +1,5016 @@
+{
+  "status": "failed",
+  "conditions": [
+    {
+      "id": "kernel_n32_t16_sequential",
+      "kind": "kernel",
+      "nodes": 32,
+      "sequence": 16,
+      "method": "sequential",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.004243750008754432,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.004169417021330446,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.004134667047765106,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.006076541030779481,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.004480541043449193,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.0043431249796412885,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.0038933329633437097,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.004169417021330446,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n32_t16_parallel",
+      "kind": "kernel",
+      "nodes": 32,
+      "sequence": 16,
+      "method": "parallel",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.004932667012326419,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.004103083978407085,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.004215749970171601,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.013310250011272728,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.005951582978013903,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.00796499999705702,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.004960499994922429,
+            "loss": 0.0005914883222430944,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.004215749970171601,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n32_t16_triangular",
+      "kind": "kernel",
+      "nodes": 32,
+      "sequence": 16,
+      "method": "triangular",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.006810625025536865,
+            "loss": 0.0005914884968660772,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.007362707983702421,
+            "loss": 0.0005914884968660772,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.006757790979463607,
+            "loss": 0.0005914884968660772,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.026901416014879942,
+            "loss": 0.0005914884968660772,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.008740166027564555,
+            "loss": 0.0005914884968660772,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.007536458026152104,
+            "loss": 0.0005914884968660772,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.00870320899412036,
+            "loss": 0.0005914884968660772,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.006810625025536865,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n32_t32_sequential",
+      "kind": "kernel",
+      "nodes": 32,
+      "sequence": 32,
+      "method": "sequential",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.007366625010035932,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.007269375026226044,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.007372874999418855,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.012762958009261638,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.010187624953687191,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.008504333032760769,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.007441916968673468,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.007366625010035932,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n32_t32_parallel",
+      "kind": "kernel",
+      "nodes": 32,
+      "sequence": 32,
+      "method": "parallel",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.008080791973043233,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.00900416704826057,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.009183207992464304,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.022404291958082467,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.0151859589968808,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.009618332958780229,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.009309875022154301,
+            "loss": 0.0005099066183902323,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.00900416704826057,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n32_t32_triangular",
+      "kind": "kernel",
+      "nodes": 32,
+      "sequence": 32,
+      "method": "triangular",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.018692417012061924,
+            "loss": 0.0005099067348055542,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.018074082967359573,
+            "loss": 0.0005099067348055542,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.017650166992098093,
+            "loss": 0.0005099067348055542,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.0893476249766536,
+            "loss": 0.0005099067348055542,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.01837008399888873,
+            "loss": 0.0005099067348055542,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.017757583991624415,
+            "loss": 0.0005099067348055542,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.017839333042502403,
+            "loss": 0.0005099067348055542,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.018074082967359573,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "v07_n32_sequential_c1",
+      "kind": "model",
+      "nodes": 32,
+      "sequence": 64,
+      "family": "v07",
+      "method": "sequential",
+      "block": 1,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 32,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32
+        },
+        "parameters": 309265,
+        "state_bytes": 238144,
+        "trials": [
+          {
+            "seconds": 1.6893920419970527,
+            "loss": 8.348790168762207,
+            "gradient_norm": 106462328.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.7888484597206116,
+              "reached": 0.886474609375,
+              "state_rms": 0.00033080176217481494,
+              "slow_rms": 0.0005748904077336192,
+              "local_update_rms": 2.9423685191432014e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 0.7689977884292603,
+              "effective_read_nodes": 24.607929229736328,
+              "covariance_min_diagonal": 0.05284861475229263,
+              "covariance_max_diagonal": 0.11121418327093124,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.6064832806587219
+            },
+            "tokens_per_second": 75.7669012390336,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.4421589159755968,
+            "loss": 8.324296951293945,
+            "gradient_norm": 135634400.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.7907748222351074,
+              "reached": 0.864990234375,
+              "state_rms": 0.00036676452145911753,
+              "slow_rms": 0.0006688282010145485,
+              "local_update_rms": 2.807709461194463e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 0.7631241679191589,
+              "effective_read_nodes": 24.419973373413086,
+              "covariance_min_diagonal": 0.04909161105751991,
+              "covariance_max_diagonal": 0.10016024112701416,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.7074966430664062
+            },
+            "tokens_per_second": 88.75582197084717,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.4136025410261936,
+            "loss": 8.339649200439453,
+            "gradient_norm": 107590088.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.7414383888244629,
+              "reached": 0.84912109375,
+              "state_rms": 0.00038590969052165747,
+              "slow_rms": 0.0007573512266390026,
+              "local_update_rms": 2.8835231205448508e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 0.7436878681182861,
+              "effective_read_nodes": 23.798011779785156,
+              "covariance_min_diagonal": 0.049563806504011154,
+              "covariance_max_diagonal": 0.10827282816171646,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.7778109312057495
+            },
+            "tokens_per_second": 90.54879026114328,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 2.138971042004414,
+            "loss": 8.351518630981445,
+            "gradient_norm": 40372604.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.825449526309967,
+              "reached": 0.895263671875,
+              "state_rms": 0.00020880548981949687,
+              "slow_rms": 7.546662527602166e-05,
+              "local_update_rms": 1.609090577403549e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 0.8235536813735962,
+              "effective_read_nodes": 26.353717803955078,
+              "covariance_min_diagonal": 0.056732937693595886,
+              "covariance_max_diagonal": 1.0020009279251099,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.06472311913967133
+            },
+            "tokens_per_second": 59.84185736336671,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.4465175829827785,
+            "loss": 8.335216522216797,
+            "gradient_norm": 67544280.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.7946275472640991,
+              "reached": 0.860595703125,
+              "state_rms": 0.000255766324698925,
+              "slow_rms": 0.00024083179596345872,
+              "local_update_rms": 2.6342211640439928e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 0.7997889518737793,
+              "effective_read_nodes": 25.593246459960938,
+              "covariance_min_diagonal": 0.04839659109711647,
+              "covariance_max_diagonal": 0.12180767953395844,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.19950151443481445
+            },
+            "tokens_per_second": 88.48838168704368,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.3761002090177499,
+            "loss": 8.351612091064453,
+            "gradient_norm": 65632860.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.8171019554138184,
+              "reached": 0.8935546875,
+              "state_rms": 0.0002997350529767573,
+              "slow_rms": 0.00034510635305196047,
+              "local_update_rms": 2.7801677788374946e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 0.7871687412261963,
+              "effective_read_nodes": 25.18939971923828,
+              "covariance_min_diagonal": 0.05178502947092056,
+              "covariance_max_diagonal": 0.10487277805805206,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.3589656949043274
+            },
+            "tokens_per_second": 93.01648176579047,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.4173809579806402,
+            "loss": 8.319629669189453,
+            "gradient_norm": 194859504.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.7954837083816528,
+              "reached": 0.882080078125,
+              "state_rms": 0.0003186384274158627,
+              "slow_rms": 0.00044905231334269047,
+              "local_update_rms": 2.8956792448298074e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 0.775324821472168,
+              "effective_read_nodes": 24.810394287109375,
+              "covariance_min_diagonal": 0.053629446774721146,
+              "covariance_max_diagonal": 0.11052841693162918,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.48105132579803467
+            },
+            "tokens_per_second": 90.30740767278485,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 1.3897575419978239,
+          "loss": 8.323824882507324,
+          "gradient_norm": 211191424.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.43836958397878334,
+            "loss": 0.0006187909748405218,
+            "backward": 0.944594333996065,
+            "clip": 0.0019418750307522714,
+            "optimizer": 0.0035046659759245813,
+            "state_bookkeeping": 0.0007263750303536654
+          },
+          "diagnostics": {
+            "outward_open": 0.7917380332946777,
+            "reached": 0.892822265625,
+            "state_rms": 0.0003952908155042678,
+            "slow_rms": 0.0008646214846521616,
+            "local_update_rms": 3.076450229855254e-05,
+            "local_update_clip_fraction": 0.0,
+            "capacity_clip_fraction": 0.0,
+            "local_effective_step_ratio": 0.984375,
+            "local_write_scale": 0.7472909092903137,
+            "effective_read_nodes": 23.91330909729004,
+            "covariance_min_diagonal": 0.053522102534770966,
+            "covariance_max_diagonal": 0.11876564472913742,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "phase_coherence": 0.8683332204818726
+          },
+          "tokens_per_second": 92.10239637627411,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 1.4421589159755968,
+        "targets": 384,
+        "tokens_per_second": 84.48559549959828,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 5214464,
+          "driver_snapshot": 368918528,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n32_sequential_c16",
+      "kind": "model",
+      "nodes": 32,
+      "sequence": 64,
+      "family": "v08",
+      "method": "sequential",
+      "block": 16,
+      "status": "failed",
+      "error": "Traceback (most recent call last):\n  File \"v08/benchmark.py\", line 367, in execute\n    if current['kind'] == 'kernel' else model_case(current, args, corpus, device, folder, ui))\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"v08/benchmark.py\", line 228, in model_case\n    metrics, state = training_update(model, optimizer, batch, state, device, profile)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"v08/benchmark.py\", line 192, in training_update\n    norm = torch.nn.utils.clip_grad_norm_(model.parameters(), 1., error_if_nonfinite=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 41, in _no_grad_wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 230, in clip_grad_norm_\n    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 41, in _no_grad_wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 110, in _get_total_norm\n    raise RuntimeError(\nRuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`\n"
+    },
+    {
+      "id": "v08_n32_parallel_c16",
+      "kind": "model",
+      "nodes": 32,
+      "sequence": 64,
+      "family": "v08",
+      "method": "parallel",
+      "block": 16,
+      "status": "failed",
+      "error": "Traceback (most recent call last):\n  File \"v08/benchmark.py\", line 367, in execute\n    if current['kind'] == 'kernel' else model_case(current, args, corpus, device, folder, ui))\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"v08/benchmark.py\", line 228, in model_case\n    metrics, state = training_update(model, optimizer, batch, state, device, profile)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"v08/benchmark.py\", line 192, in training_update\n    norm = torch.nn.utils.clip_grad_norm_(model.parameters(), 1., error_if_nonfinite=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 41, in _no_grad_wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 230, in clip_grad_norm_\n    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 41, in _no_grad_wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 110, in _get_total_norm\n    raise RuntimeError(\nRuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`\n"
+    },
+    {
+      "id": "v08_n32_triangular_c16",
+      "kind": "model",
+      "nodes": 32,
+      "sequence": 64,
+      "family": "v08",
+      "method": "triangular",
+      "block": 16,
+      "status": "failed",
+      "error": "Traceback (most recent call last):\n  File \"v08/benchmark.py\", line 367, in execute\n    if current['kind'] == 'kernel' else model_case(current, args, corpus, device, folder, ui))\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"v08/benchmark.py\", line 228, in model_case\n    metrics, state = training_update(model, optimizer, batch, state, device, profile)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"v08/benchmark.py\", line 192, in training_update\n    norm = torch.nn.utils.clip_grad_norm_(model.parameters(), 1., error_if_nonfinite=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 41, in _no_grad_wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 230, in clip_grad_norm_\n    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 41, in _no_grad_wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py\", line 110, in _get_total_norm\n    raise RuntimeError(\nRuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`\n"
+    },
+    {
+      "id": "v08_n32_triangular_c32",
+      "kind": "model",
+      "nodes": 32,
+      "sequence": 64,
+      "family": "v08",
+      "method": "triangular",
+      "block": 32,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 32,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 32,
+          "implementation": "triangular"
+        },
+        "parameters": 314281,
+        "state_bytes": 238144,
+        "trials": [
+          {
+            "seconds": 0.26601458399090916,
+            "loss": 8.312980651855469,
+            "gradient_norm": 97641264.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 4.7915600589476526e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.15625,
+              "effective_read_nodes": 18.074121475219727,
+              "state_rms": 0.0010803942568600178,
+              "slow_rms": 0.0008993068477138877,
+              "covariance_min_diagonal": 0.0548257902264595,
+              "covariance_max_diagonal": 0.5869877934455872,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0,
+              "attention_mass": 0.06394951790571213,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 481.1766260318055,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.2730155829922296,
+            "loss": 8.318241119384766,
+            "gradient_norm": 66094152810496.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 4.6405039029195905e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1640625,
+              "effective_read_nodes": 18.041828155517578,
+              "state_rms": 0.0012675425969064236,
+              "slow_rms": 0.0011486520525068045,
+              "covariance_min_diagonal": 0.04728866368532181,
+              "covariance_max_diagonal": 0.5869877934455872,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.06639119237661362,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 468.83770734670134,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.2629715410294011,
+            "loss": 8.298229217529297,
+            "gradient_norm": 170989200.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 4.4931966840522364e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.15625,
+              "effective_read_nodes": 18.021852493286133,
+              "state_rms": 0.0011843827087432146,
+              "slow_rms": 0.0013192391488701105,
+              "covariance_min_diagonal": 0.056008026003837585,
+              "covariance_max_diagonal": 0.5869877934455872,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0,
+              "attention_mass": 0.06585435569286346,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 486.7446853714454,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 0.7853704590233974,
+            "loss": 8.362555503845215,
+            "gradient_norm": 271394.46875,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2889285244455095e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.618896484375,
+              "effective_read_nodes": 19.136737823486328,
+              "state_rms": 0.0010993091855198145,
+              "slow_rms": 7.553503382951021e-05,
+              "covariance_min_diagonal": 0.05532786622643471,
+              "covariance_max_diagonal": 0.5869877934455872,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0,
+              "attention_mass": 0.14484451711177826,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 162.98041074675393,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.2751259579672478,
+            "loss": 8.333072662353516,
+            "gradient_norm": 68760776.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 3.480045052128844e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.15625,
+              "effective_read_nodes": 18.439367294311523,
+              "state_rms": 0.001021403819322586,
+              "slow_rms": 0.0003023784083779901,
+              "covariance_min_diagonal": 0.056623782962560654,
+              "covariance_max_diagonal": 0.5869877934455872,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.06058384105563164,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 465.2414513909214,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.2647887500352226,
+            "loss": 8.350635528564453,
+            "gradient_norm": 260624432.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 4.4657466787612066e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.15625,
+              "effective_read_nodes": 18.226348876953125,
+              "state_rms": 0.0011012442409992218,
+              "slow_rms": 0.000508740427903831,
+              "covariance_min_diagonal": 0.057615943253040314,
+              "covariance_max_diagonal": 0.5869877934455872,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0,
+              "attention_mass": 0.06323041021823883,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 483.4042231136075,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.26264175004325807,
+            "loss": 8.309038162231445,
+            "gradient_norm": 233233504.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 4.709264248958789e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.15625,
+              "effective_read_nodes": 18.128135681152344,
+              "state_rms": 0.0011500309919938445,
+              "slow_rms": 0.0006606081733480096,
+              "covariance_min_diagonal": 0.0575011745095253,
+              "covariance_max_diagonal": 0.5869877934455872,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0,
+              "attention_mass": 0.06365795433521271,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 487.3558753660373,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.2628308749990538,
+          "loss": 8.312902450561523,
+          "gradient_norm": 307773120.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.13279945799149573,
+            "loss": 0.00042233301792293787,
+            "backward": 0.1248807089868933,
+            "clip": 0.0013136250199750066,
+            "optimizer": 0.002696832991205156,
+            "state_bookkeeping": 0.0007167499861679971
+          },
+          "diagnostics": {
+            "local_update_rms": 4.233890285831876e-05,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.15625,
+            "effective_read_nodes": 18.010116577148438,
+            "state_rms": 0.0012066554045304656,
+            "slow_rms": 0.0015994964633136988,
+            "covariance_min_diagonal": 0.05725063011050224,
+            "covariance_max_diagonal": 0.5869877934455872,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.0672554224729538,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 8.0
+          },
+          "tokens_per_second": 487.0051891752094,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.26601458399090916,
+        "targets": 384,
+        "tokens_per_second": 478.8019728182373,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 7471872,
+          "driver_snapshot": 293470208,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "transformer_n32_batched_c1",
+      "kind": "model",
+      "nodes": 32,
+      "sequence": 64,
+      "family": "transformer",
+      "method": "batched",
+      "block": 1,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "transformer",
+          "nodes": 32,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 56,
+          "transformer_layers": 2,
+          "transformer_ff": 264,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32
+        },
+        "parameters": 314800,
+        "state_bytes": 459280,
+        "trials": [
+          {
+            "seconds": 0.16245108301518485,
+            "loss": 8.252975463867188,
+            "gradient_norm": 0.9560420513153076,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 787.9294962166267,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.008810416969936341,
+            "loss": 8.260322570800781,
+            "gradient_norm": 0.983802080154419,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 14528.25677113496,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.007051874999888241,
+            "loss": 8.266056060791016,
+            "gradient_norm": 1.0584276914596558,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 18151.200922028333,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 0.2948594579938799,
+            "loss": 8.341315269470215,
+            "gradient_norm": 1.5200161933898926,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 434.1051186584517,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.12494116701418534,
+            "loss": 8.30843734741211,
+            "gradient_norm": 1.1007925271987915,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 1024.4821867676917,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.11469399998895824,
+            "loss": 8.307191848754883,
+            "gradient_norm": 0.9647406339645386,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 1116.013043509885,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.0837249580072239,
+            "loss": 8.28370189666748,
+            "gradient_norm": 1.0857070684432983,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 1528.8153383003905,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.007749416981823742,
+          "loss": 8.250076293945312,
+          "gradient_norm": 0.9145961403846741,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.001708458992652595,
+            "loss": 0.00048170803347602487,
+            "backward": 0.002422541962005198,
+            "clip": 0.00133050000295043,
+            "optimizer": 0.0017977079842239618,
+            "state_bookkeeping": 8.04202863946557e-06
+          },
+          "diagnostics": {},
+          "tokens_per_second": 16517.371603595988,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.008810416969936341,
+        "targets": 384,
+        "tokens_per_second": 2153.512040430407,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 5622528,
+          "driver_snapshot": 67092480,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "kernel_n128_t16_sequential",
+      "kind": "kernel",
+      "nodes": 128,
+      "sequence": 16,
+      "method": "sequential",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.006848249991890043,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.005698500026483089,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.005618416995275766,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.014131165982689708,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.011773584003094584,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.006922208005562425,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.005752167024184018,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.005698500026483089,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n128_t16_parallel",
+      "kind": "kernel",
+      "nodes": 128,
+      "sequence": 16,
+      "method": "parallel",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.014075832965318114,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.013816833030432463,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.01353749999543652,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.02482691698241979,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.019805582996923476,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.012734916002955288,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.013910625013522804,
+            "loss": 0.000588158902246505,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.013816833030432463,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n128_t16_triangular",
+      "kind": "kernel",
+      "nodes": 128,
+      "sequence": 16,
+      "method": "triangular",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.026683999982196838,
+            "loss": 0.0005881589604541659,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.029112083022482693,
+            "loss": 0.0005881589604541659,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.0288289159652777,
+            "loss": 0.0005881589604541659,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.05292741599259898,
+            "loss": 0.0005881589604541659,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.027623166039120406,
+            "loss": 0.0005881589604541659,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.02866366703528911,
+            "loss": 0.0005881589604541659,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.027740125020500273,
+            "loss": 0.0005881589604541659,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.0288289159652777,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n128_t32_sequential",
+      "kind": "kernel",
+      "nodes": 128,
+      "sequence": 32,
+      "method": "sequential",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.012448791996575892,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.012488792010117322,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.011209042044356465,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.017742375028319657,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.013865208020433784,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.01119429204845801,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.012561707990244031,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.012448791996575892,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n128_t32_parallel",
+      "kind": "kernel",
+      "nodes": 128,
+      "sequence": 32,
+      "method": "parallel",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.03325033298460767,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.03315124998334795,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.03323637502035126,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.04749012499814853,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.03371370799141005,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.03339120896998793,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.03370366699527949,
+            "loss": 0.0005093814106658101,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.03323637502035126,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n128_t32_triangular",
+      "kind": "kernel",
+      "nodes": 128,
+      "sequence": 32,
+      "method": "triangular",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.07131437497446314,
+            "loss": 0.0005093815270811319,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.07262400002218783,
+            "loss": 0.0005093815270811319,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.07242412498453632,
+            "loss": 0.0005093815270811319,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.09231216699117795,
+            "loss": 0.0005093815270811319,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.07294708298286423,
+            "loss": 0.0005093815270811319,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.07267370796762407,
+            "loss": 0.0005093815270811319,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.07276050001382828,
+            "loss": 0.0005093815270811319,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.07242412498453632,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "v07_n128_sequential_c1",
+      "kind": "model",
+      "nodes": 128,
+      "sequence": 64,
+      "family": "v07",
+      "method": "sequential",
+      "block": 1,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 128,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32
+        },
+        "parameters": 315409,
+        "state_bytes": 853312,
+        "trials": [
+          {
+            "seconds": 1.740267709014006,
+            "loss": 8.347570419311523,
+            "gradient_norm": 400827104.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.4634576439857483,
+              "reached": 0.5760498046875,
+              "state_rms": 0.0004061096115037799,
+              "slow_rms": 0.0004735574184451252,
+              "local_update_rms": 2.872222466976382e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 2.5391340255737305,
+              "effective_read_nodes": 81.25228881835938,
+              "covariance_min_diagonal": 0.052027467638254166,
+              "covariance_max_diagonal": 0.16482605040073395,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.5388855934143066
+            },
+            "tokens_per_second": 73.55190200737664,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.761451875034254,
+            "loss": 8.32879638671875,
+            "gradient_norm": 139559424.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5376344323158264,
+              "reached": 0.63226318359375,
+              "state_rms": 0.00045599639997817576,
+              "slow_rms": 0.0005920702242292464,
+              "local_update_rms": 2.7273163141217083e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 2.607922315597534,
+              "effective_read_nodes": 83.4535140991211,
+              "covariance_min_diagonal": 0.048639655113220215,
+              "covariance_max_diagonal": 0.15990698337554932,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.5919803380966187
+            },
+            "tokens_per_second": 72.6673273418332,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.7568802499445155,
+            "loss": 8.336824417114258,
+            "gradient_norm": 279222592.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5178511142730713,
+              "reached": 0.606689453125,
+              "state_rms": 0.0004866000381298363,
+              "slow_rms": 0.0006786641315557063,
+              "local_update_rms": 2.78395127679687e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 2.5599727630615234,
+              "effective_read_nodes": 81.91912841796875,
+              "covariance_min_diagonal": 0.04459888115525246,
+              "covariance_max_diagonal": 0.14290758967399597,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.6227710247039795
+            },
+            "tokens_per_second": 72.85641693794577,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 2.33997625001939,
+            "loss": 8.332438468933105,
+            "gradient_norm": 235264160.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5227234363555908,
+              "reached": 0.6142578125,
+              "state_rms": 0.00019271220662631094,
+              "slow_rms": 6.793464854126796e-05,
+              "local_update_rms": 1.3610648238682188e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 2.8641457557678223,
+              "effective_read_nodes": 91.65266418457031,
+              "covariance_min_diagonal": 0.057552386075258255,
+              "covariance_max_diagonal": 1.002297043800354,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.08542528748512268
+            },
+            "tokens_per_second": 54.7014098963352,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.7573147499933839,
+            "loss": 8.336647987365723,
+            "gradient_norm": 109600960.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.4909694492816925,
+              "reached": 0.59130859375,
+              "state_rms": 0.0002465435827616602,
+              "slow_rms": 0.00016932774451561272,
+              "local_update_rms": 1.911141225718893e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 2.742609977722168,
+              "effective_read_nodes": 87.76351928710938,
+              "covariance_min_diagonal": 0.04882001131772995,
+              "covariance_max_diagonal": 0.44116467237472534,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.2296242117881775
+            },
+            "tokens_per_second": 72.83840302397843,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.7255944169592112,
+            "loss": 8.358457565307617,
+            "gradient_norm": 121902328.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5164650678634644,
+              "reached": 0.6187744140625,
+              "state_rms": 0.0003272766771260649,
+              "slow_rms": 0.0002504023432265967,
+              "local_update_rms": 2.388124084973242e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 2.6828083992004395,
+              "effective_read_nodes": 85.84986877441406,
+              "covariance_min_diagonal": 0.051360245794057846,
+              "covariance_max_diagonal": 0.24205322563648224,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.360711932182312
+            },
+            "tokens_per_second": 74.17733781589165,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.748069207998924,
+            "loss": 8.331671714782715,
+            "gradient_norm": 363704288.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.4782845973968506,
+              "reached": 0.58270263671875,
+              "state_rms": 0.0003694815677590668,
+              "slow_rms": 0.000355187919922173,
+              "local_update_rms": 2.614784170873463e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 2.5783863067626953,
+              "effective_read_nodes": 82.50836181640625,
+              "covariance_min_diagonal": 0.0532555878162384,
+              "covariance_max_diagonal": 0.1671707034111023,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.46280786395072937
+            },
+            "tokens_per_second": 73.22364550230027,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 1.7175400410196744,
+          "loss": 8.321418762207031,
+          "gradient_norm": 216685024.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.5606770410086028,
+            "loss": 0.0005934590008109808,
+            "backward": 1.1517558749765158,
+            "clip": 0.0015666660037823021,
+            "optimizer": 0.0024108340148814023,
+            "state_bookkeeping": 0.0005351660074666142
+          },
+          "diagnostics": {
+            "outward_open": 0.5200352668762207,
+            "reached": 0.61810302734375,
+            "state_rms": 0.0004971860907971859,
+            "slow_rms": 0.0007839208119548857,
+            "local_update_rms": 2.708082138269674e-05,
+            "local_update_clip_fraction": 0.0,
+            "capacity_clip_fraction": 0.0,
+            "local_effective_step_ratio": 0.984375,
+            "local_write_scale": 2.5585262775421143,
+            "effective_read_nodes": 81.87284088134766,
+            "covariance_min_diagonal": 0.04957940801978111,
+            "covariance_max_diagonal": 0.11955460160970688,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "phase_coherence": 0.6468387246131897
+          },
+          "tokens_per_second": 74.52519122873466,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 1.7568802499445155,
+        "targets": 384,
+        "tokens_per_second": 73.02324042946516,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 5950208,
+          "driver_snapshot": 1291665408,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n128_sequential_c16",
+      "kind": "model",
+      "nodes": 128,
+      "sequence": 64,
+      "family": "v08",
+      "method": "sequential",
+      "block": 16,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 128,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 16,
+          "implementation": "sequential"
+        },
+        "parameters": 320425,
+        "state_bytes": 853312,
+        "trials": [
+          {
+            "seconds": 0.544704667001497,
+            "loss": 8.294353485107422,
+            "gradient_norm": 74255122432.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2379481631796807e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.90397644042969,
+              "state_rms": 0.0005811075679957867,
+              "slow_rms": 0.0003268315631430596,
+              "covariance_min_diagonal": 0.05382685735821724,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.12845560908317566,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 234.98972517459305,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.542102916049771,
+            "loss": 8.320762634277344,
+            "gradient_norm": 1426684641280.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.1726912816811819e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.8841323852539,
+              "state_rms": 0.0006555691943503916,
+              "slow_rms": 0.0004009132971987128,
+              "covariance_min_diagonal": 0.04680955782532692,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1291252076625824,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 236.1175271528113,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.5492901660036296,
+            "loss": 8.325464248657227,
+            "gradient_norm": 22892519424.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.0153096809517592e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.87544250488281,
+              "state_rms": 0.0006113124545663595,
+              "slow_rms": 0.0004305926850065589,
+              "covariance_min_diagonal": 0.05505628511309624,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.12866079807281494,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 233.02802038359124,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 1.0421077079954557,
+            "loss": 8.326114654541016,
+            "gradient_norm": 1724341888.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 5.27457996213343e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.26348876953125,
+              "effective_read_nodes": 77.27372741699219,
+              "state_rms": 0.0008247028454206884,
+              "slow_rms": 2.8172667953185737e-05,
+              "covariance_min_diagonal": 0.05533934384584427,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.15936602652072906,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 122.82799466689883,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.571342209004797,
+            "loss": 8.324151992797852,
+            "gradient_norm": 52128420724736.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.0373497389082331e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.33783721923828,
+              "state_rms": 0.0006286515272222459,
+              "slow_rms": 0.00010061952343676239,
+              "covariance_min_diagonal": 0.05533769726753235,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13037031888961792,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 224.03385918740216,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.6306876249727793,
+            "loss": 8.321440696716309,
+            "gradient_norm": 78135286562816.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2496145245677326e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.04530334472656,
+              "state_rms": 0.0006438387208618224,
+              "slow_rms": 0.00016950018471106887,
+              "covariance_min_diagonal": 0.05148661136627197,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.129757821559906,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 202.95308633259535,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.544478582974989,
+            "loss": 8.311232566833496,
+            "gradient_norm": 3965922836480.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2521219105110504e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.94651794433594,
+              "state_rms": 0.0006190695567056537,
+              "slow_rms": 0.0002478579990565777,
+              "covariance_min_diagonal": 0.05618537962436676,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1286395788192749,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 235.08730003780474,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.547595874988474,
+          "loss": 8.312232971191406,
+          "gradient_norm": 212624736256.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.2375319160055369,
+            "loss": 0.00044887501280754805,
+            "backward": 0.305377334007062,
+            "clip": 0.0012199579505249858,
+            "optimizer": 0.002447833016049117,
+            "state_bookkeeping": 0.0005685419891960919
+          },
+          "diagnostics": {
+            "local_update_rms": 4.925096163788112e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.1171875,
+            "effective_read_nodes": 74.87254333496094,
+            "state_rms": 0.0006195628084242344,
+            "slow_rms": 0.00046327285235747695,
+            "covariance_min_diagonal": 0.05690301954746246,
+            "covariance_max_diagonal": 1.0106593370437622,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.1290167272090912,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 16.0
+          },
+          "tokens_per_second": 233.74902158036562,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.544704667001497,
+        "targets": 384,
+        "tokens_per_second": 234.7048030729338,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 10218752,
+          "driver_snapshot": 981303296,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n128_parallel_c16",
+      "kind": "model",
+      "nodes": 128,
+      "sequence": 64,
+      "family": "v08",
+      "method": "parallel",
+      "block": 16,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 128,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 16,
+          "implementation": "parallel"
+        },
+        "parameters": 320425,
+        "state_bytes": 853312,
+        "trials": [
+          {
+            "seconds": 0.573197917023208,
+            "loss": 8.294353485107422,
+            "gradient_norm": 74256023552.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2379481631796807e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.90397644042969,
+              "state_rms": 0.0005811075679957867,
+              "slow_rms": 0.00032683153403922915,
+              "covariance_min_diagonal": 0.053826842457056046,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.12845560908317566,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 223.30855747826706,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.5880689159967005,
+            "loss": 8.320762634277344,
+            "gradient_norm": 1426687655936.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.1726912816811819e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.8841323852539,
+              "state_rms": 0.0006555691943503916,
+              "slow_rms": 0.0004009132971987128,
+              "covariance_min_diagonal": 0.04680955782532692,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1291252076625824,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 217.66156400743714,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.5752094999770634,
+            "loss": 8.325464248657227,
+            "gradient_norm": 22893035520.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.0153096809517592e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.87544250488281,
+              "state_rms": 0.0006113124545663595,
+              "slow_rms": 0.0004305926850065589,
+              "covariance_min_diagonal": 0.05505628511309624,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.12866079807281494,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 222.52761820711243,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 0.82143570802873,
+            "loss": 8.326114654541016,
+            "gradient_norm": 1724341504.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 5.27457996213343e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.26348876953125,
+              "effective_read_nodes": 77.27372741699219,
+              "state_rms": 0.0008247028454206884,
+              "slow_rms": 2.8172666134196334e-05,
+              "covariance_min_diagonal": 0.05533934384584427,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.15936602652072906,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 155.8247331457901,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.5805099999997765,
+            "loss": 8.324151992797852,
+            "gradient_norm": 52128466862080.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.037349647958763e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.33783721923828,
+              "state_rms": 0.0006286515272222459,
+              "slow_rms": 0.00010061952343676239,
+              "covariance_min_diagonal": 0.055337704718112946,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13037031888961792,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 220.49577096010282,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.5752767910016701,
+            "loss": 8.321440696716309,
+            "gradient_norm": 78135177510912.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2496144336182624e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.04530334472656,
+              "state_rms": 0.0006438387208618224,
+              "slow_rms": 0.00016950018471106887,
+              "covariance_min_diagonal": 0.05148661136627197,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.129757821559906,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 222.50158880410737,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.58752000000095,
+            "loss": 8.311232566833496,
+            "gradient_norm": 3965931487232.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2521219105110504e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.94651794433594,
+              "state_rms": 0.0006190695567056537,
+              "slow_rms": 0.0002478579990565777,
+              "covariance_min_diagonal": 0.05618537589907646,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1286395788192749,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 217.86492374692443,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.5813701669685543,
+          "loss": 8.312232971191406,
+          "gradient_norm": 212624457728.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.2470837919972837,
+            "loss": 0.00043233297765254974,
+            "backward": 0.32920379197457805,
+            "clip": 0.0012826250167563558,
+            "optimizer": 0.0027930409996770322,
+            "state_bookkeeping": 0.0005729590193368495
+          },
+          "diagnostics": {
+            "local_update_rms": 4.92509525429341e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.1171875,
+            "effective_read_nodes": 74.87254333496094,
+            "state_rms": 0.0006195628666318953,
+            "slow_rms": 0.00046327285235747695,
+            "covariance_min_diagonal": 0.05690302699804306,
+            "covariance_max_diagonal": 1.0106593370437622,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.1290167272090912,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 16.0
+          },
+          "tokens_per_second": 220.16953616218734,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.5752094999770634,
+        "targets": 384,
+        "tokens_per_second": 221.1374797934949,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 10218752,
+          "driver_snapshot": 1165852672,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n128_triangular_c16",
+      "kind": "model",
+      "nodes": 128,
+      "sequence": 64,
+      "family": "v08",
+      "method": "triangular",
+      "block": 16,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 128,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 16,
+          "implementation": "triangular"
+        },
+        "parameters": 320425,
+        "state_bytes": 853312,
+        "trials": [
+          {
+            "seconds": 0.6322479580412619,
+            "loss": 8.294353485107422,
+            "gradient_norm": 74255654912.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2379481631796807e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.90397644042969,
+              "state_rms": 0.0005811078008264303,
+              "slow_rms": 0.00032683153403922915,
+              "covariance_min_diagonal": 0.05382685363292694,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.12845562398433685,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 202.45221573597624,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.6573310000239871,
+            "loss": 8.320762634277344,
+            "gradient_norm": 1426692112384.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.1726911907317117e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.8841323852539,
+              "state_rms": 0.0006555694271810353,
+              "slow_rms": 0.0004009132971987128,
+              "covariance_min_diagonal": 0.04680955782532692,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1291252076625824,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 194.72685754259126,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.642663041013293,
+            "loss": 8.325464248657227,
+            "gradient_norm": 22892523520.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.0153096809517592e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.87544250488281,
+              "state_rms": 0.0006113125709816813,
+              "slow_rms": 0.0004305926850065589,
+              "covariance_min_diagonal": 0.05505628511309624,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.12866079807281494,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 199.17124812122566,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 0.8361513749696314,
+            "loss": 8.326114654541016,
+            "gradient_norm": 1724341760.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 5.27457996213343e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.26348876953125,
+              "effective_read_nodes": 77.27372741699219,
+              "state_rms": 0.0008247030200436711,
+              "slow_rms": 2.8172667953185737e-05,
+              "covariance_min_diagonal": 0.05533934384584427,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.15936602652072906,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 153.082329147218,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.6362800410133786,
+            "loss": 8.324151992797852,
+            "gradient_norm": 52128546553856.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.037349647958763e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.33783721923828,
+              "state_rms": 0.0006286515272222459,
+              "slow_rms": 0.00010061952343676239,
+              "covariance_min_diagonal": 0.055337704718112946,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13037031888961792,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 201.16928356913309,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.6599740830133669,
+            "loss": 8.321440696716309,
+            "gradient_norm": 78135370448896.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2496145245677326e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.04530334472656,
+              "state_rms": 0.0006438387208618224,
+              "slow_rms": 0.00016950018471106887,
+              "covariance_min_diagonal": 0.05148661136627197,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.129757821559906,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 193.9470098819131,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.6306074589956552,
+            "loss": 8.311232566833496,
+            "gradient_norm": 3965940137984.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2521219105110504e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.94651794433594,
+              "state_rms": 0.0006190696731209755,
+              "slow_rms": 0.0002478579990565777,
+              "covariance_min_diagonal": 0.05618537589907646,
+              "covariance_max_diagonal": 1.0106593370437622,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1286395788192749,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 202.97888674495033,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.633684542030096,
+          "loss": 8.312232971191406,
+          "gradient_norm": 212626423808.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.28373625001404434,
+            "loss": 0.0004222919815219939,
+            "backward": 0.3450830830261111,
+            "clip": 0.001272624998819083,
+            "optimizer": 0.0025698329554870725,
+            "state_bookkeeping": 0.0005989170167595148
+          },
+          "diagnostics": {
+            "local_update_rms": 4.925095709040761e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.1171875,
+            "effective_read_nodes": 74.87255096435547,
+            "state_rms": 0.0006195629248395562,
+            "slow_rms": 0.00046327285235747695,
+            "covariance_min_diagonal": 0.05690302699804306,
+            "covariance_max_diagonal": 1.0106593370437622,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.1290167272090912,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 16.0
+          },
+          "tokens_per_second": 201.9932498115455,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.642663041013293,
+        "targets": 384,
+        "tokens_per_second": 198.73287102915887,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 10218752,
+          "driver_snapshot": 956137472,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n128_triangular_c32",
+      "kind": "model",
+      "nodes": 128,
+      "sequence": 64,
+      "family": "v08",
+      "method": "triangular",
+      "block": 32,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 128,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 32,
+          "implementation": "triangular"
+        },
+        "parameters": 320425,
+        "state_bytes": 853312,
+        "trials": [
+          {
+            "seconds": 0.6077207909547724,
+            "loss": 8.226568222045898,
+            "gradient_norm": 8144.9208984375,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2597762179211713e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.00544738769531,
+              "state_rms": 0.0005826394772157073,
+              "slow_rms": 0.00023625684843864292,
+              "covariance_min_diagonal": 0.05322377756237984,
+              "covariance_max_diagonal": 1.0039273500442505,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.11362878978252411,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 210.6230392396201,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.608487666992005,
+            "loss": 8.264364242553711,
+            "gradient_norm": 36345.47265625,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2619698281923775e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.92372131347656,
+              "state_rms": 0.0006609689444303513,
+              "slow_rms": 0.00029515044298022985,
+              "covariance_min_diagonal": 0.04755190387368202,
+              "covariance_max_diagonal": 1.0039273500442505,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.11371739953756332,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 210.35759135884314,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.6086640420253389,
+            "loss": 8.236311912536621,
+            "gradient_norm": 51315.92578125,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.1026986612705514e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 74.87706756591797,
+              "state_rms": 0.0006259920774027705,
+              "slow_rms": 0.0003239848592784256,
+              "covariance_min_diagonal": 0.054550353437662125,
+              "covariance_max_diagonal": 1.0039273500442505,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1136208027601242,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 210.29663519152217,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 1.0548759159864858,
+            "loss": 8.325063705444336,
+            "gradient_norm": 6626.279296875,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 3.9285941966227256e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.39923095703125,
+              "effective_read_nodes": 78.41677856445312,
+              "state_rms": 0.0008734796429052949,
+              "slow_rms": 2.5687599190860055e-05,
+              "covariance_min_diagonal": 0.05532797798514366,
+              "covariance_max_diagonal": 1.0039273500442505,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.17200800776481628,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 121.34128579502031,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.6924792499630712,
+            "loss": 8.303634643554688,
+            "gradient_norm": 12217.3701171875,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.0227950042462908e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.98719787597656,
+              "state_rms": 0.0006234799511730671,
+              "slow_rms": 8.794914174359292e-05,
+              "covariance_min_diagonal": 0.05528169870376587,
+              "covariance_max_diagonal": 1.0039273500442505,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.11557228118181229,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 184.84308375568804,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.6148933749645948,
+            "loss": 8.291645050048828,
+            "gradient_norm": 9752.4052734375,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2600288755493239e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.4030990600586,
+              "state_rms": 0.0006175045273266733,
+              "slow_rms": 0.00014973588986322284,
+              "covariance_min_diagonal": 0.05655992031097412,
+              "covariance_max_diagonal": 1.0039273500442505,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.11429445445537567,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 208.16617191130115,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.6140662910183892,
+            "loss": 8.265602111816406,
+            "gradient_norm": 18252.9375,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 1.2859911294071935e-05,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.1171875,
+              "effective_read_nodes": 75.14552307128906,
+              "state_rms": 0.000642748607788235,
+              "slow_rms": 0.00019575413898564875,
+              "covariance_min_diagonal": 0.0581347793340683,
+              "covariance_max_diagonal": 1.0039273500442505,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.11356599628925323,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 208.44655027020013,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.6110098329954781,
+          "loss": 8.2261323928833,
+          "gradient_norm": 27145.482421875,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.2859783330350183,
+            "loss": 0.0004617919912561774,
+            "backward": 0.3194107919698581,
+            "clip": 0.001354541047476232,
+            "optimizer": 0.0029558749520219862,
+            "state_bookkeeping": 0.0008464590064249933
+          },
+          "diagnostics": {
+            "local_update_rms": 9.297198630520143e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.1171875,
+            "effective_read_nodes": 74.85162353515625,
+            "state_rms": 0.0006231656880117953,
+            "slow_rms": 0.0003509019152261317,
+            "covariance_min_diagonal": 0.05689992755651474,
+            "covariance_max_diagonal": 1.0039273500442505,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.11403176188468933,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 8.0
+          },
+          "tokens_per_second": 209.4892636546936,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.608487666992005,
+        "targets": 384,
+        "tokens_per_second": 210.42565987808325,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 15207680,
+          "driver_snapshot": 1367228416,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "transformer_n128_batched_c1",
+      "kind": "model",
+      "nodes": 128,
+      "sequence": 64,
+      "family": "transformer",
+      "method": "batched",
+      "block": 1,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "transformer",
+          "nodes": 128,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 56,
+          "transformer_layers": 2,
+          "transformer_ff": 288,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32
+        },
+        "parameters": 320224,
+        "state_bytes": 459280,
+        "trials": [
+          {
+            "seconds": 0.019119750009849668,
+            "loss": 8.24034309387207,
+            "gradient_norm": 0.9656990170478821,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 6694.648200633374,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.006248083023820072,
+            "loss": 8.245096206665039,
+            "gradient_norm": 0.9767364263534546,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 20486.283474789827,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.006417458993382752,
+            "loss": 8.259075164794922,
+            "gradient_norm": 1.057167410850525,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 19945.589076920463,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 0.08663483301643282,
+            "loss": 8.306455612182617,
+            "gradient_norm": 1.3982670307159424,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 1477.4657668667876,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.016555292007979006,
+            "loss": 8.309560775756836,
+            "gradient_norm": 1.0713701248168945,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 7731.666704417475,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.015578250051476061,
+            "loss": 8.301076889038086,
+            "gradient_norm": 0.9691357016563416,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 8216.583992235495,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.01689575001364574,
+            "loss": 8.270919799804688,
+            "gradient_norm": 1.0756824016571045,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 7575.86966524846,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.00804508401779458,
+          "loss": 8.2298583984375,
+          "gradient_norm": 0.9352503418922424,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.0015614170115441084,
+            "loss": 0.0005692919949069619,
+            "backward": 0.002576083003077656,
+            "clip": 0.001459833001717925,
+            "optimizer": 0.001860167016275227,
+            "state_bookkeeping": 1.775001874193549e-05
+          },
+          "diagnostics": {},
+          "tokens_per_second": 15910.337258987258,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.006417458993382752,
+        "targets": 384,
+        "tokens_per_second": 12081.05936774711,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 5708544,
+          "driver_snapshot": 67092480,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "kernel_n512_t16_sequential",
+      "kind": "kernel",
+      "nodes": 512,
+      "sequence": 16,
+      "method": "sequential",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.015259374980814755,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.015652375004719943,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.01527320797322318,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.05082545801997185,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.015467000019270927,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.015040458005387336,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.014795291004702449,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.01527320797322318,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n512_t16_parallel",
+      "kind": "kernel",
+      "nodes": 512,
+      "sequence": 16,
+      "method": "parallel",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.05811366700800136,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.06075366697041318,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.05991275003179908,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.10590733296703547,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.0586239590193145,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.059170541993808,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.05878412496531382,
+            "loss": 0.0005899869138374925,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.05991275003179908,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n512_t16_triangular",
+      "kind": "kernel",
+      "nodes": 512,
+      "sequence": 16,
+      "method": "triangular",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.11420095799257979,
+            "loss": 0.0005899870302528143,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.11344225000357255,
+            "loss": 0.0005899870302528143,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.11490020796190947,
+            "loss": 0.0005899870302528143,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.16156741697341204,
+            "loss": 0.0005899870302528143,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.1153043340309523,
+            "loss": 0.0005899870302528143,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.11577595898415893,
+            "loss": 0.0005899870302528143,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.11622495803749189,
+            "loss": 0.0005899870302528143,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.11420095799257979,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n512_t32_sequential",
+      "kind": "kernel",
+      "nodes": 512,
+      "sequence": 32,
+      "method": "sequential",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.03201629099203274,
+            "loss": 0.0005065819714218378,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.031518374977167696,
+            "loss": 0.0005065819714218378,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.032219542015809566,
+            "loss": 0.0005065819714218378,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.069890208018478,
+            "loss": 0.0005065819714218378,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.03241524996701628,
+            "loss": 0.0005065819714218378,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.03225166699849069,
+            "loss": 0.0005065819714218378,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.032242792018223554,
+            "loss": 0.0005065819714218378,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.03201629099203274,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n512_t32_parallel",
+      "kind": "kernel",
+      "nodes": 512,
+      "sequence": 32,
+      "method": "parallel",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.1423205830506049,
+            "loss": 0.0005065819132141769,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.13979000004474074,
+            "loss": 0.0005065819132141769,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.13833995803724974,
+            "loss": 0.0005065819132141769,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.18010791699634865,
+            "loss": 0.0005065819132141769,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.1398057920159772,
+            "loss": 0.0005065819132141769,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.1390051250346005,
+            "loss": 0.0005065819132141769,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.1395769999944605,
+            "loss": 0.0005065819132141769,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.13979000004474074,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "kernel_n512_t32_triangular",
+      "kind": "kernel",
+      "nodes": 512,
+      "sequence": 32,
+      "method": "triangular",
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "matrix_size": 8,
+        "bands": 3,
+        "batch": 2,
+        "trials": [
+          {
+            "step": 4,
+            "seconds": 0.2925687500392087,
+            "loss": 0.0005065820296294987,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 5,
+            "seconds": 0.3046681670239195,
+            "loss": 0.0005065820296294987,
+            "finite": true,
+            "phase": "timed"
+          },
+          {
+            "step": 6,
+            "seconds": 0.29519145796075463,
+            "loss": 0.0005065820296294987,
+            "finite": true,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "step": 0,
+            "seconds": 0.3346796669648029,
+            "loss": 0.0005065820296294987,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 1,
+            "seconds": 0.2895945420023054,
+            "loss": 0.0005065820296294987,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 2,
+            "seconds": 0.29020179103827104,
+            "loss": 0.0005065820296294987,
+            "finite": true,
+            "phase": "warmup"
+          },
+          {
+            "step": 3,
+            "seconds": 0.2923960000043735,
+            "loss": 0.0005065820296294987,
+            "finite": true,
+            "phase": "warmup"
+          }
+        ],
+        "median_seconds": 0.29519145796075463,
+        "scope": "recurrence forward+backward only; synthetic algebra inputs, not a language-model result"
+      }
+    },
+    {
+      "id": "v07_n512_sequential_c1",
+      "kind": "model",
+      "nodes": 512,
+      "sequence": 64,
+      "family": "v07",
+      "method": "sequential",
+      "block": 1,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 512,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32
+        },
+        "parameters": 339985,
+        "state_bytes": 3313984,
+        "trials": [
+          {
+            "seconds": 3.1278179579530843,
+            "loss": 8.346075057983398,
+            "gradient_norm": 328486624.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.4919582009315491,
+              "reached": 0.492950439453125,
+              "state_rms": 0.00045253714779391885,
+              "slow_rms": 0.00043948047095909715,
+              "local_update_rms": 2.868691080948338e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 9.7186861038208,
+              "effective_read_nodes": 310.9979553222656,
+              "covariance_min_diagonal": 0.05384257063269615,
+              "covariance_max_diagonal": 0.28464481234550476,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.2754557132720947
+            },
+            "tokens_per_second": 40.92309773800459,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 3.1694039170397446,
+            "loss": 8.336647033691406,
+            "gradient_norm": 212493744.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5667808055877686,
+              "reached": 0.567626953125,
+              "state_rms": 0.0004969462752342224,
+              "slow_rms": 0.0005427643191069365,
+              "local_update_rms": 2.6324167265556753e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 9.960504531860352,
+              "effective_read_nodes": 318.73614501953125,
+              "covariance_min_diagonal": 0.049179669469594955,
+              "covariance_max_diagonal": 0.2424100637435913,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.34880661964416504
+            },
+            "tokens_per_second": 40.386143057320794,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 3.528696666995529,
+            "loss": 8.340457916259766,
+            "gradient_norm": 167912672.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5677133798599243,
+              "reached": 0.5685577392578125,
+              "state_rms": 0.0005240484606474638,
+              "slow_rms": 0.0006187233375385404,
+              "local_update_rms": 2.7152011170983315e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 9.875199317932129,
+              "effective_read_nodes": 316.0063781738281,
+              "covariance_min_diagonal": 0.048220641911029816,
+              "covariance_max_diagonal": 0.21245898306369781,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.42104893922805786
+            },
+            "tokens_per_second": 36.27401618200984,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 3.482124959002249,
+            "loss": 8.333662986755371,
+            "gradient_norm": 214723616.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5620566606521606,
+              "reached": 0.564453125,
+              "state_rms": 0.00019679483375512064,
+              "slow_rms": 6.937661237316206e-05,
+              "local_update_rms": 1.3510561984730884e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 10.905421257019043,
+              "effective_read_nodes": 348.9734802246094,
+              "covariance_min_diagonal": 0.05741355940699577,
+              "covariance_max_diagonal": 1.0020575523376465,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.057543497532606125
+            },
+            "tokens_per_second": 36.759163300295945,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 3.3359419170301408,
+            "loss": 8.335603713989258,
+            "gradient_norm": 139175840.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.50509113073349,
+              "reached": 0.506195068359375,
+              "state_rms": 0.00027292012237012386,
+              "slow_rms": 0.00015565079229418188,
+              "local_update_rms": 1.7704360288917087e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 10.193126678466797,
+              "effective_read_nodes": 326.1800537109375,
+              "covariance_min_diagonal": 0.04929308965802193,
+              "covariance_max_diagonal": 0.6964699625968933,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.1463112086057663
+            },
+            "tokens_per_second": 38.369972614497264,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 3.117338124953676,
+            "loss": 8.355093002319336,
+            "gradient_norm": 138543296.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5302715301513672,
+              "reached": 0.53118896484375,
+              "state_rms": 0.0003529986715875566,
+              "slow_rms": 0.00023127581516746432,
+              "local_update_rms": 2.190423765568994e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 10.158883094787598,
+              "effective_read_nodes": 325.0842590332031,
+              "covariance_min_diagonal": 0.0526273213326931,
+              "covariance_max_diagonal": 0.5402466654777527,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.21174564957618713
+            },
+            "tokens_per_second": 41.060672557585356,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 3.140975083981175,
+            "loss": 8.333345413208008,
+            "gradient_norm": 472320608.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "outward_open": 0.5096624493598938,
+              "reached": 0.5106201171875,
+              "state_rms": 0.00040501009789295495,
+              "slow_rms": 0.0003359803231433034,
+              "local_update_rms": 2.5689198082545772e-05,
+              "local_update_clip_fraction": 0.0,
+              "capacity_clip_fraction": 0.0,
+              "local_effective_step_ratio": 0.984375,
+              "local_write_scale": 9.752029418945312,
+              "effective_read_nodes": 312.06494140625,
+              "covariance_min_diagonal": 0.05488020181655884,
+              "covariance_max_diagonal": 0.29447585344314575,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "phase_coherence": 0.24983175098896027
+            },
+            "tokens_per_second": 40.75167633541379,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 3.52503625000827,
+          "loss": 8.312013626098633,
+          "gradient_norm": 155779504.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 1.1206256250152364,
+            "loss": 0.004077332967426628,
+            "backward": 2.393203125044238,
+            "clip": 0.002119584009051323,
+            "optimizer": 0.004365250002592802,
+            "state_bookkeeping": 0.0006438749842345715
+          },
+          "diagnostics": {
+            "outward_open": 0.5724376440048218,
+            "reached": 0.573272705078125,
+            "state_rms": 0.0005283094942569733,
+            "slow_rms": 0.0007371437968686223,
+            "local_update_rms": 2.8042988560628146e-05,
+            "local_update_clip_fraction": 0.0,
+            "capacity_clip_fraction": 0.0,
+            "local_effective_step_ratio": 0.984375,
+            "local_write_scale": 9.899547576904297,
+            "effective_read_nodes": 316.7855224609375,
+            "covariance_min_diagonal": 0.05132616311311722,
+            "covariance_max_diagonal": 0.1562490016222,
+            "phase_norm_min": 0.9999998807907104,
+            "phase_norm_max": 1.0000001192092896,
+            "phase_coherence": 0.4757201671600342
+          },
+          "tokens_per_second": 36.31168331948351,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 3.1694039170397446,
+        "targets": 384,
+        "tokens_per_second": 39.08031583602914,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 8894720,
+          "driver_snapshot": 4949098496,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n512_sequential_c16",
+      "kind": "model",
+      "nodes": 512,
+      "sequence": 64,
+      "family": "v08",
+      "method": "sequential",
+      "block": 16,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 512,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 16,
+          "implementation": "sequential"
+        },
+        "parameters": 345001,
+        "state_bytes": 3313984,
+        "trials": [
+          {
+            "seconds": 1.439708249992691,
+            "loss": 8.313028335571289,
+            "gradient_norm": 1159780864.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.274168067146093e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.63934326171875,
+              "state_rms": 0.0004546823911368847,
+              "slow_rms": 0.00022035083384253085,
+              "covariance_min_diagonal": 0.05177285149693489,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14538869261741638,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 88.90690179808988,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.600429832993541,
+            "loss": 8.32374095916748,
+            "gradient_norm": 11657796608.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 7.875823030190077e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.5832214355469,
+              "state_rms": 0.0005208043148741126,
+              "slow_rms": 0.0002726047532632947,
+              "covariance_min_diagonal": 0.0461408868432045,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14615531265735626,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 79.97851412240988,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.7369737920234911,
+            "loss": 8.317081451416016,
+            "gradient_norm": 471119808.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 5.982513357594144e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.5570373535156,
+              "state_rms": 0.0004794014384970069,
+              "slow_rms": 0.00029173336224630475,
+              "covariance_min_diagonal": 0.05404672026634216,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14564268290996552,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 73.69138244215311,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 1.7293186250026338,
+            "loss": 8.300537109375,
+            "gradient_norm": 48763036.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 3.5727230169868562e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.2308349609375,
+              "effective_read_nodes": 305.2535400390625,
+              "state_rms": 0.0007481809007003903,
+              "slow_rms": 2.024919740506448e-05,
+              "covariance_min_diagonal": 0.0553264282643795,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1732560247182846,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 74.01759175513712,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.4417218749877065,
+            "loss": 8.312716484069824,
+            "gradient_norm": 84713201664.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 7.056044978526188e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 300.6281433105469,
+              "state_rms": 0.0005023906123824418,
+              "slow_rms": 6.666439730906859e-05,
+              "covariance_min_diagonal": 0.05586332082748413,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1473889946937561,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 88.78272725180885,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.4575499159982428,
+            "loss": 8.330262184143066,
+            "gradient_norm": 41550254080.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.269393219961785e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.96905517578125,
+              "state_rms": 0.0005000336095690727,
+              "slow_rms": 0.00011843078391393647,
+              "covariance_min_diagonal": 0.05182819068431854,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14647597074508667,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 87.81860476616042,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.4387930000084452,
+            "loss": 8.328819274902344,
+            "gradient_norm": 2334946560.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.546963726985268e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.74468994140625,
+              "state_rms": 0.0004889600095339119,
+              "slow_rms": 0.00016842293553054333,
+              "covariance_min_diagonal": 0.05655194818973541,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14553138613700867,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 88.96345756425607,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 1.7148419999866746,
+          "loss": 8.327486991882324,
+          "gradient_norm": 138861392.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.8204331659944728,
+            "loss": 0.0007189590251073241,
+            "backward": 0.8870858749723993,
+            "clip": 0.0017427080310881138,
+            "optimizer": 0.004171792010311037,
+            "state_bookkeeping": 0.0006878329440951347
+          },
+          "diagnostics": {
+            "local_update_rms": 2.6805651032191236e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.11328125,
+            "effective_read_nodes": 299.54949951171875,
+            "state_rms": 0.0004892157157883048,
+            "slow_rms": 0.0003122346824966371,
+            "covariance_min_diagonal": 0.05697695538401604,
+            "covariance_max_diagonal": 1.0112860202789307,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.14582094550132751,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 16.0
+          },
+          "tokens_per_second": 74.64244519378148,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 1.600429832993541,
+        "targets": 384,
+        "tokens_per_second": 80.38329644503426,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 25697024,
+          "driver_snapshot": 4043194368,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n512_parallel_c16",
+      "kind": "model",
+      "nodes": 512,
+      "sequence": 64,
+      "family": "v08",
+      "method": "parallel",
+      "block": 16,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 512,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 16,
+          "implementation": "parallel"
+        },
+        "parameters": 345001,
+        "state_bytes": 3313984,
+        "trials": [
+          {
+            "seconds": 1.6184163340367377,
+            "loss": 8.313029289245605,
+            "gradient_norm": 1159771520.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.274168067146093e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.63934326171875,
+              "state_rms": 0.0004546823911368847,
+              "slow_rms": 0.0002203508629463613,
+              "covariance_min_diagonal": 0.05177285149693489,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14538869261741638,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 79.08966148453024,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.6348251670133322,
+            "loss": 8.32374095916748,
+            "gradient_norm": 11657682944.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 7.875823939684778e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.5832214355469,
+              "state_rms": 0.0005208043148741126,
+              "slow_rms": 0.0002726047532632947,
+              "covariance_min_diagonal": 0.0461408905684948,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14615532755851746,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 78.29583406392234,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 1.77603533299407,
+            "loss": 8.317081451416016,
+            "gradient_norm": 471118144.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 5.982513357594144e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.5570373535156,
+              "state_rms": 0.00047940140939317644,
+              "slow_rms": 0.00029173342045396566,
+              "covariance_min_diagonal": 0.05404673144221306,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14564268290996552,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 72.07063824806653,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 2.029387917020358,
+            "loss": 8.300537109375,
+            "gradient_norm": 48763188.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 3.572722789613181e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.2308349609375,
+              "effective_read_nodes": 305.2535400390625,
+              "state_rms": 0.0007481809007003903,
+              "slow_rms": 2.024919740506448e-05,
+              "covariance_min_diagonal": 0.0553264282643795,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1732560396194458,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 63.07320494345682,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.6178537089726888,
+            "loss": 8.312716484069824,
+            "gradient_norm": 84713234432.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 7.056044978526188e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 300.6281433105469,
+              "state_rms": 0.0005023906123824418,
+              "slow_rms": 6.66644045850262e-05,
+              "covariance_min_diagonal": 0.05586332827806473,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1473889946937561,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 79.11716571783116,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.6206071249907836,
+            "loss": 8.330262184143066,
+            "gradient_norm": 41550413824.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.269393219961785e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.96905517578125,
+              "state_rms": 0.0005000336095690727,
+              "slow_rms": 0.00011843078391393647,
+              "covariance_min_diagonal": 0.051828186959028244,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14647597074508667,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 78.98274543296725,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 1.6181143330177292,
+            "loss": 8.328819274902344,
+            "gradient_norm": 2334950912.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.54696463647997e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.74468994140625,
+              "state_rms": 0.0004889600095339119,
+              "slow_rms": 0.00016842293553054333,
+              "covariance_min_diagonal": 0.05655195191502571,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14553138613700867,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 79.10442259125428,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 1.6076554579776712,
+          "loss": 8.327486991882324,
+          "gradient_norm": 138861392.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.652030166995246,
+            "loss": 0.0005145000177435577,
+            "backward": 0.950169374991674,
+            "clip": 0.0014783329679630697,
+            "optimizer": 0.002844042028300464,
+            "state_bookkeeping": 0.0006172499852254987
+          },
+          "diagnostics": {
+            "local_update_rms": 2.6805651032191236e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.11328125,
+            "effective_read_nodes": 299.54949951171875,
+            "state_rms": 0.0004892157157883048,
+            "slow_rms": 0.000312234740704298,
+            "covariance_min_diagonal": 0.05697694420814514,
+            "covariance_max_diagonal": 1.0112860202789307,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.14582094550132751,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 16.0
+          },
+          "tokens_per_second": 79.61904981868186,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 1.6348251670133322,
+        "targets": 384,
+        "tokens_per_second": 76.35292561360518,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 25959168,
+          "driver_snapshot": 5074993152,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n512_triangular_c16",
+      "kind": "model",
+      "nodes": 512,
+      "sequence": 64,
+      "family": "v08",
+      "method": "triangular",
+      "block": 16,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 512,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 16,
+          "implementation": "triangular"
+        },
+        "parameters": 345001,
+        "state_bytes": 3313984,
+        "trials": [
+          {
+            "seconds": 2.1764591250102967,
+            "loss": 8.313029289245605,
+            "gradient_norm": 1159779072.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.274168067146093e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.63934326171875,
+              "state_rms": 0.00045468236203305423,
+              "slow_rms": 0.0002203508629463613,
+              "covariance_min_diagonal": 0.0517728328704834,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14538869261741638,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 58.81112056234662,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 2.3231610000366345,
+            "loss": 8.32374095916748,
+            "gradient_norm": 11657640960.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 7.875823939684778e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.58319091796875,
+              "state_rms": 0.0005208043148741126,
+              "slow_rms": 0.0002726047532632947,
+              "covariance_min_diagonal": 0.046140894293785095,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14615531265735626,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 55.097343661494634,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 2.216034542012494,
+            "loss": 8.317081451416016,
+            "gradient_norm": 471120224.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 5.982513357594144e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.5570373535156,
+              "state_rms": 0.000479401380289346,
+              "slow_rms": 0.00029173342045396566,
+              "covariance_min_diagonal": 0.05404672399163246,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14564266800880432,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 57.76083250207674,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 2.3567928329575807,
+            "loss": 8.300537109375,
+            "gradient_norm": 48763188.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 3.572722789613181e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.2308349609375,
+              "effective_read_nodes": 305.2535400390625,
+              "state_rms": 0.0007481810753233731,
+              "slow_rms": 2.024919740506448e-05,
+              "covariance_min_diagonal": 0.0553264282643795,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999998807907104,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1732560396194458,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 54.311095235031985,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 2.1517128749983385,
+            "loss": 8.312716484069824,
+            "gradient_norm": 84713177088.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 7.056044978526188e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 300.6281433105469,
+              "state_rms": 0.0005023906705901027,
+              "slow_rms": 6.666439730906859e-05,
+              "covariance_min_diagonal": 0.05586332827806473,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1473889946937561,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 59.48749086706043,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 2.178714542009402,
+            "loss": 8.330262184143066,
+            "gradient_norm": 41550434304.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.269393219961785e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.9690246582031,
+              "state_rms": 0.0005000337259843946,
+              "slow_rms": 0.00011843080574180931,
+              "covariance_min_diagonal": 0.05182819813489914,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14647597074508667,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 58.750238974375755,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 2.1955031249672174,
+            "loss": 8.32882022857666,
+            "gradient_norm": 2334956032.0,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.54696463647997e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.74468994140625,
+              "state_rms": 0.0004889600677415729,
+              "slow_rms": 0.00016842295008245856,
+              "covariance_min_diagonal": 0.05655195191502571,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.14553138613700867,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 16.0
+            },
+            "tokens_per_second": 58.30098738844257,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 2.1813254579901695,
+          "loss": 8.327486991882324,
+          "gradient_norm": 138861088.0,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.9448990829987451,
+            "loss": 0.0004308329662308097,
+            "backward": 1.2277863339986652,
+            "clip": 0.0016748750349506736,
+            "optimizer": 0.005770457966718823,
+            "state_bookkeeping": 0.0007616670336574316
+          },
+          "diagnostics": {
+            "local_update_rms": 2.6805651032191236e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.11328125,
+            "effective_read_nodes": 299.54949951171875,
+            "state_rms": 0.000489215599372983,
+            "slow_rms": 0.000312234740704298,
+            "covariance_min_diagonal": 0.05697694420814514,
+            "covariance_max_diagonal": 1.0112860202789307,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.14582094550132751,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 16.0
+          },
+          "tokens_per_second": 58.679918455605744,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 2.216034542012494,
+        "targets": 384,
+        "tokens_per_second": 57.179831161291915,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 25697024,
+          "driver_snapshot": 4001251328,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "v08_n512_triangular_c32",
+      "kind": "model",
+      "nodes": 512,
+      "sequence": 64,
+      "family": "v08",
+      "method": "triangular",
+      "block": 32,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "full",
+          "nodes": 512,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 256,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32,
+          "block_size": 32,
+          "implementation": "triangular"
+        },
+        "parameters": 345001,
+        "state_bytes": 3313984,
+        "trials": [
+          {
+            "seconds": 2.1844949169899337,
+            "loss": 8.230491638183594,
+            "gradient_norm": 122.58709716796875,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.381231964449398e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.96929931640625,
+              "state_rms": 0.00042653182754293084,
+              "slow_rms": 0.0001739572617225349,
+              "covariance_min_diagonal": 0.0520581379532814,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13463234901428223,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 58.5947804247465,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 2.1293971659615636,
+            "loss": 8.26229476928711,
+            "gradient_norm": 306.5888977050781,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.170462024281733e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.80157470703125,
+              "state_rms": 0.00048027903540059924,
+              "slow_rms": 0.00020009264699183404,
+              "covariance_min_diagonal": 0.048387233167886734,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13479946553707123,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 60.11090934377173,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 2.1813834170461632,
+            "loss": 8.222026824951172,
+            "gradient_norm": 399.310546875,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 6.900174412294291e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 299.6982421875,
+              "state_rms": 0.0004600936663337052,
+              "slow_rms": 0.0002114254457410425,
+              "covariance_min_diagonal": 0.054261464625597,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13453960418701172,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 58.67835933828006,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 2.81887362501584,
+            "loss": 8.301048278808594,
+            "gradient_norm": 3671.271728515625,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 2.719390522543108e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.3438568115234375,
+              "effective_read_nodes": 308.18023681640625,
+              "state_rms": 0.0008202551398426294,
+              "slow_rms": 1.6933254300965928e-05,
+              "covariance_min_diagonal": 0.055323194712400436,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.18494978547096252,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 45.40820803886898,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 2.140917000011541,
+            "loss": 8.283647537231445,
+            "gradient_norm": 725.0182495117188,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 6.760306860087439e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 302.1817626953125,
+              "state_rms": 0.0004936022451147437,
+              "slow_rms": 5.6722506997175515e-05,
+              "covariance_min_diagonal": 0.05520103499293327,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13767728209495544,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 59.78746490373517,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 2.187720542016905,
+            "loss": 8.292689323425293,
+            "gradient_norm": 204.32264709472656,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.08350887382403e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 300.82977294921875,
+              "state_rms": 0.0004655750817619264,
+              "slow_rms": 0.00010420240869279951,
+              "covariance_min_diagonal": 0.05659026652574539,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.1355510950088501,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 58.50838694506847,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 2.249451458978001,
+            "loss": 8.276286125183105,
+            "gradient_norm": 192.8107452392578,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {
+              "local_update_rms": 8.640005034976639e-06,
+              "capacity_clip_fraction": 0.0,
+              "reached": 0.11328125,
+              "effective_read_nodes": 300.2630615234375,
+              "state_rms": 0.00048138853162527084,
+              "slow_rms": 0.0001448507100576535,
+              "covariance_min_diagonal": 0.057810861617326736,
+              "covariance_max_diagonal": 1.0112860202789307,
+              "phase_norm_min": 0.9999999403953552,
+              "phase_norm_max": 1.0000001192092896,
+              "attention_mass": 0.13477471470832825,
+              "serial_feedback_steps": 64.0,
+              "spatial_rounds": 8.0
+            },
+            "tokens_per_second": 56.902761555101335,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 2.163469958002679,
+          "loss": 8.221870422363281,
+          "gradient_norm": 644.6324462890625,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.9933161249500699,
+            "loss": 0.0005064160213805735,
+            "backward": 1.1634130839956924,
+            "clip": 0.001556375005748123,
+            "optimizer": 0.0035300410236231983,
+            "state_bookkeeping": 0.0011448339791968465
+          },
+          "diagnostics": {
+            "local_update_rms": 4.391887159727048e-06,
+            "capacity_clip_fraction": 0.0,
+            "reached": 0.11328125,
+            "effective_read_nodes": 299.63372802734375,
+            "state_rms": 0.0004641836858354509,
+            "slow_rms": 0.0002236076252302155,
+            "covariance_min_diagonal": 0.056884728372097015,
+            "covariance_max_diagonal": 1.0112860202789307,
+            "phase_norm_min": 0.9999999403953552,
+            "phase_norm_max": 1.0000001192092896,
+            "attention_mass": 0.1351199448108673,
+            "serial_feedback_steps": 64.0,
+            "spatial_rounds": 8.0
+          },
+          "tokens_per_second": 59.16421419513027,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 2.1813834170461632,
+        "targets": 384,
+        "tokens_per_second": 59.11989414461917,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 43531008,
+          "driver_snapshot": 4905222144,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    },
+    {
+      "id": "transformer_n512_batched_c1",
+      "kind": "model",
+      "nodes": 512,
+      "sequence": 64,
+      "family": "transformer",
+      "method": "batched",
+      "block": 1,
+      "status": "completed",
+      "result": {
+        "status": "completed",
+        "config": {
+          "vocab_size": 4096,
+          "variant": "transformer",
+          "nodes": 512,
+          "matrix_size": 8,
+          "width": 64,
+          "bands": 3,
+          "modes": 3,
+          "trace_bands": 2,
+          "neighbors": 8,
+          "shells": 4,
+          "internal_steps": 4,
+          "graph_seed": 6101,
+          "topology": "connected",
+          "checkpoint_events": false,
+          "transformer_width": 64,
+          "transformer_layers": 2,
+          "transformer_ff": 192,
+          "transformer_heads": 4,
+          "context_limit": 256,
+          "covariance_tau": 4096.0,
+          "covariance_process": 0.002,
+          "local_write_normalization": "participation",
+          "local_write_reference": 32,
+          "credit_horizon": 32
+        },
+        "parameters": 345216,
+        "state_bytes": 524816,
+        "trials": [
+          {
+            "seconds": 0.05655025003943592,
+            "loss": 8.282264709472656,
+            "gradient_norm": 1.0153768062591553,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 2263.4736347007806,
+            "step": 4,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.00801395799499005,
+            "loss": 8.272698402404785,
+            "gradient_norm": 1.0026310682296753,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 15972.132631593475,
+            "step": 5,
+            "phase": "timed"
+          },
+          {
+            "seconds": 0.006951291987206787,
+            "loss": 8.256745338439941,
+            "gradient_norm": 1.057482361793518,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 18413.84310076058,
+            "step": 6,
+            "phase": "timed"
+          }
+        ],
+        "warmup": [
+          {
+            "seconds": 0.07728941703680903,
+            "loss": 8.337202072143555,
+            "gradient_norm": 1.2770289182662964,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 1656.1128923904303,
+            "step": 0,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.017032374977134168,
+            "loss": 8.320324897766113,
+            "gradient_norm": 1.0284422636032104,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 7515.099930094248,
+            "step": 1,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.018944417010061443,
+            "loss": 8.315987586975098,
+            "gradient_norm": 0.9876611232757568,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 6756.608025046048,
+            "step": 2,
+            "phase": "warmup"
+          },
+          {
+            "seconds": 0.018313499982468784,
+            "loss": 8.296796798706055,
+            "gradient_norm": 1.105587363243103,
+            "targets": 128,
+            "phase_seconds": {},
+            "diagnostics": {},
+            "tokens_per_second": 6989.379426244701,
+            "step": 3,
+            "phase": "warmup"
+          }
+        ],
+        "profile": {
+          "seconds": 0.009524499997496605,
+          "loss": 8.264627456665039,
+          "gradient_norm": 0.9573807716369629,
+          "targets": 128,
+          "phase_seconds": {
+            "forward": 0.0018882079748436809,
+            "loss": 0.001758791971951723,
+            "backward": 0.0026023330283351243,
+            "clip": 0.0013527499977499247,
+            "optimizer": 0.0019112079753540456,
+            "state_bookkeeping": 1.0792049579322338e-05
+          },
+          "diagnostics": {},
+          "tokens_per_second": 13439.025674171158,
+          "step": 7,
+          "phase": "profile"
+        },
+        "median_seconds": 0.00801395799499005,
+        "targets": 384,
+        "tokens_per_second": 5369.465359031869,
+        "sample": {
+          "split": "train",
+          "sha256": "542d0011fc662dae7101e5ae84abe3c96482ba5e513ef3738ed203b46e0a9ca4"
+        },
+        "diagnostics": "v07 retains its built-in per-token diagnostics; no console logging inside update",
+        "bptt": "one full sequence per backward, all families; detach and invalidate once per optimizer update",
+        "memory": {
+          "allocated_snapshot": 6186752,
+          "driver_snapshot": 67108864,
+          "recommended_max": 19069665280,
+          "isolated_peak": false
+        }
+      }
+    }
+  ],
+  "formal_training": false
+}

@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-25T10:52:02.504145+08:00",
+  "method": "CPU construction only; no forward/backward/optimizer/device allocation. Counts full initial persistent runtime state, including fixed-size credit arrays. Excludes warm-state view storage retention, temporary block frames, autograd activations, gradients, optimizer moments, driver allocation and compiled workspace.",
+  "records": [
+    {
+      "nodes": 32,
+      "batch": 2,
+      "parameters": 315817,
+      "parameter_bytes": 1263268,
+      "state": {
+        "logical_bytes": 239696,
+        "unique_storage_bytes": 239696
+      }
+    },
+    {
+      "nodes": 32,
+      "batch": 8,
+      "parameters": 315817,
+      "parameter_bytes": 1263268,
+      "state": {
+        "logical_bytes": 958784,
+        "unique_storage_bytes": 958784
+      }
+    },
+    {
+      "nodes": 32,
+      "batch": 32,
+      "parameters": 315817,
+      "parameter_bytes": 1263268,
+      "state": {
+        "logical_bytes": 3835136,
+        "unique_storage_bytes": 3835136
+      }
+    },
+    {
+      "nodes": 128,
+      "batch": 2,
+      "parameters": 321961,
+      "parameter_bytes": 1287844,
+      "state": {
+        "logical_bytes": 857936,
+        "unique_storage_bytes": 857936
+      }
+    },
+    {
+      "nodes": 128,
+      "batch": 8,
+      "parameters": 321961,
+      "parameter_bytes": 1287844,
+      "state": {
+        "logical_bytes": 3431744,
+        "unique_storage_bytes": 3431744
+      }
+    },
+    {
+      "nodes": 128,
+      "batch": 32,
+      "parameters": 321961,
+      "parameter_bytes": 1287844,
+      "state": {
+        "logical_bytes": 13726976,
+        "unique_storage_bytes": 13726976
+      }
+    },
+    {
+      "nodes": 512,
+      "batch": 2,
+      "parameters": 346537,
+      "parameter_bytes": 1386148,
+      "state": {
+        "logical_bytes": 3330896,
+        "unique_storage_bytes": 3330896
+      }
+    },
+    {
+      "nodes": 512,
+      "batch": 8,
+      "parameters": 346537,
+      "parameter_bytes": 1386148,
+      "state": {
+        "logical_bytes": 13323584,
+        "unique_storage_bytes": 13323584
+      }
+    },
+    {
+      "nodes": 512,
+      "batch": 32,
+      "parameters": 346537,
+      "parameter_bytes": 1386148,
+      "state": {
+        "logical_bytes": 53294336,
+        "unique_storage_bytes": 53294336
+      }
+    }
+  ],
+  "token_files": [
+    {
+      "name": "data/v06/wikitext2/validation_tokens.npy",
+      "bytes": 1291604
+    },
+    {
+      "name": "data/v06/wikitext2/test_tokens.npy",
+      "bytes": 1472620
+    },
+    {
+      "name": "data/v06/wikitext2/train_tokens.npy",
+      "bytes": 12338768
+    }
+  ],
+  "training_source_hash_count": 41,
+  "training_source_hash_mismatches": []
+}

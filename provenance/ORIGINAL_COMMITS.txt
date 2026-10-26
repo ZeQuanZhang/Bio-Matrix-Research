@@ -1,0 +1,13 @@
+c940a1b8bed03d751b4fe7d1c6d2cb2947117a67 2026-10-22T16:35:23+08:00 Implement v0.5 consolidation experiments with audited counterfactual streams
+34a415d9be9ebbb6b1c7981ec06b6d924363adc2 2026-10-22T13:13:05+08:00 Implement v0.4 latent-context matrix networks with PyCharm progress runner
+9453f85ecbb1417d5c6bc0ee9e1b3db9b13b68ad 2026-10-22T01:20:19+08:00 Preserve audited initial v0.3 screen before repeated follow-up seeds
+13932ac07201b77e5e5fa3117e7acc399581a3ae 2026-10-21T23:17:30+08:00 Document the serial reproduction workflow and record learned phase parameters
+36267903ca84d15f8684dbe8b0578fca2d880276 2026-10-21T22:20:42+08:00 Complete three-seed screening plan for all v0.3 follow-up conditions
+0561d69e7986ff48ed39be29d657f81805605c19 2026-10-21T21:09:17+08:00 Complete post-training evidence interventions and serial verification workflow
+ed050ad30a4e95bf6ba23d27c78d5ce455a0b21e 2026-10-21T20:35:04+08:00 Add v0.3 diagnostics, shortcut baselines and raw-result verification
+739b3e5db31c04a3511ab219fa6fb8908a56007a 2026-10-21T20:23:13+08:00 Register and implement independent v0.3 sparse network experiments
+e1fc1dc546a596f7eb1c72a49f4365da03a8063e 2026-10-21T17:56:03+08:00 Anchor completed experiments with source and artifact checksums
+f297bcd8f17d9a1a26973ab40f4a2bc8aff0f685 2026-10-21T17:55:06+08:00 Complete Bio-Matrix experiment reports, state diagnostics and integrity checks
+022e8dc1cb24f701878d6c447f61d320c93969dc 2026-10-21T17:29:10+08:00 Register Gaussian, spectral and independent optimizer experiments
+ecbeb0982e9d7865138ce554fe39b6f7cbd744ae 2026-10-21T17:19:08+08:00 Register state-only Bio-Matrix memory experiments and causal controls
+57bfc31230262a62cadaea89e1b211984c22bc43 2026-10-21T17:13:23+08:00 Preserve completed Chinese eight-state language-model experiment

@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Bio-Matrix v0.9 训练" type="PythonConfigurationType" factoryName="Python">
+    <module name="Self-evo-model" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+      <env name="TOKENIZERS_PARALLELISM" value="false" />
+    </envs>
+    <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="SCRIPT_NAME" value="v09.train" />
+    <option name="PARAMETERS" value="--device auto --condition v09_dense --nodes 128 --tokens 12000000" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="true" />
+    <option name="MODULE_MODE" value="true" />
+    <method v="2" />
+  </configuration>
+</component>

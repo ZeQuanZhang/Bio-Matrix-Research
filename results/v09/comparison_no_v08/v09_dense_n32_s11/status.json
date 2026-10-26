@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "step": 94422,
+  "completed_tokens": 12000000,
+  "visible_inputs": 12086016,
+  "validated_step": 94422,
+  "validated_tokens": 12000000,
+  "best_nll": 4.933975346386433,
+  "best_step": 90488,
+  "train_seconds": 23927.82023805764
+}

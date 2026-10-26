@@ -1,0 +1,803 @@
+{
+  "scope": "CPU one thread; fixed learned weights; no optimizer, no training claims",
+  "sources": {
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/test_model.py": "972291cc7afc7d504ac010cf9fbc45766352c0401670be1e256466ca481a9aa4",
+    "<LOCAL_HOME>/Downloads/BioMatrix_完整构想描述.md": "18107704525baa65a090f2c9c391389a8740c070dd90abe2b88ec0f1aa1be331",
+    "docs/V06_DESIGN.md": "743e9ec83c701610dfccb015374cff17fcaa1420f9e7b582d4230002d87720c6",
+    "docs/V07_DESIGN_AND_EXPERIMENT.md": "38415331a715dbd39552d9e07da091f61b7c323047e1421bc81d71caccdb8549"
+  },
+  "runtime_storage": [
+    {
+      "nodes": 32,
+      "bytes_per_stream": 75944,
+      "fields": {
+        "m": {
+          "shape": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 8192
+        },
+        "p": {
+          "shape": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 8192
+        },
+        "x": {
+          "shape": [
+            1,
+            32,
+            3,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 24576
+        },
+        "slow": {
+          "shape": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 8192
+        },
+        "trace": {
+          "shape": [
+            1,
+            32,
+            2,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 2048
+        },
+        "response": {
+          "shape": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 8192
+        },
+        "support": {
+          "shape": [
+            1,
+            32,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1024
+        },
+        "innovation": {
+          "shape": [
+            1,
+            32
+          ],
+          "dtype": "torch.float32",
+          "bytes": 128
+        },
+        "z": {
+          "shape": [
+            1,
+            32,
+            3,
+            2
+          ],
+          "dtype": "torch.float32",
+          "bytes": 768
+        },
+        "prediction": {
+          "shape": [
+            1,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 256
+        },
+        "feedback_h": {
+          "shape": [
+            1,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 256
+        },
+        "read_query": {
+          "shape": [
+            1,
+            32,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1024
+        },
+        "read_weight": {
+          "shape": [
+            1,
+            32
+          ],
+          "dtype": "torch.float32",
+          "bytes": 128
+        },
+        "feedback_gain": {
+          "shape": [
+            1,
+            32
+          ],
+          "dtype": "torch.float32",
+          "bytes": 128
+        },
+        "read_scale": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "bytes": 4
+        },
+        "feedback_valid": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.bool",
+          "bytes": 1
+        },
+        "credit_prediction": {
+          "shape": [
+            1,
+            7,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1792
+        },
+        "credit_h": {
+          "shape": [
+            1,
+            7,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1792
+        },
+        "credit_query": {
+          "shape": [
+            1,
+            7,
+            32,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 7168
+        },
+        "credit_weight": {
+          "shape": [
+            1,
+            7,
+            32
+          ],
+          "dtype": "torch.float32",
+          "bytes": 896
+        },
+        "credit_gain": {
+          "shape": [
+            1,
+            7,
+            32
+          ],
+          "dtype": "torch.float32",
+          "bytes": 896
+        },
+        "credit_scale": {
+          "shape": [
+            1,
+            7
+          ],
+          "dtype": "torch.float32",
+          "bytes": 28
+        },
+        "credit_valid": {
+          "shape": [
+            1,
+            7
+          ],
+          "dtype": "torch.bool",
+          "bytes": 7
+        },
+        "evidence_count": {
+          "shape": [
+            1,
+            32
+          ],
+          "dtype": "torch.int64",
+          "bytes": 256
+        }
+      },
+      "formula_default_fp32": "2244*N + 4136 bytes; d=8,bands=3,modes=3,trace_bands=2,width=64,H=8"
+    },
+    {
+      "nodes": 128,
+      "bytes_per_stream": 291368,
+      "fields": {
+        "m": {
+          "shape": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 32768
+        },
+        "p": {
+          "shape": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 32768
+        },
+        "x": {
+          "shape": [
+            1,
+            128,
+            3,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 98304
+        },
+        "slow": {
+          "shape": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 32768
+        },
+        "trace": {
+          "shape": [
+            1,
+            128,
+            2,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 8192
+        },
+        "response": {
+          "shape": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 32768
+        },
+        "support": {
+          "shape": [
+            1,
+            128,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 4096
+        },
+        "innovation": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.float32",
+          "bytes": 512
+        },
+        "z": {
+          "shape": [
+            1,
+            128,
+            3,
+            2
+          ],
+          "dtype": "torch.float32",
+          "bytes": 3072
+        },
+        "prediction": {
+          "shape": [
+            1,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 256
+        },
+        "feedback_h": {
+          "shape": [
+            1,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 256
+        },
+        "read_query": {
+          "shape": [
+            1,
+            128,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 4096
+        },
+        "read_weight": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.float32",
+          "bytes": 512
+        },
+        "feedback_gain": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.float32",
+          "bytes": 512
+        },
+        "read_scale": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "bytes": 4
+        },
+        "feedback_valid": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.bool",
+          "bytes": 1
+        },
+        "credit_prediction": {
+          "shape": [
+            1,
+            7,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1792
+        },
+        "credit_h": {
+          "shape": [
+            1,
+            7,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1792
+        },
+        "credit_query": {
+          "shape": [
+            1,
+            7,
+            128,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 28672
+        },
+        "credit_weight": {
+          "shape": [
+            1,
+            7,
+            128
+          ],
+          "dtype": "torch.float32",
+          "bytes": 3584
+        },
+        "credit_gain": {
+          "shape": [
+            1,
+            7,
+            128
+          ],
+          "dtype": "torch.float32",
+          "bytes": 3584
+        },
+        "credit_scale": {
+          "shape": [
+            1,
+            7
+          ],
+          "dtype": "torch.float32",
+          "bytes": 28
+        },
+        "credit_valid": {
+          "shape": [
+            1,
+            7
+          ],
+          "dtype": "torch.bool",
+          "bytes": 7
+        },
+        "evidence_count": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.int64",
+          "bytes": 1024
+        }
+      },
+      "formula_default_fp32": "2244*N + 4136 bytes; d=8,bands=3,modes=3,trace_bands=2,width=64,H=8"
+    },
+    {
+      "nodes": 512,
+      "bytes_per_stream": 1153064,
+      "fields": {
+        "m": {
+          "shape": [
+            1,
+            512,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 131072
+        },
+        "p": {
+          "shape": [
+            1,
+            512,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 131072
+        },
+        "x": {
+          "shape": [
+            1,
+            512,
+            3,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 393216
+        },
+        "slow": {
+          "shape": [
+            1,
+            512,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 131072
+        },
+        "trace": {
+          "shape": [
+            1,
+            512,
+            2,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 32768
+        },
+        "response": {
+          "shape": [
+            1,
+            512,
+            8,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 131072
+        },
+        "support": {
+          "shape": [
+            1,
+            512,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 16384
+        },
+        "innovation": {
+          "shape": [
+            1,
+            512
+          ],
+          "dtype": "torch.float32",
+          "bytes": 2048
+        },
+        "z": {
+          "shape": [
+            1,
+            512,
+            3,
+            2
+          ],
+          "dtype": "torch.float32",
+          "bytes": 12288
+        },
+        "prediction": {
+          "shape": [
+            1,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 256
+        },
+        "feedback_h": {
+          "shape": [
+            1,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 256
+        },
+        "read_query": {
+          "shape": [
+            1,
+            512,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 16384
+        },
+        "read_weight": {
+          "shape": [
+            1,
+            512
+          ],
+          "dtype": "torch.float32",
+          "bytes": 2048
+        },
+        "feedback_gain": {
+          "shape": [
+            1,
+            512
+          ],
+          "dtype": "torch.float32",
+          "bytes": 2048
+        },
+        "read_scale": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "bytes": 4
+        },
+        "feedback_valid": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.bool",
+          "bytes": 1
+        },
+        "credit_prediction": {
+          "shape": [
+            1,
+            7,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1792
+        },
+        "credit_h": {
+          "shape": [
+            1,
+            7,
+            64
+          ],
+          "dtype": "torch.float32",
+          "bytes": 1792
+        },
+        "credit_query": {
+          "shape": [
+            1,
+            7,
+            512,
+            8
+          ],
+          "dtype": "torch.float32",
+          "bytes": 114688
+        },
+        "credit_weight": {
+          "shape": [
+            1,
+            7,
+            512
+          ],
+          "dtype": "torch.float32",
+          "bytes": 14336
+        },
+        "credit_gain": {
+          "shape": [
+            1,
+            7,
+            512
+          ],
+          "dtype": "torch.float32",
+          "bytes": 14336
+        },
+        "credit_scale": {
+          "shape": [
+            1,
+            7
+          ],
+          "dtype": "torch.float32",
+          "bytes": 28
+        },
+        "credit_valid": {
+          "shape": [
+            1,
+            7
+          ],
+          "dtype": "torch.bool",
+          "bytes": 7
+        },
+        "evidence_count": {
+          "shape": [
+            1,
+            512
+          ],
+          "dtype": "torch.int64",
+          "bytes": 4096
+        }
+      },
+      "formula_default_fp32": "2244*N + 4136 bytes; d=8,bands=3,modes=3,trace_bands=2,width=64,H=8"
+    }
+  ],
+  "complexity": {
+    "main": "O(B*T*J*N*k*d^2)",
+    "covariance": "O(B*T*N*d^2)",
+    "input_filter": "O(B*T*J*N*d)",
+    "credit_metadata": "O(B*H*(N*d+2*N+2*width+1))",
+    "history_dependence": "H=8 is explicit fixed credit metadata, never node-state/context copies"
+  },
+  "isolated_uniform_local_write": {
+    "none": [
+      {
+        "nodes": 32,
+        "effective_nodes": 32.0,
+        "scale": 1.0,
+        "slow_read_change": 7.450182626382347e-05
+      },
+      {
+        "nodes": 128,
+        "effective_nodes": 128.0,
+        "scale": 1.0,
+        "slow_read_change": 1.8625456565955868e-05
+      },
+      {
+        "nodes": 512,
+        "effective_nodes": 512.0,
+        "scale": 1.0,
+        "slow_read_change": 4.656364141488967e-06
+      }
+    ],
+    "participation": [
+      {
+        "nodes": 32,
+        "effective_nodes": 32.0,
+        "scale": 1.0,
+        "slow_read_change": 7.450182626382347e-05
+      },
+      {
+        "nodes": 128,
+        "effective_nodes": 128.0,
+        "scale": 4.0,
+        "slow_read_change": 7.450182626382347e-05
+      },
+      {
+        "nodes": 512,
+        "effective_nodes": 512.0,
+        "scale": 16.0,
+        "slow_read_change": 7.450182626382347e-05
+      }
+    ]
+  },
+  "numerical_bounds": {
+    "kernel_steps": 4096,
+    "covariance_float32_min_eigenvalue": 0.016604486852884293,
+    "covariance_float32_max_eigenvalue": 6.1809773445129395,
+    "covariance_theoretical_upper_bound": 9.19709654071045,
+    "old_unobserved_variance_at_25651": 52.327651,
+    "phase_steps": 10000,
+    "max_phase_norm_error": 0.0,
+    "note": "Covariance bound is for rho prior + one fresh Joseph event; mean is projected to norm 4"
+  },
+  "train_only_routing_calibration": {
+    "seed": 11,
+    "docs": [
+      578,
+      160,
+      437,
+      479
+    ],
+    "starts": [
+      2775814,
+      796781,
+      2031918,
+      2243964
+    ],
+    "windows": 4,
+    "tokens_per_window": 32,
+    "conditions": [
+      {
+        "nodes": 32,
+        "reached_by_shell": [
+          1.0,
+          1.0,
+          0.9539930541068316,
+          0.7330729179084301
+        ],
+        "outward_open_target_shell": [
+          1.0,
+          0.6812294400297105,
+          0.2750000002561137
+        ],
+        "slow_rms": 6.935093551874161e-05,
+        "final_effective_read_nodes": 25.833356857299805,
+        "final_local_write_scale": 0.8072924017906189
+      },
+      {
+        "nodes": 128,
+        "reached_by_shell": [
+          1.0,
+          1.0,
+          0.9416118431836367,
+          0.4414583368925378
+        ],
+        "outward_open_target_shell": [
+          1.0,
+          0.6712557170540094,
+          0.17648198972347018
+        ],
+        "slow_rms": 6.483421748271212e-05,
+        "final_effective_read_nodes": 89.96862030029297,
+        "final_local_write_scale": 2.8115193843841553
+      },
+      {
+        "nodes": 512,
+        "reached_by_shell": [
+          1.0,
+          1.0,
+          0.9341010544449091,
+          0.3598177083476912
+        ],
+        "outward_open_target_shell": [
+          1.0,
+          0.6637961650267243,
+          0.15679687564806954
+        ],
+        "slow_rms": 5.3304069297155365e-05,
+        "final_effective_read_nodes": 342.6329040527344,
+        "final_local_write_scale": 10.70727825164795
+      }
+    ],
+    "online_state_updates": true
+  }
+}

@@ -1,0 +1,2738 @@
+{
+  "core_message_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N32_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N32_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N32_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 32,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N32_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N128_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N128_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N128_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 128,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N128_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N512_D8_B3_K4_E2_J16_shared_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N512_D8_B3_K4_E2_J16_shared_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N512_D8_B3_K4_E2_J16_separated_connected_full_s11": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 512,
+      "seed": 11,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N512_D8_B3_K4_E2_J16_separated_connected_full_s11"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N32_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N32_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N32_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 32,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N32_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N128_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N128_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N128_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 128,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N128_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N512_D8_B3_K4_E2_J16_shared_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N512_D8_B3_K4_E2_J16_shared_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N512_D8_B3_K4_E2_J16_separated_connected_full_s23": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 512,
+      "seed": 23,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N512_D8_B3_K4_E2_J16_separated_connected_full_s23"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N32_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N32_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N32_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 32,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N32_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N128_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N128_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N128_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 128,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N128_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N512_D8_B3_K4_E2_J16_shared_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "shared",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N512_D8_B3_K4_E2_J16_shared_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_message_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "message",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_message_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_full_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "full",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_full_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_fourier_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_fourier",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_fourier_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_single_timescale_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "single_timescale",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_single_timescale_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_traces_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_traces",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_traces_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_no_consolidation_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "no_consolidation",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_no_consolidation_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_frequency_only_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "frequency_only",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_frequency_only_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  },
+  "core_always_read_N512_D8_B3_K4_E2_J16_separated_connected_full_s37": {
+    "condition": {
+      "stage": "core",
+      "variant": "always_read",
+      "nodes": 512,
+      "seed": 37,
+      "read_path": "separated",
+      "matrix_size": 8,
+      "internal_steps": 16,
+      "topology": "connected",
+      "credit": "full",
+      "bands": 3,
+      "modes": 4,
+      "trace_bands": 2,
+      "id": "core_always_read_N512_D8_B3_K4_E2_J16_separated_connected_full_s37"
+    },
+    "status": "not_executed",
+    "history": []
+  }
+}

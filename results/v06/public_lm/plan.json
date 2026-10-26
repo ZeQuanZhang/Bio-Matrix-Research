@@ -1,0 +1,344 @@
+{
+  "config": {
+    "version": "v06-public-lm-1",
+    "device": "auto",
+    "nodes": [
+      32,
+      128,
+      512
+    ],
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "variants": [
+      "message",
+      "independent",
+      "full",
+      "transformer"
+    ],
+    "matrix_size": 8,
+    "width": 64,
+    "bands": 3,
+    "modes": 3,
+    "trace_bands": 2,
+    "neighbors": 8,
+    "shells": 4,
+    "internal_steps": 4,
+    "graph_seed": 6101,
+    "topology": "connected",
+    "checkpoint_events": false,
+    "context_limit": 128,
+    "vocab_size": 4096,
+    "train_steps": 4000,
+    "batch_size": 2,
+    "sequence_tokens": 64,
+    "bptt_tokens": 16,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0,
+    "warmup_steps": 200,
+    "gate_warmup_steps": 400,
+    "eval_every": 500,
+    "checkpoint_every": 50,
+    "validation_windows": 8,
+    "test_windows": 24,
+    "prefix_tokens": 64,
+    "target_tokens": 64,
+    "data_seed": 6201,
+    "evaluation_seed": 6202,
+    "cpu_threads": 4,
+    "stage": "core"
+  },
+  "conditions": [
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "message",
+      "id": "core_n32_message_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "independent",
+      "id": "core_n32_independent_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "full",
+      "id": "core_n32_full_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 32,
+      "variant": "transformer",
+      "id": "core_n32_transformer_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "message",
+      "id": "core_n128_message_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "independent",
+      "id": "core_n128_independent_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "full",
+      "id": "core_n128_full_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 128,
+      "variant": "transformer",
+      "id": "core_n128_transformer_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "message",
+      "id": "core_n512_message_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "independent",
+      "id": "core_n512_independent_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "full",
+      "id": "core_n512_full_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 11,
+      "nodes": 512,
+      "variant": "transformer",
+      "id": "core_n512_transformer_s11",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 32,
+      "variant": "message",
+      "id": "core_n32_message_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 32,
+      "variant": "independent",
+      "id": "core_n32_independent_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 32,
+      "variant": "full",
+      "id": "core_n32_full_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 32,
+      "variant": "transformer",
+      "id": "core_n32_transformer_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 128,
+      "variant": "message",
+      "id": "core_n128_message_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 128,
+      "variant": "independent",
+      "id": "core_n128_independent_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 128,
+      "variant": "full",
+      "id": "core_n128_full_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 128,
+      "variant": "transformer",
+      "id": "core_n128_transformer_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 512,
+      "variant": "message",
+      "id": "core_n512_message_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 512,
+      "variant": "independent",
+      "id": "core_n512_independent_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 512,
+      "variant": "full",
+      "id": "core_n512_full_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 23,
+      "nodes": 512,
+      "variant": "transformer",
+      "id": "core_n512_transformer_s23",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 32,
+      "variant": "message",
+      "id": "core_n32_message_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 32,
+      "variant": "independent",
+      "id": "core_n32_independent_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 32,
+      "variant": "full",
+      "id": "core_n32_full_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 32,
+      "variant": "transformer",
+      "id": "core_n32_transformer_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 128,
+      "variant": "message",
+      "id": "core_n128_message_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 128,
+      "variant": "independent",
+      "id": "core_n128_independent_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 128,
+      "variant": "full",
+      "id": "core_n128_full_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 128,
+      "variant": "transformer",
+      "id": "core_n128_transformer_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 512,
+      "variant": "message",
+      "id": "core_n512_message_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 512,
+      "variant": "independent",
+      "id": "core_n512_independent_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 512,
+      "variant": "full",
+      "id": "core_n512_full_s37",
+      "status": "not_executed"
+    },
+    {
+      "stage": "core",
+      "seed": 37,
+      "nodes": 512,
+      "variant": "transformer",
+      "id": "core_n512_transformer_s37",
+      "status": "not_executed"
+    }
+  ]
+}

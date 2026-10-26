@@ -1,0 +1,4373 @@
+{
+  "pilot_C1_N128_d16_J16_connected_s101_lr0.0003": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.0003,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C1_N128_d16_J16_connected_s101_lr0.0003"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:20:08.766938+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:20:08.766739+00:00"
+      },
+      {
+        "status": "aborted",
+        "utc": "2026-10-21T12:20:10.810951+00:00",
+        "reason": "Explicit wall budget reached",
+        "step": 20
+      },
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:20:30.589955+00:00",
+        "resumed_step": 20,
+        "started_utc": "2026-10-21T12:20:30.589754+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:20:43.202314+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.0003/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:18.702276+00:00",
+        "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.0003/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:18.702276+00:00",
+    "resumed_step": 20,
+    "started_utc": "2026-10-21T12:20:30.589754+00:00",
+    "reason": "Explicit wall budget reached",
+    "step": 200,
+    "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.0003/result.json"
+  },
+  "pilot_C1_N128_d16_J16_connected_s101_lr0.001": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.001,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C1_N128_d16_J16_connected_s101_lr0.001"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:20:43.494458+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:20:43.494336+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:20:55.939233+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.001/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:18.938313+00:00",
+        "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.001/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:18.938313+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:20:43.494336+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.001/result.json"
+  },
+  "pilot_C1_N128_d16_J16_connected_s101_lr0.003": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.003,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C1_N128_d16_J16_connected_s101_lr0.003"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:20:56.239323+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:20:56.239202+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:21:08.782185+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.003/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:19.206964+00:00",
+        "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.003/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:19.206964+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:20:56.239202+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C1_N128_d16_J16_connected_s101_lr0.003/result.json"
+  },
+  "pilot_C2_N128_d16_J16_connected_s101_lr0.0003": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.0003,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C2_N128_d16_J16_connected_s101_lr0.0003"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:21:09.072827+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:21:09.072689+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:21:21.912348+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.0003/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:19.474975+00:00",
+        "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.0003/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:19.474975+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:21:09.072689+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.0003/result.json"
+  },
+  "pilot_C2_N128_d16_J16_connected_s101_lr0.001": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.001,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C2_N128_d16_J16_connected_s101_lr0.001"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:21:22.197151+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:21:22.197022+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:21:35.091991+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.001/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:19.712235+00:00",
+        "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.001/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:19.712235+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:21:22.197022+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.001/result.json"
+  },
+  "pilot_C2_N128_d16_J16_connected_s101_lr0.003": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.003,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C2_N128_d16_J16_connected_s101_lr0.003"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:21:35.379249+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:21:35.379105+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:21:48.404200+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.003/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:19.988125+00:00",
+        "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.003/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:19.988125+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:21:35.379105+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C2_N128_d16_J16_connected_s101_lr0.003/result.json"
+  },
+  "pilot_C3_N128_d16_J16_connected_s101_lr0.0003": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.0003,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C3_N128_d16_J16_connected_s101_lr0.0003"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:21:48.793873+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:21:48.793740+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:22:03.361137+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.0003/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:20.233677+00:00",
+        "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.0003/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:20.233677+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:21:48.793740+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.0003/result.json"
+  },
+  "pilot_C3_N128_d16_J16_connected_s101_lr0.001": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.001,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C3_N128_d16_J16_connected_s101_lr0.001"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:22:03.720450+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:22:03.720319+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:22:18.121199+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.001/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:20.470888+00:00",
+        "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.001/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:20.470888+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:22:03.720319+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.001/result.json"
+  },
+  "pilot_C3_N128_d16_J16_connected_s101_lr0.003": {
+    "condition": {
+      "stage": "pilot",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 101,
+      "lr": 0.003,
+      "steps": 200,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "id": "pilot_C3_N128_d16_J16_connected_s101_lr0.003"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:22:18.386036+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:22:18.385894+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:22:32.020033+00:00",
+        "step": 200,
+        "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.003/result.json"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:23:20.738591+00:00",
+        "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.003/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:23:20.738591+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:22:18.385894+00:00",
+    "step": 200,
+    "result": "results/v03/pilot_C3_N128_d16_J16_connected_s101_lr0.003/result.json"
+  },
+  "main_C1_N32_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N32_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:23:21.012372+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:23:21.012142+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:24:43.502337+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N32_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:24:43.502337+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:23:21.012142+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N32_d16_J16_connected_s11/result.json"
+  },
+  "main_C2_N32_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N32_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:24:43.799604+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:24:43.799468+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:26:10.904480+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N32_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:26:10.904480+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:24:43.799468+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N32_d16_J16_connected_s11/result.json"
+  },
+  "main_C3_N32_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N32_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:26:11.203420+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:26:11.203292+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:27:45.641361+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N32_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:27:45.641361+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:26:11.203292+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N32_d16_J16_connected_s11/result.json"
+  },
+  "main_C1_N128_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N128_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:27:45.903954+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:27:45.903826+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:29:50.470632+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N128_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:29:50.470632+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:27:45.903826+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N128_d16_J16_connected_s11/result.json"
+  },
+  "main_C2_N128_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N128_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:29:50.796254+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:29:50.796106+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:32:07.797880+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N128_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:32:07.797880+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:29:50.796106+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N128_d16_J16_connected_s11/result.json"
+  },
+  "main_C3_N128_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N128_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:32:08.105237+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:32:08.105096+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:34:37.903311+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N128_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:34:37.903311+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:32:08.105096+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N128_d16_J16_connected_s11/result.json"
+  },
+  "main_C1_N512_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 512,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N512_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:34:45.350878+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:34:45.350732+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:40:23.947592+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N512_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:40:23.947592+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:34:45.350732+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N512_d16_J16_connected_s11/result.json"
+  },
+  "main_C2_N512_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 512,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N512_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:40:24.213843+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:40:24.213713+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:46:05.831154+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N512_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:46:05.831154+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:40:24.213713+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N512_d16_J16_connected_s11/result.json"
+  },
+  "main_C3_N512_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 512,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N512_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:46:06.105406+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:46:06.105257+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:52:16.205676+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N512_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:52:16.205676+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:46:06.105257+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N512_d16_J16_connected_s11/result.json"
+  },
+  "main_C1_N32_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N32_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:52:16.511373+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:52:16.511236+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:53:43.763597+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N32_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:53:43.763597+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:52:16.511236+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N32_d16_J16_connected_s23/result.json"
+  },
+  "main_C2_N32_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N32_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:53:44.044431+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:53:44.044278+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:55:15.945661+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N32_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:55:15.945661+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:53:44.044278+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N32_d16_J16_connected_s23/result.json"
+  },
+  "main_C3_N32_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N32_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:55:16.231720+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:55:16.231559+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:56:55.508817+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N32_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:56:55.508817+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:55:16.231559+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N32_d16_J16_connected_s23/result.json"
+  },
+  "main_C1_N128_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N128_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:56:55.826661+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:56:55.826499+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T12:59:22.020184+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N128_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T12:59:22.020184+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:56:55.826499+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N128_d16_J16_connected_s23/result.json"
+  },
+  "main_C2_N128_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N128_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T12:59:22.328111+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T12:59:22.327947+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:01:51.095303+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N128_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:01:51.095303+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T12:59:22.327947+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N128_d16_J16_connected_s23/result.json"
+  },
+  "main_C3_N128_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N128_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:01:51.385876+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:01:51.385726+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:04:29.460454+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N128_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:04:29.460454+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:01:51.385726+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N128_d16_J16_connected_s23/result.json"
+  },
+  "main_C1_N512_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 512,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N512_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:04:29.785956+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:04:29.785801+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:10:44.806346+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N512_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:10:44.806346+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:04:29.785801+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N512_d16_J16_connected_s23/result.json"
+  },
+  "main_C2_N512_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 512,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N512_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:10:45.125316+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:10:45.125143+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:17:03.491443+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N512_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:17:03.491443+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:10:45.125143+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N512_d16_J16_connected_s23/result.json"
+  },
+  "main_C3_N512_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 512,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N512_d16_J16_connected_s23"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:17:03.845227+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:17:03.845051+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:23:38.529285+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N512_d16_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:23:38.529285+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:17:03.845051+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N512_d16_J16_connected_s23/result.json"
+  },
+  "main_C1_N32_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N32_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:23:38.836583+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:23:38.836424+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:25:11.953504+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N32_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:25:11.953504+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:23:38.836424+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N32_d16_J16_connected_s37/result.json"
+  },
+  "main_C2_N32_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N32_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:25:12.265690+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:25:12.265501+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:26:50.917556+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N32_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:26:50.917556+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:25:12.265501+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N32_d16_J16_connected_s37/result.json"
+  },
+  "main_C3_N32_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N32_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:26:51.259100+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:26:51.258924+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:28:36.607642+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N32_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:28:36.607642+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:26:51.258924+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N32_d16_J16_connected_s37/result.json"
+  },
+  "main_C1_N128_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N128_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:28:36.923726+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:28:36.923556+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:31:14.716619+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N128_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:31:14.716619+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:28:36.923556+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N128_d16_J16_connected_s37/result.json"
+  },
+  "main_C2_N128_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N128_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:31:15.068782+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:31:15.068600+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:33:55.777946+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N128_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:33:55.777946+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:31:15.068600+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N128_d16_J16_connected_s37/result.json"
+  },
+  "main_C3_N128_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N128_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:33:56.127877+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:33:56.127688+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:36:46.659996+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N128_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:36:46.659996+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:33:56.127688+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N128_d16_J16_connected_s37/result.json"
+  },
+  "main_C1_N512_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C1",
+      "nodes": 512,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C1_N512_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:36:47.023648+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:36:47.023472+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:43:07.242046+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C1_N512_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:43:07.242046+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:36:47.023472+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C1_N512_d16_J16_connected_s37/result.json"
+  },
+  "main_C2_N512_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C2",
+      "nodes": 512,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C2_N512_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:43:07.591371+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:43:07.591198+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:49:30.650346+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C2_N512_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:49:30.650346+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:43:07.591198+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C2_N512_d16_J16_connected_s37/result.json"
+  },
+  "main_C3_N512_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "main",
+      "model": "C3",
+      "nodes": 512,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "main_C3_N512_d16_J16_connected_s37"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:49:30.948073+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:49:30.947903+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:56:08.067489+00:00",
+        "step": 2048,
+        "result": "results/v03/main_C3_N512_d16_J16_connected_s37/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:56:08.067489+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:49:30.947903+00:00",
+    "step": 2048,
+    "result": "results/v03/main_C3_N512_d16_J16_connected_s37/result.json"
+  },
+  "capacity_C1_N32_d254_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N32_d254_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:56:08.405030+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:56:08.404838+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T13:58:11.507595+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C1_N32_d254_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T13:58:11.507595+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:56:08.404838+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C1_N32_d254_J16_connected_s11/result.json"
+  },
+  "capacity_C2_N32_d254_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N32_d254_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T13:58:11.857293+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T13:58:11.857091+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:00:14.108723+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C2_N32_d254_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:00:14.108723+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T13:58:11.857091+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C2_N32_d254_J16_connected_s11/result.json"
+  },
+  "capacity_C3_N32_d254_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N32_d254_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:00:14.441218+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:00:14.441031+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:02:22.879668+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C3_N32_d254_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:02:22.879668+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:00:14.441031+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C3_N32_d254_J16_connected_s11/result.json"
+  },
+  "capacity_C1_N128_d62_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N128_d62_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:02:23.242549+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:02:23.242359+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:05:19.344846+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C1_N128_d62_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:05:19.344846+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:02:23.242359+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C1_N128_d62_J16_connected_s11/result.json"
+  },
+  "capacity_C2_N128_d62_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N128_d62_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:05:19.678014+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:05:19.677814+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:08:24.118190+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C2_N128_d62_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:08:24.118190+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:05:19.677814+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C2_N128_d62_J16_connected_s11/result.json"
+  },
+  "capacity_C3_N128_d62_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N128_d62_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:08:24.449388+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:08:24.449195+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:11:35.055444+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C3_N128_d62_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:11:35.055444+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:08:24.449195+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C3_N128_d62_J16_connected_s11/result.json"
+  },
+  "capacity_C1_N512_d14_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N512_d14_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:11:35.373203+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:11:35.373006+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:18:00.405947+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C1_N512_d14_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:18:00.405947+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:11:35.373006+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C1_N512_d14_J16_connected_s11/result.json"
+  },
+  "capacity_C2_N512_d14_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N512_d14_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:18:00.761444+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:18:00.761254+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:24:22.937787+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C2_N512_d14_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:24:22.937787+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:18:00.761254+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C2_N512_d14_J16_connected_s11/result.json"
+  },
+  "capacity_C3_N512_d14_J16_connected_s11": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 11,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N512_d14_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:24:23.236378+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:24:23.236221+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:30:04.916755+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C3_N512_d14_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:30:04.916755+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:24:23.236221+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C3_N512_d14_J16_connected_s11/result.json"
+  },
+  "iterations_C1_N128_d16_J2_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J2_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:30:05.198531+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:30:05.198369+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:30:49.603599+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C1_N128_d16_J2_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:30:49.603599+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:30:05.198369+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C1_N128_d16_J2_connected_s11/result.json"
+  },
+  "iterations_C2_N128_d16_J2_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J2_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:30:49.903659+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:30:49.903485+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:31:36.337702+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C2_N128_d16_J2_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:31:36.337702+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:30:49.903485+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C2_N128_d16_J2_connected_s11/result.json"
+  },
+  "iterations_C3_N128_d16_J2_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J2_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:31:36.652038+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:31:36.651831+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:32:24.688371+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C3_N128_d16_J2_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:32:24.688371+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:31:36.651831+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C3_N128_d16_J2_connected_s11/result.json"
+  },
+  "iterations_C1_N128_d16_J8_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J8_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:32:25.029230+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:32:25.029044+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:33:55.963281+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C1_N128_d16_J8_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:33:55.963281+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:32:25.029044+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C1_N128_d16_J8_connected_s11/result.json"
+  },
+  "iterations_C2_N128_d16_J8_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J8_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:33:56.302735+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:33:56.302524+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:35:27.690536+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C2_N128_d16_J8_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:35:27.690536+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:33:56.302524+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C2_N128_d16_J8_connected_s11/result.json"
+  },
+  "iterations_C3_N128_d16_J8_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J8_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:35:27.994674+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:35:27.994472+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:37:03.881412+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C3_N128_d16_J8_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:37:03.881412+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:35:27.994472+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C3_N128_d16_J8_connected_s11/result.json"
+  },
+  "iterations_C1_N128_d16_J32_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J32_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:37:04.192556+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:37:04.192350+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:41:22.912038+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C1_N128_d16_J32_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:41:22.912038+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:37:04.192350+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C1_N128_d16_J32_connected_s11/result.json"
+  },
+  "iterations_C2_N128_d16_J32_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J32_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:41:23.244092+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:41:23.243895+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:45:51.488350+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C2_N128_d16_J32_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:45:51.488350+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:41:23.243895+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C2_N128_d16_J32_connected_s11/result.json"
+  },
+  "iterations_C3_N128_d16_J32_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J32_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:45:51.797002+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:45:51.796806+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:50:45.770623+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C3_N128_d16_J32_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:50:45.770623+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:45:51.796806+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C3_N128_d16_J32_connected_s11/result.json"
+  },
+  "iterations_C1_N512_d16_J2_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J2_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:50:46.062321+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:50:46.062128+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:52:03.710386+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C1_N512_d16_J2_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:52:03.710386+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:50:46.062128+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C1_N512_d16_J2_connected_s11/result.json"
+  },
+  "iterations_C2_N512_d16_J2_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J2_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:52:04.069213+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:52:04.068998+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:53:21.755316+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C2_N512_d16_J2_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:53:21.755316+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:52:04.068998+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C2_N512_d16_J2_connected_s11/result.json"
+  },
+  "iterations_C3_N512_d16_J2_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J2_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:53:22.133816+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:53:22.133608+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:54:41.470523+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C3_N512_d16_J2_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:54:41.470523+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:53:22.133608+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C3_N512_d16_J2_connected_s11/result.json"
+  },
+  "iterations_C1_N512_d16_J8_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J8_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:54:41.814480+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:54:41.814233+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T14:57:50.764023+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C1_N512_d16_J8_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T14:57:50.764023+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:54:41.814233+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C1_N512_d16_J8_connected_s11/result.json"
+  },
+  "iterations_C2_N512_d16_J8_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J8_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T14:57:51.065940+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T14:57:51.065746+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:00:57.471621+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C2_N512_d16_J8_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:00:57.471621+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T14:57:51.065746+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C2_N512_d16_J8_connected_s11/result.json"
+  },
+  "iterations_C3_N512_d16_J8_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J8_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:00:57.770203+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:00:57.770014+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:04:13.685780+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C3_N512_d16_J8_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:04:13.685780+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:00:57.770014+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C3_N512_d16_J8_connected_s11/result.json"
+  },
+  "iterations_C1_N512_d16_J32_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J32_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:04:13.982213+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:04:13.982013+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:15:15.461214+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C1_N512_d16_J32_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:15:15.461214+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:04:13.982013+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C1_N512_d16_J32_connected_s11/result.json"
+  },
+  "iterations_C2_N512_d16_J32_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J32_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:15:15.770320+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:15:15.770138+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:26:31.370798+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C2_N512_d16_J32_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:26:31.370798+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:15:15.770138+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C2_N512_d16_J32_connected_s11/result.json"
+  },
+  "iterations_C3_N512_d16_J32_connected_s11": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 11,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J32_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:26:31.673218+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:26:31.673033+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:38:21.629757+00:00",
+        "step": 2048,
+        "result": "results/v03/iterations_C3_N512_d16_J32_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:38:21.629757+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:26:31.673033+00:00",
+    "step": 2048,
+    "result": "results/v03/iterations_C3_N512_d16_J32_connected_s11/result.json"
+  },
+  "topology_C1_N128_d16_J16_cut_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N128_d16_J16_cut_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:38:22.079067+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:38:22.078877+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:40:51.122858+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C1_N128_d16_J16_cut_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:40:51.122858+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:38:22.078877+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C1_N128_d16_J16_cut_s11/result.json"
+  },
+  "topology_C2_N128_d16_J16_cut_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N128_d16_J16_cut_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:40:51.463966+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:40:51.463740+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:43:24.652888+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C2_N128_d16_J16_cut_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:43:24.652888+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:40:51.463740+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C2_N128_d16_J16_cut_s11/result.json"
+  },
+  "topology_C3_N128_d16_J16_cut_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N128_d16_J16_cut_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:43:25.006147+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:43:25.005922+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:46:08.658377+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C3_N128_d16_J16_cut_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:46:08.658377+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:43:25.005922+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C3_N128_d16_J16_cut_s11/result.json"
+  },
+  "topology_C1_N128_d16_J16_rewired_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N128_d16_J16_rewired_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:46:09.369342+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:46:09.369131+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:48:39.956193+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C1_N128_d16_J16_rewired_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:48:39.956193+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:46:09.369131+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C1_N128_d16_J16_rewired_s11/result.json"
+  },
+  "topology_C2_N128_d16_J16_rewired_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N128_d16_J16_rewired_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:48:40.263882+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:48:40.263650+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:51:14.820510+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C2_N128_d16_J16_rewired_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:51:14.820510+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:48:40.263650+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C2_N128_d16_J16_rewired_s11/result.json"
+  },
+  "topology_C3_N128_d16_J16_rewired_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N128_d16_J16_rewired_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:51:15.133639+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:51:15.133405+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T15:53:58.584621+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C3_N128_d16_J16_rewired_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T15:53:58.584621+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:51:15.133405+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C3_N128_d16_J16_rewired_s11/result.json"
+  },
+  "topology_C1_N512_d16_J16_cut_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N512_d16_J16_cut_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T15:54:02.299944+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T15:54:02.299735+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:00:18.071398+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C1_N512_d16_J16_cut_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:00:18.071398+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T15:54:02.299735+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C1_N512_d16_J16_cut_s11/result.json"
+  },
+  "topology_C2_N512_d16_J16_cut_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N512_d16_J16_cut_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:00:18.380414+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:00:18.380216+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:06:44.423499+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C2_N512_d16_J16_cut_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:06:44.423499+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:00:18.380216+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C2_N512_d16_J16_cut_s11/result.json"
+  },
+  "topology_C3_N512_d16_J16_cut_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N512_d16_J16_cut_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:06:44.738715+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:06:44.738492+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:13:29.580461+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C3_N512_d16_J16_cut_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:13:29.580461+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:06:44.738492+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C3_N512_d16_J16_cut_s11/result.json"
+  },
+  "topology_C1_N512_d16_J16_rewired_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N512_d16_J16_rewired_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:13:37.780435+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:13:37.780203+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:20:01.049104+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C1_N512_d16_J16_rewired_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:20:01.049104+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:13:37.780203+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C1_N512_d16_J16_rewired_s11/result.json"
+  },
+  "topology_C2_N512_d16_J16_rewired_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N512_d16_J16_rewired_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:20:01.350757+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:20:01.350545+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:26:15.614297+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C2_N512_d16_J16_rewired_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:26:15.614297+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:20:01.350545+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C2_N512_d16_J16_rewired_s11/result.json"
+  },
+  "topology_C3_N512_d16_J16_rewired_s11": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N512_d16_J16_rewired_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:26:15.898337+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:26:15.898138+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:32:46.186258+00:00",
+        "step": 2048,
+        "result": "results/v03/topology_C3_N512_d16_J16_rewired_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:32:46.186258+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:26:15.898138+00:00",
+    "step": 2048,
+    "result": "results/v03/topology_C3_N512_d16_J16_rewired_s11/result.json"
+  },
+  "public_C1_N128_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "public",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C1_N128_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:33:03.389061+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:33:03.388841+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:36:15.422241+00:00",
+        "step": 2048,
+        "result": "results/v03/public_C1_N128_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:36:15.422241+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:33:03.388841+00:00",
+    "step": 2048,
+    "result": "results/v03/public_C1_N128_d16_J16_connected_s11/result.json"
+  },
+  "public_C2_N128_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "public",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C2_N128_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:36:33.023609+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:36:33.023383+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:39:48.961258+00:00",
+        "step": 2048,
+        "result": "results/v03/public_C2_N128_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:39:48.961258+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:36:33.023383+00:00",
+    "step": 2048,
+    "result": "results/v03/public_C2_N128_d16_J16_connected_s11/result.json"
+  },
+  "public_C3_N128_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "public",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C3_N128_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:40:06.364579+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:40:06.364348+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:43:31.198707+00:00",
+        "step": 2048,
+        "result": "results/v03/public_C3_N128_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:43:31.198707+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:40:06.364348+00:00",
+    "step": 2048,
+    "result": "results/v03/public_C3_N128_d16_J16_connected_s11/result.json"
+  },
+  "public_C1_N512_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "public",
+      "model": "C1",
+      "nodes": 512,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C1_N512_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:43:48.140905+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:43:48.140674+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T16:51:56.697075+00:00",
+        "step": 2048,
+        "result": "results/v03/public_C1_N512_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T16:51:56.697075+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:43:48.140674+00:00",
+    "step": 2048,
+    "result": "results/v03/public_C1_N512_d16_J16_connected_s11/result.json"
+  },
+  "public_C2_N512_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "public",
+      "model": "C2",
+      "nodes": 512,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C2_N512_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T16:52:13.777217+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T16:52:13.777004+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:00:14.002236+00:00",
+        "step": 2048,
+        "result": "results/v03/public_C2_N512_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:00:14.002236+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T16:52:13.777004+00:00",
+    "step": 2048,
+    "result": "results/v03/public_C2_N512_d16_J16_connected_s11/result.json"
+  },
+  "public_C3_N512_d16_J16_connected_s11": {
+    "condition": {
+      "stage": "public",
+      "model": "C3",
+      "nodes": 512,
+      "seed": 11,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C3_N512_d16_J16_connected_s11"
+    },
+    "status": "completed",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:00:31.965131+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:00:31.964926+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:08:12.196011+00:00",
+        "step": 2048,
+        "result": "results/v03/public_C3_N512_d16_J16_connected_s11/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:08:12.196011+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:00:31.964926+00:00",
+    "step": 2048,
+    "result": "results/v03/public_C3_N512_d16_J16_connected_s11/result.json"
+  },
+  "P4_fixed_experts": {
+    "status": "not_executed",
+    "reason": "Subsequent fixed sparse expert routing, after core network evidence."
+  },
+  "P5_dynamic_biological_extensions": {
+    "status": "not_executed",
+    "reason": "Conditional later stage; no quadratic/Bayesian/new optimizer in core comparison."
+  },
+  "diagnostic_question_only": {
+    "status": "completed",
+    "reason": "input-independent diagnostic",
+    "seed": 11,
+    "mode": "question_only",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:08:50.405107+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:09:07.256651+00:00"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:09:07.256651+00:00"
+  },
+  "diagnostic_question_only_seed23": {
+    "status": "completed",
+    "reason": "input-independent diagnostic",
+    "seed": 23,
+    "mode": "question_only",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:09:07.261341+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:09:23.984117+00:00"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:09:23.984117+00:00"
+  },
+  "diagnostic_question_only_seed37": {
+    "status": "completed",
+    "reason": "input-independent diagnostic",
+    "seed": 37,
+    "mode": "question_only",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:09:23.987981+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:09:40.580386+00:00"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:09:40.580386+00:00"
+  },
+  "diagnostic_evidence_only": {
+    "status": "completed",
+    "reason": "input-independent diagnostic",
+    "seed": 11,
+    "mode": "evidence_only",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:09:40.583783+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:09:50.508054+00:00"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:09:50.508054+00:00"
+  },
+  "diagnostic_evidence_only_seed23": {
+    "status": "completed",
+    "reason": "input-independent diagnostic",
+    "seed": 23,
+    "mode": "evidence_only",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:09:50.511358+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:10:00.987670+00:00"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:10:00.987670+00:00"
+  },
+  "diagnostic_evidence_only_seed37": {
+    "status": "completed",
+    "reason": "input-independent diagnostic",
+    "seed": 37,
+    "mode": "evidence_only",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:10:00.991042+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:10:11.001709+00:00"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:10:11.001709+00:00"
+  },
+  "capacity_C1_N32_d254_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N32_d254_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:16:46.495584+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:16:46.495183+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:18:31.007055+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C1_N32_d254_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:18:31.007055+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:16:46.495183+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C1_N32_d254_J16_connected_s23/result.json"
+  },
+  "capacity_C2_N32_d254_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N32_d254_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:18:31.412909+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:18:31.412499+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:20:23.453536+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C2_N32_d254_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:20:23.453536+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:18:31.412499+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C2_N32_d254_J16_connected_s23/result.json"
+  },
+  "capacity_C3_N32_d254_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N32_d254_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:20:23.775437+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:20:23.775139+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:22:21.499369+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C3_N32_d254_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:22:21.499369+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:20:23.775139+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C3_N32_d254_J16_connected_s23/result.json"
+  },
+  "capacity_C1_N128_d62_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N128_d62_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:22:22.217081+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:22:22.216737+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:25:01.459787+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C1_N128_d62_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:25:01.459787+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:22:22.216737+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C1_N128_d62_J16_connected_s23/result.json"
+  },
+  "capacity_C2_N128_d62_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N128_d62_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:25:01.791511+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:25:01.791167+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:27:44.672246+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C2_N128_d62_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:27:44.672246+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:25:01.791167+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C2_N128_d62_J16_connected_s23/result.json"
+  },
+  "capacity_C3_N128_d62_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N128_d62_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:27:44.980540+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:27:44.980188+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:30:59.456358+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C3_N128_d62_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:30:59.456358+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:27:44.980188+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C3_N128_d62_J16_connected_s23/result.json"
+  },
+  "capacity_C1_N512_d14_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N512_d14_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:31:06.650157+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:31:06.649841+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:37:02.935399+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C1_N512_d14_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:37:02.935399+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:31:06.649841+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C1_N512_d14_J16_connected_s23/result.json"
+  },
+  "capacity_C2_N512_d14_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N512_d14_J16_connected_s23"
+    },
+    "status": "completed",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:37:03.296274+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:37:03.295831+00:00"
+      },
+      {
+        "status": "completed",
+        "utc": "2026-10-21T17:43:16.302663+00:00",
+        "step": 2048,
+        "result": "results/v03/capacity_C2_N512_d14_J16_connected_s23/result.json"
+      }
+    ],
+    "updated_utc": "2026-10-21T17:43:16.302663+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:37:03.295831+00:00",
+    "step": 2048,
+    "result": "results/v03/capacity_C2_N512_d14_J16_connected_s23/result.json"
+  },
+  "capacity_C3_N512_d14_J16_connected_s23": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 23,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N512_d14_J16_connected_s23"
+    },
+    "status": "aborted",
+    "registration": "P2/P3 repeat amendment",
+    "history": [
+      {
+        "status": "running",
+        "utc": "2026-10-21T17:43:16.657688+00:00",
+        "resumed_step": 0,
+        "started_utc": "2026-10-21T17:43:16.657322+00:00"
+      },
+      {
+        "status": "aborted",
+        "utc": "2026-10-21T17:44:21.675954+00:00",
+        "reason": "User/process interrupt; resume last safe checkpoint",
+        "step": 320
+      }
+    ],
+    "updated_utc": "2026-10-21T17:44:21.675954+00:00",
+    "resumed_step": 0,
+    "started_utc": "2026-10-21T17:43:16.657322+00:00",
+    "reason": "User/process interrupt; resume last safe checkpoint",
+    "step": 320
+  },
+  "iterations_C1_N128_d16_J2_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J2_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N128_d16_J2_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J2_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N128_d16_J2_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J2_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N128_d16_J8_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J8_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N128_d16_J8_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J8_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N128_d16_J8_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J8_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N128_d16_J32_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J32_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N128_d16_J32_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J32_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N128_d16_J32_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J32_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N512_d16_J2_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J2_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N512_d16_J2_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J2_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N512_d16_J2_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J2_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N512_d16_J8_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J8_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N512_d16_J8_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J8_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N512_d16_J8_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J8_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N512_d16_J32_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J32_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N512_d16_J32_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J32_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N512_d16_J32_connected_s23": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 23,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J32_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N128_d16_J16_cut_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N128_d16_J16_cut_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N128_d16_J16_cut_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N128_d16_J16_cut_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N128_d16_J16_cut_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N128_d16_J16_cut_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N128_d16_J16_rewired_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N128_d16_J16_rewired_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N128_d16_J16_rewired_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N128_d16_J16_rewired_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N128_d16_J16_rewired_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N128_d16_J16_rewired_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N512_d16_J16_cut_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N512_d16_J16_cut_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N512_d16_J16_cut_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N512_d16_J16_cut_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N512_d16_J16_cut_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N512_d16_J16_cut_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N512_d16_J16_rewired_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N512_d16_J16_rewired_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N512_d16_J16_rewired_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N512_d16_J16_rewired_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N512_d16_J16_rewired_s23": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N512_d16_J16_rewired_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C1_N128_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "public",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C1_N128_d16_J16_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C2_N128_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "public",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C2_N128_d16_J16_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C3_N128_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "public",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C3_N128_d16_J16_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C1_N512_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "public",
+      "model": "C1",
+      "nodes": 512,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C1_N512_d16_J16_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C2_N512_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "public",
+      "model": "C2",
+      "nodes": 512,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C2_N512_d16_J16_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C3_N512_d16_J16_connected_s23": {
+    "condition": {
+      "stage": "public",
+      "model": "C3",
+      "nodes": 512,
+      "seed": 23,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C3_N512_d16_J16_connected_s23"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C1_N32_d254_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N32_d254_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C2_N32_d254_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N32_d254_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C3_N32_d254_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 32,
+      "state_dim": 254,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N32_d254_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C1_N128_d62_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N128_d62_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C2_N128_d62_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N128_d62_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C3_N128_d62_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 128,
+      "state_dim": 62,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N128_d62_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C1_N512_d14_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C1",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C1_N512_d14_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C2_N512_d14_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C2",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C2_N512_d14_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "capacity_C3_N512_d14_J16_connected_s37": {
+    "condition": {
+      "stage": "capacity",
+      "model": "C3",
+      "nodes": 512,
+      "state_dim": 14,
+      "seed": 37,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "capacity_C3_N512_d14_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N128_d16_J2_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J2_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N128_d16_J2_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J2_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N128_d16_J2_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 2,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J2_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N128_d16_J8_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J8_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N128_d16_J8_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J8_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N128_d16_J8_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 8,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J8_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N128_d16_J32_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N128_d16_J32_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N128_d16_J32_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N128_d16_J32_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N128_d16_J32_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 128,
+      "iterations": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N128_d16_J32_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N512_d16_J2_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J2_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N512_d16_J2_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J2_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N512_d16_J2_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 2,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J2_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N512_d16_J8_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J8_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N512_d16_J8_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J8_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N512_d16_J8_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 8,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J8_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C1_N512_d16_J32_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C1",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C1_N512_d16_J32_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C2_N512_d16_J32_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C2",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C2_N512_d16_J32_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "iterations_C3_N512_d16_J32_connected_s37": {
+    "condition": {
+      "stage": "iterations",
+      "model": "C3",
+      "nodes": 512,
+      "iterations": 32,
+      "seed": 37,
+      "state_dim": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "iterations_C3_N512_d16_J32_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N128_d16_J16_cut_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N128_d16_J16_cut_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N128_d16_J16_cut_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N128_d16_J16_cut_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N128_d16_J16_cut_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 128,
+      "topology": "cut",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N128_d16_J16_cut_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N128_d16_J16_rewired_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N128_d16_J16_rewired_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N128_d16_J16_rewired_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N128_d16_J16_rewired_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N128_d16_J16_rewired_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 128,
+      "topology": "rewired",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N128_d16_J16_rewired_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N512_d16_J16_cut_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N512_d16_J16_cut_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N512_d16_J16_cut_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N512_d16_J16_cut_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N512_d16_J16_cut_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 512,
+      "topology": "cut",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N512_d16_J16_cut_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C1_N512_d16_J16_rewired_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C1",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C1_N512_d16_J16_rewired_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C2_N512_d16_J16_rewired_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C2",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C2_N512_d16_J16_rewired_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "topology_C3_N512_d16_J16_rewired_s37": {
+    "condition": {
+      "stage": "topology",
+      "model": "C3",
+      "nodes": 512,
+      "topology": "rewired",
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "steps": 2048,
+      "id": "topology_C3_N512_d16_J16_rewired_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C1_N128_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "public",
+      "model": "C1",
+      "nodes": 128,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C1_N128_d16_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C2_N128_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "public",
+      "model": "C2",
+      "nodes": 128,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C2_N128_d16_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C3_N128_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "public",
+      "model": "C3",
+      "nodes": 128,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C3_N128_d16_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C1_N512_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "public",
+      "model": "C1",
+      "nodes": 512,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C1_N512_d16_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C2_N512_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "public",
+      "model": "C2",
+      "nodes": 512,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C2_N512_d16_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  },
+  "public_C3_N512_d16_J16_connected_s37": {
+    "condition": {
+      "stage": "public",
+      "model": "C3",
+      "nodes": 512,
+      "seed": 37,
+      "state_dim": 16,
+      "iterations": 16,
+      "topology": "connected",
+      "steps": 2048,
+      "id": "public_C3_N512_d16_J16_connected_s37"
+    },
+    "status": "not_executed",
+    "registration": "P2/P3 repeat amendment"
+  }
+}

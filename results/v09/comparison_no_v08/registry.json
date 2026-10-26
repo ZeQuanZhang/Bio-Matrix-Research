@@ -1,0 +1,853 @@
+{
+  "format": "v09-local-comparison-1",
+  "created_at": "2026-10-24T19:54:03.925439+00:00",
+  "updated_at": "2026-10-25T14:27:32.509799+00:00",
+  "status": "aborted",
+  "jobs": [
+    {
+      "id": "content_only_n32_s11",
+      "condition": "content_only",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "completed",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "attempts": [],
+      "stage": "evaluation",
+      "started_at": "2026-10-24T20:02:04.313890+00:00",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "v09.evaluate",
+        "--checkpoint",
+        "results/v09/comparison_no_v08/content_only_n32_s11/last.pt",
+        "--output",
+        "results/v09/comparison_no_v08/content_only_n32_s11/evaluation",
+        "--device",
+        "mps",
+        "--windows",
+        "64"
+      ],
+      "last_safe_tokens": 12000000,
+      "last_validation": {
+        "nll": 5.036041080951691,
+        "targets": 8192,
+        "windows": 128,
+        "cold_state": true,
+        "step": 94422,
+        "completed_tokens": 12000000,
+        "sample": {
+          "split": "validation",
+          "sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"
+        }
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-24T20:02:08.388049+00:00"
+    },
+    {
+      "id": "v09_dense_n32_s11",
+      "condition": "v09_dense",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "completed",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "attempts": [],
+      "stage": "evaluation",
+      "started_at": "2026-10-25T02:54:21.224005+00:00",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "v09.evaluate",
+        "--checkpoint",
+        "results/v09/comparison_no_v08/v09_dense_n32_s11/last.pt",
+        "--output",
+        "results/v09/comparison_no_v08/v09_dense_n32_s11/evaluation",
+        "--device",
+        "mps",
+        "--windows",
+        "64"
+      ],
+      "last_safe_tokens": 12000000,
+      "last_validation": {
+        "nll": 4.939364276826382,
+        "targets": 8192,
+        "windows": 128,
+        "cold_state": true,
+        "step": 94422,
+        "completed_tokens": 12000000,
+        "sample": {
+          "split": "validation",
+          "sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"
+        }
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-25T03:05:59.116502+00:00"
+    },
+    {
+      "id": "v09_sparse50_n32_s11",
+      "condition": "v09_sparse50",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "completed",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "attempts": [],
+      "stage": "evaluation",
+      "started_at": "2026-10-25T10:27:50.313725+00:00",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "v09.evaluate",
+        "--checkpoint",
+        "results/v09/comparison_no_v08/v09_sparse50_n32_s11/last.pt",
+        "--output",
+        "results/v09/comparison_no_v08/v09_sparse50_n32_s11/evaluation",
+        "--device",
+        "mps",
+        "--windows",
+        "64"
+      ],
+      "last_safe_tokens": 12000000,
+      "last_validation": {
+        "nll": 4.937495402991772,
+        "targets": 8192,
+        "windows": 128,
+        "cold_state": true,
+        "step": 94422,
+        "completed_tokens": 12000000,
+        "sample": {
+          "split": "validation",
+          "sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"
+        }
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-25T10:40:06.843135+00:00"
+    },
+    {
+      "id": "transformer_n32_s11",
+      "condition": "transformer",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "completed",
+      "training_status": "completed",
+      "evaluation_status": "completed",
+      "completed_tokens": 12000000,
+      "attempts": [],
+      "stage": "evaluation",
+      "started_at": "2026-10-25T10:59:58.452242+00:00",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "v09.evaluate",
+        "--checkpoint",
+        "results/v09/comparison_no_v08/transformer_n32_s11/last.pt",
+        "--output",
+        "results/v09/comparison_no_v08/transformer_n32_s11/evaluation",
+        "--device",
+        "mps",
+        "--windows",
+        "64"
+      ],
+      "last_safe_tokens": 12000000,
+      "last_validation": {
+        "nll": 4.799268759787083,
+        "targets": 8192,
+        "windows": 128,
+        "cold_state": true,
+        "step": 94422,
+        "completed_tokens": 12000000,
+        "sample": {
+          "split": "validation",
+          "sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"
+        }
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-25T11:00:29.186507+00:00"
+    },
+    {
+      "id": "v09_dense_n128_s11",
+      "condition": "v09_dense",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "aborted",
+      "training_status": "aborted",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 3099250,
+      "attempts": [],
+      "stage": "training",
+      "started_at": "2026-10-25T11:00:29.196760+00:00",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "v09.train",
+        "--device",
+        "mps",
+        "--threads",
+        "4",
+        "--quiet",
+        "--context-limit",
+        "4096",
+        "--validation-windows",
+        "128",
+        "--eval-every",
+        "500000",
+        "--condition",
+        "v09_dense",
+        "--nodes",
+        "128",
+        "--tokens",
+        "12000000",
+        "--seed",
+        "11",
+        "--data-root",
+        "data/v06/wikitext2",
+        "--output",
+        "results/v09/comparison_no_v08/v09_dense_n128_s11"
+      ],
+      "last_safe_tokens": 3099250,
+      "last_validation": {
+        "nll": 5.287530221045017,
+        "targets": 8192,
+        "windows": 128,
+        "cold_state": true,
+        "step": 23607,
+        "completed_tokens": 3000029,
+        "sample": {
+          "split": "validation",
+          "sha256": "6a180a6a1ecc0dc87567adb6c932f064d3a98b676e089279ceb403a126ccbffe"
+        }
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-25T14:27:32.501342+00:00"
+    },
+    {
+      "id": "v09_sparse50_n128_s11",
+      "condition": "v09_sparse50",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n128_s11",
+      "condition": "transformer",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_dense_n512_s11",
+      "condition": "v09_dense",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_sparse50_n512_s11",
+      "condition": "v09_sparse50",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n512_s11",
+      "condition": "transformer",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 11,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "content_only_n32_s23",
+      "condition": "content_only",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_dense_n32_s23",
+      "condition": "v09_dense",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_sparse50_n32_s23",
+      "condition": "v09_sparse50",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n32_s23",
+      "condition": "transformer",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_dense_n128_s23",
+      "condition": "v09_dense",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_sparse50_n128_s23",
+      "condition": "v09_sparse50",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n128_s23",
+      "condition": "transformer",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_dense_n512_s23",
+      "condition": "v09_dense",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_sparse50_n512_s23",
+      "condition": "v09_sparse50",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n512_s23",
+      "condition": "transformer",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 23,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "content_only_n32_s37",
+      "condition": "content_only",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_dense_n32_s37",
+      "condition": "v09_dense",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_sparse50_n32_s37",
+      "condition": "v09_sparse50",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n32_s37",
+      "condition": "transformer",
+      "nodes": 32,
+      "display_nodes": 32,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_dense_n128_s37",
+      "condition": "v09_dense",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_sparse50_n128_s37",
+      "condition": "v09_sparse50",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n128_s37",
+      "condition": "transformer",
+      "nodes": 128,
+      "display_nodes": 128,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_dense_n512_s37",
+      "condition": "v09_dense",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "v09_sparse50_n512_s37",
+      "condition": "v09_sparse50",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    },
+    {
+      "id": "transformer_n512_s37",
+      "condition": "transformer",
+      "nodes": 512,
+      "display_nodes": 512,
+      "seed": 37,
+      "tokens": 12000000,
+      "status": "not_executed",
+      "training_status": "not_executed",
+      "evaluation_status": "not_executed",
+      "completed_tokens": 0,
+      "attempts": []
+    }
+  ],
+  "cells": [
+    {
+      "id": "content_only_n32_s11",
+      "condition": "content_only",
+      "nodes": 32,
+      "seed": 11,
+      "job_id": "content_only_n32_s11",
+      "reference": false
+    },
+    {
+      "id": "v09_dense_n32_s11",
+      "condition": "v09_dense",
+      "nodes": 32,
+      "seed": 11,
+      "job_id": "v09_dense_n32_s11",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n32_s11",
+      "condition": "v09_sparse50",
+      "nodes": 32,
+      "seed": 11,
+      "job_id": "v09_sparse50_n32_s11",
+      "reference": false
+    },
+    {
+      "id": "transformer_n32_s11",
+      "condition": "transformer",
+      "nodes": 32,
+      "seed": 11,
+      "job_id": "transformer_n32_s11",
+      "reference": false
+    },
+    {
+      "id": "content_only_n128_s11",
+      "condition": "content_only",
+      "nodes": 128,
+      "seed": 11,
+      "job_id": "content_only_n32_s11",
+      "reference": true
+    },
+    {
+      "id": "v09_dense_n128_s11",
+      "condition": "v09_dense",
+      "nodes": 128,
+      "seed": 11,
+      "job_id": "v09_dense_n128_s11",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n128_s11",
+      "condition": "v09_sparse50",
+      "nodes": 128,
+      "seed": 11,
+      "job_id": "v09_sparse50_n128_s11",
+      "reference": false
+    },
+    {
+      "id": "transformer_n128_s11",
+      "condition": "transformer",
+      "nodes": 128,
+      "seed": 11,
+      "job_id": "transformer_n128_s11",
+      "reference": false
+    },
+    {
+      "id": "content_only_n512_s11",
+      "condition": "content_only",
+      "nodes": 512,
+      "seed": 11,
+      "job_id": "content_only_n32_s11",
+      "reference": true
+    },
+    {
+      "id": "v09_dense_n512_s11",
+      "condition": "v09_dense",
+      "nodes": 512,
+      "seed": 11,
+      "job_id": "v09_dense_n512_s11",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n512_s11",
+      "condition": "v09_sparse50",
+      "nodes": 512,
+      "seed": 11,
+      "job_id": "v09_sparse50_n512_s11",
+      "reference": false
+    },
+    {
+      "id": "transformer_n512_s11",
+      "condition": "transformer",
+      "nodes": 512,
+      "seed": 11,
+      "job_id": "transformer_n512_s11",
+      "reference": false
+    },
+    {
+      "id": "content_only_n32_s23",
+      "condition": "content_only",
+      "nodes": 32,
+      "seed": 23,
+      "job_id": "content_only_n32_s23",
+      "reference": false
+    },
+    {
+      "id": "v09_dense_n32_s23",
+      "condition": "v09_dense",
+      "nodes": 32,
+      "seed": 23,
+      "job_id": "v09_dense_n32_s23",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n32_s23",
+      "condition": "v09_sparse50",
+      "nodes": 32,
+      "seed": 23,
+      "job_id": "v09_sparse50_n32_s23",
+      "reference": false
+    },
+    {
+      "id": "transformer_n32_s23",
+      "condition": "transformer",
+      "nodes": 32,
+      "seed": 23,
+      "job_id": "transformer_n32_s23",
+      "reference": false
+    },
+    {
+      "id": "content_only_n128_s23",
+      "condition": "content_only",
+      "nodes": 128,
+      "seed": 23,
+      "job_id": "content_only_n32_s23",
+      "reference": true
+    },
+    {
+      "id": "v09_dense_n128_s23",
+      "condition": "v09_dense",
+      "nodes": 128,
+      "seed": 23,
+      "job_id": "v09_dense_n128_s23",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n128_s23",
+      "condition": "v09_sparse50",
+      "nodes": 128,
+      "seed": 23,
+      "job_id": "v09_sparse50_n128_s23",
+      "reference": false
+    },
+    {
+      "id": "transformer_n128_s23",
+      "condition": "transformer",
+      "nodes": 128,
+      "seed": 23,
+      "job_id": "transformer_n128_s23",
+      "reference": false
+    },
+    {
+      "id": "content_only_n512_s23",
+      "condition": "content_only",
+      "nodes": 512,
+      "seed": 23,
+      "job_id": "content_only_n32_s23",
+      "reference": true
+    },
+    {
+      "id": "v09_dense_n512_s23",
+      "condition": "v09_dense",
+      "nodes": 512,
+      "seed": 23,
+      "job_id": "v09_dense_n512_s23",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n512_s23",
+      "condition": "v09_sparse50",
+      "nodes": 512,
+      "seed": 23,
+      "job_id": "v09_sparse50_n512_s23",
+      "reference": false
+    },
+    {
+      "id": "transformer_n512_s23",
+      "condition": "transformer",
+      "nodes": 512,
+      "seed": 23,
+      "job_id": "transformer_n512_s23",
+      "reference": false
+    },
+    {
+      "id": "content_only_n32_s37",
+      "condition": "content_only",
+      "nodes": 32,
+      "seed": 37,
+      "job_id": "content_only_n32_s37",
+      "reference": false
+    },
+    {
+      "id": "v09_dense_n32_s37",
+      "condition": "v09_dense",
+      "nodes": 32,
+      "seed": 37,
+      "job_id": "v09_dense_n32_s37",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n32_s37",
+      "condition": "v09_sparse50",
+      "nodes": 32,
+      "seed": 37,
+      "job_id": "v09_sparse50_n32_s37",
+      "reference": false
+    },
+    {
+      "id": "transformer_n32_s37",
+      "condition": "transformer",
+      "nodes": 32,
+      "seed": 37,
+      "job_id": "transformer_n32_s37",
+      "reference": false
+    },
+    {
+      "id": "content_only_n128_s37",
+      "condition": "content_only",
+      "nodes": 128,
+      "seed": 37,
+      "job_id": "content_only_n32_s37",
+      "reference": true
+    },
+    {
+      "id": "v09_dense_n128_s37",
+      "condition": "v09_dense",
+      "nodes": 128,
+      "seed": 37,
+      "job_id": "v09_dense_n128_s37",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n128_s37",
+      "condition": "v09_sparse50",
+      "nodes": 128,
+      "seed": 37,
+      "job_id": "v09_sparse50_n128_s37",
+      "reference": false
+    },
+    {
+      "id": "transformer_n128_s37",
+      "condition": "transformer",
+      "nodes": 128,
+      "seed": 37,
+      "job_id": "transformer_n128_s37",
+      "reference": false
+    },
+    {
+      "id": "content_only_n512_s37",
+      "condition": "content_only",
+      "nodes": 512,
+      "seed": 37,
+      "job_id": "content_only_n32_s37",
+      "reference": true
+    },
+    {
+      "id": "v09_dense_n512_s37",
+      "condition": "v09_dense",
+      "nodes": 512,
+      "seed": 37,
+      "job_id": "v09_dense_n512_s37",
+      "reference": false
+    },
+    {
+      "id": "v09_sparse50_n512_s37",
+      "condition": "v09_sparse50",
+      "nodes": 512,
+      "seed": 37,
+      "job_id": "v09_sparse50_n512_s37",
+      "reference": false
+    },
+    {
+      "id": "transformer_n512_s37",
+      "condition": "transformer",
+      "nodes": 512,
+      "seed": 37,
+      "job_id": "transformer_n512_s37",
+      "reference": false
+    }
+  ]
+}

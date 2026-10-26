@@ -1,0 +1,58 @@
+{
+  "version": "v05-consolidation-2",
+  "device": "auto",
+  "matrix_size": 8,
+  "contexts": 3,
+  "width": 32,
+  "modes": 4,
+  "bands": 3,
+  "trace_bands": 2,
+  "neighbors": 8,
+  "write_nodes": 4,
+  "read_nodes": 4,
+  "internal_steps": 16,
+  "checkpoint_events": true,
+  "seen_capacity": 128,
+  "graph_seed": 2901,
+  "role_seed": 2902,
+  "topology": "connected",
+  "read_path": "shared",
+  "read_paths": [
+    "shared",
+    "separated"
+  ],
+  "nodes": [
+    32,
+    128,
+    512
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "variants": [
+    "message",
+    "full",
+    "no_fourier",
+    "single_timescale",
+    "no_traces",
+    "no_consolidation",
+    "frequency_only",
+    "always_read"
+  ],
+  "stage": "core",
+  "credit": "full",
+  "bptt_steps": 16,
+  "batch_size": 4,
+  "train_steps": 1200,
+  "learning_rate": 0.001,
+  "predictive_loss_weight": 0.05,
+  "gradient_clip": 1.0,
+  "eval_every": 100,
+  "checkpoint_every": 25,
+  "progress_every": 1,
+  "development_quartets": 8,
+  "test_quartets": 32,
+  "data_seed": 20261023
+}

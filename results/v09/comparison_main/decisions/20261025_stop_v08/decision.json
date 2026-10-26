@@ -1,0 +1,69 @@
+{
+  "reason": "User requested no further v0.8 training",
+  "old_queue": "results/v09/comparison_main",
+  "new_queue": "results/v09/comparison_no_v08",
+  "preserved_completed_targets": 2540622,
+  "execution_status_counts": {
+    "aborted": 1,
+    "not_executed": 8
+  },
+  "excluded_jobs": [
+    {
+      "id": "v08_seq_n32_s11",
+      "execution_status": "aborted",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n128_s11",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n512_s11",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n32_s23",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n128_s23",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n512_s23",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n32_s37",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n128_s37",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    },
+    {
+      "id": "v08_seq_n512_s37",
+      "execution_status": "not_executed",
+      "scheduling_status": "skipped_by_user"
+    }
+  ],
+  "checkpoint_hashes": {
+    "v08_seq_n32_s11/last.pt": "5cd258ba1dae3463bf05f7e11dffcf1a04f18723aabbc8e236a5749f9ceda4ad",
+    "v08_seq_n32_s11/best.pt": "f99cc7b503e189594ae839c6af3360ae13eac0efd0b9dbba56f09284d460084b",
+    "v08_seq_n32_s11/milestone_250000_at_250033.pt": "270353930ddd45311a64032302b4a7808642b152b57185f687d2aeacdf76c8fc",
+    "v08_seq_n32_s11/milestone_1000000_at_1000114.pt": "b76c86f8794748179fb28d3b288dbc1d41026c91f522d7543783a2de6798721d"
+  },
+  "remaining_conditions": [
+    "content_only",
+    "v09_dense",
+    "v09_sparse50",
+    "transformer"
+  ]
+}

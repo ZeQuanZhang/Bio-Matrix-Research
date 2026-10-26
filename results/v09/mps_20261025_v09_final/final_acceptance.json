@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "final_sources_unchanged": true,
+  "v08_archived_sources_unchanged": true,
+  "benchmark": "completed",
+  "diagnostics": "completed",
+  "training_smoke": "completed",
+  "native_resume": "completed",
+  "long_training": "not_executed",
+  "cuda": "not_executed"
+}

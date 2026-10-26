@@ -1,0 +1,31 @@
+{
+  "variants": [
+    "gru_add",
+    "linear_add",
+    "gated_add",
+    "reaction_add",
+    "gru_dynamic",
+    "gated_dynamic",
+    "reaction_dynamic"
+  ],
+  "seeds": [
+    42,
+    137,
+    2026
+  ],
+  "steps": 4000,
+  "batch_size": 64,
+  "width": 32,
+  "state": 32,
+  "reaction_rank": 8,
+  "matrix_rank": 16,
+  "lr": 0.003,
+  "eval_every": 500,
+  "validation_episodes": 256,
+  "test_episodes": 512,
+  "device": "mps",
+  "selection": "lowest mean validation CE across 1-key immediate, 2-key delay12, 4-key delay24",
+  "curriculum": "steps0-99:1key delay0-4;100-299:1-2keys delay0-12;300+:1-4keys delay0-24;25% overwrite;25% two queries",
+  "state_intervention": "before each query, independently carry/reset/roll across batch; query value always absent",
+  "budget": "equal episodes, event order, optimizer and state capacity; unequal parameters and computation explicitly reported"
+}
