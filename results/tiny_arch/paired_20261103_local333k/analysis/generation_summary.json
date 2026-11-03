@@ -1,0 +1,98 @@
+{
+  "seed": 11,
+  "max_new_tokens": 50,
+  "input_context_limit": 512,
+  "decode": "greedy, EOS stop; per-question allowance min(50, 513-prefix_length), identical for all six models",
+  "conditions": {
+    "trans_local": {
+      "questions": 64,
+      "em": 0.0,
+      "f1": 0.0,
+      "distinct_predictions": 2,
+      "token_limit_fraction": 1.0,
+      "most_common_prediction_count": 63,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_prediction_words": [
+        [
+          "the",
+          50
+        ]
+      ]
+    },
+    "trans_full": {
+      "questions": 64,
+      "em": 0.0,
+      "f1": 0.0,
+      "distinct_predictions": 2,
+      "token_limit_fraction": 1.0,
+      "most_common_prediction_count": 63,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_prediction_words": [
+        [
+          "the",
+          50
+        ]
+      ]
+    },
+    "v3_static": {
+      "questions": 64,
+      "em": 0.0,
+      "f1": 0.0,
+      "distinct_predictions": 2,
+      "token_limit_fraction": 1.0,
+      "most_common_prediction_count": 63,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_prediction_words": [
+        [
+          "the",
+          50
+        ]
+      ]
+    },
+    "v3_dynamic": {
+      "questions": 64,
+      "em": 0.0,
+      "f1": 0.0,
+      "distinct_predictions": 2,
+      "token_limit_fraction": 1.0,
+      "most_common_prediction_count": 63,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_prediction_words": [
+        [
+          "the",
+          50
+        ]
+      ]
+    },
+    "qwen35_tiny": {
+      "questions": 64,
+      "em": 0.0,
+      "f1": 0.0,
+      "distinct_predictions": 2,
+      "token_limit_fraction": 1.0,
+      "most_common_prediction_count": 63,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_prediction_words": [
+        [
+          "the",
+          50
+        ]
+      ]
+    },
+    "deepseek4_tiny": {
+      "questions": 64,
+      "em": 0.0,
+      "f1": 0.0,
+      "distinct_predictions": 1,
+      "token_limit_fraction": 1.0,
+      "most_common_prediction_count": 64,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_prediction_words": [
+        [
+          "the",
+          50
+        ]
+      ]
+    }
+  }
+}

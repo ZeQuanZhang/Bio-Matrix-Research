@@ -16,6 +16,8 @@ Bio-Matrix Research 记录了把神经网络节点扩展为有限矩阵状态系
 
 **V3规模验证代码已准备：约0.133B，每模型10B有效预训练目标。** 三组为普通Transformer、静态地址Bio、动态Bio，采用公开FineWeb-Edu `sample-100BT`及SQuAD答案/EOS监督。14项自检、本机完整参数规模的有限MPS更新通过；完整CUDA测速、10B训练与下游能力尚未执行。入口为[run_biomatrix_scale.py](run_biomatrix_scale.py)，默认只核算配置；新GPU启动与实际边界见[规模实验说明](scale/README.md)。历史V3模型和结果保持原样。
 
+**本地33万参数补充对照已完成。** 新增Qwen3.5、DeepSeek-V4缩小原型各三种子，6144步输入/mask与原V3逐步匹配。三种子文本PPL：Bio动态902.826、Qwen原型982.251、DeepSeek原型1024.990；首答案token命中全部为0%。seed11同64题实际生成的六组EM/F1也全0，基础问答仍弱。见[完整分析](results/tiny_arch/paired_20261103_local333k/analysis/REPORT.md)与[架构/实现范围](evaluations/tiny_arch/README.md)。0.133B队列保持未启动。
+
 在 PyCharm 选择 **Bio-Matrix V3**，运行 [run_biomatrix_v3.py](run_biomatrix_v3.py)。默认12条配对运行每秒原位刷新，使用本机 MPS，不连接过期 A800。完整队列由用户启动。全新环境的数据准备见 [V3 快速开始](v3/README.md#配对对照与数据)。
 
 ```bash

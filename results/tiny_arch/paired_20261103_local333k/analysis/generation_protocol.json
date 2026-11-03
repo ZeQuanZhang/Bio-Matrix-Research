@@ -1,0 +1,16 @@
+{
+  "status": "planned_before_generation",
+  "seed": 11,
+  "source_run": "<PROJECT>/results/v3/paired_20261103T094249_111075",
+  "evaluation_qa_sha256": "29fc5ac508e985b4464c6a9ce572721d1b62522701a7e44a21f1ed3be5511852",
+  "questions": 64,
+  "decode": "greedy",
+  "eos_token_id": 2,
+  "max_new_tokens": 50,
+  "input_context_limit": 512,
+  "per_question_allowance": "min(50,513-prefix_length)",
+  "metric": "SQuAD normalized EM and max-reference F1",
+  "questions_independent": true,
+  "training_performed": false,
+  "source_sha256": "ba41e6d81bbdf0bb2ba140abdb0cef63148f1839973bbc699f7aa68d53d3e965"
+}

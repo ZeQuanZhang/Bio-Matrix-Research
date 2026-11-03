@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "new_conditions": 6,
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "updates_per_condition": 1024,
+  "paired_update_hashes": 6144,
+  "original_model_sources_unchanged": 58,
+  "source_tests": 3,
+  "public_generation_records": 384,
+  "local_links": 266,
+  "missing_links": 0,
+  "private_paths_or_credentials": 0,
+  "large_scale_queue": "unchanged, not_executed"
+}

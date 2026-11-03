@@ -1,0 +1,8 @@
+test_budget_tying_and_hash_experts (evaluations.tiny_arch.test_model.Tests.test_budget_tying_and_hash_experts) ... ok
+test_causality_prefix_read_and_no_mutation (evaluations.tiny_arch.test_model.Tests.test_causality_prefix_read_and_no_mutation) ... ok
+test_native_mps_backward_uses_same_embedded_data (evaluations.tiny_arch.test_model.Tests.test_native_mps_backward_uses_same_embedded_data) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.374s
+
+OK

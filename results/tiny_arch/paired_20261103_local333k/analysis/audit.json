@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "new_conditions": 6,
+  "paired_update_hashes": 6144,
+  "original_model_sources_unchanged": 58,
+  "all_sources_unchanged": 64,
+  "original_checkpoints_unchanged": "Not modified",
+  "training_data": "Same frozen WikiText2 and SQuAD preparations",
+  "pretrained_weights_used": false,
+  "large_scale_queue": "unchanged, not_executed"
+}

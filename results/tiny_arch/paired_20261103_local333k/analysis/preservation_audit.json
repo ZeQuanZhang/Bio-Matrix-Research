@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "old_seed11_checkpoints_unchanged": 4,
+  "old_checkpoint_sha256": {
+    "trans_local": "f2545a655c204be07726ae724c602018b159ccb020f8e789058484b5a7417656",
+    "trans_full": "f14128ff289d98992cebd1cfffad0db63cc42393ea1f097ee3017ccc47e5171f",
+    "v3_static": "af3e79ca03f47cce15f70853dfb2d956c4b5545a8a14a7a076d4761a7bb50b96",
+    "v3_dynamic": "44a08d6bffd3af651e992e723fc48d2eb92cca613f7fdb7539426a8123d6d81f"
+  },
+  "large_scale_source_files_unchanged": 67,
+  "large_scale_training": "not_executed"
+}

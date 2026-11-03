@@ -1,0 +1,2 @@
+# Use a separate environment; retain the original PyTorch/tokenizer runtime.
+transformers==5.22.1

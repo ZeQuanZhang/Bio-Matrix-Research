@@ -46,3 +46,7 @@
 ### V3规模验证代码与工程记录
 
 追加`scale/`、0.133B配置、PyCharm入口和单GPU三模型10B预算。公开参数核算、14项验收、完整参数规模的32长度MPS合成更新、公开源身份和SQuAD准备计数/哈希。预训练大分片、二进制缓存、问答原文、检查点及`.private`预测不上传。正式训练、完整2048 CUDA测速和能力评估继续登记not_executed；合成更新的loss与计时只用于工程验收。新增清单与核对见`provenance/SCALE_EXPORT_MANIFEST.json`和`provenance/SCALE_PUBLICATION_CHECKS.json`。
+
+### 本地33万参数架构对照
+
+追加Qwen3.5与DeepSeek-V4缩小原型的六条完整训练、6144步配对哈希、版本和源码身份、统计、参数分配、图与六模型seed11实际生成数值。原始预测、参考答案、生成token、二进制检查点和独立软件环境保留本机。公开`generation_*.metrics.jsonl`为私有原始预测文件的数值投影，保留EM/F1、长度、身份和预测SHA256。协议中的答案、参考答案和文章标题净化后发布，原数值保持一致。清单与校验见`provenance/TINY_ARCH_EXPORT_MANIFEST.json`和`provenance/TINY_ARCH_PUBLICATION_CHECKS.json`。此前0.133B训练仍未启动。

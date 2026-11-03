@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "models": 6,
+  "questions_per_model": 64,
+  "prediction_records": 384,
+  "protocol_source_unchanged": true,
+  "seed": 11,
+  "parameters_updated": false,
+  "metric": "SQuAD normalized EM/F1; separate from LoCoMo",
+  "all_em_zero": true,
+  "all_f1_zero": true
+}

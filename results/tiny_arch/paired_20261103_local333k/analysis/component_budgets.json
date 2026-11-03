@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "scope": "Parameter counts only; CPU construction, no training or evaluation",
+  "conditions": {
+    "bio_dynamic": {
+      "total": 333136,
+      "embedding": 229376,
+      "ffn_content": 61584,
+      "hyperconnections": 0,
+      "other_mixing_routing_norm": 42176,
+      "hyperconnection_fraction_of_nonembedding": 0.0
+    },
+    "transformer_full": {
+      "total": 333106,
+      "embedding": 229376,
+      "ffn_content": 78082,
+      "hyperconnections": 0,
+      "other_mixing_routing_norm": 25648,
+      "hyperconnection_fraction_of_nonembedding": 0.0
+    },
+    "qwen35_tiny": {
+      "total": 332950,
+      "embedding": 229376,
+      "ffn_content": 54432,
+      "hyperconnections": 0,
+      "other_mixing_routing_norm": 49142,
+      "hyperconnection_fraction_of_nonembedding": 0.0
+    },
+    "deepseek4_tiny": {
+      "total": 333065,
+      "embedding": 229376,
+      "ffn_content": 26880,
+      "hyperconnections": 44125,
+      "other_mixing_routing_norm": 32684,
+      "hyperconnection_fraction_of_nonembedding": 0.4255514085389964
+    }
+  }
+}
