@@ -1,0 +1,12 @@
+{
+  "answer_nll": 6.34951899601863,
+  "first_answer_nll": 11.724870204925537,
+  "first_answer_accuracy": 0.0,
+  "targets": 52,
+  "first_targets": 8,
+  "note": "Tiny WikiText backbone is not a QA oracle; answer CE remains the primary PT objective.",
+  "short_context_answer_nll": 6.36337804622375,
+  "short_context_first_answer_nll": 11.781226515769958,
+  "full_history_answer_nll_gain": 0.013859050205120127,
+  "full_history_first_answer_nll_gain": 0.05635631084442139
+}

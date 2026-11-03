@@ -1,0 +1,14 @@
+{
+  "condition": "v2_dynamic_s37",
+  "status": "running",
+  "updates": 576,
+  "cpt_tokens": 131072,
+  "pt_updates": 512,
+  "answer_targets": 12866,
+  "completed_work": 1179648,
+  "input_tokens": 1179648,
+  "train_seconds": 105.4822439935524,
+  "validation_seconds": 4.217048041988164,
+  "stage": "pt",
+  "ce": 3.570486545562744
+}

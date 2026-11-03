@@ -1,0 +1,506 @@
+{
+  "method": "Offline JSONL and checkpoint tensor statistics only; no model construction, forward, backward, training or source edits.",
+  "training": {
+    "tokens": 65536,
+    "batch": 2,
+    "segments": 8,
+    "segment_tokens": 64,
+    "context_limit": 128,
+    "seed": 11,
+    "validation_windows": 8,
+    "consolidate_every": 100,
+    "active_fraction": 1.0
+  },
+  "conditions": {
+    "adapter": {
+      "updates": 64,
+      "gradient_norm": {
+        "minimum": 0.5772189497947693,
+        "median": 0.7078097760677338,
+        "maximum": 1.535219669342041
+      },
+      "blocks": [
+        {
+          "updates": [
+            1,
+            16
+          ],
+          "ce_mean": 4.692631632089615,
+          "kd_mean": 0.3433908689767122
+        },
+        {
+          "updates": [
+            17,
+            32
+          ],
+          "ce_mean": 4.59675794839859,
+          "kd_mean": 0.3350194841623306
+        },
+        {
+          "updates": [
+            33,
+            48
+          ],
+          "ce_mean": 4.669197648763657,
+          "kd_mean": 0.32787698693573475
+        },
+        {
+          "updates": [
+            49,
+            64
+          ],
+          "ce_mean": 4.671848267316818,
+          "kd_mean": 0.322195203974843
+        }
+      ],
+      "validation": [
+        {
+          "updates": 16,
+          "completed_tokens": 16384,
+          "warm_nll": 4.575794219970703,
+          "cold_nll": 4.6208096742630005,
+          "memory_clear_cost": 0.0,
+          "read_off_cost": 0.0,
+          "unrelated_cost": 0.0,
+          "consolidations": 0
+        },
+        {
+          "updates": 32,
+          "completed_tokens": 32768,
+          "warm_nll": 4.57144159078598,
+          "cold_nll": 4.615526914596558,
+          "memory_clear_cost": 0.0,
+          "read_off_cost": 0.0,
+          "unrelated_cost": 0.0,
+          "consolidations": 0
+        },
+        {
+          "updates": 48,
+          "completed_tokens": 49152,
+          "warm_nll": 4.572842180728912,
+          "cold_nll": 4.617425620555878,
+          "memory_clear_cost": 0.0,
+          "read_off_cost": 0.0,
+          "unrelated_cost": 0.0,
+          "consolidations": 0
+        },
+        {
+          "updates": 64,
+          "completed_tokens": 65536,
+          "warm_nll": 4.572865962982178,
+          "cold_nll": 4.617117643356323,
+          "memory_clear_cost": 0.0,
+          "read_off_cost": 0.0,
+          "unrelated_cost": 0.0,
+          "consolidations": 0
+        }
+      ]
+    },
+    "bio_full": {
+      "updates": 64,
+      "gradient_norm": {
+        "minimum": 0.004856972023844719,
+        "median": 0.00635061739012599,
+        "maximum": 0.008971563540399075
+      },
+      "blocks": [
+        {
+          "updates": [
+            1,
+            16
+          ],
+          "ce_mean": 4.672014117240906,
+          "kd_mean": 0.4026400279253721
+        },
+        {
+          "updates": [
+            17,
+            32
+          ],
+          "ce_mean": 4.573793292045593,
+          "kd_mean": 0.41001104563474655
+        },
+        {
+          "updates": [
+            33,
+            48
+          ],
+          "ce_mean": 4.648188233375549,
+          "kd_mean": 0.4061827175319195
+        },
+        {
+          "updates": [
+            49,
+            64
+          ],
+          "ce_mean": 4.654322981834412,
+          "kd_mean": 0.39805731177330017
+        }
+      ],
+      "validation": [
+        {
+          "updates": 16,
+          "completed_tokens": 16384,
+          "warm_nll": 4.556194007396698,
+          "cold_nll": 4.605849742889404,
+          "memory_clear_cost": 6.633996963500977e-05,
+          "read_off_cost": 4.589557647705078e-05,
+          "unrelated_cost": 8.344650268554688e-07,
+          "consolidations": 0
+        },
+        {
+          "updates": 32,
+          "completed_tokens": 32768,
+          "warm_nll": 4.556195557117462,
+          "cold_nll": 4.6058449149131775,
+          "memory_clear_cost": 5.698204040527344e-05,
+          "read_off_cost": 4.32133674621582e-05,
+          "unrelated_cost": 1.8477439880371094e-06,
+          "consolidations": 0
+        },
+        {
+          "updates": 48,
+          "completed_tokens": 49152,
+          "warm_nll": 4.556190669536591,
+          "cold_nll": 4.605842053890228,
+          "memory_clear_cost": 5.8531761169433594e-05,
+          "read_off_cost": 4.76837158203125e-05,
+          "unrelated_cost": 2.1457672119140625e-06,
+          "consolidations": 0
+        },
+        {
+          "updates": 64,
+          "completed_tokens": 65536,
+          "warm_nll": 4.556186199188232,
+          "cold_nll": 4.605838656425476,
+          "memory_clear_cost": 5.924701690673828e-05,
+          "read_off_cost": 5.2094459533691406e-05,
+          "unrelated_cost": 2.205371856689453e-06,
+          "consolidations": 1
+        }
+      ],
+      "backbone_exactly_unchanged": true,
+      "layers": [
+        {
+          "index": 0,
+          "core_read_gain": 0.05015511065721512,
+          "output_gate_bias_sigmoid_mean": 0.26928067207336426,
+          "phase_max_change": 1.990583896636963,
+          "phase_unit_norm_max_error": 1.1920928955078125e-07,
+          "p_min_eigenvalue": 0.07278584688901901,
+          "p_max_eigenvalue": 1.0140889883041382,
+          "slow_rms": 0.00012004822929156944,
+          "eligible_nodes": [
+            0
+          ],
+          "shells": [
+            {
+              "level": 0,
+              "nodes": 1,
+              "nodes_with_positive_support": 1,
+              "support_mean": 7.956024169921875,
+              "m_rms": 0.026963213458657265,
+              "fast_rms": 0.013552717864513397,
+              "slow_rms": 0.0006657309713773429
+            },
+            {
+              "level": 1,
+              "nodes": 4,
+              "nodes_with_positive_support": 4,
+              "support_mean": 1.6197922229766846,
+              "m_rms": 0.01915179006755352,
+              "fast_rms": 0.012578404508531094,
+              "slow_rms": 6.702453538309783e-05
+            },
+            {
+              "level": 2,
+              "nodes": 9,
+              "nodes_with_positive_support": 9,
+              "support_mean": 0.11552972346544266,
+              "m_rms": 0.020222002640366554,
+              "fast_rms": 0.0037839666474610567,
+              "slow_rms": 6.300563768490974e-07
+            },
+            {
+              "level": 3,
+              "nodes": 18,
+              "nodes_with_positive_support": 0,
+              "support_mean": 0.0,
+              "m_rms": 0.02019699476659298,
+              "fast_rms": 0.0,
+              "slow_rms": 0.0
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "core_read_gain": 0.05028228834271431,
+          "output_gate_bias_sigmoid_mean": 0.2701435089111328,
+          "phase_max_change": 1.9847276210784912,
+          "phase_unit_norm_max_error": 1.1920928955078125e-07,
+          "p_min_eigenvalue": 0.04508901759982109,
+          "p_max_eigenvalue": 1.0151569843292236,
+          "slow_rms": 0.00023528975725639611,
+          "eligible_nodes": [
+            0
+          ],
+          "shells": [
+            {
+              "level": 0,
+              "nodes": 1,
+              "nodes_with_positive_support": 1,
+              "support_mean": 7.918976783752441,
+              "m_rms": 0.051498327404260635,
+              "fast_rms": 0.025852229446172714,
+              "slow_rms": 0.0013051418354734778
+            },
+            {
+              "level": 1,
+              "nodes": 4,
+              "nodes_with_positive_support": 4,
+              "support_mean": 1.630141019821167,
+              "m_rms": 0.022118480876088142,
+              "fast_rms": 0.023848116397857666,
+              "slow_rms": 0.0001305223850067705
+            },
+            {
+              "level": 2,
+              "nodes": 9,
+              "nodes_with_positive_support": 9,
+              "support_mean": 0.12993721663951874,
+              "m_rms": 0.021050384268164635,
+              "fast_rms": 0.0075674960389733315,
+              "slow_rms": 1.5387206531158881e-06
+            },
+            {
+              "level": 3,
+              "nodes": 18,
+              "nodes_with_positive_support": 0,
+              "support_mean": 0.0,
+              "m_rms": 0.020392736420035362,
+              "fast_rms": 1.6773219613241963e-05,
+              "slow_rms": 0.0
+            }
+          ]
+        }
+      ],
+      "consolidation": [
+        {
+          "updates": 64,
+          "completed_tokens": 65536,
+          "consolidation_layers_changed": 2,
+          "consolidation_update_norm": 0.01038028602488339,
+          "consolidation_eligible": 8,
+          "consolidation_sessions": 2
+        }
+      ]
+    },
+    "bio_no_phase": {
+      "updates": 64,
+      "gradient_norm": {
+        "minimum": 0.005777596030384302,
+        "median": 0.007835277821868658,
+        "maximum": 0.011039095930755138
+      },
+      "blocks": [
+        {
+          "updates": [
+            1,
+            16
+          ],
+          "ce_mean": 4.6720210313797,
+          "kd_mean": 0.4026113487780094
+        },
+        {
+          "updates": [
+            17,
+            32
+          ],
+          "ce_mean": 4.573784798383713,
+          "kd_mean": 0.4099302086979151
+        },
+        {
+          "updates": [
+            33,
+            48
+          ],
+          "ce_mean": 4.648170620203018,
+          "kd_mean": 0.40604022331535816
+        },
+        {
+          "updates": [
+            49,
+            64
+          ],
+          "ce_mean": 4.6542783081531525,
+          "kd_mean": 0.39789507538080215
+        }
+      ],
+      "validation": [
+        {
+          "updates": 16,
+          "completed_tokens": 16384,
+          "warm_nll": 4.5563483238220215,
+          "cold_nll": 4.605884075164795,
+          "memory_clear_cost": -4.786252975463867e-05,
+          "read_off_cost": -0.00011026859283447266,
+          "unrelated_cost": -1.8477439880371094e-06,
+          "consolidations": 0
+        },
+        {
+          "updates": 32,
+          "completed_tokens": 32768,
+          "warm_nll": 4.556349158287048,
+          "cold_nll": 4.605872273445129,
+          "memory_clear_cost": -6.026029586791992e-05,
+          "read_off_cost": -0.00011199712753295898,
+          "unrelated_cost": -1.9073486328125e-06,
+          "consolidations": 0
+        },
+        {
+          "updates": 48,
+          "completed_tokens": 49152,
+          "warm_nll": 4.556332767009735,
+          "cold_nll": 4.605860769748688,
+          "memory_clear_cost": -5.251169204711914e-05,
+          "read_off_cost": -9.560585021972656e-05,
+          "unrelated_cost": -2.3245811462402344e-06,
+          "consolidations": 0
+        },
+        {
+          "updates": 64,
+          "completed_tokens": 65536,
+          "warm_nll": 4.556324779987335,
+          "cold_nll": 4.605855166912079,
+          "memory_clear_cost": -4.863739013671875e-05,
+          "read_off_cost": -8.779764175415039e-05,
+          "unrelated_cost": -2.205371856689453e-06,
+          "consolidations": 1
+        }
+      ],
+      "backbone_exactly_unchanged": true,
+      "layers": [
+        {
+          "index": 0,
+          "core_read_gain": 0.050142135471105576,
+          "output_gate_bias_sigmoid_mean": 0.2693173289299011,
+          "phase_max_change": 0.0,
+          "phase_unit_norm_max_error": 1.1920928955078125e-07,
+          "p_min_eigenvalue": 0.03706101328134537,
+          "p_max_eigenvalue": 1.0150485038757324,
+          "slow_rms": 0.00018580592586658895,
+          "eligible_nodes": [
+            0
+          ],
+          "shells": [
+            {
+              "level": 0,
+              "nodes": 1,
+              "nodes_with_positive_support": 1,
+              "support_mean": 7.964527130126953,
+              "m_rms": 0.024609165266156197,
+              "fast_rms": 0.01574641652405262,
+              "slow_rms": 0.0010263605508953333
+            },
+            {
+              "level": 1,
+              "nodes": 4,
+              "nodes_with_positive_support": 4,
+              "support_mean": 1.674401044845581,
+              "m_rms": 0.020925795659422874,
+              "fast_rms": 0.01671781949698925,
+              "slow_rms": 0.00011328345135552809
+            },
+            {
+              "level": 2,
+              "nodes": 9,
+              "nodes_with_positive_support": 9,
+              "support_mean": 0.12358607351779938,
+              "m_rms": 0.020520631223917007,
+              "fast_rms": 0.011657959781587124,
+              "slow_rms": 1.263060767087154e-06
+            },
+            {
+              "level": 3,
+              "nodes": 18,
+              "nodes_with_positive_support": 0,
+              "support_mean": 0.0,
+              "m_rms": 0.020483367145061493,
+              "fast_rms": 0.003204415086656809,
+              "slow_rms": 0.0
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "core_read_gain": 0.05025376006960869,
+          "output_gate_bias_sigmoid_mean": 0.26994189620018005,
+          "phase_max_change": 0.0,
+          "phase_unit_norm_max_error": 1.1920928955078125e-07,
+          "p_min_eigenvalue": 0.03308182954788208,
+          "p_max_eigenvalue": 1.015162706375122,
+          "slow_rms": 0.0003639793721958995,
+          "eligible_nodes": [
+            0
+          ],
+          "shells": [
+            {
+              "level": 0,
+              "nodes": 1,
+              "nodes_with_positive_support": 1,
+              "support_mean": 7.958203315734863,
+              "m_rms": 0.035234056413173676,
+              "fast_rms": 0.02892913855612278,
+              "slow_rms": 0.0020119419787079096
+            },
+            {
+              "level": 1,
+              "nodes": 4,
+              "nodes_with_positive_support": 4,
+              "support_mean": 1.681628704071045,
+              "m_rms": 0.027606377378106117,
+              "fast_rms": 0.03342467546463013,
+              "slow_rms": 0.00021875096717849374
+            },
+            {
+              "level": 2,
+              "nodes": 9,
+              "nodes_with_positive_support": 9,
+              "support_mean": 0.13411203026771545,
+              "m_rms": 0.021824123337864876,
+              "fast_rms": 0.036212529987096786,
+              "slow_rms": 2.8284734980843496e-06
+            },
+            {
+              "level": 3,
+              "nodes": 18,
+              "nodes_with_positive_support": 0,
+              "support_mean": 0.0,
+              "m_rms": 0.021036842837929726,
+              "fast_rms": 0.020921340212225914,
+              "slow_rms": 0.0
+            }
+          ]
+        }
+      ],
+      "consolidation": [
+        {
+          "updates": 64,
+          "completed_tokens": 65536,
+          "consolidation_layers_changed": 2,
+          "consolidation_update_norm": 0.008351901546120644,
+          "consolidation_eligible": 8,
+          "consolidation_sessions": 2
+        }
+      ]
+    }
+  },
+  "interpretation": [
+    "Mechanisms execute with finite gradients/state, but the observed predictive contribution is extremely small at this pilot budget.",
+    "Final model is largely the frozen backbone: full improves warm NLL over its frozen reference by about 5.60e-5.",
+    "The outer 18 nodes have zero fresh-observation support and no slow updates at J=2; phase still evolves there, so this is not a claim that every outer state is inactive.",
+    "The sole final-update consolidation touches the central node per layer/head only. No pre/post consolidation evaluation exists, and earlier checkpoint differences precede that transaction.",
+    "Each training update starts a new 512-token per-lane window; support is not accumulated across all 65536 training targets.",
+    "One seed and 8 validation windows are exploratory; no independent long-task or statistical replication conclusions."
+  ]
+}

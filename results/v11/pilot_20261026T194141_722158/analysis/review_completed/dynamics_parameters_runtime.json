@@ -1,0 +1,819 @@
+{
+  "method": "CPU checkpoint tensor statistics and initialization only; no forward/backward/training. Last runtime is PT padded-window tail, not answer-position evidence.",
+  "conditions": {
+    "bio_summary": {
+      "backbone_exact": true,
+      "layers": [
+        {
+          "layer": 0,
+          "scalars": {
+            "read_gain": 0.050784558057785034,
+            "initial_read_gain": 0.05000000074505806,
+            "gate_bias_sigmoid": 0.27174806594848633,
+            "initial_gate_bias_sigmoid": 0.2689414322376251,
+            "phase_parameter_frequency_rms_delta": 0.010180376470088959,
+            "field_phase_max_change": 1.9857523441314697,
+            "version": 4
+          },
+          "parameters": {
+            "raw_gain": {
+              "delta_rms": 0.031384967267513275,
+              "max_abs": 0.031384967267513275,
+              "relative_l2": 31384967168.0
+            },
+            "output_gate.bias": {
+              "delta_rms": 0.017430977895855904,
+              "max_abs": 0.03501904010772705,
+              "relative_l2": 0.017430977895855904
+            },
+            "output_gate.weight": {
+              "delta_rms": 0.011839182116091251,
+              "max_abs": 0.03277552127838135,
+              "relative_l2": 0.15390881896018982
+            },
+            "output.weight": {
+              "delta_rms": 0.01122568640857935,
+              "max_abs": 0.03176049888134003,
+              "relative_l2": 0.2609769403934479
+            },
+            "query.weight": {
+              "delta_rms": 0.01020106952637434,
+              "max_abs": 0.03206919506192207,
+              "relative_l2": 0.17370325326919556
+            },
+            "key.weight": {
+              "delta_rms": 0.011371809989213943,
+              "max_abs": 0.034692488610744476,
+              "relative_l2": 0.07987379282712936
+            },
+            "value.weight": {
+              "delta_rms": 0.013240999542176723,
+              "max_abs": 0.03374634310603142,
+              "relative_l2": 0.26582321524620056
+            },
+            "raw_frequency": {
+              "delta_rms": 0.010180376470088959,
+              "max_abs": 0.032473087310791016,
+              "relative_l2": 0.003217940451577306
+            },
+            "log_tau": {
+              "delta_rms": 0.02703036367893219,
+              "max_abs": 0.029685020446777344,
+              "relative_l2": 0.005258296616375446
+            },
+            "field.raw_tau": {
+              "delta_rms": 0.010077775456011295,
+              "max_abs": 0.017199993133544922,
+              "relative_l2": 0.0022434405982494354
+            },
+            "field.raw_frequency": {
+              "delta_rms": 0.00931640900671482,
+              "max_abs": 0.022624744102358818,
+              "relative_l2": 0.007216458674520254
+            },
+            "field.raw_coupling": {
+              "delta_rms": 0.0023610591888427734,
+              "max_abs": 0.0023610591888427734,
+              "relative_l2": 0.0015740394592285156
+            },
+            "field.raw_threshold": {
+              "delta_rms": 0.00035381317138671875,
+              "max_abs": 0.00035381317138671875,
+              "relative_l2": 0.00011793772137025371
+            },
+            "field.raw_local_rate": {
+              "delta_rms": 0.024115324020385742,
+              "max_abs": 0.024115324020385742,
+              "relative_l2": 0.012057662010192871
+            },
+            "field.node_shape": {
+              "delta_rms": 0.007039655931293964,
+              "max_abs": 0.023126091808080673,
+              "relative_l2": 0.35054007172584534
+            },
+            "field.input_projection.weight": {
+              "delta_rms": 0.008348415605723858,
+              "max_abs": 0.026892822235822678,
+              "relative_l2": 0.10909641534090042
+            },
+            "field.query_projection.weight": {
+              "delta_rms": 0.009788869880139828,
+              "max_abs": 0.03582613170146942,
+              "relative_l2": 0.1281394362449646
+            },
+            "field.input_rank": {
+              "delta_rms": 0.011011113412678242,
+              "max_abs": 0.01999727636575699,
+              "relative_l2": 0.21860863268375397
+            },
+            "field.output_rank": {
+              "delta_rms": 0.015985563397407532,
+              "max_abs": 0.030765622854232788,
+              "relative_l2": 0.30114346742630005
+            },
+            "field.group_keys": {
+              "delta_rms": 0.01146320253610611,
+              "max_abs": 0.027634918689727783,
+              "relative_l2": 0.04524803161621094
+            }
+          },
+          "shells": [
+            {
+              "shell": 0,
+              "nodes": 1,
+              "support_min": 7.958066940307617,
+              "support_mean": 7.9662089347839355,
+              "support_max": 7.970162391662598,
+              "eligible_heads": 4,
+              "rms": {
+                "m": 0.020296704024076462,
+                "slow": 0.0005868708831258118,
+                "fast": 0.015041876584291458,
+                "association": 0.014783124439418316
+              },
+              "max_matrix_frobenius": {
+                "m": 0.3076997697353363,
+                "slow": 0.014471867121756077,
+                "fast": 0.32135072350502014,
+                "association": 0.2675555646419525
+              }
+            },
+            {
+              "shell": 1,
+              "nodes": 4,
+              "support_min": 3.0331761837005615,
+              "support_mean": 3.0737414360046387,
+              "support_max": 3.1704087257385254,
+              "eligible_heads": 16,
+              "rms": {
+                "m": 0.02039618231356144,
+                "slow": 0.00017059608944691718,
+                "fast": 0.012048240751028061,
+                "association": 0.011816026642918587
+              },
+              "max_matrix_frobenius": {
+                "m": 0.30944302678108215,
+                "slow": 0.004342955537140369,
+                "fast": 0.27162691950798035,
+                "association": 0.2143135517835617
+              }
+            },
+            {
+              "shell": 2,
+              "nodes": 9,
+              "support_min": 0.297781765460968,
+              "support_mean": 0.5606749653816223,
+              "support_max": 0.7787114977836609,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.02064117044210434,
+                "slow": 1.2077004612365272e-05,
+                "fast": 0.011734685860574245,
+                "association": 0.011615334078669548
+              },
+              "max_matrix_frobenius": {
+                "m": 0.31549695134162903,
+                "slow": 0.000446444348199293,
+                "fast": 0.26191049814224243,
+                "association": 0.210988849401474
+              }
+            },
+            {
+              "shell": 3,
+              "nodes": 18,
+              "support_min": 0.028625160455703735,
+              "support_mean": 0.0422680638730526,
+              "support_max": 0.05347604677081108,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.021432630717754364,
+                "slow": 7.347743036234533e-08,
+                "fast": 0.01179173681885004,
+                "association": 0.01165213156491518
+              },
+              "max_matrix_frobenius": {
+                "m": 0.34370529651641846,
+                "slow": 2.687572759896284e-06,
+                "fast": 0.2622244358062744,
+                "association": 0.21214431524276733
+              }
+            }
+          ],
+          "phase_error": 1.1920928955078125e-07,
+          "p_eigen_range": [
+            0.043640341609716415,
+            1.015166163444519
+          ]
+        },
+        {
+          "layer": 1,
+          "scalars": {
+            "read_gain": 0.05109556391835213,
+            "initial_read_gain": 0.05000000074505806,
+            "gate_bias_sigmoid": 0.2722931206226349,
+            "initial_gate_bias_sigmoid": 0.2689414322376251,
+            "phase_parameter_frequency_rms_delta": 0.01423061266541481,
+            "field_phase_max_change": 1.999216079711914,
+            "version": 4
+          },
+          "parameters": {
+            "raw_gain": {
+              "delta_rms": 0.043829455971717834,
+              "max_abs": 0.043829455971717834,
+              "relative_l2": 43829456896.0
+            },
+            "output_gate.bias": {
+              "delta_rms": 0.022476406767964363,
+              "max_abs": 0.04023289680480957,
+              "relative_l2": 0.022476406767964363
+            },
+            "output_gate.weight": {
+              "delta_rms": 0.019457360729575157,
+              "max_abs": 0.042151667177677155,
+              "relative_l2": 0.2490183711051941
+            },
+            "output.weight": {
+              "delta_rms": 0.018389051780104637,
+              "max_abs": 0.04061869531869888,
+              "relative_l2": 0.20688560605049133
+            },
+            "query.weight": {
+              "delta_rms": 0.017769968137145042,
+              "max_abs": 0.03744426742196083,
+              "relative_l2": 0.2536610960960388
+            },
+            "key.weight": {
+              "delta_rms": 0.022991463541984558,
+              "max_abs": 0.04074178636074066,
+              "relative_l2": 0.12358365207910538
+            },
+            "value.weight": {
+              "delta_rms": 0.017238305881619453,
+              "max_abs": 0.042359888553619385,
+              "relative_l2": 0.14659415185451508
+            },
+            "raw_frequency": {
+              "delta_rms": 0.01423061266541481,
+              "max_abs": 0.03293800354003906,
+              "relative_l2": 0.004498190246522427
+            },
+            "log_tau": {
+              "delta_rms": 0.024222910404205322,
+              "max_abs": 0.040625572204589844,
+              "relative_l2": 0.004712154157459736
+            },
+            "field.raw_tau": {
+              "delta_rms": 0.005982305388897657,
+              "max_abs": 0.00814962387084961,
+              "relative_l2": 0.001331737032160163
+            },
+            "field.raw_frequency": {
+              "delta_rms": 0.01433715969324112,
+              "max_abs": 0.024284958839416504,
+              "relative_l2": 0.011105515994131565
+            },
+            "field.raw_coupling": {
+              "delta_rms": 0.014483213424682617,
+              "max_abs": 0.014483213424682617,
+              "relative_l2": 0.009655475616455078
+            },
+            "field.raw_threshold": {
+              "delta_rms": 0.00016546249389648438,
+              "max_abs": 0.00016546249389648438,
+              "relative_l2": 5.5154163419501856e-05
+            },
+            "field.raw_local_rate": {
+              "delta_rms": 0.014341354370117188,
+              "max_abs": 0.014341354370117188,
+              "relative_l2": 0.007170677185058594
+            },
+            "field.node_shape": {
+              "delta_rms": 0.011410880833864212,
+              "max_abs": 0.029760923236608505,
+              "relative_l2": 0.570503830909729
+            },
+            "field.input_projection.weight": {
+              "delta_rms": 0.01149442233145237,
+              "max_abs": 0.029024312272667885,
+              "relative_l2": 0.14716537296772003
+            },
+            "field.query_projection.weight": {
+              "delta_rms": 0.01649749092757702,
+              "max_abs": 0.038320884108543396,
+              "relative_l2": 0.21607454121112823
+            },
+            "field.input_rank": {
+              "delta_rms": 0.017002951353788376,
+              "max_abs": 0.030844438821077347,
+              "relative_l2": 0.3400863707065582
+            },
+            "field.output_rank": {
+              "delta_rms": 0.02296285890042782,
+              "max_abs": 0.038205746561288834,
+              "relative_l2": 0.5366449952125549
+            },
+            "field.group_keys": {
+              "delta_rms": 0.015410084277391434,
+              "max_abs": 0.03109157085418701,
+              "relative_l2": 0.06112099438905716
+            }
+          },
+          "shells": [
+            {
+              "shell": 0,
+              "nodes": 1,
+              "support_min": 7.954511642456055,
+              "support_mean": 7.962040901184082,
+              "support_max": 7.964759826660156,
+              "eligible_heads": 4,
+              "rms": {
+                "m": 0.026558509096503258,
+                "slow": 0.0013693097280338407,
+                "fast": 0.025610707700252533,
+                "association": 0.02464447170495987
+              },
+              "max_matrix_frobenius": {
+                "m": 0.4219699800014496,
+                "slow": 0.02256598509848118,
+                "fast": 0.45689675211906433,
+                "association": 0.3822001814842224
+              }
+            },
+            {
+              "shell": 1,
+              "nodes": 4,
+              "support_min": 3.052248239517212,
+              "support_mean": 3.0828123092651367,
+              "support_max": 3.143129348754883,
+              "eligible_heads": 16,
+              "rms": {
+                "m": 0.023218737915158272,
+                "slow": 0.0003802677383646369,
+                "fast": 0.020690150558948517,
+                "association": 0.01971842721104622
+              },
+              "max_matrix_frobenius": {
+                "m": 0.3488251864910126,
+                "slow": 0.006458306685090065,
+                "fast": 0.37747523188591003,
+                "association": 0.3052705228328705
+              }
+            },
+            {
+              "shell": 2,
+              "nodes": 9,
+              "support_min": 0.2955976724624634,
+              "support_mean": 0.5660309195518494,
+              "support_max": 0.7716271877288818,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.02269972488284111,
+                "slow": 2.61340264842147e-05,
+                "fast": 0.02037639543414116,
+                "association": 0.019510015845298767
+              },
+              "max_matrix_frobenius": {
+                "m": 0.35328209400177,
+                "slow": 0.0006358161917887628,
+                "fast": 0.36738520860671997,
+                "association": 0.30161744356155396
+              }
+            },
+            {
+              "shell": 3,
+              "nodes": 18,
+              "support_min": 0.029797151684761047,
+              "support_mean": 0.043012648820877075,
+              "support_max": 0.05393721163272858,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.023376666009426117,
+                "slow": 1.6272070979539421e-07,
+                "fast": 0.020614173263311386,
+                "association": 0.01970202475786209
+              },
+              "max_matrix_frobenius": {
+                "m": 0.35755929350852966,
+                "slow": 3.776886842388194e-06,
+                "fast": 0.3705698847770691,
+                "association": 0.30373314023017883
+              }
+            }
+          ],
+          "phase_error": 1.1920928955078125e-07,
+          "p_eigen_range": [
+            0.03639986366033554,
+            1.0151665210723877
+          ]
+        }
+      ]
+    },
+    "bio_ordered": {
+      "backbone_exact": true,
+      "layers": [
+        {
+          "layer": 0,
+          "scalars": {
+            "read_gain": 0.05076291039586067,
+            "initial_read_gain": 0.05000000074505806,
+            "gate_bias_sigmoid": 0.27165675163269043,
+            "initial_gate_bias_sigmoid": 0.2689414322376251,
+            "phase_parameter_frequency_rms_delta": 0.01142603438347578,
+            "field_phase_max_change": 1.9975566864013672,
+            "version": 4
+          },
+          "parameters": {
+            "raw_gain": {
+              "delta_rms": 0.030518626794219017,
+              "max_abs": 0.030518626794219017,
+              "relative_l2": 30518626304.0
+            },
+            "output_gate.bias": {
+              "delta_rms": 0.016978411003947258,
+              "max_abs": 0.034051597118377686,
+              "relative_l2": 0.016978411003947258
+            },
+            "output_gate.weight": {
+              "delta_rms": 0.011658590286970139,
+              "max_abs": 0.03216668963432312,
+              "relative_l2": 0.1515612006187439
+            },
+            "output.weight": {
+              "delta_rms": 0.011061783879995346,
+              "max_abs": 0.031450264155864716,
+              "relative_l2": 0.2571665346622467
+            },
+            "query.weight": {
+              "delta_rms": 0.010043718852102757,
+              "max_abs": 0.03098638728260994,
+              "relative_l2": 0.17102394998073578
+            },
+            "key.weight": {
+              "delta_rms": 0.01125775184482336,
+              "max_abs": 0.0345606803894043,
+              "relative_l2": 0.07907269150018692
+            },
+            "value.weight": {
+              "delta_rms": 0.012885963544249535,
+              "max_abs": 0.0333494171500206,
+              "relative_l2": 0.2586956024169922
+            },
+            "raw_frequency": {
+              "delta_rms": 0.01142603438347578,
+              "max_abs": 0.028026342391967773,
+              "relative_l2": 0.003611683612689376
+            },
+            "log_tau": {
+              "delta_rms": 0.026520805433392525,
+              "max_abs": 0.028796672821044922,
+              "relative_l2": 0.0051591708324849606
+            },
+            "field.raw_tau": {
+              "delta_rms": 0.01700328290462494,
+              "max_abs": 0.021732330322265625,
+              "relative_l2": 0.003785146865993738
+            },
+            "field.raw_frequency": {
+              "delta_rms": 0.010875348001718521,
+              "max_abs": 0.020077764987945557,
+              "relative_l2": 0.008424008265137672
+            },
+            "field.raw_coupling": {
+              "delta_rms": 0.004895806312561035,
+              "max_abs": 0.004895806312561035,
+              "relative_l2": 0.0032638709526509047
+            },
+            "field.raw_threshold": {
+              "delta_rms": 0.00738525390625,
+              "max_abs": 0.00738525390625,
+              "relative_l2": 0.0024617512244731188
+            },
+            "field.raw_local_rate": {
+              "delta_rms": 0.017911195755004883,
+              "max_abs": 0.017911195755004883,
+              "relative_l2": 0.008955597877502441
+            },
+            "field.node_shape": {
+              "delta_rms": 0.0068218582309782505,
+              "max_abs": 0.022565368562936783,
+              "relative_l2": 0.33969467878341675
+            },
+            "field.input_projection.weight": {
+              "delta_rms": 0.008814612403512001,
+              "max_abs": 0.027119413018226624,
+              "relative_l2": 0.1151886060833931
+            },
+            "field.query_projection.weight": {
+              "delta_rms": 0.010623014532029629,
+              "max_abs": 0.035829126834869385,
+              "relative_l2": 0.1390586495399475
+            },
+            "field.input_rank": {
+              "delta_rms": 0.010975908488035202,
+              "max_abs": 0.024528630077838898,
+              "relative_l2": 0.21790969371795654
+            },
+            "field.output_rank": {
+              "delta_rms": 0.015959298238158226,
+              "max_abs": 0.029104214161634445,
+              "relative_l2": 0.30064868927001953
+            },
+            "field.group_keys": {
+              "delta_rms": 0.012682381086051464,
+              "max_abs": 0.03112208843231201,
+              "relative_l2": 0.05006042495369911
+            }
+          },
+          "shells": [
+            {
+              "shell": 0,
+              "nodes": 1,
+              "support_min": 7.956686496734619,
+              "support_mean": 7.965970039367676,
+              "support_max": 7.970263481140137,
+              "eligible_heads": 4,
+              "rms": {
+                "m": 0.0203500147908926,
+                "slow": 0.0004946624976582825,
+                "fast": 0.02114199474453926,
+                "association": 0.02998356707394123
+              },
+              "max_matrix_frobenius": {
+                "m": 0.3177344501018524,
+                "slow": 0.01203163806349039,
+                "fast": 0.7355702519416809,
+                "association": 0.7191777229309082
+              }
+            },
+            {
+              "shell": 1,
+              "nodes": 4,
+              "support_min": 3.023270845413208,
+              "support_mean": 3.0660557746887207,
+              "support_max": 3.095215082168579,
+              "eligible_heads": 16,
+              "rms": {
+                "m": 0.020253652706742287,
+                "slow": 0.00014963760622777045,
+                "fast": 0.015992024913430214,
+                "association": 0.022152835503220558
+              },
+              "max_matrix_frobenius": {
+                "m": 0.3002762198448181,
+                "slow": 0.00370593648403883,
+                "fast": 0.5497797727584839,
+                "association": 0.5167202353477478
+              }
+            },
+            {
+              "shell": 2,
+              "nodes": 9,
+              "support_min": 0.2975066602230072,
+              "support_mean": 0.5658366680145264,
+              "support_max": 0.7772217988967896,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.02058786153793335,
+                "slow": 1.0963493878080044e-05,
+                "fast": 0.015058542601764202,
+                "association": 0.020114514976739883
+              },
+              "max_matrix_frobenius": {
+                "m": 0.3119847774505615,
+                "slow": 0.000403072772314772,
+                "fast": 0.5029416084289551,
+                "association": 0.463206022977829
+              }
+            },
+            {
+              "shell": 3,
+              "nodes": 18,
+              "support_min": 0.030070051550865173,
+              "support_mean": 0.043255846947431564,
+              "support_max": 0.054667625576257706,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.021388636901974678,
+                "slow": 6.958667597700696e-08,
+                "fast": 0.014113541692495346,
+                "association": 0.018453849479556084
+              },
+              "max_matrix_frobenius": {
+                "m": 0.34225019812583923,
+                "slow": 2.5907436338457046e-06,
+                "fast": 0.457278847694397,
+                "association": 0.4152379631996155
+              }
+            }
+          ],
+          "phase_error": 1.1920928955078125e-07,
+          "p_eigen_range": [
+            0.04320923238992691,
+            1.0151662826538086
+          ]
+        },
+        {
+          "layer": 1,
+          "scalars": {
+            "read_gain": 0.051102008670568466,
+            "initial_read_gain": 0.05000000074505806,
+            "gate_bias_sigmoid": 0.2723034918308258,
+            "initial_gate_bias_sigmoid": 0.2689414322376251,
+            "phase_parameter_frequency_rms_delta": 0.014937746338546276,
+            "field_phase_max_change": 1.994449257850647,
+            "version": 4
+          },
+          "parameters": {
+            "raw_gain": {
+              "delta_rms": 0.04408726096153259,
+              "max_abs": 0.04408726096153259,
+              "relative_l2": 44087259136.0
+            },
+            "output_gate.bias": {
+              "delta_rms": 0.02248401753604412,
+              "max_abs": 0.03922009468078613,
+              "relative_l2": 0.02248401567339897
+            },
+            "output_gate.weight": {
+              "delta_rms": 0.0194244384765625,
+              "max_abs": 0.04033876210451126,
+              "relative_l2": 0.24859699606895447
+            },
+            "output.weight": {
+              "delta_rms": 0.01842467673122883,
+              "max_abs": 0.040892310440540314,
+              "relative_l2": 0.20728643238544464
+            },
+            "query.weight": {
+              "delta_rms": 0.01785539649426937,
+              "max_abs": 0.037751540541648865,
+              "relative_l2": 0.2548805773258209
+            },
+            "key.weight": {
+              "delta_rms": 0.02292216569185257,
+              "max_abs": 0.040881406515836716,
+              "relative_l2": 0.12321116775274277
+            },
+            "value.weight": {
+              "delta_rms": 0.016973886638879776,
+              "max_abs": 0.042506106197834015,
+              "relative_l2": 0.14434553682804108
+            },
+            "raw_frequency": {
+              "delta_rms": 0.014937746338546276,
+              "max_abs": 0.03090524673461914,
+              "relative_l2": 0.004721709992736578
+            },
+            "log_tau": {
+              "delta_rms": 0.0240913238376379,
+              "max_abs": 0.04049253463745117,
+              "relative_l2": 0.0046865567564964294
+            },
+            "field.raw_tau": {
+              "delta_rms": 0.034373458474874496,
+              "max_abs": 0.041834354400634766,
+              "relative_l2": 0.00765196792781353
+            },
+            "field.raw_frequency": {
+              "delta_rms": 0.026823552325367928,
+              "max_abs": 0.036455392837524414,
+              "relative_l2": 0.02077743411064148
+            },
+            "field.raw_coupling": {
+              "delta_rms": 0.027941584587097168,
+              "max_abs": 0.027941584587097168,
+              "relative_l2": 0.018627723678946495
+            },
+            "field.raw_threshold": {
+              "delta_rms": 0.01419377326965332,
+              "max_abs": 0.01419377326965332,
+              "relative_l2": 0.004731257911771536
+            },
+            "field.raw_local_rate": {
+              "delta_rms": 0.002159595489501953,
+              "max_abs": 0.002159595489501953,
+              "relative_l2": 0.0010797977447509766
+            },
+            "field.node_shape": {
+              "delta_rms": 0.011160905472934246,
+              "max_abs": 0.029749568551778793,
+              "relative_l2": 0.5580061078071594
+            },
+            "field.input_projection.weight": {
+              "delta_rms": 0.013781685382127762,
+              "max_abs": 0.036720700562000275,
+              "relative_l2": 0.17644965648651123
+            },
+            "field.query_projection.weight": {
+              "delta_rms": 0.015846122056245804,
+              "max_abs": 0.03754867613315582,
+              "relative_l2": 0.2075432687997818
+            },
+            "field.input_rank": {
+              "delta_rms": 0.02103780210018158,
+              "max_abs": 0.037085823714733124,
+              "relative_l2": 0.420789897441864
+            },
+            "field.output_rank": {
+              "delta_rms": 0.022685065865516663,
+              "max_abs": 0.03848186507821083,
+              "relative_l2": 0.5301529169082642
+            },
+            "field.group_keys": {
+              "delta_rms": 0.02173127792775631,
+              "max_abs": 0.034767527133226395,
+              "relative_l2": 0.08619274944067001
+            }
+          },
+          "shells": [
+            {
+              "shell": 0,
+              "nodes": 1,
+              "support_min": 7.960112571716309,
+              "support_mean": 7.963300704956055,
+              "support_max": 7.965848922729492,
+              "eligible_heads": 4,
+              "rms": {
+                "m": 0.026885902509093285,
+                "slow": 0.0014335281448438764,
+                "fast": 0.029107868671417236,
+                "association": 0.04796508699655533
+              },
+              "max_matrix_frobenius": {
+                "m": 0.4027485251426697,
+                "slow": 0.02268681675195694,
+                "fast": 0.6609795093536377,
+                "association": 0.7884079217910767
+              }
+            },
+            {
+              "shell": 1,
+              "nodes": 4,
+              "support_min": 3.0864357948303223,
+              "support_mean": 3.1234724521636963,
+              "support_max": 3.1480510234832764,
+              "eligible_heads": 16,
+              "rms": {
+                "m": 0.023113857954740524,
+                "slow": 0.0004128131549805403,
+                "fast": 0.021282387897372246,
+                "association": 0.0351819172501564
+              },
+              "max_matrix_frobenius": {
+                "m": 0.35106316208839417,
+                "slow": 0.0064705959521234035,
+                "fast": 0.5281909704208374,
+                "association": 0.5738169550895691
+              }
+            },
+            {
+              "shell": 2,
+              "nodes": 9,
+              "support_min": 0.30487358570098877,
+              "support_mean": 0.5823557376861572,
+              "support_max": 0.799141526222229,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.022609900683164597,
+                "slow": 2.9435474061756395e-05,
+                "fast": 0.019152715802192688,
+                "association": 0.030666876584291458
+              },
+              "max_matrix_frobenius": {
+                "m": 0.3601078689098358,
+                "slow": 0.0006644281093031168,
+                "fast": 0.3999466896057129,
+                "association": 0.5051864385604858
+              }
+            },
+            {
+              "shell": 3,
+              "nodes": 18,
+              "support_min": 0.03133154660463333,
+              "support_mean": 0.0448668971657753,
+              "support_max": 0.056466907262802124,
+              "eligible_heads": 0,
+              "rms": {
+                "m": 0.023180630058050156,
+                "slow": 1.8909409504885843e-07,
+                "fast": 0.01850137673318386,
+                "association": 0.02802964672446251
+              },
+              "max_matrix_frobenius": {
+                "m": 0.3546120822429657,
+                "slow": 4.239649115334032e-06,
+                "fast": 0.3992326557636261,
+                "association": 0.46005216240882874
+              }
+            }
+          ],
+          "phase_error": 1.1920928955078125e-07,
+          "p_eigen_range": [
+            0.03541276603937149,
+            1.0151666402816772
+          ]
+        }
+      ]
+    }
+  }
+}

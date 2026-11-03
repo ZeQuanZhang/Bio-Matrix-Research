@@ -1,0 +1,395 @@
+{
+  "status": "completed",
+  "device": "mps",
+  "torch": "2.14.1",
+  "machine": "arm64",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "source_hashes": {
+    "v3/__init__.py": "2f79f0f766bdf53211004249deeafcaded674fc4a633a60364495027933778f0",
+    "v3/benchmark.py": "3e4eddf78c89b6975b773f6329a799c35d6dcaf68730ae3ae706b746c5944704",
+    "v3/console.py": "e68f9e99beeec2efd8e1a888b87e388427a5799ecdfc3140ff6679119184dc0d",
+    "v3/evaluate.py": "efcff2bc478322d2ee84c5708ca3b448d51a757e9f76a88f0a421cbd5c33805d",
+    "v3/model.py": "c2113690659ea95f48d225e8f627ff7dcbf61c4a37c943fc03550fdf2d79da07",
+    "v3/report.py": "6dc3e232b7780fcafced51f8d10bfceb150ee0af32829cd86092dcc831ccff87",
+    "v3/test_evaluate.py": "5b42958a0f1c8477fa4285fc28bc546a5233f9804859e5f4e8f1d55338b07194",
+    "v3/test_model.py": "c4d7b49e7d2dd93c54cff9b810c092b8107abd2f5f8357bdb2b7cd04671d8ca5",
+    "v3/test_train.py": "7058c9329d9d6370ca5045275a816d8d6990809ef9c3deac4895fed40c8dee16",
+    "v3/train.py": "d212e5f790f955683fc22543757207a08daf4f2df7bc23ddae595cf9a38a90f0",
+    "v2/__init__.py": "128f11dae9355c1888414b8b3c88c846e75e5a1a555224c811042ee1c75f0ee5",
+    "v2/evaluate.py": "5427ed9d6c8c0381f3672bbc12593fd7a02810a74800eedec46b2de21d5f2760",
+    "v2/model.py": "285cc329b0236a971fc8e526ba8774db7f49d39eb7c6d8479813dee401363427",
+    "v2/report.py": "db5faffd087127cb94b2fbea8b2a9a6996de6a46d193734bf60020442dbf0f3c",
+    "v2/test_evaluate.py": "b5038967f82fd317669138f290d2a395756ffc3397fe76224380ca5225f10d27",
+    "v2/test_model.py": "c0654a53812a78acb380e2f4742c3c2ba4e04cb7c24e0b2f1b6d731d4513d4dd",
+    "v2/test_train.py": "c5eb1ad43cd96d06bda65d61399b41eb2a649d7463410adabd9c573f31cfbac4",
+    "v2/train.py": "c265896675e7b76af4b040e883a2a0018b14b64d8a6c77309813f1a95f08d24d",
+    "v11/__init__.py": "555439e63b63439ed21a13302391b9a9f2e1cae66111ccd7a116a7e06f211941",
+    "v11/data.py": "d8326be0d94d1bbe77896cc43e331dfdaf341a64ae871642e1cafd4100086587",
+    "v11/dynamics.py": "7e34c0eb1b4334ac4b3b5bf199aca720f5a14bb47eb82f10661aaed75e28acd5",
+    "v11/evaluate.py": "0c2e0f92cf20aabc8bdad6811a3f42e2ea0126bfa32ae1e4362f4ff1b143b7fa",
+    "v11/model.py": "7471d0033cc1206ebd4dc9ba5940cdce04e0e7d9865b03f466498306f0011952",
+    "v11/test_data.py": "c223fa89e9be71696fa39de40d15adc190011ef14d03d414fedcc2a47dbcd626",
+    "v11/test_dynamics.py": "2f387174cc179ca44dca96dc1928d402197b8dfdf10ac7e347c982ad9b63e43b",
+    "v11/test_evaluate.py": "9af03fe1147e1d8b1a6421d721cfb24df1fa75def354a7fbdffe60854f4aacaa",
+    "v11/test_model.py": "05779e72f2e19bd12cf89d7f8f1fe9d76fa0544dd7216fb882ed1ee42838a327",
+    "v11/test_train.py": "0d8d94b3159d7d218c9f95f06cff08abd63e7d3b1efdb02f8909c855e3e397fc",
+    "v11/train.py": "788f918ffdd2224ceeb7a07c2dd707809405aa65e041edc187bebd6af1ccb4d6",
+    "v1/__init__.py": "1a535fa652816b721f434c323d87c572dacb489a46636693777d2d2fb2b9e7fe",
+    "v1/dynamics.py": "ea7b9ce420054f54be1a97f8f01a7bf9d6cfaeb410f35958a33c49d05a0baa43",
+    "v1/evaluate.py": "943b632ff1789250f6d92f212229081b1f6568dd01965fdefdb91ac37fa3b286",
+    "v1/model.py": "b0a910d4cc558938769f97729939e05b392df44bfc602cdcddb0e8c92497c6e2",
+    "v1/test_dynamics.py": "d263dfb2ce5738bfe80ac314f812be0eb6cdad27219cd8e456f9c78c8ff052c0",
+    "v1/test_evaluate.py": "955b45c7c522e95c12903e64678bf8d265483b88a7832c0e450790b45366f26e",
+    "v1/test_model.py": "88793661e11adcedb3b2b3cbfdd20f21a32a51b2bd39226105aa61d667d8f886",
+    "v1/test_train.py": "7d4e4cc2d856e75e04e1b73e6d477fdddc39e8ee570734a9cad660a38ad9991e",
+    "v1/train.py": "28ac4c181256b642efd10767784c2117ccf713b6b00ca62a60a5749d272a7b5c",
+    "run_biomatrix_v3.py": "98d0988fecc37e83d1ca485f6199a7c2abbdb1b5a4fb0b398c2c0a6efad762d1",
+    ".run/Bio-Matrix V3.run.xml": "e9a9644e7eaeb2cae461daa7a8672b5539d7c81d14fcda18f551cba38cd8f447",
+    "scripts/v2_console.py": "8947ffa77d87c0a184d1a0854cfa7d381d72cd802d764fab241b4ae956a1e969",
+    "v03/graph.py": "7e327f9045b61160e80229e180338ddcf17f43bff3f6cf177fd78e84659da29f",
+    "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+    "v05/model.py": "a966293cc3ae183a07237483b3076a9097c1ffc1d30b0353299a03ba2a3a04c7",
+    "v06/model.py": "1bb708bafae8100f550a21b69da7c93c3f5234c25428e8b294e5af30ef6cb96a",
+    "v06/common.py": "03f2671fb07d8c2bf33f332bb6aeb068eedb8dc7f4362c572202e52885fae19a",
+    "v06/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/common.py": "78f2ad472506cc644a26621c05c5eb2214ad3e537ab938cc67e0dfad960524a9",
+    "v07/data.py": "1dbe9bc5e63ee530a8fb47d4db8cb0a270641067f75df7c9ceb5fa145347d14d",
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "v07/run.py": "8d75f8e0f60809972d5104927e05c05acedfd828ed209ff005d0073cee622405",
+    "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/evaluate.py": "598cf490247ef35c3cafd0cb83ec6ed35dcf1d626bbd994f32cfe274299d5e6a",
+    "v08/benchmark.py": "6f384db239330d63f5e9813953462a0248863e5a5848d2d458ae2c3a17c4dadb",
+    "v08/model.py": "087e47af6039b053bd5448b471a276e393c1f5414ac27473df1bbdd8a009e230",
+    "v08/recurrence.py": "f61fe0e8a7333b1f86e2d80d9ea854d8d9578b6a37ea0754fc24fdd33b0ff4c4",
+    "v09/benchmark.py": "1b4859d41a880700d8a98c656fe674d0b1805db86b5cc991f94a7aec6d54b50c",
+    "v09/train.py": "d54a5caf223bc74fefbd2c8e3a5273f14a57e007307b5d2d59c76d9d802695e5"
+  },
+  "correctness": {
+    "status": "completed",
+    "config": {
+      "vocab_size": 32,
+      "width": 16,
+      "layers": 2,
+      "heads": 2,
+      "ff": 32,
+      "nodes": 4,
+      "phase_bands": 3,
+      "segment_tokens": 4,
+      "context_limit": 128,
+      "dynamic_addresses": true
+    },
+    "logits_max_abs": 8.568167686462402e-08,
+    "gradients_max_abs": 1.1920928955078125e-07,
+    "gradient_tensors": 43,
+    "streaming_max_abs": 5.21540641784668e-08
+  },
+  "batch": 4,
+  "input_tokens": 512,
+  "repeats": 5,
+  "conditions": {
+    "trans_local": {
+      "total_parameters": 333106,
+      "trainable_parameters": 333106,
+      "context_limit": 128,
+      "explicit_kv_tokens": 128,
+      "runtime_state": "token KV",
+      "parameter_difference": -30,
+      "updates": [
+        {
+          "ce": 8.271833419799805,
+          "gradient_norm": 0.24710750579833984,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.020643290947191417,
+          "targets_per_second": 99208.98781299387,
+          "input_tokens_per_second": 99208.98781299387,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.247993469238281,
+          "gradient_norm": 0.24013575911521912,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.02027541701681912,
+          "targets_per_second": 101009.01985399942,
+          "input_tokens_per_second": 101009.01985399942,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.225980758666992,
+          "gradient_norm": 0.24111193418502808,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.01916979206725955,
+          "targets_per_second": 106834.75297042046,
+          "input_tokens_per_second": 106834.75297042046,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.205114364624023,
+          "gradient_norm": 0.242569699883461,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.01984829199500382,
+          "targets_per_second": 103182.68194137406,
+          "input_tokens_per_second": 103182.68194137406,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.184921264648438,
+          "gradient_norm": 0.24032670259475708,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.021432874957099557,
+          "targets_per_second": 95554.14306756863,
+          "input_tokens_per_second": 95554.14306756863,
+          "diagnostics": {}
+        }
+      ],
+      "training_seconds_median": 0.02027541701681912,
+      "input_tokens_per_second": 101009.01985399942,
+      "forward_seconds_median": 0.0061239589704200625,
+      "persistent_runtime_bytes": 459328,
+      "note": "Includes cross-entropy, backward, gradient clip, AdamW and device synchronization. Two warmups excluded. All models from scratch; runtime state capacity differs.",
+      "training_time_ratio_to_local": 1.0
+    },
+    "trans_full": {
+      "total_parameters": 333106,
+      "trainable_parameters": 333106,
+      "context_limit": 512,
+      "explicit_kv_tokens": 512,
+      "runtime_state": "token KV",
+      "parameter_difference": -30,
+      "updates": [
+        {
+          "ce": 8.272928237915039,
+          "gradient_norm": 0.25386103987693787,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.018303083023056388,
+          "targets_per_second": 111893.71743657258,
+          "input_tokens_per_second": 111893.71743657258,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.250227928161621,
+          "gradient_norm": 0.2694631516933441,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.019295542035251856,
+          "targets_per_second": 106138.50578845729,
+          "input_tokens_per_second": 106138.50578845729,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.228290557861328,
+          "gradient_norm": 0.2811345160007477,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.01891474996227771,
+          "targets_per_second": 108275.28802042807,
+          "input_tokens_per_second": 108275.28802042807,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.206509590148926,
+          "gradient_norm": 0.2783074975013733,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.01906179205980152,
+          "targets_per_second": 107440.05566606337,
+          "input_tokens_per_second": 107440.05566606337,
+          "diagnostics": {}
+        },
+        {
+          "ce": 8.185172080993652,
+          "gradient_norm": 0.2823493778705597,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.01728245906997472,
+          "targets_per_second": 118501.65486912943,
+          "input_tokens_per_second": 118501.65486912943,
+          "diagnostics": {}
+        }
+      ],
+      "training_seconds_median": 0.01891474996227771,
+      "input_tokens_per_second": 108275.28802042807,
+      "forward_seconds_median": 0.005384957999922335,
+      "persistent_runtime_bytes": 1837120,
+      "note": "Includes cross-entropy, backward, gradient clip, AdamW and device synchronization. Two warmups excluded. All models from scratch; runtime state capacity differs.",
+      "training_time_ratio_to_local": 0.9328907980825898
+    },
+    "v3_static": {
+      "total_parameters": 333136,
+      "trainable_parameters": 333136,
+      "context_limit": 128,
+      "explicit_kv_tokens": 0,
+      "runtime_state": "vector key/value/phase only",
+      "parameter_difference": 0,
+      "updates": [
+        {
+          "ce": 8.275808334350586,
+          "gradient_norm": 0.2634090185165405,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.31721649994142354,
+          "targets_per_second": 6456.158492317326,
+          "input_tokens_per_second": 6456.158492317326,
+          "diagnostics": {
+            "effective_nodes": 5.669370651245117,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.09238108992576599
+          }
+        },
+        {
+          "ce": 8.249058723449707,
+          "gradient_norm": 0.2621302306652069,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.3157340829493478,
+          "targets_per_second": 6486.471086267092,
+          "input_tokens_per_second": 6486.471086267092,
+          "diagnostics": {
+            "effective_nodes": 5.650789260864258,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.09278800338506699
+          }
+        },
+        {
+          "ce": 8.222661972045898,
+          "gradient_norm": 0.26098090410232544,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.31123054097406566,
+          "targets_per_second": 6580.331074162341,
+          "input_tokens_per_second": 6580.331074162341,
+          "diagnostics": {
+            "effective_nodes": 5.632761001586914,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.09320636093616486
+          }
+        },
+        {
+          "ce": 8.196621894836426,
+          "gradient_norm": 0.2599336504936218,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.31595916696824133,
+          "targets_per_second": 6481.850232900048,
+          "input_tokens_per_second": 6481.850232900048,
+          "diagnostics": {
+            "effective_nodes": 5.6156463623046875,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.09362228214740753
+          }
+        },
+        {
+          "ce": 8.170930862426758,
+          "gradient_norm": 0.2588217556476593,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.3188125410815701,
+          "targets_per_second": 6423.837635283008,
+          "input_tokens_per_second": 6423.837635283008,
+          "diagnostics": {
+            "effective_nodes": 5.59986686706543,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.09402447193861008
+          }
+        }
+      ],
+      "training_seconds_median": 0.31595916696824133,
+      "input_tokens_per_second": 6481.850232900048,
+      "forward_seconds_median": 0.18130199995357543,
+      "persistent_runtime_bytes": 360480,
+      "note": "Includes cross-entropy, backward, gradient clip, AdamW and device synchronization. Two warmups excluded. All models from scratch; runtime state capacity differs.",
+      "training_time_ratio_to_local": 15.583362192064554
+    },
+    "v3_dynamic": {
+      "total_parameters": 333136,
+      "trainable_parameters": 333136,
+      "context_limit": 128,
+      "explicit_kv_tokens": 0,
+      "runtime_state": "vector key/value/phase only",
+      "parameter_difference": 0,
+      "updates": [
+        {
+          "ce": 8.275130271911621,
+          "gradient_norm": 0.26496437191963196,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.40813570807222277,
+          "targets_per_second": 5017.938787256494,
+          "input_tokens_per_second": 5017.938787256494,
+          "diagnostics": {
+            "effective_nodes": 5.633151054382324,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.09782867133617401
+          }
+        },
+        {
+          "ce": 8.248266220092773,
+          "gradient_norm": 0.2632996737957001,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.40968924993649125,
+          "targets_per_second": 4998.910760576399,
+          "input_tokens_per_second": 4998.910760576399,
+          "diagnostics": {
+            "effective_nodes": 5.618387699127197,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.0990682914853096
+          }
+        },
+        {
+          "ce": 8.221809387207031,
+          "gradient_norm": 0.2619164288043976,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.40808533306699246,
+          "targets_per_second": 5018.558213322983,
+          "input_tokens_per_second": 5018.558213322983,
+          "diagnostics": {
+            "effective_nodes": 5.603086471557617,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.10029023885726929
+          }
+        },
+        {
+          "ce": 8.195741653442383,
+          "gradient_norm": 0.26073458790779114,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.41656037501525134,
+          "targets_per_second": 4916.454187283218,
+          "input_tokens_per_second": 4916.454187283218,
+          "diagnostics": {
+            "effective_nodes": 5.587091445922852,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.10123171657323837
+          }
+        },
+        {
+          "ce": 8.170040130615234,
+          "gradient_norm": 0.25944191217422485,
+          "targets": 2048,
+          "inputs": 2048,
+          "seconds": 0.41886916698422283,
+          "targets_per_second": 4889.3548664496,
+          "input_tokens_per_second": 4889.3548664496,
+          "diagnostics": {
+            "effective_nodes": 5.570699214935303,
+            "phase_error": 1.1920928955078125e-07,
+            "value_rms": 0.10199803113937378
+          }
+        }
+      ],
+      "training_seconds_median": 0.40968924993649125,
+      "input_tokens_per_second": 4998.910760576399,
+      "forward_seconds_median": 0.17754887498449534,
+      "persistent_runtime_bytes": 360480,
+      "note": "Includes cross-entropy, backward, gradient clip, AdamW and device synchronization. Two warmups excluded. All models from scratch; runtime state capacity differs.",
+      "training_time_ratio_to_local": 20.206205850002526
+    }
+  }
+}

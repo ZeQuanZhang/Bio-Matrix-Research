@@ -1,0 +1,37 @@
+test_all_path_read_off_matches_one_shot_full_model_read_off (v3.test_evaluate.EvaluationChecks.test_all_path_read_off_matches_one_shot_full_model_read_off) ... ok
+test_bad_masks_are_rejected_before_forward (v3.test_evaluate.EvaluationChecks.test_bad_masks_are_rejected_before_forward) ... ok
+test_identical_targets_recent_context_and_no_parameter_updates (v3.test_evaluate.EvaluationChecks.test_identical_targets_recent_context_and_no_parameter_updates) ... ok
+test_invalid_and_inapplicable_conditions (v3.test_evaluate.EvaluationChecks.test_invalid_and_inapplicable_conditions) ... ok
+test_reencoding_old_remote_tokens_cannot_change_frozen_local_transformer (v3.test_evaluate.EvaluationChecks.test_reencoding_old_remote_tokens_cannot_change_frozen_local_transformer) ... ok
+test_right_padding_does_not_change_causal_first_answer_score (v3.test_evaluate.EvaluationChecks.test_right_padding_does_not_change_causal_first_answer_score) ... ok
+test_variable_masks_use_token_weighted_nll_and_first_answer_metrics (v3.test_evaluate.EvaluationChecks.test_variable_masks_use_token_weighted_nll_and_first_answer_metrics) ... ok
+test_zero_score_windows_are_reported_without_nan (v3.test_evaluate.EvaluationChecks.test_zero_score_windows_are_reported_without_nan) ... ok
+test_arbitrary_splits_and_single_tokens_match_batched_training (v3.test_model.ModelChecks.test_arbitrary_splits_and_single_tokens_match_batched_training) ... ok
+test_batch_backward_matches_token_reference (v3.test_model.ModelChecks.test_batch_backward_matches_token_reference) ... ok
+test_distributed_read_matches_explicit_rank_one_matrices (v3.test_model.ModelChecks.test_distributed_read_matches_explicit_rank_one_matrices) ... ok
+test_dual_read_matches_explicit_serial_vector_writes_and_gradients (v3.test_model.ModelChecks.test_dual_read_matches_explicit_serial_vector_writes_and_gradients) ... ok
+test_error_directions_match_joint_loss_gradient (v3.test_model.ModelChecks.test_error_directions_match_joint_loss_gradient) ... ok
+test_fixed_capacity_bounds_and_absence_of_internal_matrices_or_attention (v3.test_model.ModelChecks.test_fixed_capacity_bounds_and_absence_of_internal_matrices_or_attention) ... ok
+test_forward_does_not_mutate_state_or_parameters_and_read_off_is_pointwise (v3.test_model.ModelChecks.test_forward_does_not_mutate_state_or_parameters_and_read_off_is_pointwise) ... ok
+test_future_tokens_do_not_change_earlier_predictions (v3.test_model.ModelChecks.test_future_tokens_do_not_change_earlier_predictions) ... ok
+test_invalid_config_and_state_rejected (v3.test_model.ModelChecks.test_invalid_config_and_state_rejected) ... ok
+test_lane_reset_and_mixed_boundaries (v3.test_model.ModelChecks.test_lane_reset_and_mixed_boundaries) ... ok
+test_node_permutation_preserves_output (v3.test_model.ModelChecks.test_node_permutation_preserves_output) ... ok
+test_same_block_history_changes_later_outputs_and_has_credit (v3.test_model.ModelChecks.test_same_block_history_changes_later_outputs_and_has_credit) ... ok
+test_static_freezes_keys_and_phase_but_writes_values (v3.test_model.ModelChecks.test_static_freezes_keys_and_phase_but_writes_values) ... ok
+test_suffix_loss_reaches_earlier_vectors_and_phase_updates (v3.test_model.ModelChecks.test_suffix_loss_reaches_earlier_vectors_and_phase_updates) ... ok
+test_answer_mask_and_all_backbone_parameters_really_train (v3.test_train.TrainingChecks.test_answer_mask_and_all_backbone_parameters_really_train) ... ok
+test_checkpoint_restores_rng_optimizer_and_rejects_protocol_drift (v3.test_train.TrainingChecks.test_checkpoint_restores_rng_optimizer_and_rejects_protocol_drift) ... ok
+test_from_scratch_transformers_match_parameters_and_shared_embeddings (v3.test_train.TrainingChecks.test_from_scratch_transformers_match_parameters_and_shared_embeddings) ... ok
+test_preflight_failure_preserves_registry_and_existing_output (v3.test_train.TrainingChecks.test_preflight_failure_preserves_registry_and_existing_output) ... ok
+test_real_two_seed_runner_pairs_samples_and_saves_one_final_intervention (v3.test_train.TrainingChecks.test_real_two_seed_runner_pairs_samples_and_saves_one_final_intervention) ... ok
+test_resume_missing_checkpoint_or_initial_score_does_not_restart (v3.test_train.TrainingChecks.test_resume_missing_checkpoint_or_initial_score_does_not_restart) ... ok
+test_settings_reject_duplicate_seeds_and_changed_budgets (v3.test_train.TrainingChecks.test_settings_reject_duplicate_seeds_and_changed_budgets) ... ok
+test_stop_resumes_at_safe_boundary_and_runs_missing_cpt_score (v3.test_train.TrainingChecks.test_stop_resumes_at_safe_boundary_and_runs_missing_cpt_score) ... ok
+test_v3_console_keeps_twelve_details_and_correct_version (v3.test_train.TrainingChecks.test_v3_console_keeps_twelve_details_and_correct_version) ... ok
+test_warm_only_and_full_score_agree_without_parameter_mutation (v3.test_train.TrainingChecks.test_warm_only_and_full_score_agree_without_parameter_mutation) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 1.228s
+
+OK

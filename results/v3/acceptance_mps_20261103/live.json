@@ -1,0 +1,14 @@
+{
+  "condition": "v3_dynamic_s23",
+  "status": "running",
+  "updates": 3,
+  "cpt_tokens": 2048,
+  "pt_updates": 2,
+  "answer_targets": 28,
+  "completed_work": 6144,
+  "input_tokens": 6144,
+  "train_seconds": 0.6125874170102179,
+  "validation_seconds": 0.8651806249981746,
+  "stage": "pt",
+  "ce": 8.386725425720215
+}

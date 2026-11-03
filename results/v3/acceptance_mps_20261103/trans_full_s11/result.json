@@ -1,0 +1,629 @@
+{
+  "status": "completed",
+  "updates": 3,
+  "cpt_tokens": 2048,
+  "pt_updates": 2,
+  "answer_targets": 58,
+  "completed_work": 6144,
+  "input_tokens": 6144,
+  "train_seconds": 0.05650666600558907,
+  "validation_seconds": 0.12880516599398106,
+  "total_parameters": 333106,
+  "trainable_parameters": 333106,
+  "context_limit": 512,
+  "explicit_kv_tokens": 512,
+  "runtime_state": "token KV",
+  "parameter_difference": -30,
+  "seed": 11,
+  "condition": "trans_full",
+  "validation": {
+    "lm": {
+      "conditions": {
+        "warm": {
+          "status": "completed",
+          "nll": 8.305590546689928,
+          "ppl": 4046.4310391398785,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 1024,
+          "per_window_nll": [
+            8.30208832398057,
+            8.30733460187912,
+            8.321489170193672,
+            8.309013400226831,
+            8.276040337979794,
+            8.308017659932375,
+            8.307276830077171,
+            8.313464049249887
+          ],
+          "per_window_targets": [
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128
+          ],
+          "window_mean_nll": 8.305590546689928,
+          "first_answer_nll": null,
+          "first_answer_accuracy": null,
+          "first_answer_targets": 0,
+          "first_answer_nll_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_accuracy_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_targets_per_window": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "empty_memory": {
+          "status": "completed",
+          "nll": 8.305590546689928,
+          "ppl": 4046.4310391398785,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 1024,
+          "per_window_nll": [
+            8.30208832398057,
+            8.30733460187912,
+            8.321489170193672,
+            8.309013400226831,
+            8.276040337979794,
+            8.308017659932375,
+            8.307276830077171,
+            8.313464049249887
+          ],
+          "per_window_targets": [
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128
+          ],
+          "window_mean_nll": 8.305590546689928,
+          "first_answer_nll": null,
+          "first_answer_accuracy": null,
+          "first_answer_targets": 0,
+          "first_answer_nll_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_accuracy_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_targets_per_window": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "memory_read_off": {
+          "status": "completed",
+          "nll": 8.305590546689928,
+          "ppl": 4046.4310391398785,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 1024,
+          "per_window_nll": [
+            8.30208832398057,
+            8.30733460187912,
+            8.321489170193672,
+            8.309013400226831,
+            8.276040337979794,
+            8.308017659932375,
+            8.307276830077171,
+            8.313464049249887
+          ],
+          "per_window_targets": [
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128
+          ],
+          "window_mean_nll": 8.305590546689928,
+          "first_answer_nll": null,
+          "first_answer_accuracy": null,
+          "first_answer_targets": 0,
+          "first_answer_nll_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_accuracy_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_targets_per_window": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "memory_read_off_all": {
+          "status": "completed",
+          "nll": 8.305590546689928,
+          "ppl": 4046.4310391398785,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 1024,
+          "per_window_nll": [
+            8.30208832398057,
+            8.30733460187912,
+            8.321489170193672,
+            8.309013400226831,
+            8.276040337979794,
+            8.308017659932375,
+            8.307276830077171,
+            8.313464049249887
+          ],
+          "per_window_targets": [
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            128
+          ],
+          "window_mean_nll": 8.305590546689928,
+          "first_answer_nll": null,
+          "first_answer_accuracy": null,
+          "first_answer_targets": 0,
+          "first_answer_nll_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_accuracy_per_window": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "first_answer_targets_per_window": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "unrelated_history": {
+          "status": "not_applicable",
+          "reason": "Need two windows and history beyond local KV"
+        },
+        "shuffled_history": {
+          "status": "not_applicable",
+          "reason": "Need two windows and history beyond local KV"
+        },
+        "remote_history_reencoded": {
+          "status": "not_applicable",
+          "reason": "Need two windows and history beyond the baseline multi-layer receptive bound"
+        }
+      },
+      "warm_nll": 8.305590546689928,
+      "warm_ppl": 4046.4310391398785,
+      "memory_clear_cost": 0.0,
+      "read_off_cost": 0.0,
+      "total_read_off_cost": 0.0,
+      "unrelated_cost": null,
+      "reencoded_history_cost": null,
+      "first_answer_nll": null,
+      "first_answer_accuracy": null,
+      "prefix_tokens": 384,
+      "local_context_tokens": 512,
+      "reference_context_tokens": 512,
+      "baseline_receptive_tokens": 1024,
+      "remote_tokens": 0,
+      "scored_tokens_per_window": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "scored_targets": 1024,
+      "seconds": 0.03750316600780934,
+      "intervention_contract": "Direct snapshot conditions retain identical incoming warm KV and clocks. memory_read_off_all reencodes prefix with all Bio reads disabled; remote_history_reencoded replaces only tokens older than the baseline multi-layer receptive bound and reencodes KV plus Bio state. Whole-path conditions may change KV. Suffix writes remain enabled.",
+      "direct_conditions": [
+        "warm",
+        "empty_memory",
+        "memory_read_off",
+        "unrelated_history",
+        "shuffled_history"
+      ],
+      "whole_path_conditions": [
+        "memory_read_off_all",
+        "remote_history_reencoded"
+      ],
+      "aggregation": "Token-weighted NLL; window means and first-answer measurements are reported separately.",
+      "note": "Bio has no token KV; its reference window only defines a matched intervention span. Paired windows, not independent training seeds. Direct clear costs retain Bio information already encoded in warm KV. Total read-off also removes static Bio contributions; reencoded-history cost targets remote input dependence."
+    },
+    "qa": {
+      "conditions": {
+        "warm": {
+          "status": "completed",
+          "nll": 8.336825711386544,
+          "ppl": 4174.816613401869,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 42,
+          "per_window_nll": [
+            8.421446164449057,
+            8.422783533732096,
+            8.34362244606018,
+            8.272111535072327,
+            8.298591995239258,
+            8.343421936035156,
+            8.349927084786552,
+            8.343271255493164
+          ],
+          "per_window_targets": [
+            3,
+            3,
+            4,
+            8,
+            5,
+            6,
+            7,
+            6
+          ],
+          "window_mean_nll": 8.349396993858473,
+          "first_answer_nll": 8.313569903373718,
+          "first_answer_accuracy": 0.0,
+          "first_answer_targets": 8,
+          "first_answer_nll_per_window": [
+            8.228694915771484,
+            8.705618858337402,
+            8.214067459106445,
+            8.370125770568848,
+            8.312435150146484,
+            8.108020782470703,
+            8.288865089416504,
+            8.280731201171875
+          ],
+          "first_answer_accuracy_per_window": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "first_answer_targets_per_window": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "empty_memory": {
+          "status": "completed",
+          "nll": 8.336825711386544,
+          "ppl": 4174.816613401869,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 42,
+          "per_window_nll": [
+            8.421446164449057,
+            8.422783533732096,
+            8.34362244606018,
+            8.272111535072327,
+            8.298591995239258,
+            8.343421936035156,
+            8.349927084786552,
+            8.343271255493164
+          ],
+          "per_window_targets": [
+            3,
+            3,
+            4,
+            8,
+            5,
+            6,
+            7,
+            6
+          ],
+          "window_mean_nll": 8.349396993858473,
+          "first_answer_nll": 8.313569903373718,
+          "first_answer_accuracy": 0.0,
+          "first_answer_targets": 8,
+          "first_answer_nll_per_window": [
+            8.228694915771484,
+            8.705618858337402,
+            8.214067459106445,
+            8.370125770568848,
+            8.312435150146484,
+            8.108020782470703,
+            8.288865089416504,
+            8.280731201171875
+          ],
+          "first_answer_accuracy_per_window": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "first_answer_targets_per_window": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "memory_read_off": {
+          "status": "completed",
+          "nll": 8.336825711386544,
+          "ppl": 4174.816613401869,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 42,
+          "per_window_nll": [
+            8.421446164449057,
+            8.422783533732096,
+            8.34362244606018,
+            8.272111535072327,
+            8.298591995239258,
+            8.343421936035156,
+            8.349927084786552,
+            8.343271255493164
+          ],
+          "per_window_targets": [
+            3,
+            3,
+            4,
+            8,
+            5,
+            6,
+            7,
+            6
+          ],
+          "window_mean_nll": 8.349396993858473,
+          "first_answer_nll": 8.313569903373718,
+          "first_answer_accuracy": 0.0,
+          "first_answer_targets": 8,
+          "first_answer_nll_per_window": [
+            8.228694915771484,
+            8.705618858337402,
+            8.214067459106445,
+            8.370125770568848,
+            8.312435150146484,
+            8.108020782470703,
+            8.288865089416504,
+            8.280731201171875
+          ],
+          "first_answer_accuracy_per_window": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "first_answer_targets_per_window": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "memory_read_off_all": {
+          "status": "completed",
+          "nll": 8.336825711386544,
+          "ppl": 4174.816613401869,
+          "windows": 8,
+          "scored_windows": 8,
+          "targets": 42,
+          "per_window_nll": [
+            8.421446164449057,
+            8.422783533732096,
+            8.34362244606018,
+            8.272111535072327,
+            8.298591995239258,
+            8.343421936035156,
+            8.349927084786552,
+            8.343271255493164
+          ],
+          "per_window_targets": [
+            3,
+            3,
+            4,
+            8,
+            5,
+            6,
+            7,
+            6
+          ],
+          "window_mean_nll": 8.349396993858473,
+          "first_answer_nll": 8.313569903373718,
+          "first_answer_accuracy": 0.0,
+          "first_answer_targets": 8,
+          "first_answer_nll_per_window": [
+            8.228694915771484,
+            8.705618858337402,
+            8.214067459106445,
+            8.370125770568848,
+            8.312435150146484,
+            8.108020782470703,
+            8.288865089416504,
+            8.280731201171875
+          ],
+          "first_answer_accuracy_per_window": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "first_answer_targets_per_window": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "unrelated_history": {
+          "status": "not_applicable",
+          "reason": "Need two windows and history beyond local KV"
+        },
+        "shuffled_history": {
+          "status": "not_applicable",
+          "reason": "Need two windows and history beyond local KV"
+        },
+        "remote_history_reencoded": {
+          "status": "not_applicable",
+          "reason": "Need two windows and history beyond the baseline multi-layer receptive bound"
+        }
+      },
+      "warm_nll": 8.336825711386544,
+      "warm_ppl": 4174.816613401869,
+      "memory_clear_cost": 0.0,
+      "read_off_cost": 0.0,
+      "total_read_off_cost": 0.0,
+      "unrelated_cost": null,
+      "reencoded_history_cost": null,
+      "first_answer_nll": 8.313569903373718,
+      "first_answer_accuracy": 0.0,
+      "prefix_tokens": 384,
+      "local_context_tokens": 512,
+      "reference_context_tokens": 512,
+      "baseline_receptive_tokens": 1024,
+      "remote_tokens": 0,
+      "scored_tokens_per_window": [
+        3,
+        3,
+        4,
+        8,
+        5,
+        6,
+        7,
+        6
+      ],
+      "scored_targets": 42,
+      "seconds": 0.03582412493415177,
+      "intervention_contract": "Direct snapshot conditions retain identical incoming warm KV and clocks. memory_read_off_all reencodes prefix with all Bio reads disabled; remote_history_reencoded replaces only tokens older than the baseline multi-layer receptive bound and reencodes KV plus Bio state. Whole-path conditions may change KV. Suffix writes remain enabled.",
+      "direct_conditions": [
+        "warm",
+        "empty_memory",
+        "memory_read_off",
+        "unrelated_history",
+        "shuffled_history"
+      ],
+      "whole_path_conditions": [
+        "memory_read_off_all",
+        "remote_history_reencoded"
+      ],
+      "aggregation": "Token-weighted NLL; window means and first-answer measurements are reported separately.",
+      "note": "Bio has no token KV; its reference window only defines a matched intervention span. Paired windows, not independent training seeds. Direct clear costs retain Bio information already encoded in warm KV. Total read-off also removes static Bio contributions; reencoded-history cost targets remote input dependence."
+    }
+  }
+}

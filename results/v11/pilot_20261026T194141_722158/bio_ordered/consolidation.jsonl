@@ -1,0 +1,4 @@
+{"updates": 16, "stage": "cpt", "consolidation_layers_changed": 2, "consolidation_update_norm": 0.007134472485631704, "consolidation_eligible": 40, "consolidation_sessions": 2}
+{"updates": 32, "stage": "cpt", "consolidation_layers_changed": 2, "consolidation_update_norm": 0.007287384709343314, "consolidation_eligible": 40, "consolidation_sessions": 2}
+{"updates": 48, "stage": "cpt", "consolidation_layers_changed": 2, "consolidation_update_norm": 0.0070371965412050486, "consolidation_eligible": 40, "consolidation_sessions": 2}
+{"updates": 64, "stage": "cpt", "consolidation_layers_changed": 2, "consolidation_update_norm": 0.006958849495276809, "consolidation_eligible": 40, "consolidation_sessions": 2}

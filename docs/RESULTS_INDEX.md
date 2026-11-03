@@ -1,6 +1,6 @@
 # 实验记录索引
 
-发布时点：2026-10-26。保留完成、失败、中止和未执行条件。下表优先引用各阶段最后保存的结果；工程检查与能力训练分开解读。
+更新时点：2026-11-03。保留完成、失败、中止和未执行条件。下表优先引用各阶段最后保存的结果；工程检查与能力训练分开解读。
 
 | 阶段 | 主要记录 | 执行口径 |
 |---|---|---|
@@ -28,3 +28,18 @@ N128 dense的3,099,250目标检查点属于中止条件，没有完成12M或最�
 ## 原始与派生材料
 
 本公开副本保留选定数值证据和原始结果文件的SHA256，未包含权重、语料、token序列及整棵机器备份。JSON中过时的机器路径已净化，验证JSONL中的完整sample元数据收缩为其哈希。详见[发布范围](../PUBLICATION_NOTES.md)及`provenance/EXPORT_MANIFEST.json`。
+
+
+## 后续版本
+
+| 版本 | 记录 | 执行状态 |
+|---|---|---|
+| V1.0 | [分析](../results/v1/pilot_20261026T172837_376079/analysis/review_20261026/REPORT.md) | 本机pilot归档 |
+| V1.1 | [分析](../results/v11/pilot_20261026T194141_722158/analysis/review_completed/REPORT.md) | 本机pilot归档 |
+| V2 | [三种子完整分析](../results/v2/paired_20261103T003337_839264/analysis/review_20261103/REPORT.md) | 12条运行全部完成 |
+| V3 原型 | [首次工程测速](../results/v3/engineering_20261103/REPORT.md) | 显式前缀原型工程完成，约20倍耗时 |
+| V3 双重计算 | [工程测速](../results/v3/engineering_20261103_dual/REPORT.md) | 原生MPS工程完成，约11倍耗时 |
+| V3 有限数据验收 | [短程配对](../results/v3/acceptance_mps_20261103/COMPARISON.md) | 四条件×两种子，每条3次更新，完成 |
+| V3 完整默认训练 | [协议与入口](../v3/README.md) | not_executed，留给用户在PyCharm启动 |
+
+V3短程验收用于检查执行、配对和保存，不能用于判断架构优劣。最终测试未评分。

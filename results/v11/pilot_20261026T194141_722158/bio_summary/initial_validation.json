@@ -1,0 +1,956 @@
+{
+  "lm": {
+    "conditions": {
+      "warm": {
+        "status": "completed",
+        "nll": 4.556299304016193,
+        "ppl": 95.23040813858358,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 1024,
+        "per_window_nll": [
+          5.064962308577378,
+          4.777739532291889,
+          4.528013340663165,
+          4.100416840374237,
+          4.3634348277628305,
+          4.682542586237105,
+          4.543045978789451,
+          4.390239017433487
+        ],
+        "per_window_targets": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "window_mean_nll": 4.556299304016193,
+        "first_answer_nll": null,
+        "first_answer_accuracy": null,
+        "first_answer_targets": 0,
+        "first_answer_nll_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_accuracy_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_targets_per_window": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "empty_memory": {
+        "status": "completed",
+        "nll": 4.55625612668382,
+        "ppl": 95.2262964323663,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 1024,
+        "per_window_nll": [
+          5.064706284552813,
+          4.777839988702908,
+          4.527933840174228,
+          4.100193732258049,
+          4.363475976515474,
+          4.6825874484784435,
+          4.543020712386351,
+          4.390291030402295
+        ],
+        "per_window_targets": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "window_mean_nll": 4.55625612668382,
+        "first_answer_nll": null,
+        "first_answer_accuracy": null,
+        "first_answer_targets": 0,
+        "first_answer_nll_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_accuracy_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_targets_per_window": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "memory_read_off": {
+        "status": "completed",
+        "nll": 4.55623666587644,
+        "ppl": 95.22444326978601,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 1024,
+        "per_window_nll": [
+          5.064582829523715,
+          4.7779295850778,
+          4.527905140072107,
+          4.1000711209781,
+          4.363613975649059,
+          4.68242094377274,
+          4.5430258780834265,
+          4.390343853854574
+        ],
+        "per_window_targets": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "window_mean_nll": 4.55623666587644,
+        "first_answer_nll": null,
+        "first_answer_accuracy": null,
+        "first_answer_targets": 0,
+        "first_answer_nll_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_accuracy_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_targets_per_window": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "unrelated_history": {
+        "status": "completed",
+        "nll": 4.556302955184492,
+        "ppl": 95.23075584146567,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 1024,
+        "per_window_nll": [
+          5.064899375109235,
+          4.7776853839168325,
+          4.528053116519004,
+          4.100501660403097,
+          4.363430988054461,
+          4.682588687239331,
+          4.543054801615654,
+          4.390209628618322
+        ],
+        "per_window_targets": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "window_mean_nll": 4.556302955184492,
+        "first_answer_nll": null,
+        "first_answer_accuracy": null,
+        "first_answer_targets": 0,
+        "first_answer_nll_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_accuracy_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_targets_per_window": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "shuffled_history": {
+        "status": "completed",
+        "nll": 4.556306533240331,
+        "ppl": 95.23109658303726,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 1024,
+        "per_window_nll": [
+          5.064956561735016,
+          4.7777628301410004,
+          4.52800438599661,
+          4.100445700285491,
+          4.363455220809556,
+          4.682547238695406,
+          4.543040788121289,
+          4.390239540138282
+        ],
+        "per_window_targets": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "window_mean_nll": 4.556306533240331,
+        "first_answer_nll": null,
+        "first_answer_accuracy": null,
+        "first_answer_targets": 0,
+        "first_answer_nll_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_accuracy_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_targets_per_window": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "memory_read_off_all": {
+        "status": "completed",
+        "nll": 4.556242194180868,
+        "ppl": 95.22496970095249,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 1024,
+        "per_window_nll": [
+          5.064595299423672,
+          4.777929273550399,
+          4.527913899626583,
+          4.100066588624031,
+          4.363615780726832,
+          4.682420388930041,
+          4.5430422865611035,
+          4.3903540360042825
+        ],
+        "per_window_targets": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "window_mean_nll": 4.556242194180868,
+        "first_answer_nll": null,
+        "first_answer_accuracy": null,
+        "first_answer_targets": 0,
+        "first_answer_nll_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_accuracy_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_targets_per_window": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "remote_history_reencoded": {
+        "status": "completed",
+        "nll": 4.556294543252534,
+        "ppl": 95.22995477019649,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 1024,
+        "per_window_nll": [
+          5.064917732495815,
+          4.777685884502716,
+          4.528035866329446,
+          4.100459950903314,
+          4.363421390877193,
+          4.682549693978217,
+          4.543065593519714,
+          4.3902202334138565
+        ],
+        "per_window_targets": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "window_mean_nll": 4.556294543252534,
+        "first_answer_nll": null,
+        "first_answer_accuracy": null,
+        "first_answer_targets": 0,
+        "first_answer_nll_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_accuracy_per_window": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_answer_targets_per_window": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "warm_nll": 4.556299304016193,
+    "warm_ppl": 95.23040813858358,
+    "memory_clear_cost": -4.317733237257926e-05,
+    "read_off_cost": -6.263813975238008e-05,
+    "total_read_off_cost": -5.7109835324808955e-05,
+    "unrelated_cost": 3.651168299256824e-06,
+    "reencoded_history_cost": -4.7607636588509195e-06,
+    "first_answer_nll": null,
+    "first_answer_accuracy": null,
+    "prefix_tokens": 384,
+    "local_context_tokens": 128,
+    "baseline_receptive_tokens": 256,
+    "remote_tokens": 128,
+    "scored_tokens_per_window": [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ],
+    "scored_targets": 1024,
+    "seconds": 10.42990170797566,
+    "intervention_contract": "Direct snapshot conditions retain identical incoming warm KV and clocks. memory_read_off_all reencodes prefix with all Bio reads disabled; remote_history_reencoded replaces only tokens older than the baseline multi-layer receptive bound and reencodes KV plus Bio state. Whole-path conditions may change KV. Suffix writes remain enabled.",
+    "direct_conditions": [
+      "warm",
+      "empty_memory",
+      "memory_read_off",
+      "unrelated_history",
+      "shuffled_history"
+    ],
+    "whole_path_conditions": [
+      "memory_read_off_all",
+      "remote_history_reencoded"
+    ],
+    "aggregation": "Token-weighted NLL; window means and first-answer measurements are reported separately.",
+    "note": "Paired windows, not independent training seeds. Direct clear costs retain Bio information already encoded in warm KV. Total read-off also removes static Bio contributions; reencoded-history cost targets remote input dependence."
+  },
+  "qa": {
+    "conditions": {
+      "warm": {
+        "status": "completed",
+        "nll": 6.363342582033231,
+        "ppl": 580.1824262088603,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 52,
+        "per_window_nll": [
+          6.61137318611145,
+          7.534716685612996,
+          7.073001782099406,
+          5.338756859302521,
+          6.88231026728948,
+          7.629268288612366,
+          6.558018786566598,
+          4.17241770029068
+        ],
+        "per_window_targets": [
+          6,
+          3,
+          3,
+          8,
+          15,
+          4,
+          7,
+          6
+        ],
+        "window_mean_nll": 6.474982944485687,
+        "first_answer_nll": 11.781391739845276,
+        "first_answer_accuracy": 0.0,
+        "first_answer_targets": 8,
+        "first_answer_nll_per_window": [
+          11.821479797363281,
+          12.096193313598633,
+          11.557497024536133,
+          13.093806266784668,
+          11.620826721191406,
+          14.789332389831543,
+          11.203734397888184,
+          8.06826400756836
+        ],
+        "first_answer_accuracy_per_window": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "first_answer_targets_per_window": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "empty_memory": {
+        "status": "completed",
+        "nll": 6.363376281009271,
+        "ppl": 580.2019780919773,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 52,
+        "per_window_nll": [
+          6.612217426300049,
+          7.534846782684326,
+          7.0703193346659345,
+          5.3388905972242355,
+          6.882703612248103,
+          7.630470514297485,
+          6.5572235924857,
+          4.172106256087621
+        ],
+        "per_window_targets": [
+          6,
+          3,
+          3,
+          8,
+          15,
+          4,
+          7,
+          6
+        ],
+        "window_mean_nll": 6.474847264499182,
+        "first_answer_nll": 11.781116604804993,
+        "first_answer_accuracy": 0.0,
+        "first_answer_targets": 8,
+        "first_answer_nll_per_window": [
+          11.81955623626709,
+          12.098054885864258,
+          11.554543495178223,
+          13.0929536819458,
+          11.61886978149414,
+          14.79361343383789,
+          11.200247764587402,
+          8.071093559265137
+        ],
+        "first_answer_accuracy_per_window": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "first_answer_targets_per_window": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "memory_read_off": {
+        "status": "completed",
+        "nll": 6.363463303217521,
+        "ppl": 580.2524707463011,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 52,
+        "per_window_nll": [
+          6.612203319867452,
+          7.535204648971558,
+          7.070649147033691,
+          5.338861212134361,
+          6.882775970300039,
+          7.6310728788375854,
+          6.557086059025356,
+          4.1721478799978895
+        ],
+        "per_window_targets": [
+          6,
+          3,
+          3,
+          8,
+          15,
+          4,
+          7,
+          6
+        ],
+        "window_mean_nll": 6.475000139520992,
+        "first_answer_nll": 11.781498551368713,
+        "first_answer_accuracy": 0.0,
+        "first_answer_targets": 8,
+        "first_answer_nll_per_window": [
+          11.819912910461426,
+          12.098474502563477,
+          11.555344581604004,
+          13.093053817749023,
+          11.618995666503906,
+          14.79477596282959,
+          11.200241088867188,
+          8.071189880371094
+        ],
+        "first_answer_accuracy_per_window": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "first_answer_targets_per_window": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "unrelated_history": {
+        "status": "completed",
+        "nll": 6.36318083680593,
+        "ppl": 580.0885920592748,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 52,
+        "per_window_nll": [
+          6.611425518989563,
+          7.534709771474202,
+          7.072391510009766,
+          5.3387096375226974,
+          6.881973707675934,
+          7.629575550556183,
+          6.557600566319057,
+          4.172459612290065
+        ],
+        "per_window_targets": [
+          6,
+          3,
+          3,
+          8,
+          15,
+          4,
+          7,
+          6
+        ],
+        "window_mean_nll": 6.4748557343546835,
+        "first_answer_nll": 11.781491875648499,
+        "first_answer_accuracy": 0.0,
+        "first_answer_targets": 8,
+        "first_answer_nll_per_window": [
+          11.821152687072754,
+          12.096551895141602,
+          11.55710506439209,
+          13.094247817993164,
+          11.620849609375,
+          14.790040016174316,
+          11.203601837158203,
+          8.06838607788086
+        ],
+        "first_answer_accuracy_per_window": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "first_answer_targets_per_window": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "shuffled_history": {
+        "status": "completed",
+        "nll": 6.363322530228358,
+        "ppl": 580.1707926206971,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 52,
+        "per_window_nll": [
+          6.6111687024434405,
+          7.53471835454305,
+          7.073029677073161,
+          5.338754281401634,
+          6.882399092117946,
+          7.629319667816162,
+          6.557789768491473,
+          4.172447929779689
+        ],
+        "per_window_targets": [
+          6,
+          3,
+          3,
+          8,
+          15,
+          4,
+          7,
+          6
+        ],
+        "window_mean_nll": 6.47495343420832,
+        "first_answer_nll": 11.781480193138123,
+        "first_answer_accuracy": 0.0,
+        "first_answer_targets": 8,
+        "first_answer_nll_per_window": [
+          11.821375846862793,
+          12.096112251281738,
+          11.557491302490234,
+          13.094437599182129,
+          11.621020317077637,
+          14.789331436157227,
+          11.203557968139648,
+          8.068514823913574
+        ],
+        "first_answer_accuracy_per_window": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "first_answer_targets_per_window": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "memory_read_off_all": {
+        "status": "completed",
+        "nll": 6.363378037053805,
+        "ppl": 580.2029969533845,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 52,
+        "per_window_nll": [
+          6.612184723218282,
+          7.534831206003825,
+          7.070594787597656,
+          5.338866353034973,
+          6.882687618335088,
+          7.63090705871582,
+          6.5569920880453925,
+          4.172075609366099
+        ],
+        "per_window_targets": [
+          6,
+          3,
+          3,
+          8,
+          15,
+          4,
+          7,
+          6
+        ],
+        "window_mean_nll": 6.474892430539642,
+        "first_answer_nll": 11.781226754188538,
+        "first_answer_accuracy": 0.0,
+        "first_answer_targets": 8,
+        "first_answer_nll_per_window": [
+          11.819931983947754,
+          12.097532272338867,
+          11.554701805114746,
+          13.093461036682129,
+          11.618648529052734,
+          14.794281005859375,
+          11.200065612792969,
+          8.071191787719727
+        ],
+        "first_answer_accuracy_per_window": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "first_answer_targets_per_window": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "remote_history_reencoded": {
+        "status": "completed",
+        "nll": 6.363275522796007,
+        "ppl": 580.1435209224022,
+        "windows": 8,
+        "scored_windows": 8,
+        "targets": 52,
+        "per_window_nll": [
+          6.611482938130696,
+          7.534788767496745,
+          7.072951873143514,
+          5.338819935917854,
+          6.8820672531922655,
+          7.629249155521393,
+          6.557954788208008,
+          4.172326534986496
+        ],
+        "per_window_targets": [
+          6,
+          3,
+          3,
+          8,
+          15,
+          4,
+          7,
+          6
+        ],
+        "window_mean_nll": 6.474955155824621,
+        "first_answer_nll": 11.781411290168762,
+        "first_answer_accuracy": 0.0,
+        "first_answer_targets": 8,
+        "first_answer_nll_per_window": [
+          11.82151985168457,
+          12.0961332321167,
+          11.557767868041992,
+          13.094071388244629,
+          11.620566368103027,
+          14.789312362670898,
+          11.203710556030273,
+          8.068208694458008
+        ],
+        "first_answer_accuracy_per_window": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "first_answer_targets_per_window": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "warm_nll": 6.363342582033231,
+    "warm_ppl": 580.1824262088603,
+    "memory_clear_cost": 3.3698976039886475e-05,
+    "read_off_cost": 0.00012072118428996248,
+    "total_read_off_cost": 3.5455020574559626e-05,
+    "unrelated_cost": -0.0001617452273006137,
+    "reencoded_history_cost": -6.705923722361007e-05,
+    "first_answer_nll": 11.781391739845276,
+    "first_answer_accuracy": 0.0,
+    "prefix_tokens": 384,
+    "local_context_tokens": 128,
+    "baseline_receptive_tokens": 256,
+    "remote_tokens": 128,
+    "scored_tokens_per_window": [
+      6,
+      3,
+      3,
+      8,
+      15,
+      4,
+      7,
+      6
+    ],
+    "scored_targets": 52,
+    "seconds": 10.387613375030924,
+    "intervention_contract": "Direct snapshot conditions retain identical incoming warm KV and clocks. memory_read_off_all reencodes prefix with all Bio reads disabled; remote_history_reencoded replaces only tokens older than the baseline multi-layer receptive bound and reencodes KV plus Bio state. Whole-path conditions may change KV. Suffix writes remain enabled.",
+    "direct_conditions": [
+      "warm",
+      "empty_memory",
+      "memory_read_off",
+      "unrelated_history",
+      "shuffled_history"
+    ],
+    "whole_path_conditions": [
+      "memory_read_off_all",
+      "remote_history_reencoded"
+    ],
+    "aggregation": "Token-weighted NLL; window means and first-answer measurements are reported separately.",
+    "note": "Paired windows, not independent training seeds. Direct clear costs retain Bio information already encoded in warm KV. Total read-off also removes static Bio contributions; reencoded-history cost targets remote input dependence."
+  }
+}

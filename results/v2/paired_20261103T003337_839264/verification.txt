@@ -1,0 +1,37 @@
+test_all_path_read_off_matches_one_shot_full_model_read_off (v2.test_evaluate.EvaluationChecks.test_all_path_read_off_matches_one_shot_full_model_read_off) ... ok
+test_bad_masks_are_rejected_before_forward (v2.test_evaluate.EvaluationChecks.test_bad_masks_are_rejected_before_forward) ... ok
+test_identical_targets_recent_context_and_no_parameter_updates (v2.test_evaluate.EvaluationChecks.test_identical_targets_recent_context_and_no_parameter_updates) ... ok
+test_invalid_and_inapplicable_conditions (v2.test_evaluate.EvaluationChecks.test_invalid_and_inapplicable_conditions) ... ok
+test_reencoding_old_remote_tokens_cannot_change_frozen_local_transformer (v2.test_evaluate.EvaluationChecks.test_reencoding_old_remote_tokens_cannot_change_frozen_local_transformer) ... ok
+test_right_padding_does_not_change_causal_first_answer_score (v2.test_evaluate.EvaluationChecks.test_right_padding_does_not_change_causal_first_answer_score) ... ok
+test_variable_masks_use_token_weighted_nll_and_first_answer_metrics (v2.test_evaluate.EvaluationChecks.test_variable_masks_use_token_weighted_nll_and_first_answer_metrics) ... ok
+test_zero_score_windows_are_reported_without_nan (v2.test_evaluate.EvaluationChecks.test_zero_score_windows_are_reported_without_nan) ... ok
+test_arbitrary_python_splits_preserve_blocks_and_state (v2.test_model.ModelChecks.test_arbitrary_python_splits_preserve_blocks_and_state) ... ok
+test_batch_statistics_match_explicit_scalar_reference (v2.test_model.ModelChecks.test_batch_statistics_match_explicit_scalar_reference) ... ok
+test_batch_write_reduces_observed_associative_error (v2.test_model.ModelChecks.test_batch_write_reduces_observed_associative_error) ... ok
+test_content_and_addresses_commit_once_at_boundary (v2.test_model.ModelChecks.test_content_and_addresses_commit_once_at_boundary) ... ok
+test_cooperative_write_statistics_match_joint_prediction_gradient (v2.test_model.ModelChecks.test_cooperative_write_statistics_match_joint_prediction_gradient) ... ok
+test_covariance_phase_bounds_and_fixed_state_capacity (v2.test_model.ModelChecks.test_covariance_phase_bounds_and_fixed_state_capacity) ... ok
+test_empty_commit_and_forward_never_modify_shared_state_or_parameters (v2.test_model.ModelChecks.test_empty_commit_and_forward_never_modify_shared_state_or_parameters) ... ok
+test_future_tokens_cannot_change_earlier_predictions (v2.test_model.ModelChecks.test_future_tokens_cannot_change_earlier_predictions) ... ok
+test_lane_reset_and_mixed_block_phases (v2.test_model.ModelChecks.test_lane_reset_and_mixed_block_phases) ... ok
+test_node_permutation_preserves_joint_output (v2.test_model.ModelChecks.test_node_permutation_preserves_joint_output) ... ok
+test_state_and_config_reject_malformed_values (v2.test_model.ModelChecks.test_state_and_config_reject_malformed_values) ... ok
+test_static_address_control_preserves_runtime_layout (v2.test_model.ModelChecks.test_static_address_control_preserves_runtime_layout) ... ok
+test_suffix_loss_reaches_previous_content_and_address_updates (v2.test_model.ModelChecks.test_suffix_loss_reaches_previous_content_and_address_updates) ... ok
+test_transformer_single_pass_matches_streaming_and_read_off (v2.test_model.ModelChecks.test_transformer_single_pass_matches_streaming_and_read_off) ... ok
+test_two_queries_select_distinct_overlapping_phase_groups (v2.test_model.ModelChecks.test_two_queries_select_distinct_overlapping_phase_groups) ... ok
+test_answer_mask_and_all_backbone_parameters_really_train (v2.test_train.TrainingChecks.test_answer_mask_and_all_backbone_parameters_really_train) ... ok
+test_checkpoint_restores_rng_optimizer_and_rejects_protocol_drift (v2.test_train.TrainingChecks.test_checkpoint_restores_rng_optimizer_and_rejects_protocol_drift) ... ok
+test_plain_transformers_match_parameter_budget_and_pretrained_function (v2.test_train.TrainingChecks.test_plain_transformers_match_parameter_budget_and_pretrained_function) ... ok
+test_preflight_failure_preserves_registry_and_existing_output (v2.test_train.TrainingChecks.test_preflight_failure_preserves_registry_and_existing_output) ... ok
+test_real_two_seed_runner_pairs_samples_and_saves_one_final_intervention (v2.test_train.TrainingChecks.test_real_two_seed_runner_pairs_samples_and_saves_one_final_intervention) ... ok
+test_resume_missing_checkpoint_or_initial_score_does_not_restart (v2.test_train.TrainingChecks.test_resume_missing_checkpoint_or_initial_score_does_not_restart) ... ok
+test_settings_reject_duplicate_seeds_and_changed_budgets (v2.test_train.TrainingChecks.test_settings_reject_duplicate_seeds_and_changed_budgets) ... ok
+test_stop_resumes_at_safe_boundary_and_runs_missing_cpt_score (v2.test_train.TrainingChecks.test_stop_resumes_at_safe_boundary_and_runs_missing_cpt_score) ... ok
+test_warm_only_and_full_score_agree_without_parameter_mutation (v2.test_train.TrainingChecks.test_warm_only_and_full_score_agree_without_parameter_mutation) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 1.154s
+
+OK

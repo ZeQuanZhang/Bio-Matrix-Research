@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "source_files": 47,
+  "source_drift": [],
+  "conditions": 12,
+  "actual_backbone_embedding_changes": {
+    "trans_local_s11": 1216.788818359375,
+    "trans_full_s11": 1213.791748046875,
+    "v2_static_s11": 1230.6182861328125,
+    "v2_dynamic_s11": 1230.5927734375,
+    "trans_local_s23": 1231.987060546875,
+    "trans_full_s23": 1232.34326171875,
+    "v2_static_s23": 1217.2869873046875,
+    "v2_dynamic_s23": 1217.2412109375,
+    "trans_local_s37": 1232.9970703125,
+    "trans_full_s37": 1222.4266357421875,
+    "v2_static_s37": 1228.865478515625,
+    "v2_dynamic_s37": 1228.68701171875
+  },
+  "all_optimizer_boundaries": 576,
+  "finite_losses_and_gradients": true,
+  "paired_samples": "Validated all 576 sample+mask hashes within each of three seeds; see statistics.json",
+  "no_additional_model_execution": true,
+  "test_evaluated": false
+}

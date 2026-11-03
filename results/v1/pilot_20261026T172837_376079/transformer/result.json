@@ -1,0 +1,125 @@
+{
+  "status": "completed",
+  "role": "frozen_reference",
+  "training_performed": false,
+  "completed_tokens": 0,
+  "updates": 0,
+  "validation": {
+    "conditions": {
+      "warm": {
+        "status": "completed",
+        "nll": 4.5562421679496765,
+        "ppl": 95.22496720308811,
+        "per_window_nll": [
+          5.0645952224731445,
+          4.777929306030273,
+          4.527913570404053,
+          4.100066661834717,
+          4.363615989685059,
+          4.682420253753662,
+          4.543042182922363,
+          4.390354156494141
+        ],
+        "windows": 8,
+        "targets": 1024
+      },
+      "empty_memory": {
+        "status": "completed",
+        "nll": 4.5562421679496765,
+        "ppl": 95.22496720308811,
+        "per_window_nll": [
+          5.0645952224731445,
+          4.777929306030273,
+          4.527913570404053,
+          4.100066661834717,
+          4.363615989685059,
+          4.682420253753662,
+          4.543042182922363,
+          4.390354156494141
+        ],
+        "windows": 8,
+        "targets": 1024
+      },
+      "memory_read_off": {
+        "status": "completed",
+        "nll": 4.5562421679496765,
+        "ppl": 95.22496720308811,
+        "per_window_nll": [
+          5.0645952224731445,
+          4.777929306030273,
+          4.527913570404053,
+          4.100066661834717,
+          4.363615989685059,
+          4.682420253753662,
+          4.543042182922363,
+          4.390354156494141
+        ],
+        "windows": 8,
+        "targets": 1024
+      },
+      "unrelated_history": {
+        "status": "completed",
+        "nll": 4.5562421679496765,
+        "ppl": 95.22496720308811,
+        "per_window_nll": [
+          5.0645952224731445,
+          4.777929306030273,
+          4.527913570404053,
+          4.100066661834717,
+          4.363615989685059,
+          4.682420253753662,
+          4.543042182922363,
+          4.390354156494141
+        ],
+        "windows": 8,
+        "targets": 1024
+      },
+      "shuffled_history": {
+        "status": "completed",
+        "nll": 4.5562421679496765,
+        "ppl": 95.22496720308811,
+        "per_window_nll": [
+          5.0645952224731445,
+          4.777929306030273,
+          4.527913570404053,
+          4.100066661834717,
+          4.363615989685059,
+          4.682420253753662,
+          4.543042182922363,
+          4.390354156494141
+        ],
+        "windows": 8,
+        "targets": 1024
+      },
+      "cold": {
+        "status": "completed",
+        "nll": 4.605820536613464,
+        "per_window_nll": [
+          5.156789779663086,
+          4.799975872039795,
+          4.533143997192383,
+          4.190976142883301,
+          4.418769836425781,
+          4.723536491394043,
+          4.567767143249512,
+          4.4556050300598145
+        ],
+        "windows": 8
+      }
+    },
+    "warm_nll": 4.5562421679496765,
+    "warm_ppl": 95.22496720308811,
+    "memory_clear_cost": 0.0,
+    "read_off_cost": 0.0,
+    "unrelated_cost": 0.0,
+    "prefix_tokens": 384,
+    "local_context_tokens": 128,
+    "scored_tokens_per_window": 128,
+    "seconds": 0.3711966669652611,
+    "intervention_contract": "All conditions enter the scored suffix with identical attention KV and positions; only Bio experience/read access changes.",
+    "note": "Paired windows, not independent training seeds. Mismatched windows are a content proxy for unrelated history.",
+    "cold_nll": 4.605820536613464
+  },
+  "total_parameters": 316608,
+  "trainable_parameters": 0
+}

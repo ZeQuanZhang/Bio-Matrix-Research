@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "date": "2026-11-03",
+  "version": "V3",
+  "python_syntax_files": 180,
+  "json_files": 267,
+  "exported_new_files": 256,
+  "new_bytes": 15574068,
+  "failures": [],
+  "full_v3_training": "not_executed",
+  "native_mps_short_pairing": "completed",
+  "reserved_test": "not_executed",
+  "original_v2_sources": "47 unchanged",
+  "private_data_and_checkpoints": "excluded",
+  "public_copy_regression_tests": 67,
+  "local_markdown_links_checked": 221,
+  "missing_markdown_links": 0,
+  "private_connection_matches": 0,
+  "console_pty": {
+    "status": "completed",
+    "process_exit": 0,
+    "terminal_rows": 13,
+    "terminal_columns": 162,
+    "refresh_frames": 3,
+    "refresh_seconds": 1,
+    "all_twelve_details": true,
+    "native_mps_resource_line": true,
+    "actual_pycharm_window_inspected": false
+  }
+}

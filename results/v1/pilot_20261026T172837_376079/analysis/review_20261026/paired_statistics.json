@@ -1,0 +1,186 @@
+{
+  "status": "completed",
+  "comparison": "Fixed last checkpoint",
+  "run": "pilot_20261026T172837_376079",
+  "source_archive_hashes_valid": true,
+  "training_samples_identical": true,
+  "validation_windows": 8,
+  "validation_documents": [
+    24,
+    32,
+    25,
+    30,
+    39,
+    4,
+    54,
+    26
+  ],
+  "scored_targets": 1024,
+  "training_seeds": 1,
+  "effects": {
+    "adapter_minus_transformer": {
+      "mean": 0.01662379503250122,
+      "interval_95": [
+        0.007071852684020996,
+        0.02680450677871704
+      ],
+      "positive_windows": 7,
+      "negative_windows": 1,
+      "per_document": [
+        0.041965484619140625,
+        0.004248619079589844,
+        0.01673126220703125,
+        -0.004673957824707031,
+        0.009755134582519531,
+        0.032390594482421875,
+        0.022506237030029297,
+        0.010066986083984375
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    },
+    "bio_no_phase_minus_transformer": {
+      "mean": 8.26120376586914e-05,
+      "interval_95": [
+        -0.0005578398704528809,
+        0.0006924271583557129
+      ],
+      "positive_windows": 4,
+      "negative_windows": 4,
+      "per_document": [
+        0.0013079643249511719,
+        -0.0007243156433105469,
+        -0.0015597343444824219,
+        0.0004658699035644531,
+        0.0005869865417480469,
+        0.0010828971862792969,
+        -4.00543212890625e-05,
+        -0.00045871734619140625
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    },
+    "bio_full_minus_transformer": {
+      "mean": -5.59687614440918e-05,
+      "interval_95": [
+        -0.0004928708076477051,
+        0.0003807544708251953
+      ],
+      "positive_windows": 5,
+      "negative_windows": 3,
+      "per_document": [
+        0.0009412765502929688,
+        -0.0005540847778320312,
+        -0.0012125968933105469,
+        9.632110595703125e-05,
+        0.00010251998901367188,
+        0.0006051063537597656,
+        0.00012826919555664062,
+        -0.0005545616149902344
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    },
+    "full_minus_no_phase": {
+      "mean": -0.0001385807991027832,
+      "interval_95": [
+        -0.0003439784049987793,
+        7.927417755126953e-05
+      ],
+      "positive_windows": 3,
+      "negative_windows": 5,
+      "per_document": [
+        -0.0003666877746582031,
+        0.00017023086547851562,
+        0.000347137451171875,
+        -0.0003695487976074219,
+        -0.000484466552734375,
+        -0.00047779083251953125,
+        0.00016832351684570312,
+        -9.584426879882812e-05
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    },
+    "empty_memory_minus_warm": {
+      "mean": 5.924701690673828e-05,
+      "interval_95": [
+        -0.00022101402282714844,
+        0.0002897977828979492
+      ],
+      "positive_windows": 6,
+      "negative_windows": 2,
+      "per_document": [
+        -0.0007829666137695312,
+        4.6253204345703125e-05,
+        0.0005712509155273438,
+        0.00020170211791992188,
+        7.009506225585938e-05,
+        6.29425048828125e-05,
+        -5.7697296142578125e-05,
+        0.000362396240234375
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    },
+    "memory_read_off_minus_warm": {
+      "mean": 5.2094459533691406e-05,
+      "interval_95": [
+        -0.0003967881202697754,
+        0.0005060553550720222
+      ],
+      "positive_windows": 3,
+      "negative_windows": 5,
+      "per_document": [
+        -0.0009331703186035156,
+        0.0006399154663085938,
+        0.00118255615234375,
+        -0.00012540817260742188,
+        -0.00012159347534179688,
+        -0.0006570816040039062,
+        -0.0001316070556640625,
+        0.0005631446838378906
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    },
+    "unrelated_history_minus_warm": {
+      "mean": 2.205371856689453e-06,
+      "interval_95": [
+        -7.331371307373047e-06,
+        1.0907649993896484e-05
+      ],
+      "positive_windows": 5,
+      "negative_windows": 3,
+      "per_document": [
+        -1.430511474609375e-06,
+        -2.47955322265625e-05,
+        6.67572021484375e-06,
+        2.384185791015625e-05,
+        8.106231689453125e-06,
+        8.106231689453125e-06,
+        4.291534423828125e-06,
+        -7.152557373046875e-06
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    },
+    "shuffled_history_minus_warm": {
+      "mean": -1.2516975402832031e-06,
+      "interval_95": [
+        -4.827976226806641e-06,
+        2.1457672119140625e-06
+      ],
+      "positive_windows": 4,
+      "negative_windows": 4,
+      "per_document": [
+        -8.58306884765625e-06,
+        -7.152557373046875e-06,
+        2.86102294921875e-06,
+        1.430511474609375e-06,
+        -4.76837158203125e-07,
+        -6.67572021484375e-06,
+        5.245208740234375e-06,
+        3.337860107421875e-06
+      ],
+      "uncertainty": "Document-window bootstrap conditional on one trained seed; not training-seed uncertainty"
+    }
+  },
+  "full_ppl_improvement_percent": 0.005596719522216187,
+  "full_to_adapter_update_time": 20.579421470662222,
+  "phase_update_time_increase_percent": 5.7869114241106745,
+  "no_new_model_execution": true
+}

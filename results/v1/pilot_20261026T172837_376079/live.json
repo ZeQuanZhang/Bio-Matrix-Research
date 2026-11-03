@@ -1,0 +1,12 @@
+{
+  "condition": "bio_full",
+  "status": "running",
+  "updates": 64,
+  "completed_tokens": 65536,
+  "visible_inputs": 65536,
+  "train_seconds": 49.091563375201076,
+  "consolidation_attempts": 1,
+  "consolidations": 1,
+  "ce": 4.839261054992676,
+  "kd": 0.4170839786529541
+}

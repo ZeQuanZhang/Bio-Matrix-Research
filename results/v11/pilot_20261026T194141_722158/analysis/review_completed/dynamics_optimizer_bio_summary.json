@@ -1,0 +1,375 @@
+{
+  "mode": "tensor statistics only",
+  "parameters": [
+    {
+      "name": "memories.0.log_tau",
+      "steps": 192.0,
+      "moment_rms": 0.001868587452918291
+    },
+    {
+      "name": "memories.0.raw_gain",
+      "steps": 192.0,
+      "moment_rms": 0.01766836829483509
+    },
+    {
+      "name": "memories.0.decay.bias",
+      "steps": 192.0,
+      "moment_rms": 0.00040824091411195695
+    },
+    {
+      "name": "memories.0.write_gate.bias",
+      "steps": 192.0,
+      "moment_rms": 0.0004505882679950446
+    },
+    {
+      "name": "memories.0.band_gate.bias",
+      "steps": 192.0,
+      "moment_rms": 0.0010528614511713386
+    },
+    {
+      "name": "memories.0.output_gate.bias",
+      "steps": 192.0,
+      "moment_rms": 0.0005908306920900941
+    },
+    {
+      "name": "memories.0.field.raw_tau",
+      "steps": 192.0,
+      "moment_rms": 1.746871384966653e-05
+    },
+    {
+      "name": "memories.0.field.raw_trace_tau",
+      "steps": 192.0,
+      "moment_rms": 1.2211859257149627e-07
+    },
+    {
+      "name": "memories.0.field.raw_coupling",
+      "steps": 192.0,
+      "moment_rms": 6.227496487554163e-05
+    },
+    {
+      "name": "memories.0.field.fourier",
+      "steps": 192.0,
+      "moment_rms": 4.907279617327731e-06
+    },
+    {
+      "name": "memories.0.field.raw_threshold",
+      "steps": 192.0,
+      "moment_rms": 4.122285623964217e-09
+    },
+    {
+      "name": "memories.0.field.raw_reliability",
+      "steps": 192.0,
+      "moment_rms": 5.292527475830866e-06
+    },
+    {
+      "name": "memories.0.field.raw_variance",
+      "steps": 192.0,
+      "moment_rms": 4.1822812590908143e-07
+    },
+    {
+      "name": "memories.0.field.raw_local_rate",
+      "steps": 192.0,
+      "moment_rms": 7.138276600926474e-07
+    },
+    {
+      "name": "memories.0.field.raw_slow_decay",
+      "steps": 192.0,
+      "moment_rms": 9.618584817516762e-10
+    },
+    {
+      "name": "memories.0.field.band_logits",
+      "steps": 192.0,
+      "moment_rms": 2.72988218057435e-05
+    },
+    {
+      "name": "memories.1.log_tau",
+      "steps": 192.0,
+      "moment_rms": 0.0012362574925646186
+    },
+    {
+      "name": "memories.1.raw_gain",
+      "steps": 192.0,
+      "moment_rms": 0.02998833730816841
+    },
+    {
+      "name": "memories.1.decay.bias",
+      "steps": 192.0,
+      "moment_rms": 0.00027188248350284994
+    },
+    {
+      "name": "memories.1.write_gate.bias",
+      "steps": 192.0,
+      "moment_rms": 0.0008060549153015018
+    },
+    {
+      "name": "memories.1.band_gate.bias",
+      "steps": 192.0,
+      "moment_rms": 0.0003232940216548741
+    },
+    {
+      "name": "memories.1.output_gate.bias",
+      "steps": 192.0,
+      "moment_rms": 0.0004961981903761625
+    },
+    {
+      "name": "memories.1.field.raw_tau",
+      "steps": 192.0,
+      "moment_rms": 2.2768160761188483e-06
+    },
+    {
+      "name": "memories.1.field.raw_trace_tau",
+      "steps": 192.0,
+      "moment_rms": 1.0827230312315805e-07
+    },
+    {
+      "name": "memories.1.field.raw_coupling",
+      "steps": 192.0,
+      "moment_rms": 2.1492625819519162e-05
+    },
+    {
+      "name": "memories.1.field.fourier",
+      "steps": 192.0,
+      "moment_rms": 1.071215478987142e-06
+    },
+    {
+      "name": "memories.1.field.raw_threshold",
+      "steps": 192.0,
+      "moment_rms": 1.7256711615232234e-09
+    },
+    {
+      "name": "memories.1.field.raw_reliability",
+      "steps": 192.0,
+      "moment_rms": 5.863915362169791e-07
+    },
+    {
+      "name": "memories.1.field.raw_variance",
+      "steps": 192.0,
+      "moment_rms": 2.717876590452306e-08
+    },
+    {
+      "name": "memories.1.field.raw_local_rate",
+      "steps": 192.0,
+      "moment_rms": 9.639740028433152e-08
+    },
+    {
+      "name": "memories.1.field.raw_slow_decay",
+      "steps": 192.0,
+      "moment_rms": 1.0081238621673094e-10
+    },
+    {
+      "name": "memories.1.field.band_logits",
+      "steps": 192.0,
+      "moment_rms": 5.288592365104705e-05
+    },
+    {
+      "name": "memories.0.innovation_gain",
+      "steps": 192.0,
+      "moment_rms": 1.0662586646503769e-05
+    },
+    {
+      "name": "memories.0.raw_frequency",
+      "steps": 192.0,
+      "moment_rms": 0.00035456495243124664
+    },
+    {
+      "name": "memories.0.query.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0003393961233086884
+    },
+    {
+      "name": "memories.0.key.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0003294010239187628
+    },
+    {
+      "name": "memories.0.value.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0006266764830797911
+    },
+    {
+      "name": "memories.0.decay.weight",
+      "steps": 192.0,
+      "moment_rms": 0.00010088173439726233
+    },
+    {
+      "name": "memories.0.write_gate.weight",
+      "steps": 192.0,
+      "moment_rms": 0.00012457728735171258
+    },
+    {
+      "name": "memories.0.band_gate.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0005526305758394301
+    },
+    {
+      "name": "memories.0.output_gate.weight",
+      "steps": 192.0,
+      "moment_rms": 0.00029939477099105716
+    },
+    {
+      "name": "memories.0.output.weight",
+      "steps": 192.0,
+      "moment_rms": 0.001264314167201519
+    },
+    {
+      "name": "memories.0.field.node_shape",
+      "steps": 128.0,
+      "moment_rms": 3.299849049653858e-05
+    },
+    {
+      "name": "memories.0.field.input_diagonal",
+      "steps": 192.0,
+      "moment_rms": 9.060543561645318e-06
+    },
+    {
+      "name": "memories.0.field.input_rank",
+      "steps": 192.0,
+      "moment_rms": 4.25064645241946e-05
+    },
+    {
+      "name": "memories.0.field.output_diagonal",
+      "steps": 192.0,
+      "moment_rms": 1.283897836401593e-05
+    },
+    {
+      "name": "memories.0.field.output_rank",
+      "steps": 192.0,
+      "moment_rms": 4.8293724830728024e-05
+    },
+    {
+      "name": "memories.0.field.node_address",
+      "steps": 192.0,
+      "moment_rms": 1.1527095011842903e-06
+    },
+    {
+      "name": "memories.0.field.group_keys",
+      "steps": 192.0,
+      "moment_rms": 1.234969431607169e-06
+    },
+    {
+      "name": "memories.0.field.raw_frequency",
+      "steps": 192.0,
+      "moment_rms": 3.83238002541475e-05
+    },
+    {
+      "name": "memories.0.field.raw_amplitude",
+      "steps": 192.0,
+      "moment_rms": 2.115955567205674e-06
+    },
+    {
+      "name": "memories.0.field.input_projection.weight",
+      "steps": 192.0,
+      "moment_rms": 1.719343686090724e-06
+    },
+    {
+      "name": "memories.0.field.query_projection.weight",
+      "steps": 192.0,
+      "moment_rms": 4.987721695215441e-06
+    },
+    {
+      "name": "memories.1.innovation_gain",
+      "steps": 192.0,
+      "moment_rms": 6.361919804476202e-05
+    },
+    {
+      "name": "memories.1.raw_frequency",
+      "steps": 192.0,
+      "moment_rms": 0.00012719746155198663
+    },
+    {
+      "name": "memories.1.query.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0001704253227217123
+    },
+    {
+      "name": "memories.1.key.weight",
+      "steps": 192.0,
+      "moment_rms": 0.00023740489268675447
+    },
+    {
+      "name": "memories.1.value.weight",
+      "steps": 192.0,
+      "moment_rms": 0.00036641416954807937
+    },
+    {
+      "name": "memories.1.decay.weight",
+      "steps": 192.0,
+      "moment_rms": 0.00025410193484276533
+    },
+    {
+      "name": "memories.1.write_gate.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0007723203161731362
+    },
+    {
+      "name": "memories.1.band_gate.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0003958721936214715
+    },
+    {
+      "name": "memories.1.output_gate.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0005661756149493158
+    },
+    {
+      "name": "memories.1.output.weight",
+      "steps": 192.0,
+      "moment_rms": 0.0007848183158785105
+    },
+    {
+      "name": "memories.1.field.node_shape",
+      "steps": 128.0,
+      "moment_rms": 1.7200396541738883e-05
+    },
+    {
+      "name": "memories.1.field.input_diagonal",
+      "steps": 192.0,
+      "moment_rms": 9.80689401330892e-06
+    },
+    {
+      "name": "memories.1.field.input_rank",
+      "steps": 192.0,
+      "moment_rms": 3.666087650344707e-05
+    },
+    {
+      "name": "memories.1.field.output_diagonal",
+      "steps": 192.0,
+      "moment_rms": 1.4901628674124368e-05
+    },
+    {
+      "name": "memories.1.field.output_rank",
+      "steps": 192.0,
+      "moment_rms": 7.44583157938905e-05
+    },
+    {
+      "name": "memories.1.field.node_address",
+      "steps": 192.0,
+      "moment_rms": 5.421973128250102e-07
+    },
+    {
+      "name": "memories.1.field.group_keys",
+      "steps": 192.0,
+      "moment_rms": 6.669573053841304e-07
+    },
+    {
+      "name": "memories.1.field.raw_frequency",
+      "steps": 192.0,
+      "moment_rms": 4.38293645856902e-05
+    },
+    {
+      "name": "memories.1.field.raw_amplitude",
+      "steps": 192.0,
+      "moment_rms": 1.8926159555121558e-06
+    },
+    {
+      "name": "memories.1.field.input_projection.weight",
+      "steps": 192.0,
+      "moment_rms": 1.4199566749084624e-06
+    },
+    {
+      "name": "memories.1.field.query_projection.weight",
+      "steps": 192.0,
+      "moment_rms": 4.6671393647557124e-06
+    }
+  ]
+}

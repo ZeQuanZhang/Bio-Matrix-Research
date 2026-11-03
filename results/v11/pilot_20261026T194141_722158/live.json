@@ -1,0 +1,16 @@
+{
+  "condition": "bio_ordered",
+  "status": "running",
+  "updates": 192,
+  "cpt_tokens": 65536,
+  "pt_updates": 128,
+  "answer_targets": 1774,
+  "completed_work": 196608,
+  "visible_inputs": 196608,
+  "train_seconds": 810.4255467821495,
+  "consolidation_attempts": 4,
+  "consolidations": 4,
+  "stage": "pt",
+  "ce": 7.390525817871094,
+  "kd": 0.29613158106803894
+}

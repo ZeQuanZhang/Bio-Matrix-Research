@@ -1,0 +1,334 @@
+{
+  "version": "Bio-Matrix-1.0",
+  "purpose": "Paired Transformer memory mechanism and scaling experiments",
+  "default_pycharm": {
+    "nodes": 32,
+    "seed": 11,
+    "tokens_per_adaptation": 65536
+  },
+  "formal_runs_executed": false,
+  "conditions": [
+    "transformer",
+    "adapter",
+    "bio_no_phase",
+    "bio_full"
+  ],
+  "scales": [
+    32,
+    128,
+    512
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "rules": [
+    "Complete each scale pairing before filling repeat seeds; no single-node winning precondition.",
+    "Share backbone checkpoint, tokenizer, sampled train/validation windows and effective target budget.",
+    "Frozen transformer is a reusable scoring reference, not a repeated independent training.",
+    "Report all allocated state bytes, attention KV, activations, active nodes and measured computation separately.",
+    "Stop/failed/not_executed remain distinct; engineering smokes are not formal capacity results."
+  ],
+  "runs": [
+    {
+      "nodes": 32,
+      "seed": 11,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 32,
+      "seed": 11,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 11,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 11,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 11,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 128,
+      "seed": 11,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 11,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 11,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 11,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 512,
+      "seed": 11,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 11,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 11,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 23,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 32,
+      "seed": 23,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 23,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 23,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 23,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 128,
+      "seed": 23,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 23,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 23,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 23,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 512,
+      "seed": 23,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 23,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 23,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 37,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 32,
+      "seed": 37,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 37,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 32,
+      "seed": 37,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 37,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 128,
+      "seed": 37,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 37,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 128,
+      "seed": 37,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 37,
+      "condition": "transformer",
+      "status": "not_executed",
+      "role": "frozen_reference_reusable"
+    },
+    {
+      "nodes": 512,
+      "seed": 37,
+      "condition": "adapter",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 37,
+      "condition": "bio_no_phase",
+      "status": "not_executed",
+      "role": "adaptation"
+    },
+    {
+      "nodes": 512,
+      "seed": 37,
+      "condition": "bio_full",
+      "status": "not_executed",
+      "role": "adaptation"
+    }
+  ],
+  "additional_controls": [
+    {
+      "name": "state_capacity",
+      "status": "not_executed",
+      "candidates": [
+        {
+          "nodes": 32,
+          "memory_dim": 36
+        },
+        {
+          "nodes": 128,
+          "memory_dim": 18
+        },
+        {
+          "nodes": 512,
+          "memory_dim": 8
+        }
+      ],
+      "note": "Approximate full-state controls; actual batch2 bytes measured in results/v1/state_budget_*.json; do not claim exact equality."
+    },
+    {
+      "name": "internal_iterations",
+      "values": [
+        1,
+        2,
+        4
+      ],
+      "status": "not_executed"
+    },
+    {
+      "name": "history_interventions",
+      "status": "implemented",
+      "values": [
+        "warm",
+        "empty_memory",
+        "unrelated_history",
+        "shuffled_history",
+        "memory_read_off",
+        "cold"
+      ]
+    },
+    {
+      "name": "public_task_validation",
+      "status": "not_executed",
+      "note": "WikiText-2 reused for engineering; fresh held-out task evaluation required for general memory claims."
+    }
+  ]
+}

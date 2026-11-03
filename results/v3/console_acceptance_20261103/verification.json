@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "process_exit": 0,
+  "terminal_rows": 13,
+  "terminal_columns": 162,
+  "refresh_frames": 3,
+  "refresh_seconds": 1,
+  "all_twelve_details": true,
+  "native_mps_resource_line": true,
+  "actual_pycharm_window_inspected": false
+}

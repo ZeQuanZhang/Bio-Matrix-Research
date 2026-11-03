@@ -1,0 +1,938 @@
+{
+  "status": "completed",
+  "table": {
+    "transformer": {
+      "lm_nll": 4.556242214764552,
+      "lm_ppl": 95.2249716610332,
+      "qa_nll": 6.36337804622375,
+      "first_answer_nll": 11.781226515769958,
+      "first_answer_accuracy": 0.0,
+      "qa_window_mean_nll": 6.474892314310584,
+      "train_seconds": null,
+      "answer_targets": null,
+      "trainable_parameters": 0
+    },
+    "adapter": {
+      "lm_nll": 4.653867750063,
+      "lm_ppl": 104.99027744023698,
+      "qa_nll": 5.704960126143235,
+      "first_answer_nll": 8.597814321517944,
+      "first_answer_accuracy": 0.0,
+      "qa_window_mean_nll": 5.696236029693058,
+      "train_seconds": 5.737521964183543,
+      "answer_targets": 1774,
+      "trainable_parameters": 103488,
+      "recorded_periodic_and_initial_validation_seconds": 3.2178241268265992,
+      "additional_final_validation_seconds": 0.43286083301063627,
+      "total_recorded_validation_seconds": 3.6506849598372355,
+      "validation_fraction_of_train_and_validation": 0.3888585956170767
+    },
+    "bio_summary": {
+      "lm_nll": 4.555310520408511,
+      "lm_ppl": 95.1362924097763,
+      "qa_nll": 6.263664421553795,
+      "first_answer_nll": 11.230468809604645,
+      "first_answer_accuracy": 0.0,
+      "qa_window_mean_nll": 6.342258674314334,
+      "train_seconds": 337.3199418328586,
+      "answer_targets": 1774,
+      "trainable_parameters": 103406,
+      "recorded_periodic_and_initial_validation_seconds": 194.33122645900585,
+      "additional_final_validation_seconds": 21.420257915975526,
+      "total_recorded_validation_seconds": 215.75148437498137,
+      "validation_fraction_of_train_and_validation": 0.3900969642461761
+    },
+    "bio_ordered": {
+      "lm_nll": 4.5552313422035695,
+      "lm_ppl": 95.12875998712425,
+      "qa_nll": 6.261298440969908,
+      "first_answer_nll": 11.216512501239777,
+      "first_answer_accuracy": 0.0,
+      "qa_window_mean_nll": 6.338781404371063,
+      "train_seconds": 810.4255467821495,
+      "answer_targets": 1774,
+      "trainable_parameters": 103406,
+      "recorded_periodic_and_initial_validation_seconds": 429.1336656239582,
+      "additional_final_validation_seconds": 47.56838570802938,
+      "total_recorded_validation_seconds": 476.7020513319876,
+      "validation_fraction_of_train_and_validation": 0.3703611452589766
+    }
+  },
+  "comparisons": {
+    "qa/bio_ordered-minus-transformer": {
+      "difference_a_minus_b": -0.10207960525384299,
+      "article_or_document_bootstrap_95ci": [
+        -0.15818161473554718,
+        -0.06770632266998282
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.08327094713846872,
+        -0.25209744771321585,
+        -0.26604612668355276,
+        -0.10161332786083221,
+        -0.06564134955406153,
+        -0.24270814657211304,
+        -0.020664010729108284,
+        -0.056845923264821074
+      ],
+      "a_lower": 8,
+      "a_higher": 0,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_summary-minus-transformer": {
+      "difference_a_minus_b": -0.09971362466995527,
+      "article_or_document_bootstrap_95ci": [
+        -0.1549431451342322,
+        -0.06594160769848109
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.08006338278452585,
+        -0.24514977137247662,
+        -0.2592577139536534,
+        -0.09924845397472382,
+        -0.06513242324193325,
+        -0.2363998293876648,
+        -0.02002716064453125,
+        -0.05579038461049368
+      ],
+      "a_lower": 8,
+      "a_higher": 0,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/adapter-minus-transformer": {
+      "difference_a_minus_b": -0.658417920080515,
+      "article_or_document_bootstrap_95ci": [
+        -0.8816581494880446,
+        -0.5054372277642999
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.8720006942749023,
+        -1.1323440074920654,
+        -1.2835109233856201,
+        -0.41172489523887634,
+        -0.6157537122567494,
+        -1.2864538431167603,
+        -0.31746946062360504,
+        -0.3099927405516305
+      ],
+      "a_lower": 8,
+      "a_higher": 0,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered-minus-bio_summary": {
+      "difference_a_minus_b": -0.0023659805838877144,
+      "article_or_document_bootstrap_95ci": [
+        -0.004239588975906471,
+        -0.0012296330928799886
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.003207564353942871,
+        -0.006947676340739228,
+        -0.006788412729899385,
+        -0.0023648738861083984,
+        -0.0005089263121282883,
+        -0.006308317184448242,
+        -0.0006368500845770342,
+        -0.0010555386543273926
+      ],
+      "a_lower": 8,
+      "a_higher": 0,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered-minus-adapter": {
+      "difference_a_minus_b": 0.5563383148266721,
+      "article_or_document_bootstrap_95ci": [
+        0.421484598987981,
+        0.7390635182028231
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        0.7887297471364336,
+        0.8802465597788496,
+        1.0174647967020674,
+        0.31011156737804413,
+        0.5501123627026878,
+        1.0437456965446472,
+        0.29680544989449675,
+        0.25314681728680943
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "lm/bio_ordered-minus-transformer": {
+      "difference_a_minus_b": -0.0010108725609825342,
+      "article_or_document_bootstrap_95ci": [
+        -0.00718544391429532,
+        0.005084494514005684
+      ],
+      "unique_clusters": 8,
+      "rows": 8,
+      "effective_targets": 1024,
+      "per_window_difference": [
+        -0.016980965447146446,
+        0.0007737380219623446,
+        -0.001052075531333685,
+        0.0004921576764900237,
+        -0.0005200307386985514,
+        -0.010454726336320164,
+        0.004718641139334068,
+        0.014936280727852136
+      ],
+      "a_lower": 4,
+      "a_higher": 4,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "lm/bio_summary-minus-transformer": {
+      "difference_a_minus_b": -0.0009316943560406798,
+      "article_or_document_bootstrap_95ci": [
+        -0.006809896180129726,
+        0.0049582228530198336
+      ],
+      "unique_clusters": 8,
+      "rows": 8,
+      "effective_targets": 1024,
+      "per_window_difference": [
+        -0.01584270723105874,
+        0.00037391239311546087,
+        -0.0011907105799764395,
+        0.000220568006625399,
+        -0.0005137027765158564,
+        -0.00995051406789571,
+        0.0043299672834109515,
+        0.015119632123969495
+      ],
+      "a_lower": 4,
+      "a_higher": 4,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "lm/adapter-minus-transformer": {
+      "difference_a_minus_b": 0.09762553529844809,
+      "article_or_document_bootstrap_95ci": [
+        0.05275391392615347,
+        0.13825186016401858
+      ],
+      "unique_clusters": 8,
+      "rows": 8,
+      "effective_targets": 1024,
+      "per_window_difference": [
+        -0.02675183620885946,
+        0.12694116623606533,
+        0.15460912382695824,
+        0.16112049858202226,
+        0.06271309298244887,
+        0.07379823559313081,
+        0.06192205232218839,
+        0.16665194905363023
+      ],
+      "a_lower": 1,
+      "a_higher": 7,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "lm/bio_ordered-minus-bio_summary": {
+      "difference_a_minus_b": -7.917820494185435e-05,
+      "article_or_document_bootstrap_95ci": [
+        -0.0004464403831093476,
+        0.00022678392269881442
+      ],
+      "unique_clusters": 8,
+      "rows": 8,
+      "effective_targets": 1024,
+      "per_window_difference": [
+        -0.0011382582160877064,
+        0.0003998256288468838,
+        0.00013863504864275455,
+        0.00027158966986462474,
+        -6.327962182695046e-06,
+        -0.0005042122684244532,
+        0.0003886738559231162,
+        -0.0001833513961173594
+      ],
+      "a_lower": 4,
+      "a_higher": 4,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "lm/bio_ordered-minus-adapter": {
+      "difference_a_minus_b": -0.09863640785943062,
+      "article_or_document_bootstrap_95ci": [
+        -0.13574274429993238,
+        -0.05777158170849361
+      ],
+      "unique_clusters": 8,
+      "rows": 8,
+      "effective_targets": 1024,
+      "per_window_difference": [
+        0.009770870761713013,
+        -0.12616742821410298,
+        -0.15566119935829192,
+        -0.16062834090553224,
+        -0.06323312372114742,
+        -0.08425296192945098,
+        -0.057203411182854325,
+        -0.1517156683257781
+      ],
+      "a_lower": 7,
+      "a_higher": 1,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_summary-minus-transformer": {
+      "difference_a_minus_b": -0.5507577061653137,
+      "article_or_document_bootstrap_95ci": [
+        -0.6874155402183533,
+        -0.42231123788016184
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.4163942337036133,
+        -0.6084327697753906,
+        -0.7275352478027344,
+        -0.8017139434814453,
+        -0.6312875747680664,
+        -0.7658414840698242,
+        -0.21530723571777344,
+        -0.2395491600036621
+      ],
+      "a_lower": 8,
+      "a_higher": 0,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_summary/empty_memory-minus-warm": {
+      "difference_a_minus_b": 0.08613756012458061,
+      "article_or_document_bootstrap_95ci": [
+        0.05855128439989979,
+        0.13104245894485053
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        0.0710527499516811,
+        0.21033835411071777,
+        0.21509917577107718,
+        0.08350944519042969,
+        0.05880958437919581,
+        0.19823306798934937,
+        0.020215851919991756,
+        0.04864357908566763
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_summary/empty_memory-minus-warm": {
+      "difference_a_minus_b": 0.4743040204048157,
+      "article_or_document_bootstrap_95ci": [
+        0.3678770065307617,
+        0.5870735679353989
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        0.3697986602783203,
+        0.5220222473144531,
+        0.6097135543823242,
+        0.6904964447021484,
+        0.5477790832519531,
+        0.6396989822387695,
+        0.1954355239868164,
+        0.21948766708374023
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_summary/memory_read_off-minus-warm": {
+      "difference_a_minus_b": 0.09185523081284291,
+      "article_or_document_bootstrap_95ci": [
+        0.06237614985372192,
+        0.14012324657195638
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        0.07510081926981638,
+        0.2243773142496739,
+        0.22902949651082327,
+        0.08880290389060974,
+        0.06324504812558462,
+        0.2124767303466797,
+        0.020835263388497616,
+        0.051798989375432036
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_summary/memory_read_off-minus-warm": {
+      "difference_a_minus_b": 0.5042489171028137,
+      "article_or_document_bootstrap_95ci": [
+        0.39102904001871747,
+        0.6231188092912946
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        0.3939399719238281,
+        0.5555267333984375,
+        0.6488485336303711,
+        0.7321624755859375,
+        0.5808296203613281,
+        0.6836051940917969,
+        0.20702171325683594,
+        0.2320570945739746
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_summary/unrelated_history-minus-warm": {
+      "difference_a_minus_b": -0.0003085130682359229,
+      "article_or_document_bootstrap_95ci": [
+        -0.0010451485471027003,
+        0.00043421387672415435
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.0005272626876831055,
+        0.002029895782470703,
+        -0.00013407071431537076,
+        -0.0013267844915390015,
+        -0.00014286637306248906,
+        -0.0017960667610168457,
+        -0.001196793147495434,
+        0.0016254186630249023
+      ],
+      "a_lower": 6,
+      "a_higher": 2,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_summary/unrelated_history-minus-warm": {
+      "difference_a_minus_b": -0.00020444393157958984,
+      "article_or_document_bootstrap_95ci": [
+        -0.003844397408621652,
+        0.0025295257568359376
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.0014524459838867188,
+        0.004092216491699219,
+        0.0011892318725585938,
+        -0.008246421813964844,
+        0.0030765533447265625,
+        -0.004718780517578125,
+        -0.0013971328735351562,
+        0.00582122802734375
+      ],
+      "a_lower": 4,
+      "a_higher": 4,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_summary/shuffled_history-minus-warm": {
+      "difference_a_minus_b": 0.0003965921126879862,
+      "article_or_document_bootstrap_95ci": [
+        -0.00019100411184867628,
+        0.0012284110232095614
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.0003343423207597951,
+        0.002912918726602598,
+        0.002052466074625059,
+        0.0015884190797805786,
+        -0.0002933939297991017,
+        0.00016748905181884766,
+        -0.000556434903825398,
+        0.00044188896814922884
+      ],
+      "a_lower": 3,
+      "a_higher": 5,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_summary/shuffled_history-minus-warm": {
+      "difference_a_minus_b": 0.004337012767791748,
+      "article_or_document_bootstrap_95ci": [
+        0.0012200474739074707,
+        0.008138597011566162
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.0006999969482421875,
+        0.008335113525390625,
+        0.005526542663574219,
+        0.015200614929199219,
+        0.0009298324584960938,
+        0.00122833251953125,
+        0.0010538101196289062,
+        0.0031218528747558594
+      ],
+      "a_lower": 1,
+      "a_higher": 7,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_summary/memory_read_off_all-minus-warm": {
+      "difference_a_minus_b": 0.09971361550000987,
+      "article_or_document_bootstrap_95ci": [
+        0.06594173958960999,
+        0.15401148168664228
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        0.08006322383880615,
+        0.24514985084533691,
+        0.2592581113179522,
+        0.09924785792827606,
+        0.06513228019078543,
+        0.23640090227127075,
+        0.02002716064453125,
+        0.05579066276550293
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_summary/memory_read_off_all-minus-warm": {
+      "difference_a_minus_b": 0.5507579445838928,
+      "article_or_document_bootstrap_95ci": [
+        0.4238947762383355,
+        0.6845594048500061
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        0.4163942337036133,
+        0.6084327697753906,
+        0.7275352478027344,
+        0.8017110824584961,
+        0.6312885284423828,
+        0.7658452987670898,
+        0.21530723571777344,
+        0.2395491600036621
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_summary/remote_history_reencoded-minus-warm": {
+      "difference_a_minus_b": -0.00014768770107854455,
+      "article_or_document_bootstrap_95ci": [
+        -0.0011967884961594961,
+        0.0007463839319016606
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        4.3272972106933594e-05,
+        0.004087845484415098,
+        -0.0012903213500976562,
+        -0.0007518231868743896,
+        0.00033542712529488483,
+        -0.0041882991790771484,
+        -0.00035425594874727295,
+        0.0006473660469055176
+      ],
+      "a_lower": 4,
+      "a_higher": 4,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_summary/remote_history_reencoded-minus-warm": {
+      "difference_a_minus_b": -0.00045746564865112305,
+      "article_or_document_bootstrap_95ci": [
+        -0.005456394619411892,
+        0.004480634416852679
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.0008363723754882812,
+        0.010150909423828125,
+        -0.004044532775878906,
+        -0.005805015563964844,
+        0.008412361145019531,
+        -0.013156890869140625,
+        -0.0010175704956054688,
+        0.0026373863220214844
+      ],
+      "a_lower": 5,
+      "a_higher": 3,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_ordered-minus-transformer": {
+      "difference_a_minus_b": -0.5647140145301819,
+      "article_or_document_bootstrap_95ci": [
+        -0.701401846749442,
+        -0.436312993367513
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.4272480010986328,
+        -0.6252899169921875,
+        -0.7465372085571289,
+        -0.8182477951049805,
+        -0.6486492156982422,
+        -0.7823257446289062,
+        -0.22097492218017578,
+        -0.24843931198120117
+      ],
+      "a_lower": 8,
+      "a_higher": 0,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered/empty_memory-minus-warm": {
+      "difference_a_minus_b": 0.08891650461233577,
+      "article_or_document_bootstrap_95ci": [
+        0.06015117878609534,
+        0.136312667061301
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        0.07471553484598825,
+        0.21834651629130075,
+        0.2224268913269043,
+        0.08631429076194763,
+        0.059486258029937567,
+        0.20560944080352783,
+        0.021014043263027027,
+        0.05011675755182843
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_ordered/empty_memory-minus-warm": {
+      "difference_a_minus_b": 0.4907798171043396,
+      "article_or_document_bootstrap_95ci": [
+        0.38110997941758895,
+        0.6053668430873326
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        0.3826894760131836,
+        0.5415725708007812,
+        0.6298513412475586,
+        0.7116584777832031,
+        0.5676088333129883,
+        0.6611900329589844,
+        0.20177459716796875,
+        0.22989320755004883
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered/memory_read_off-minus-warm": {
+      "difference_a_minus_b": 0.09442127037506821,
+      "article_or_document_bootstrap_95ci": [
+        0.06398334768083315,
+        0.14511342083706583
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        0.07859023412068744,
+        0.231843550999959,
+        0.23562908172607422,
+        0.09140294790267944,
+        0.06383238434791494,
+        0.21949470043182373,
+        0.02142044476100402,
+        0.053219248851140044
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_ordered/memory_read_off-minus-warm": {
+      "difference_a_minus_b": 0.5195043683052063,
+      "article_or_document_bootstrap_95ci": [
+        0.40328746371799046,
+        0.6424901144845145
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        0.4059925079345703,
+        0.5736589431762695,
+        0.6670675277709961,
+        0.7518787384033203,
+        0.5992794036865234,
+        0.7033529281616211,
+        0.2129039764404297,
+        0.24190092086791992
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered/unrelated_history-minus-warm": {
+      "difference_a_minus_b": -0.0002486207164252595,
+      "article_or_document_bootstrap_95ci": [
+        -0.0010398593213824094,
+        0.0005228857199349216
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.0005152225494384766,
+        0.0022693475087480763,
+        -0.0002808570861816406,
+        -0.0012450963258743286,
+        -7.798870404585045e-05,
+        -0.0019022822380065918,
+        -0.0011947836194723394,
+        0.0018834670384721974
+      ],
+      "a_lower": 6,
+      "a_higher": 2,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_ordered/unrelated_history-minus-warm": {
+      "difference_a_minus_b": -1.5020370483398438e-05,
+      "article_or_document_bootstrap_95ci": [
+        -0.0036826814923967633,
+        0.002636551856994629
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.0016536712646484375,
+        0.004281044006347656,
+        0.0010852813720703125,
+        -0.008234024047851562,
+        0.004347801208496094,
+        -0.004233360290527344,
+        -0.001537322998046875,
+        0.005824089050292969
+      ],
+      "a_lower": 4,
+      "a_higher": 4,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered/shuffled_history-minus-warm": {
+      "difference_a_minus_b": 0.0003165081143378699,
+      "article_or_document_bootstrap_95ci": [
+        -0.0002141163817473979,
+        0.0010549396276473555
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        -0.00029436747233013705,
+        0.0023860931396484375,
+        0.0018278757731122752,
+        0.0013705939054489136,
+        -0.0002883891264602312,
+        0.00013107061386108398,
+        -0.0005758149283270342,
+        0.00040837128957083024
+      ],
+      "a_lower": 3,
+      "a_higher": 5,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_ordered/shuffled_history-minus-warm": {
+      "difference_a_minus_b": 0.0037425756454467773,
+      "article_or_document_bootstrap_95ci": [
+        0.0009452274867466518,
+        0.0071566104888916016
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.0009756088256835938,
+        0.006747245788574219,
+        0.0049419403076171875,
+        0.013649940490722656,
+        0.0004978179931640625,
+        0.00133514404296875,
+        0.0009632110595703125,
+        0.002780914306640625
+      ],
+      "a_lower": 1,
+      "a_higher": 7,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered/memory_read_off_all-minus-warm": {
+      "difference_a_minus_b": 0.10207959608389759,
+      "article_or_document_bootstrap_95ci": [
+        0.06770474351827904,
+        0.15962168332692744
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        0.08327078819274902,
+        0.25209752718607614,
+        0.26604652404785156,
+        0.10161273181438446,
+        0.06564120650291372,
+        0.242709219455719,
+        0.020664010729108284,
+        0.05684620141983032
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_ordered/memory_read_off_all-minus-warm": {
+      "difference_a_minus_b": 0.564714252948761,
+      "article_or_document_bootstrap_95ci": [
+        0.4355466630723741,
+        0.7021274566650391
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        0.4272480010986328,
+        0.6252899169921875,
+        0.7465372085571289,
+        0.8182449340820312,
+        0.6486501693725586,
+        0.7823295593261719,
+        0.22097492218017578,
+        0.24843931198120117
+      ],
+      "a_lower": 0,
+      "a_higher": 8,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa/bio_ordered/remote_history_reencoded-minus-warm": {
+      "difference_a_minus_b": -0.0001273642365752311,
+      "article_or_document_bootstrap_95ci": [
+        -0.0012669770613960598,
+        0.0008391354765205916
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 52,
+      "per_window_difference": [
+        9.489059448242188e-05,
+        0.004456281661987305,
+        -0.0015556017557782909,
+        -0.0007129162549972534,
+        0.00042396585146509125,
+        -0.0045046210289001465,
+        -0.0004383155277798423,
+        0.0007560352484379251
+      ],
+      "a_lower": 4,
+      "a_higher": 4,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    },
+    "qa_first/bio_ordered/remote_history_reencoded-minus-warm": {
+      "difference_a_minus_b": -0.00034183263778686523,
+      "article_or_document_bootstrap_95ci": [
+        -0.0054939814976283485,
+        0.005021640232631138
+      ],
+      "unique_clusters": 7,
+      "rows": 8,
+      "effective_targets": 8,
+      "per_window_difference": [
+        -0.0008821487426757812,
+        0.01067352294921875,
+        -0.004778861999511719,
+        -0.005595207214355469,
+        0.009765625,
+        -0.013560295104980469,
+        -0.0010652542114257812,
+        0.002707958221435547
+      ],
+      "a_lower": 5,
+      "a_higher": 3,
+      "ties": 0,
+      "note": "Conditional uncertainty across this fixed validation sample; no training-seed uncertainty."
+    }
+  },
+  "derived": {
+    "ordered_over_summary_training_time": 2.402542649505477,
+    "summary_over_adapter_training_time": 58.791921658614456,
+    "ordered_over_adapter_training_time": 141.250099231206,
+    "ordered_lm_ppl_improvement_percent": 0.10103618014339899,
+    "adapter_lm_ppl_increase_percent": 10.25498417995312,
+    "ordered_qa_ppl_improvement_over_summary_percent": 0.2363183857926776
+  },
+  "bootstrap_repetitions": 50000,
+  "seed": 20261026,
+  "data_scope": "Saved validation predictions only, 8 QA rows / 7 articles / 52 answer tokens. Reserved test untouched."
+}

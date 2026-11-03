@@ -1,0 +1,282 @@
+{
+  "bio_summary": {
+    "status": "completed",
+    "layers": [
+      {
+        "layer": 0,
+        "internal_steps": 3,
+        "shells": [
+          {
+            "shell": 0,
+            "nodes": 1,
+            "fresh_fraction": 1.0,
+            "min_mass": 1.0,
+            "mean_mass": 1.0,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.002433885121718049,
+            "p_delta_rms": 0.05070854350924492,
+            "association_rms": 0.002387706656008959,
+            "fast_rms": 0.002442845841869712
+          },
+          {
+            "shell": 1,
+            "nodes": 4,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.35108160972595215,
+            "mean_mass": 0.36283957958221436,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.0009413599618710577,
+            "p_delta_rms": 0.022290579974651337,
+            "association_rms": 0.001998216612264514,
+            "fast_rms": 0.0020443550311028957
+          },
+          {
+            "shell": 2,
+            "nodes": 9,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.03715864568948746,
+            "mean_mass": 0.06573893129825592,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.0001886027748696506,
+            "p_delta_rms": 0.004525988362729549,
+            "association_rms": 0.0019727498292922974,
+            "fast_rms": 0.002018299652263522
+          },
+          {
+            "shell": 3,
+            "nodes": 18,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.0032377904281020164,
+            "mean_mass": 0.00496742594987154,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 1.3599247722595464e-05,
+            "p_delta_rms": 0.0003391439386177808,
+            "association_rms": 0.0019791722297668457,
+            "fast_rms": 0.002024870365858078
+          }
+        ]
+      },
+      {
+        "layer": 1,
+        "internal_steps": 3,
+        "shells": [
+          {
+            "shell": 0,
+            "nodes": 1,
+            "fresh_fraction": 1.0,
+            "min_mass": 1.0,
+            "mean_mass": 1.0,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.005405432544648647,
+            "p_delta_rms": 0.05070854350924492,
+            "association_rms": 0.010269652120769024,
+            "fast_rms": 0.010507531464099884
+          },
+          {
+            "shell": 1,
+            "nodes": 4,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.3514811396598816,
+            "mean_mass": 0.3634081482887268,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.0017467992147430778,
+            "p_delta_rms": 0.022321991622447968,
+            "association_rms": 0.008597536943852901,
+            "fast_rms": 0.008796107955276966
+          },
+          {
+            "shell": 2,
+            "nodes": 9,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.03723190724849701,
+            "mean_mass": 0.06589914858341217,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.00031800070428289473,
+            "p_delta_rms": 0.004537174478173256,
+            "association_rms": 0.00849965214729309,
+            "fast_rms": 0.008695906028151512
+          },
+          {
+            "shell": 3,
+            "nodes": 18,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.0032455832697451115,
+            "mean_mass": 0.004979098215699196,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 2.415612652839627e-05,
+            "p_delta_rms": 0.00033992642420344055,
+            "association_rms": 0.008536018431186676,
+            "fast_rms": 0.008733109571039677
+          }
+        ]
+      }
+    ],
+    "first_segment_seconds": 0.17922033398645,
+    "runtime_bytes": 4358960,
+    "train_inputs_sha256": "b12c4dbe7e0155233636470c7f575433c06d0966f4e599cd42f18b50f2bb5c98",
+    "diagnostics": {
+      "memory_rms": 0.09737631678581238,
+      "phase_radius_error": 2.384185791015625e-07,
+      "field_effective_nodes": 21.215295791625977,
+      "field_m_update_shell_3": 0.0,
+      "field_support_shell_1": 0.0,
+      "field_fresh_arrival_shell_1": 0.0,
+      "field_m_update_shell_0": 0.0,
+      "field_fresh_arrival_shell_0": 0.0,
+      "field_innovation": 0.0,
+      "field_active_fraction": 1.0,
+      "field_m_update_shell_1": 0.0,
+      "field_fresh_arrival_shell_3": 0.0,
+      "field_support_shell_0": 0.0,
+      "field_support_shell_2": 0.0,
+      "field_support_shell_3": 0.0,
+      "field_fresh_arrival_shell_2": 0.0,
+      "field_fresh_mass_shell_3": 0.0,
+      "field_fresh_mass_shell_1": 0.0,
+      "field_fresh_mass_shell_0": 0.0,
+      "field_m_update_shell_2": 0.0,
+      "field_slow_rms": 0.0,
+      "field_fresh_mass_shell_2": 0.0
+    }
+  },
+  "bio_ordered": {
+    "status": "completed",
+    "layers": [
+      {
+        "layer": 0,
+        "internal_steps": 3,
+        "shells": [
+          {
+            "shell": 0,
+            "nodes": 1,
+            "fresh_fraction": 1.0,
+            "min_mass": 1.0,
+            "mean_mass": 1.0,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.002433885121718049,
+            "p_delta_rms": 0.05070854350924492,
+            "association_rms": 0.00882323645055294,
+            "fast_rms": 0.006775000132620335
+          },
+          {
+            "shell": 1,
+            "nodes": 4,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.35108160972595215,
+            "mean_mass": 0.36283957958221436,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.0009413599618710577,
+            "p_delta_rms": 0.022290579974651337,
+            "association_rms": 0.0073874350637197495,
+            "fast_rms": 0.005673655774444342
+          },
+          {
+            "shell": 2,
+            "nodes": 9,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.03715864568948746,
+            "mean_mass": 0.06573893129825592,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.0001886027748696506,
+            "p_delta_rms": 0.004525988362729549,
+            "association_rms": 0.00724269961938262,
+            "fast_rms": 0.005561991594731808
+          },
+          {
+            "shell": 3,
+            "nodes": 18,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.0032377904281020164,
+            "mean_mass": 0.00496742594987154,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 1.3599247722595464e-05,
+            "p_delta_rms": 0.0003391439386177808,
+            "association_rms": 0.006595978979021311,
+            "fast_rms": 0.005044770892709494
+          }
+        ]
+      },
+      {
+        "layer": 1,
+        "internal_steps": 3,
+        "shells": [
+          {
+            "shell": 0,
+            "nodes": 1,
+            "fresh_fraction": 1.0,
+            "min_mass": 1.0,
+            "mean_mass": 1.0,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.005405432544648647,
+            "p_delta_rms": 0.05070854350924492,
+            "association_rms": 0.01375522743910551,
+            "fast_rms": 0.01137535460293293
+          },
+          {
+            "shell": 1,
+            "nodes": 4,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.3514811396598816,
+            "mean_mass": 0.3634081482887268,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.0017467992147430778,
+            "p_delta_rms": 0.022321991622447968,
+            "association_rms": 0.011507709510624409,
+            "fast_rms": 0.009514535777270794
+          },
+          {
+            "shell": 2,
+            "nodes": 9,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.03723190724849701,
+            "mean_mass": 0.06589914858341217,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 0.00031800070428289473,
+            "p_delta_rms": 0.004537174478173256,
+            "association_rms": 0.01132846437394619,
+            "fast_rms": 0.00935889407992363
+          },
+          {
+            "shell": 3,
+            "nodes": 18,
+            "fresh_fraction": 1.0,
+            "min_mass": 0.0032455832697451115,
+            "mean_mass": 0.004979098215699196,
+            "joseph_update_fraction": 1.0,
+            "m_delta_rms": 2.415612652839627e-05,
+            "p_delta_rms": 0.00033992642420344055,
+            "association_rms": 0.010851087048649788,
+            "fast_rms": 0.008882586844265461
+          }
+        ]
+      }
+    ],
+    "first_segment_seconds": 0.13759283401304856,
+    "runtime_bytes": 4358960,
+    "train_inputs_sha256": "b12c4dbe7e0155233636470c7f575433c06d0966f4e599cd42f18b50f2bb5c98",
+    "diagnostics": {
+      "memory_rms": 0.09737631678581238,
+      "phase_radius_error": 2.384185791015625e-07,
+      "field_effective_nodes": 21.215295791625977,
+      "field_m_update_shell_3": 0.0,
+      "field_support_shell_1": 0.0,
+      "field_fresh_arrival_shell_1": 0.0,
+      "field_m_update_shell_0": 0.0,
+      "field_fresh_arrival_shell_0": 0.0,
+      "field_innovation": 0.0,
+      "field_active_fraction": 1.0,
+      "field_m_update_shell_1": 0.0,
+      "field_fresh_arrival_shell_3": 0.0,
+      "field_support_shell_0": 0.0,
+      "field_support_shell_2": 0.0,
+      "field_support_shell_3": 0.0,
+      "field_fresh_arrival_shell_2": 0.0,
+      "field_fresh_mass_shell_3": 0.0,
+      "field_fresh_mass_shell_1": 0.0,
+      "field_fresh_mass_shell_0": 0.0,
+      "field_m_update_shell_2": 0.0,
+      "field_slow_rms": 0.0,
+      "field_fresh_mass_shell_2": 0.0
+    }
+  }
+}

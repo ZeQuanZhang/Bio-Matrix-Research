@@ -4,15 +4,31 @@ Bio-Matrix Research 记录了把神经网络节点扩展为有限矩阵状态系
 
 这份档案面向研究状态模型、记忆机制和实验归因的读者。仓库提供各版源码、配置、研究笔记与选定数值证据，可以沿着同一项假设查看实现、对照方法和结果。
 
-v0.9 后续训练已于 **2026-10-25 停止**。已完成的 N32/seed11 四模型配对中，参数接近的 Transformer 在预测质量、远史利用和训练速度上均领先 Bio-Matrix。失败、修复、中止和未执行条件一并保留。
+历史 V0.9 后续训练已于 **2026-10-25 停止**。已完成的 N32/seed11 四模型配对中，参数接近的 Transformer 在预测质量、远史利用和训练速度上均领先 Bio-Matrix。失败、修复、中止和未执行条件一并保留。
 
-研究者：[ZeQuanZhang](https://github.com/ZeQuanZhang)。构想、实现和分析在与 AI 助手的协作中逐步迭代；公开整理日期为 2026-10-26。
+研究者：[ZeQuanZhang](https://github.com/ZeQuanZhang)。构想、实现和分析在与 AI 助手的协作中逐步迭代；首次公开整理于2026-10-26，更新至2026-11-03。
+
+**最新版本为 V3（2026-11-03）：独立 Bio 向量节点网络。** 节点以动态条件向量、内容向量和相位协作，采用 Q/K/V 式批量读写与块内因果双重计算。每节点内部方阵已移除；普通 Transformer 作为独立对照。完整机制、默认预算与边界见 [V3 说明](v3/README.md)。
+
+V3 已完成32项自检、原生 Mac MPS 数值核对，以及四条件×两个种子的有限真实数据验收。完整训练队列尚未启动。短程工程测速中动态 V3 仍约为局部 Transformer 的11倍耗时，尚未显示速度优势，见[原生测速](results/v3/engineering_20261103_dual/REPORT.md)。
+
+在 PyCharm 选择 **Bio-Matrix V3**，运行 [run_biomatrix_v3.py](run_biomatrix_v3.py)。默认12条配对运行每秒原位刷新，使用本机 MPS，不连接过期 A800。完整队列由用户启动。全新环境的数据准备见 [V3 快速开始](v3/README.md#配对对照与数据)。
+
+```bash
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python run_biomatrix_v3.py --mode verify
+```
+
+**V2 四条件×三种子已完成。** 矩阵记忆出现小幅远史依赖，动态地址与固定地址几乎等效，问答NLL仍略逊于Transformer。[完整分析](results/v2/paired_20261103T003337_839264/analysis/review_20261103/REPORT.md)与[实现说明](v2/README.md)保留。V1.0、V1.1 的源码、协议和结果同时归档；V3 四组从零训练，与早期预训练适配结果分别解读。
+
+所有版本展示统一为 **V0.3—V0.9、V1.0、V1.1、V2、V3**，兼容路径见[版本索引](docs/VERSIONS.md)。每个新版本完成实现、验证和记录后同步本公开仓库；具体协作规则见 [AGENTS.md](AGENTS.md)。
 
 ## 阅读与使用
 
 - 理解研究目标：从[构想原文](docs/sources/BIOMATRIX_FULL_IDEA.md)进入，再读[研究过程与取舍](docs/RESEARCH_JOURNAL.md)。
 - 复核实验结论：通过[结果索引](docs/RESULTS_INDEX.md)定位报告、数值文件和执行状态。
-- 研究实现：根目录保留首轮中文模型，`matrix_lab/` 提供独立状态实验，`v03/`—`v09/` 保存后续实现。各版代码与当时的任务、配置和对照一起阅读。
+- 研究实现：根目录保留首轮中文模型，`matrix_lab/` 提供独立状态实验，`v03/`—`v09/`、`v1/`、`v11/`、`v2/`、`v3/` 保存各版实现。各版代码与当时的任务、配置和对照一起阅读。
 - 设计新的对照：参考[v0.9 比较协议](docs/V09_COMPARISON_PROTOCOL.md)和[机制诊断](docs/V09_MECHANISM_DIAGNOSIS.md)，为数据、预算、运行态和干预条件建立明确口径。
 
 公开副本包含选定报告、曲线、数值记录和状态登记。训练语料、编码后数据、二进制权重与完整运行检查点保留在原实验档案中，新的模型实验需要另行准备这些条件。
@@ -96,6 +112,11 @@ v0.9 节点使用完整矩阵表示内容与运行态，包含多时间尺度快
 | [v0.7](results/v07/analysis_20261024/REASSESSMENT.md) | 连续状态、局部反馈与信用修复，A800 编译和并发 | 45 标签中 43 完成、2 中止；输出趋同、梯度放大、记忆收益不稳定 |
 | [v0.8](docs/V08_IMPROVEMENT_PLAN.md) | 分块 delta、共旋坐标、矩阵注意力与并行实现 | 修复归一化放大；唯一长训在 2.54M 目标中止 |
 | [v0.9](docs/V09_COMPARISON_PROTOCOL.md) | 内容载体、计算复用、批量反馈与实际节点组执行 | N32 四组完成；Transformer 胜出；N128 部分训练中止 |
+
+| [V1.0](v1/README.md) | Transformer 集成完整 Bio 机制 | 代码、协议与本机结果归档 |
+| [V1.1](v11/README.md) | 远史问答与写入信用 | 适配改善，远史内容作用弱；原结果保留 |
+| [V2](v2/README.md) | 块并行矩阵记忆与动态相位地址 | 12条完成；弱远史依赖，动态排布无明显增量 |
+| [V3](v3/README.md) | 独立向量节点与因果双重计算 | 工程与有限真实数据验收完成，完整训练未启动 |
 
 早期实现位于根目录，matrix_lab 没有可靠的“v0.2”正式命名记录。版本、来源与执行细节见[完整迭代时间线](docs/ITERATION_HISTORY.md)。
 

@@ -1,0 +1,24 @@
+{
+  "documents": [
+    24,
+    32,
+    25,
+    30,
+    39,
+    4,
+    54,
+    26
+  ],
+  "starts": [
+    101279,
+    157416,
+    116623,
+    147482,
+    193261,
+    20132,
+    286066,
+    126774
+  ],
+  "sha256": "80fa123667874a08236e3f7fde7d67b35a15f76d46f52a8ee80982c5d1fbc140",
+  "scoring": "Only the fixed suffix after max(1, segments-2) segments is scored; normally the last two segments. Prefix is unscored."
+}

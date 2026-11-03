@@ -1,0 +1,303 @@
+{
+  "status": "passed",
+  "run": "results/v11/pilot_20261026T194141_722158",
+  "read_only_audit": true,
+  "no_training_or_model_forward": true,
+  "execution_fault_evidence": "No sample, source, hash, split, target-budget, frozen-backbone or checkpoint mismatch found in the completed run.",
+  "checks": {
+    "all_source_snapshots_match_protocol": {
+      "passed": true,
+      "details": []
+    },
+    "current_source_matches_frozen_run": {
+      "passed": true,
+      "details": []
+    },
+    "lm_manifest_matches": {
+      "passed": true
+    },
+    "qa_manifest_matches": {
+      "passed": true
+    },
+    "backbone_hash_matches": {
+      "passed": true
+    },
+    "all_prepared_files_match": {
+      "passed": true,
+      "details": []
+    },
+    "lm_official_document_splits_disjoint": {
+      "passed": true
+    },
+    "qa_article_splits_disjoint": {
+      "passed": true
+    },
+    "all_conditions_same_stage_step_and_sample_hash": {
+      "passed": true
+    },
+    "all_condition_losses_finite": {
+      "passed": true
+    },
+    "replayed_every_training_sample_and_mask_matches": {
+      "passed": true,
+      "details": []
+    },
+    "fixed_cpt_and_pt_budget_completed": {
+      "passed": true
+    },
+    "all_conditions_same_answer_target_budget": {
+      "passed": true
+    },
+    "lm_validation_replay_matches": {
+      "passed": true
+    },
+    "qa_validation_replay_matches": {
+      "passed": true
+    },
+    "train_validation_qa_record_question_article_disjoint": {
+      "passed": true
+    },
+    "reserved_qa_test_never_sampled_by_audited_training_or_validation": {
+      "passed": true
+    },
+    "validation_remote256_canonical_mask_and_no_local_answer_leak": {
+      "passed": true,
+      "details": []
+    },
+    "last_checkpoints_match_completed_status_and_frozen_backbone": {
+      "passed": true,
+      "details": {
+        "adapter": {
+          "protocol_and_final_counters_match": true,
+          "frozen_backbone_mismatches": [],
+          "updates": 192,
+          "cpt_targets": 65536,
+          "pt_updates": 128,
+          "answer_targets": 1774,
+          "validation_events": 9
+        },
+        "bio_summary": {
+          "protocol_and_final_counters_match": true,
+          "frozen_backbone_mismatches": [],
+          "updates": 192,
+          "cpt_targets": 65536,
+          "pt_updates": 128,
+          "answer_targets": 1774,
+          "validation_events": 9
+        },
+        "bio_ordered": {
+          "protocol_and_final_counters_match": true,
+          "frozen_backbone_mismatches": [],
+          "updates": 192,
+          "cpt_targets": 65536,
+          "pt_updates": 128,
+          "answer_targets": 1774,
+          "validation_events": 9
+        }
+      }
+    },
+    "teacher_quality_uses_same_answer_and_first_target_counts": {
+      "passed": true
+    }
+  },
+  "issues": [],
+  "exposure": {
+    "cpt_updates": 64,
+    "cpt_supervised_targets": 65536,
+    "cpt_sampled_windows": 128,
+    "cpt_unique_documents": 105,
+    "cpt_unique_input_positions": 64389,
+    "cpt_fraction_of_train_tokens_unique_positions": 0.020873937484195988,
+    "pt_updates": 128,
+    "pt_sampled_examples": 256,
+    "pt_unique_examples": 254,
+    "pt_unique_articles": 174,
+    "pt_fraction_of_available_train_qa": 0.004940096468025517,
+    "pt_answer_targets": 1774,
+    "pt_first_answer_targets": 256,
+    "pt_visible_input_slots": 131072,
+    "pt_pad_input_slots": 22822,
+    "pt_answer_label_fraction": 0.0135345458984375,
+    "progress_work_units": 196608
+  },
+  "validation": {
+    "qa_windows": 8,
+    "qa_unique_questions": 8,
+    "qa_unique_articles": 7,
+    "qa_unique_contexts": 8,
+    "qa_article_counts": {
+      "Federal_Aviation_Administration": 1,
+      "Political_philosophy": 1,
+      "Northwestern_University": 2,
+      "East_India_Company": 1,
+      "Dissolution_of_the_Soviet_Union": 1,
+      "Kanye_West": 1,
+      "Light-emitting_diode": 1
+    },
+    "qa_first_token_counts": {
+      "395": 1,
+      "1487": 1,
+      "984": 1,
+      "3521": 1,
+      "3644": 1,
+      "2701": 1,
+      "851": 1,
+      "670": 1
+    },
+    "qa_answer_targets": 52,
+    "qa_first_targets": 8,
+    "qa_fraction_of_available_validation": 0.003133568350959655,
+    "qa_windows_detail": [
+      {
+        "window": 0,
+        "record_id": "1d55b38fcaac9ec6cbec5b6acb663dd6e6829a69fa10564ac74d607bc4017572",
+        "article_title": "Federal_Aviation_Administration",
+        "article_id": "e87065dd4593c0b02e9a6d79a0c917c67e85ea02ad0beae142a594c40b190a0c",
+        "context_id": "44ad2ba342c18877bff86d92a218d5a5eb5fa6574c3039aebaeebc9e50f0a2dd",
+        "question_id": "570aa91f4103511400d598cd",
+        "answer_text": "Jim Oberstar",
+        "answer_tokens": 6,
+        "token_weight": 0.11538461538461539,
+        "first_answer_token_id": 395,
+        "first_answer_token": "ĠJ",
+        "evidence_end": 57,
+        "answer_distance": 370
+      },
+      {
+        "window": 1,
+        "record_id": "6688af8efed99aa62d4cdb4e1ecb0e2359c9a0758e0900981b88d57bb29edbb9",
+        "article_title": "Political_philosophy",
+        "article_id": "f8e7598bc7cc7cb0e86ac0f09b2939bbf6eeaf638843d3ec6b21344bba2506b7",
+        "context_id": "838957d734b636d9728d15a8e9a612b0b02c9bbd265ca9af912b99f604325ac7",
+        "question_id": "57269a5f708984140094cb64",
+        "answer_text": "City of Man",
+        "answer_tokens": 3,
+        "token_weight": 0.057692307692307696,
+        "first_answer_token_id": 1487,
+        "first_answer_token": "ĠCity",
+        "evidence_end": 54,
+        "answer_distance": 355
+      },
+      {
+        "window": 2,
+        "record_id": "8ab9b74497173d6de35ae4d7006a70f492999b93e2b5f4d8fcd70584f144ef7a",
+        "article_title": "Northwestern_University",
+        "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
+        "context_id": "c0167fee4b53940951b0ebebc42ee4496cf7d9ce1c43f93c86cbc64f9b798080",
+        "question_id": "5725b464ec44d21400f3d40b",
+        "answer_text": "John Evans",
+        "answer_tokens": 3,
+        "token_weight": 0.057692307692307696,
+        "first_answer_token_id": 984,
+        "first_answer_token": "ĠJohn",
+        "evidence_end": 10,
+        "answer_distance": 396
+      },
+      {
+        "window": 3,
+        "record_id": "9f2f3d39db441bf0a80a1733c1a312191227879060601a29db921077cd3b4106",
+        "article_title": "East_India_Company",
+        "article_id": "21dfdfb6729c2ae87008a8bfc1757d9652fbff41c34952942d2617d1e5bd1e70",
+        "context_id": "9fdfecad63f507b49311b645d6cd06e4b014feeedcb0075da9e33b8f4886804d",
+        "question_id": "572686e8dd62a815002e8830",
+        "answer_text": "Battle of Pulo Aura",
+        "answer_tokens": 8,
+        "token_weight": 0.15384615384615385,
+        "first_answer_token_id": 3521,
+        "first_answer_token": "ĠBattle",
+        "evidence_end": 67,
+        "answer_distance": 346
+      },
+      {
+        "window": 4,
+        "record_id": "3e3c97691168a0ec7f65ecae5410e34bfc5e0eb1f93d3516a3d7742306e7c289",
+        "article_title": "Dissolution_of_the_Soviet_Union",
+        "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
+        "context_id": "5a2ff2eb39c00cdaf5f11a28c6df9cd98d89e9dcf9b9043d1f82fe3fdca0ac7d",
+        "question_id": "572841874b864d190016481c",
+        "answer_text": "upper chamber of the Union's Supreme Soviet,",
+        "answer_tokens": 15,
+        "token_weight": 0.28846153846153844,
+        "first_answer_token_id": 3644,
+        "first_answer_token": "Ġupper",
+        "evidence_end": 36,
+        "answer_distance": 379
+      },
+      {
+        "window": 5,
+        "record_id": "d60c1dfac0eee968184b004f0c8b6f5e2440678b2e48afdb8eec5d9360f1ee36",
+        "article_title": "Kanye_West",
+        "article_id": "ca96eba45937a5a0da58fe46c6ee8d364f3fe42bb0754576ff9b51b5419f388c",
+        "context_id": "94718b386f4c156631b73d54961568c1a73e6e1bf19a36f859c778f2189de7f2",
+        "question_id": "56d1071617492d1400aab77e",
+        "answer_text": "Best New Artist",
+        "answer_tokens": 4,
+        "token_weight": 0.07692307692307693,
+        "first_answer_token_id": 2701,
+        "first_answer_token": "ĠBest",
+        "evidence_end": 70,
+        "answer_distance": 344
+      },
+      {
+        "window": 6,
+        "record_id": "9d2e7f690ac52994a6da7ee8434c438b57ae4504fa7e826582f0c7639c0bd542",
+        "article_title": "Light-emitting_diode",
+        "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
+        "context_id": "d9b8aab30763902d0cf4129c1452c75270ad57dce9c025ea33f27f416464105e",
+        "question_id": "5730f39205b4da19006bcc82",
+        "answer_text": "indium tin oxide",
+        "answer_tokens": 7,
+        "token_weight": 0.1346153846153846,
+        "first_answer_token_id": 851,
+        "first_answer_token": "Ġind",
+        "evidence_end": 63,
+        "answer_distance": 358
+      },
+      {
+        "window": 7,
+        "record_id": "cb635219831b17bea5e7b4ce368d395006a1ec997b68262e86eda27c00ffa598",
+        "article_title": "Northwestern_University",
+        "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
+        "context_id": "f37291a6587d39648d34eb39245f314d502dd95b63e0f89b1d7934dbc9723332",
+        "question_id": "5727fd7e2ca10214002d9ac8",
+        "answer_text": "more than 13 million dollars",
+        "answer_tokens": 6,
+        "token_weight": 0.11538461538461539,
+        "first_answer_token_id": 670,
+        "first_answer_token": "Ġmore",
+        "evidence_end": 57,
+        "answer_distance": 362
+      }
+    ],
+    "lm_windows": 8,
+    "lm_unique_documents": 8,
+    "lm_scored_targets": 1024,
+    "official_test_scored": false
+  },
+  "teacher_quality": {
+    "answer_nll": 6.34951899601863,
+    "first_answer_nll": 11.724870204925537,
+    "first_answer_accuracy": 0.0,
+    "targets": 52,
+    "first_targets": 8,
+    "note": "Tiny WikiText backbone is not a QA oracle; answer CE remains the primary PT objective.",
+    "short_context_answer_nll": 6.36337804622375,
+    "short_context_first_answer_nll": 11.781226515769958,
+    "full_history_answer_nll_gain": 0.013859050205120127,
+    "full_history_first_answer_nll_gain": 0.05635631084442139
+  },
+  "teacher_derived": {
+    "answer_ppl": 572.217403958052,
+    "first_answer_geometric_probability": 8.090094022270205e-06,
+    "uniform_vocab_nll": 8.317766166719343
+  },
+  "limitations": [
+    "Single seed 11 and one fixed set of eight QA questions; generalization across training seeds or the reserved official-dev test is unmeasured.",
+    "Eight QA windows cover seven articles, with two from Northwestern University; window bootstrap does not represent eight independent articles.",
+    "Token-weighted QA NLL is sensitive to answer lengths: the 15-token Soviet Union answer contributes 15/52 scored tokens. First-answer metrics give one target to each question.",
+    "PT saw only 254 unique questions out of 51416 available train questions and 1774 answer tokens; this is an engineering pilot, not a trained-to-convergence capability comparison.",
+    "The full-context teacher has 0/8 first-answer accuracy, first-answer NLL 11.72487, and a 0.05636 NLL history advantage. Teacher KD has weak history signal; answer CE is the primary objective.",
+    "Data filtering establishes literal remote-span and effective-window exclusion. Historical information use requires the paired interventions and cannot be inferred from answer accuracy alone.",
+    "Source/cache/pairing/budget audits establish execution integrity, not the absence of every possible model or task-design defect."
+  ]
+}
