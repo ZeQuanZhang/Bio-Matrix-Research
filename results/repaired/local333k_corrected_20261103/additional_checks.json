@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "conditions": {
+    "trans_local": {
+      "status": "completed",
+      "sequence": 512,
+      "causal_cut": 371,
+      "logit_cpu_mps_max_abs": 3.8743019104003906e-07,
+      "gradient_max_abs": 9.499490261077881e-08,
+      "compared_gradients": 23
+    },
+    "trans_full": {
+      "status": "completed",
+      "sequence": 512,
+      "causal_cut": 371,
+      "logit_cpu_mps_max_abs": 4.172325134277344e-07,
+      "gradient_max_abs": 6.705522537231445e-08,
+      "compared_gradients": 23
+    },
+    "v3_static": {
+      "status": "completed",
+      "sequence": 512,
+      "causal_cut": 371,
+      "logit_cpu_mps_max_abs": 5.513429641723633e-07,
+      "gradient_max_abs": 9.12696123123169e-08,
+      "compared_gradients": 41
+    },
+    "v3_dynamic": {
+      "status": "completed",
+      "sequence": 512,
+      "causal_cut": 371,
+      "logit_cpu_mps_max_abs": 5.21540641784668e-07,
+      "gradient_max_abs": 7.82310962677002e-08,
+      "compared_gradients": 43
+    },
+    "qwen35_tiny": {
+      "status": "completed",
+      "sequence": 512,
+      "causal_cut": 371,
+      "logit_cpu_mps_max_abs": 3.5762786865234375e-07,
+      "gradient_max_abs": 6.05359673500061e-08,
+      "compared_gradients": 55
+    },
+    "deepseek4_tiny": {
+      "status": "completed",
+      "sequence": 512,
+      "causal_cut": 371,
+      "logit_cpu_mps_max_abs": 3.5762786865234375e-07,
+      "gradient_max_abs": 7.35744833946228e-08,
+      "compared_gradients": 101
+    },
+    "deepseek4_balanced": {
+      "status": "completed",
+      "sequence": 512,
+      "causal_cut": 371,
+      "logit_cpu_mps_max_abs": 3.5762786865234375e-07,
+      "gradient_max_abs": 7.078051567077637e-08,
+      "compared_gradients": 101
+    }
+  },
+  "note": "Separate read-only models; no production checkpoint or frozen source modifications"
+}

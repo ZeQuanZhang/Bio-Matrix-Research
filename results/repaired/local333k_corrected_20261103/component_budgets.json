@@ -1,0 +1,58 @@
+{
+  "trans_local": {
+    "total": 333106,
+    "embedding": 229376,
+    "feed_forward": 78082,
+    "hyperconnection": 0,
+    "other": 25648,
+    "hyperconnection_fraction_of_nonembedding": 0.0
+  },
+  "trans_full": {
+    "total": 333106,
+    "embedding": 229376,
+    "feed_forward": 78082,
+    "hyperconnection": 0,
+    "other": 25648,
+    "hyperconnection_fraction_of_nonembedding": 0.0
+  },
+  "v3_static": {
+    "total": 333136,
+    "embedding": 229376,
+    "feed_forward": 61584,
+    "hyperconnection": 0,
+    "other": 42176,
+    "hyperconnection_fraction_of_nonembedding": 0.0
+  },
+  "v3_dynamic": {
+    "total": 333136,
+    "embedding": 229376,
+    "feed_forward": 61584,
+    "hyperconnection": 0,
+    "other": 42176,
+    "hyperconnection_fraction_of_nonembedding": 0.0
+  },
+  "qwen35_tiny": {
+    "total": 332950,
+    "embedding": 229376,
+    "feed_forward": 54432,
+    "hyperconnection": 0,
+    "other": 49142,
+    "hyperconnection_fraction_of_nonembedding": 0.0
+  },
+  "deepseek4_tiny": {
+    "total": 333065,
+    "embedding": 229376,
+    "feed_forward": 26880,
+    "hyperconnection": 44125,
+    "other": 32684,
+    "hyperconnection_fraction_of_nonembedding": 0.4255514085389964
+  },
+  "deepseek4_balanced": {
+    "total": 333243,
+    "embedding": 229376,
+    "feed_forward": 67200,
+    "hyperconnection": 7483,
+    "other": 29184,
+    "hyperconnection_fraction_of_nonembedding": 0.07204405634128261
+  }
+}

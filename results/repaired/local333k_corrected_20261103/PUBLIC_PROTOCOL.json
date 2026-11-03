@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-03T15:36:21.150268",
+  "status": "registered_before_final_holdout_scoring",
+  "development_search_in_progress": false,
+  "completed_training_stage_jobs_at_registration": 49,
+  "frozen_source_files": 71,
+  "main_protocol_file_sha256": "5aef7c4ec974a6b07d4b2fcfd38a3b63dbbc87a0e1c90bc0caac6adb97f8aeda",
+  "final_holdout_scored": false,
+  "note": "Public registration before final holdout scoring. Development choices are frozen and formal training is in progress; final results will be added in a later commit.",
+  "formal_training_in_progress": true,
+  "development_choices_frozen": true
+}

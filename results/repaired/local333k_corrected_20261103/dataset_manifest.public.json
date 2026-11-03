@@ -1,0 +1,79 @@
+{
+  "format": "repaired-full-passage-eos-1",
+  "status": "completed",
+  "preparation_source_sha256": "c357cbee9adfaf408f49f8236ade84ec8f537a335bfe05dd5d5d4d6932fb5e41",
+  "vocab_size": 4096,
+  "splits": {
+    "train": {
+      "documents": 622,
+      "tokens": 3054426
+    },
+    "validation": {
+      "documents": 60,
+      "tokens": 322830
+    },
+    "test": {
+      "documents": 62,
+      "tokens": 368194
+    }
+  },
+  "qa": {
+    "train": {
+      "records": 80260,
+      "articles": 420
+    },
+    "validation": {
+      "records": 3877,
+      "articles": 22
+    },
+    "test": {
+      "records": 10121,
+      "articles": 48
+    }
+  },
+  "filtering": {
+    "train": {
+      "full_passage_prompt_too_long": 3179,
+      "answer_too_long": 16
+    },
+    "validation": {
+      "full_passage_prompt_too_long": 237,
+      "answer_too_long": 1
+    },
+    "test": {
+      "full_passage_prompt_too_long": 449
+    }
+  },
+  "bos": 1,
+  "eos": 2,
+  "source_revision": "eee5fdbf62f8613a7812b03419e6b29617b74fd1",
+  "source_hashes": {
+    "train-v1.1.json": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+    "dev-v1.1.json": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9"
+  },
+  "tokenizer_fit": "Deduplicated WikiText train only",
+  "sequence": 512,
+  "full_passage_prompt_limit": 448,
+  "maximum_answer_tokens": 64,
+  "removed_train": {
+    "wiki_documents": 7,
+    "qa_paragraphs": 5
+  },
+  "deduplication": "Remove train source documents/paragraphs sharing normalized 32-word BLAKE2b-128 fingerprints with either task held-out splits",
+  "qa_policy": "Full original paragraph; no answer-aware crop or local-answer exclusion; answer+EOS targets; official train article hash split; official dev reserved test",
+  "files": {
+    "tokenizer.json": "a3c10c964c08c3ce1655ac5ae8fec7864ec17bb7632e770c1497f99d30085180",
+    "train_tokens.npy": "0166875ec0849e901cfde03ea1bc7786957c0bc96534337552b94bc4d66e1e95",
+    "train_offsets.npy": "5f25def70caa87e4e67021417601ecc318595ed51818e9442fae28d6a60e5718",
+    "train_qa.npy": "712b90ed73acb13c0b9d287d6f63f2ba2369daf7c0b616e8139947b105bd6dfc",
+    "train_qa.private.jsonl": "d84b7dfc16f0203c9356f1fd98a4979ca92195f541f4257f6d63e6392a71db30",
+    "validation_tokens.npy": "7aca798b30c6c2b6b8e84ef19fa2a6e101462441ffdb043be250c83b2d4149dd",
+    "validation_offsets.npy": "971df1693f6ae8171164e721b0b8854ca072e11a3eb6a80769f4454c47d0d869",
+    "validation_qa.npy": "cc99f47acfd0d58c043aceafeedc8aefa224b36e56bd6fa2dd786544ae22c253",
+    "validation_qa.private.jsonl": "9aed34da8ae9dec2e70bb40bfa0f9525038f58e9bcbf0d77f14b0abb6f7bda35",
+    "test_tokens.npy": "1c78d2a16f4778e7082a95f41a1ffe1164196ed52a28e2ede89a5601838841eb",
+    "test_offsets.npy": "948e0ef4e85872dbc6bb4deb337a07dfc705ec05e32fb1fe7bd70c85e1a3638e",
+    "test_qa.npy": "1e378f920e59553756a32b5397bce48710de7f7bef6e6676af855108889bad1a",
+    "test_qa.private.jsonl": "c72832ad3bc824d94a2393188d8f0b9f2e969f8ea0b1d4f264b192b8a2a8f372"
+  }
+}

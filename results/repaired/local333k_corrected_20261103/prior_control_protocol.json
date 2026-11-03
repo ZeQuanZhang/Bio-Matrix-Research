@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03T15:13:03.923139",
+  "source": "scripts/repaired_qa_prior_controls.py",
+  "source_sha256": "b51f9698febaf19df8a5abe0d8ff31ab5372cf3f5fe985f32e462a176e517e5a",
+  "main_protocol_sha256": "5aef7c4ec974a6b07d4b2fcfd38a3b63dbbc87a0e1c90bc0caac6adb97f8aeda",
+  "execution": "Only after frozen main comparison completes",
+  "controls": [
+    "empty_answer",
+    "most_frequent_training_answer",
+    "most_frequent_training_first_token"
+  ],
+  "purpose": "Quantify answer-prior floors; do not tune or select models with final test metrics",
+  "declared_at_stage": "qa_search_v3_static_r0 · 固定开发验证",
+  "final_holdout_not_yet_scored": true
+}

@@ -18,6 +18,8 @@ Bio-Matrix Research 记录了把神经网络节点扩展为有限矩阵状态系
 
 **本地33万参数补充对照已完成。** 新增Qwen3.5、DeepSeek-V4缩小原型各三种子，6144步输入/mask与原V3逐步匹配。三种子文本PPL：Bio动态902.826、Qwen原型982.251、DeepSeek原型1024.990；首答案token命中全部为0%。seed11同64题实际生成的六组EM/F1也全0，基础问答仍弱。见[完整分析](results/tiny_arch/paired_20261103_local333k/analysis/REPORT.md)与[架构/实现范围](evaluations/tiny_arch/README.md)。0.133B队列保持未启动。
 
+**V3 修正版微型对照正在执行。** 新流程保留完整问答证据、监督EOS、清理跨任务训练重合，采用同等有限学习率搜索和独立保留测试。七个配置包含原/均衡DeepSeek，最终各三种子；原始实验保留。见[修正版协议](evaluations/repaired/PROTOCOL.md)、[运行状态](results/repaired/local333k_corrected_20261103/registry.json)及[上一轮方法审计](results/tiny_arch/paired_20261103_local333k/analysis/method_audit_20261103/REPORT.md)。PyCharm入口为[run_biomatrix_repaired.py](run_biomatrix_repaired.py)，活跃队列自动附着，每秒原位刷新。
+
 在 PyCharm 选择 **Bio-Matrix V3**，运行 [run_biomatrix_v3.py](run_biomatrix_v3.py)。默认12条配对运行每秒原位刷新，使用本机 MPS，不连接过期 A800。完整队列由用户启动。全新环境的数据准备见 [V3 快速开始](v3/README.md#配对对照与数据)。
 
 ```bash

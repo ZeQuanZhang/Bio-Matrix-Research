@@ -1,0 +1,15 @@
+{
+  "indices": [
+    13461,
+    14619,
+    15306,
+    6380,
+    15880,
+    23276,
+    22969,
+    19840
+  ],
+  "updates": 512,
+  "learning_rate": 0.003,
+  "threshold": "Answer NLL<0.5, first accuracy>=0.875, greedy EM>=0.5 on eight training questions; diagnostic only"
+}

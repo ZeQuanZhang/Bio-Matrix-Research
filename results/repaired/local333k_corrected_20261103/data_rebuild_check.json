@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "independent_preparations": 2,
+  "identical_prepared_files": 13,
+  "tokenizer_and_token_packs_identical": true,
+  "qa_rows_and_supervision_metadata_identical": true,
+  "difference": "Preparation source hash was added to manifest validation; prepared payloads remain byte-identical"
+}

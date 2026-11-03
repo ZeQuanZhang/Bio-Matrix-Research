@@ -1,0 +1,210 @@
+{
+  "status": "completed",
+  "source_files_unchanged": 64,
+  "prepared_file_hashes": "all verified",
+  "method": "Read-only; exact normalized document/context checks and verified exact 32-word overlap; not semantic deduplication.",
+  "qa_integrity": {
+    "train": {
+      "records": 51416,
+      "bad_answer_decode": 0,
+      "missing_visible_span": 0,
+      "wrong_eos": 0,
+      "answer_distance_min": 276,
+      "answer_distance_max": 446
+    },
+    "validation": {
+      "records": 2553,
+      "bad_answer_decode": 0,
+      "missing_visible_span": 0,
+      "wrong_eos": 0,
+      "answer_distance_min": 279,
+      "answer_distance_max": 435
+    },
+    "test": {
+      "records": 7565,
+      "bad_answer_decode": 0,
+      "missing_visible_span": 0,
+      "wrong_eos": 0,
+      "answer_distance_min": 278,
+      "answer_distance_max": 426
+    }
+  },
+  "split_overlap": {
+    "train/validation": {
+      "article_id": 0,
+      "context_id": 0,
+      "question_id": 0,
+      "question_sha256": 2,
+      "history_sha256": 0
+    },
+    "train/test": {
+      "article_id": 0,
+      "context_id": 0,
+      "question_id": 0,
+      "question_sha256": 3,
+      "history_sha256": 0
+    },
+    "validation/test": {
+      "article_id": 0,
+      "context_id": 0,
+      "question_id": 0,
+      "question_sha256": 0,
+      "history_sha256": 0
+    }
+  },
+  "validation_sample": {
+    "lm_windows": 64,
+    "lm_unique_windows": 64,
+    "lm_documents": 28,
+    "lm_scored_targets": 8192,
+    "lm_unique_target_positions": 7971,
+    "lm_repeated_target_occurrences": 221,
+    "lm_unique_target_fraction_of_split": 0.024688031368759467,
+    "qa_draws": 64,
+    "qa_unique_questions": 64,
+    "qa_unique_contexts": 60,
+    "qa_unique_histories": 64,
+    "qa_articles": 20,
+    "qa_fraction_of_prepared_validation": 0.02506854680767724
+  },
+  "annotated_paragraph_coverage": {
+    "all_validation": {
+      "questions": 2553,
+      "full_annotated_paragraph": 810,
+      "mean_character_coverage": 0.7646339897036429,
+      "min_character_coverage": 0.018274111675126905
+    },
+    "sampled64": {
+      "questions": 64,
+      "full_annotated_paragraph": 19,
+      "mean_character_coverage": 0.7780672933668146,
+      "min_character_coverage": 0.1936245572609209
+    }
+  },
+  "posthoc_unigram_control": {
+    "training": "Full frozen WikiText train counts plus Laplace alpha=1; no QA or held-out fitting",
+    "scope": "Post-hoc diagnostic, sees more train targets than neural models; not a matched-budget competitor",
+    "validation_targets": 8192,
+    "nll": 6.900892648728442,
+    "ppl": 993.1608638188725
+  },
+  "training_coverage": {
+    "11": {
+      "lm_windows": 2048,
+      "lm_unique_windows": 2048,
+      "lm_drawn_targets": 1048576,
+      "lm_unique_target_positions": 882081,
+      "lm_unique_fraction_of_train": 0.285957285405847,
+      "qa_draws": 2048,
+      "qa_unique_records": 2010,
+      "qa_fraction_of_prepared_train": 0.03909288937295784,
+      "train_first_answer_token_types": 824,
+      "validation_first_answer_seen_in_training": 55,
+      "unigram_ppl_same_cpt_target_draws_alpha1": 998.6572228936669,
+      "paired_new_update_hashes": 2048
+    },
+    "23": {
+      "lm_windows": 2048,
+      "lm_unique_windows": 2045,
+      "lm_drawn_targets": 1048576,
+      "lm_unique_target_positions": 875564,
+      "lm_unique_fraction_of_train": 0.28384457282164,
+      "qa_draws": 2048,
+      "qa_unique_records": 2002,
+      "qa_fraction_of_prepared_train": 0.038937295783413726,
+      "train_first_answer_token_types": 826,
+      "validation_first_answer_seen_in_training": 53,
+      "unigram_ppl_same_cpt_target_draws_alpha1": 998.2908500433463,
+      "paired_new_update_hashes": 2048
+    },
+    "37": {
+      "lm_windows": 2048,
+      "lm_unique_windows": 2047,
+      "lm_drawn_targets": 1048576,
+      "lm_unique_target_positions": 870909,
+      "lm_unique_fraction_of_train": 0.28233549240434924,
+      "qa_draws": 2048,
+      "qa_unique_records": 2004,
+      "qa_fraction_of_prepared_train": 0.03897619418079975,
+      "train_first_answer_token_types": 831,
+      "validation_first_answer_seen_in_training": 51,
+      "unigram_ppl_same_cpt_target_draws_alpha1": 1001.8842742906885,
+      "paired_new_update_hashes": 2048
+    }
+  },
+  "bio_history_interventions": {
+    "v3_static": {
+      "lm": {
+        "warm": 0.0,
+        "empty_memory": -0.014927012050369134,
+        "memory_read_off": -0.019774854988402996,
+        "unrelated_history": 2.537443651817739e-05,
+        "shuffled_history": -4.2871348947907485e-05,
+        "memory_read_off_all": -0.019774854988402996,
+        "remote_history_reencoded": -1.1019854961584011e-05
+      },
+      "qa": {
+        "warm": 0.0,
+        "empty_memory": 0.008789877975196111,
+        "memory_read_off": 0.07359940210978226,
+        "unrelated_history": 0.00013571438036456365,
+        "shuffled_history": -9.499265436474502e-06,
+        "memory_read_off_all": 0.07359940210978226,
+        "remote_history_reencoded": 7.56474545129393e-05
+      }
+    },
+    "v3_dynamic": {
+      "lm": {
+        "warm": 0.0,
+        "empty_memory": -0.007259641327740003,
+        "memory_read_off": -0.01671635568103132,
+        "unrelated_history": 0.00010234271758235991,
+        "shuffled_history": 7.904820571032663e-05,
+        "memory_read_off_all": -0.01671635568103132,
+        "remote_history_reencoded": 3.9956027952333294e-05
+      },
+      "qa": {
+        "warm": 0.0,
+        "empty_memory": 0.007143852166962302,
+        "memory_read_off": 0.06695628601208092,
+        "unrelated_history": 0.00010566945661594218,
+        "shuffled_history": 5.763288129845279e-05,
+        "memory_read_off_all": 0.06695628601208092,
+        "remote_history_reencoded": 0.0003414744661567326
+      }
+    }
+  },
+  "cross_task_overlap": {
+    "wiki_train_to_qa_validation_histories": {
+      "targets": 2553,
+      "targets_with_verified_exact_32word_overlap": 0,
+      "matching_target_indices": []
+    },
+    "qa_train_to_wiki_validation_documents": {
+      "targets": 60,
+      "targets_with_verified_exact_32word_overlap": 0,
+      "matching_target_indices": []
+    },
+    "qa_train_to_qa_validation_histories": {
+      "targets": 2553,
+      "targets_with_verified_exact_32word_overlap": 3,
+      "matching_target_indices": [
+        248,
+        249,
+        250
+      ]
+    },
+    "wiki_train_to_wiki_validation_documents": {
+      "targets": 60,
+      "targets_with_verified_exact_32word_overlap": 3,
+      "matching_target_indices": [
+        15,
+        49,
+        52
+      ]
+    },
+    "sampled_qa_histories_with_32word_match_in_wiki_train": 0,
+    "sampled_qa_histories_with_32word_match_in_qa_train": 0,
+    "sampled_lm_documents_with_32word_match_in_wiki_train": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "initial_attempt": {
+    "status": "failed",
+    "tests": 6,
+    "errors": 2,
+    "reason": "Initial balanced expert width 19 violates native grouped-MM 16-byte stride alignment on CPU and MPS"
+  },
+  "correction": {
+    "expert_width": 20,
+    "query_rank": 8,
+    "hc_mult": 2,
+    "parameters": 333243
+  },
+  "subsequent_attempt": {
+    "status": "completed",
+    "tests": 6,
+    "errors": 0
+  },
+  "scope": "Pre-training implementation checks only; no held-out model scores observed"
+}

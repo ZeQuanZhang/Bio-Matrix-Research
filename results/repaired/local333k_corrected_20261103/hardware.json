@@ -1,0 +1,9 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "torch": "2.14.1",
+  "device": "mps",
+  "torch_threads": 4,
+  "metal_sample": "Current allocation after updates; not an exact allocation peak",
+  "rss_units": "bytes on macOS, KiB on Linux"
+}

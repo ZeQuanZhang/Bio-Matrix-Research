@@ -41,3 +41,10 @@ V1.0、V1.1 先尝试把机制放进 Transformer，并用远史问答检查内�
 用户随后选择扩大容量与训练量：从公开100B-token语料源取数据，首轮每模型训练10B目标，先完成代码再租GPU。独立`scale/`沿用V3动态条件/内容/相位，参数约0.133B，与静态Bio、完整2048因果Transformer配对。固定GPT-2分词器和FineWeb-Edu提交；1B/3B/10B逐阶段配对保存，追加相同SQuAD答案与EOS监督。直接路由收缩、已知时钟边界与activation checkpointing减少中间张量和同步，并以输出/梯度/状态等价测试约束语义。14项检查通过，三模型在本机MPS各做3次32-token合成更新；真实SQuAD准备83,484训练、4,115验证、零跳过。FineWeb大分片与10B正式训练未执行，CUDA完整长度和能力结果仍待新GPU验证。[实验入口与协议](../scale/README.md)已保存。
 
 用户进一步要求先比较此前本地小模型的同等规模原型。Qwen3.5混合Gated DeltaNet/注意力与DeepSeek-V4压缩注意力、MoE和mHC各缩至约33万参数，使用公共实现从零训练；新增六条三种子运行，6144步输入和mask与旧V3完全匹配。动态Bio文本PPL为902.826，Qwen原型982.251，DeepSeek原型1024.990；问答NLL差异区间跨零，首答案token全0。seed11的六模型各64题独立生成EM/F1也全0，输出退化。DeepSeek微型mHC占非嵌入参数42.6%，展示了小尺度的结构开销。普通Transformer仍是本机最快对照，Qwen参考实现比Bio动态快约39%，DeepSeek与Bio耗时同量级。该结果支持继续研究基础训练与容量，完整训练配方和专用核仍有实现差异。[完整原始数值与范围](../results/tiny_arch/paired_20261103_local333k/analysis/REPORT.md)保留；0.133B队列未改动。
+
+
+## 2026-11-03：方法审计与修正版比较
+
+对既有33万参数结果重新审计后，将结论收窄到指定微型配置与训练配方。旧问答筛除了近处出现答案首token的情况，64题中仅19题保留完整原标注段落，EOS没有受到监督，六组自由生成全零；最终文本PPL还混合了问答后训退化。源文件与逐步配对核验通过；[完整审计与数值](../results/tiny_arch/paired_20261103_local333k/analysis/method_audit_20261103/REPORT.md)作为追加记录保留。
+
+据此建立独立修正版：完整段落、答案+EOS监督、32词指纹训练去重、新train-only BPE；文本覆盖验证、独立官方dev保留测试；搜索种子101与最终11/23/37分开，各配置各阶段获得同样三个学习率候选；增加容量均衡的DeepSeek配置并单独报告。七种配置的8题真实短问答学习链路检查均达到生成EM100%。当前正式对比正在执行，最终测试尚未完成；状态见[登记](../results/repaired/local333k_corrected_20261103/registry.json)，设计见[协议](../evaluations/repaired/PROTOCOL.md)。0.133B/10B-token队列保持未启动。

@@ -1,0 +1,727 @@
+{
+  "status": "completed",
+  "device": "mps",
+  "dtype": "float32",
+  "batch": 8,
+  "sequence": 512,
+  "conditions": {
+    "trans_local": {
+      "status": "completed",
+      "total_parameters": 333106,
+      "embedding_parameters": 229376,
+      "configuration": {
+        "vocab_size": 4096,
+        "width": 56,
+        "layers": 2,
+        "heads": 4,
+        "ff": 345,
+        "context_limit": 128,
+        "segment_tokens": 64,
+        "nodes": 32,
+        "phase_bands": 8,
+        "memory_enabled": false,
+        "dynamic_addresses": true
+      },
+      "initialization": "Same random embedding per seed; native nonembedding initialization; no pretrained weights",
+      "auxiliary_weight": 0.0,
+      "hyperconnection_streams": null,
+      "expert_intermediate": null,
+      "profile_updates": [
+        {
+          "ce": 8.322790145874023,
+          "objective": 8.322790145874023,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.5772951245307922,
+          "seconds": 0.4437238340033218,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 9230.966844952793,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 533856256
+        },
+        {
+          "ce": 8.291921615600586,
+          "objective": 8.291921615600586,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.4851023256778717,
+          "seconds": 0.03200474998448044,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 127981.00288195374,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 534003712
+        },
+        {
+          "ce": 8.266546249389648,
+          "objective": 8.266546249389648,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.49544695019721985,
+          "seconds": 0.02979879197664559,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 137455.23654818579,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 534102016
+        },
+        {
+          "ce": 8.242898941040039,
+          "objective": 8.242898941040039,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.5116751790046692,
+          "seconds": 0.030046833911910653,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 136320.51922703022,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 534102016
+        }
+      ],
+      "median_input_tokens_per_second": 136320.51922703022
+    },
+    "trans_full": {
+      "status": "completed",
+      "total_parameters": 333106,
+      "embedding_parameters": 229376,
+      "configuration": {
+        "vocab_size": 4096,
+        "width": 56,
+        "layers": 2,
+        "heads": 4,
+        "ff": 345,
+        "context_limit": 512,
+        "segment_tokens": 64,
+        "nodes": 32,
+        "phase_bands": 8,
+        "memory_enabled": false,
+        "dynamic_addresses": true
+      },
+      "initialization": "Same random embedding per seed; native nonembedding initialization; no pretrained weights",
+      "auxiliary_weight": 0.0,
+      "hyperconnection_streams": null,
+      "expert_intermediate": null,
+      "profile_updates": [
+        {
+          "ce": 8.322309494018555,
+          "objective": 8.322309494018555,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.6516774892807007,
+          "seconds": 0.13238241604994982,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 30940.66509901526,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 538296320
+        },
+        {
+          "ce": 8.289587020874023,
+          "objective": 8.289587020874023,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.5221900343894958,
+          "seconds": 0.030309999943710864,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 135136.9187597077,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 538296320
+        },
+        {
+          "ce": 8.264363288879395,
+          "objective": 8.264363288879395,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.5341718792915344,
+          "seconds": 0.030047458014450967,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 136317.6877734575,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 538296320
+        },
+        {
+          "ce": 8.240907669067383,
+          "objective": 8.240907669067383,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.5370103716850281,
+          "seconds": 0.029642124893143773,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 138181.72667329275,
+          "metal_allocated_bytes": 79857664,
+          "process_peak_rss_platform_units": 538296320
+        }
+      ],
+      "median_input_tokens_per_second": 136317.6877734575
+    },
+    "v3_static": {
+      "status": "completed",
+      "total_parameters": 333136,
+      "embedding_parameters": 229376,
+      "configuration": {
+        "vocab_size": 4096,
+        "width": 56,
+        "layers": 2,
+        "heads": 4,
+        "ff": 272,
+        "nodes": 32,
+        "phase_bands": 8,
+        "segment_tokens": 64,
+        "context_limit": 128,
+        "dynamic_addresses": false
+      },
+      "initialization": "Same random embedding per seed; native nonembedding initialization; no pretrained weights",
+      "auxiliary_weight": 0.0,
+      "hyperconnection_streams": null,
+      "expert_intermediate": null,
+      "profile_updates": [
+        {
+          "ce": 8.33334732055664,
+          "objective": 8.33334732055664,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.4161262512207031,
+          "seconds": 0.665763333090581,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 6152.336418086748,
+          "metal_allocated_bytes": 80005376,
+          "process_peak_rss_platform_units": 580354048
+        },
+        {
+          "ce": 8.306255340576172,
+          "objective": 8.306255340576172,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.41090378165245056,
+          "seconds": 0.28173545794561505,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 14538.461114790434,
+          "metal_allocated_bytes": 80005376,
+          "process_peak_rss_platform_units": 581156864
+        },
+        {
+          "ce": 8.279767990112305,
+          "objective": 8.279767990112305,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.4039972424507141,
+          "seconds": 0.2797403329750523,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 14642.150298595978,
+          "metal_allocated_bytes": 80005376,
+          "process_peak_rss_platform_units": 581173248
+        },
+        {
+          "ce": 8.254104614257812,
+          "objective": 8.254104614257812,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.39771509170532227,
+          "seconds": 0.28794970794115216,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 14224.706214451495,
+          "metal_allocated_bytes": 80005376,
+          "process_peak_rss_platform_units": 581206016
+        }
+      ],
+      "median_input_tokens_per_second": 14538.461114790434
+    },
+    "v3_dynamic": {
+      "status": "completed",
+      "total_parameters": 333136,
+      "embedding_parameters": 229376,
+      "configuration": {
+        "vocab_size": 4096,
+        "width": 56,
+        "layers": 2,
+        "heads": 4,
+        "ff": 272,
+        "nodes": 32,
+        "phase_bands": 8,
+        "segment_tokens": 64,
+        "context_limit": 128,
+        "dynamic_addresses": true
+      },
+      "initialization": "Same random embedding per seed; native nonembedding initialization; no pretrained weights",
+      "auxiliary_weight": 0.0,
+      "hyperconnection_streams": null,
+      "expert_intermediate": null,
+      "profile_updates": [
+        {
+          "ce": 8.33334732055664,
+          "objective": 8.33334732055664,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.41613104939460754,
+          "seconds": 0.43920616700779647,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 9325.9164093825,
+          "metal_allocated_bytes": 87999232,
+          "process_peak_rss_platform_units": 584810496
+        },
+        {
+          "ce": 8.306253433227539,
+          "objective": 8.306253433227539,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.41094696521759033,
+          "seconds": 0.31709208304528147,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 12917.383369092448,
+          "metal_allocated_bytes": 87999232,
+          "process_peak_rss_platform_units": 585351168
+        },
+        {
+          "ce": 8.279763221740723,
+          "objective": 8.279763221740723,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.4040520489215851,
+          "seconds": 0.31171495805028826,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 13140.209971377766,
+          "metal_allocated_bytes": 87999232,
+          "process_peak_rss_platform_units": 585433088
+        },
+        {
+          "ce": 8.254096984863281,
+          "objective": 8.254096984863281,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.3977717161178589,
+          "seconds": 0.3145106249721721,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 13023.407397961244,
+          "metal_allocated_bytes": 87999232,
+          "process_peak_rss_platform_units": 585433088
+        }
+      ],
+      "median_input_tokens_per_second": 13023.407397961244
+    },
+    "qwen35_tiny": {
+      "status": "completed",
+      "total_parameters": 332950,
+      "embedding_parameters": 229376,
+      "configuration": {
+        "transformers_version": "5.22.1",
+        "architectures": null,
+        "output_hidden_states": false,
+        "return_dict": true,
+        "dtype": null,
+        "chunk_size_feed_forward": 0,
+        "is_encoder_decoder": false,
+        "id2label": {
+          "0": "LABEL_0",
+          "1": "LABEL_1"
+        },
+        "label2id": {
+          "LABEL_0": 0,
+          "LABEL_1": 1
+        },
+        "problem_type": null,
+        "vocab_size": 4096,
+        "hidden_size": 56,
+        "intermediate_size": 81,
+        "num_hidden_layers": 4,
+        "num_attention_heads": 4,
+        "num_key_value_heads": 2,
+        "hidden_act": "silu",
+        "max_position_embeddings": 512,
+        "initializer_range": 0.02,
+        "rms_norm_eps": 1e-06,
+        "use_cache": true,
+        "tie_word_embeddings": true,
+        "rope_parameters": {
+          "rope_type": "default",
+          "rope_theta": 10000.0,
+          "partial_rotary_factor": 1.0,
+          "mrope_section": [
+            2,
+            2,
+            3
+          ],
+          "mrope_interleaved": true
+        },
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "head_dim": 14,
+        "linear_conv_kernel_dim": 4,
+        "linear_key_head_dim": 8,
+        "linear_value_head_dim": 14,
+        "linear_num_key_heads": 2,
+        "linear_num_value_heads": 4,
+        "layer_types": [
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention"
+        ],
+        "pad_token_id": 0,
+        "bos_token_id": 1,
+        "eos_token_id": 2,
+        "_name_or_path": "",
+        "model_type": "qwen3_5_text",
+        "output_attentions": false
+      },
+      "initialization": "Same random embedding per seed; native nonembedding initialization; no pretrained weights",
+      "auxiliary_weight": 0.0,
+      "hyperconnection_streams": null,
+      "expert_intermediate": null,
+      "profile_updates": [
+        {
+          "ce": 8.328193664550781,
+          "objective": 8.328193664550781,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.28365984559059143,
+          "seconds": 0.45059525000397116,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 9090.19791035059,
+          "metal_allocated_bytes": 72525312,
+          "process_peak_rss_platform_units": 594051072
+        },
+        {
+          "ce": 8.309082984924316,
+          "objective": 8.309082984924316,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.2906498610973358,
+          "seconds": 0.24801275006029755,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 16515.27995639002,
+          "metal_allocated_bytes": 72525312,
+          "process_peak_rss_platform_units": 594100224
+        },
+        {
+          "ce": 8.28957462310791,
+          "objective": 8.28957462310791,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.29919472336769104,
+          "seconds": 0.2451689160661772,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 16706.84875440893,
+          "metal_allocated_bytes": 72525312,
+          "process_peak_rss_platform_units": 594100224
+        },
+        {
+          "ce": 8.26956558227539,
+          "objective": 8.26956558227539,
+          "native_auxiliary": 0.0,
+          "gradient_norm": 0.309539794921875,
+          "seconds": 0.24705658294260502,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 16579.19797648769,
+          "metal_allocated_bytes": 72525312,
+          "process_peak_rss_platform_units": 594100224
+        }
+      ],
+      "median_input_tokens_per_second": 16579.19797648769
+    },
+    "deepseek4_tiny": {
+      "status": "completed",
+      "total_parameters": 333065,
+      "embedding_parameters": 229376,
+      "configuration": {
+        "transformers_version": "5.22.1",
+        "architectures": null,
+        "output_hidden_states": false,
+        "return_dict": true,
+        "dtype": null,
+        "chunk_size_feed_forward": 0,
+        "is_encoder_decoder": false,
+        "id2label": {
+          "0": "LABEL_0",
+          "1": "LABEL_1"
+        },
+        "label2id": {
+          "LABEL_0": 0,
+          "LABEL_1": 1
+        },
+        "problem_type": null,
+        "vocab_size": 4096,
+        "hidden_size": 56,
+        "moe_intermediate_size": 8,
+        "num_hidden_layers": 4,
+        "num_attention_heads": 4,
+        "num_key_value_heads": 1,
+        "head_dim": 16,
+        "q_lora_rank": 15,
+        "num_experts_per_tok": 2,
+        "n_routed_experts": 4,
+        "n_shared_experts": 1,
+        "scoring_func": "sqrtsoftplus",
+        "norm_topk_prob": true,
+        "routed_scaling_factor": 1.5,
+        "max_position_embeddings": 512,
+        "rope_theta": 10000.0,
+        "layer_types": [
+          "sliding_attention",
+          "sliding_attention",
+          "compressed_sparse_attention",
+          "heavily_compressed_attention"
+        ],
+        "compress_rates": {
+          "compressed_sparse_attention": 4,
+          "heavily_compressed_attention": 128
+        },
+        "compress_rope_theta": 160000.0,
+        "hc_mult": 4,
+        "hc_sinkhorn_iters": 20,
+        "hc_eps": 1e-06,
+        "mlp_layer_types": [
+          "hash_moe",
+          "moe",
+          "moe",
+          "moe"
+        ],
+        "swiglu_limit": 10.0,
+        "sliding_window": 128,
+        "o_groups": 2,
+        "o_lora_rank": 15,
+        "index_n_heads": 2,
+        "index_head_dim": 8,
+        "index_topk": 512,
+        "num_nextn_predict_layers": 0,
+        "output_router_logits": true,
+        "router_aux_loss_coef": 0.001,
+        "router_jitter_noise": 0.0,
+        "hidden_act": "silu",
+        "initializer_range": 0.02,
+        "rms_norm_eps": 1e-06,
+        "use_cache": true,
+        "pad_token_id": 0,
+        "bos_token_id": 1,
+        "eos_token_id": 2,
+        "tie_word_embeddings": true,
+        "rope_parameters": {
+          "main": {
+            "rope_type": "default",
+            "rope_theta": 10000.0,
+            "partial_rotary_factor": 0.25
+          },
+          "compress": {
+            "rope_theta": 160000.0,
+            "partial_rotary_factor": 0.25,
+            "rope_type": "default"
+          }
+        },
+        "partial_rotary_factor": 0.25,
+        "attention_bias": false,
+        "mlp_bias": false,
+        "attention_dropout": 0.0,
+        "_name_or_path": "",
+        "qk_rope_head_dim": 4,
+        "model_type": "deepseek_v4",
+        "output_attentions": false
+      },
+      "initialization": "Same random embedding per seed; native nonembedding initialization; no pretrained weights",
+      "auxiliary_weight": 0.001,
+      "hyperconnection_streams": 4,
+      "expert_intermediate": 8,
+      "profile_updates": [
+        {
+          "ce": 8.32670783996582,
+          "objective": 8.328707695007324,
+          "native_auxiliary": 2.0000953674316406,
+          "gradient_norm": 0.30343344807624817,
+          "seconds": 1.4015576660167426,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 2922.46269940567,
+          "metal_allocated_bytes": 72589056,
+          "process_peak_rss_platform_units": 717750272
+        },
+        {
+          "ce": 8.308076858520508,
+          "objective": 8.310076713562012,
+          "native_auxiliary": 2.0001678466796875,
+          "gradient_norm": 0.31418943405151367,
+          "seconds": 0.5174391249893233,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 7915.907016278515,
+          "metal_allocated_bytes": 72589056,
+          "process_peak_rss_platform_units": 778403840
+        },
+        {
+          "ce": 8.288918495178223,
+          "objective": 8.290918350219727,
+          "native_auxiliary": 2.000276565551758,
+          "gradient_norm": 0.33417949080467224,
+          "seconds": 0.287902541924268,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 14227.036595868063,
+          "metal_allocated_bytes": 72589056,
+          "process_peak_rss_platform_units": 838516736
+        },
+        {
+          "ce": 8.268779754638672,
+          "objective": 8.270780563354492,
+          "native_auxiliary": 2.000450849533081,
+          "gradient_norm": 0.3673681616783142,
+          "seconds": 0.467280708020553,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 8765.609043332986,
+          "metal_allocated_bytes": 72589056,
+          "process_peak_rss_platform_units": 894386176
+        }
+      ],
+      "median_input_tokens_per_second": 8765.609043332986
+    },
+    "deepseek4_balanced": {
+      "status": "completed",
+      "total_parameters": 333243,
+      "embedding_parameters": 229376,
+      "configuration": {
+        "transformers_version": "5.22.1",
+        "architectures": null,
+        "output_hidden_states": false,
+        "return_dict": true,
+        "dtype": null,
+        "chunk_size_feed_forward": 0,
+        "is_encoder_decoder": false,
+        "id2label": {
+          "0": "LABEL_0",
+          "1": "LABEL_1"
+        },
+        "label2id": {
+          "LABEL_0": 0,
+          "LABEL_1": 1
+        },
+        "problem_type": null,
+        "vocab_size": 4096,
+        "hidden_size": 56,
+        "moe_intermediate_size": 20,
+        "num_hidden_layers": 4,
+        "num_attention_heads": 4,
+        "num_key_value_heads": 1,
+        "head_dim": 16,
+        "q_lora_rank": 8,
+        "num_experts_per_tok": 2,
+        "n_routed_experts": 4,
+        "n_shared_experts": 1,
+        "scoring_func": "sqrtsoftplus",
+        "norm_topk_prob": true,
+        "routed_scaling_factor": 1.5,
+        "max_position_embeddings": 512,
+        "rope_theta": 10000.0,
+        "layer_types": [
+          "sliding_attention",
+          "sliding_attention",
+          "compressed_sparse_attention",
+          "heavily_compressed_attention"
+        ],
+        "compress_rates": {
+          "compressed_sparse_attention": 4,
+          "heavily_compressed_attention": 128
+        },
+        "compress_rope_theta": 160000.0,
+        "hc_mult": 2,
+        "hc_sinkhorn_iters": 20,
+        "hc_eps": 1e-06,
+        "mlp_layer_types": [
+          "hash_moe",
+          "moe",
+          "moe",
+          "moe"
+        ],
+        "swiglu_limit": 10.0,
+        "sliding_window": 128,
+        "o_groups": 2,
+        "o_lora_rank": 15,
+        "index_n_heads": 2,
+        "index_head_dim": 8,
+        "index_topk": 512,
+        "num_nextn_predict_layers": 0,
+        "output_router_logits": true,
+        "router_aux_loss_coef": 0.001,
+        "router_jitter_noise": 0.0,
+        "hidden_act": "silu",
+        "initializer_range": 0.02,
+        "rms_norm_eps": 1e-06,
+        "use_cache": true,
+        "pad_token_id": 0,
+        "bos_token_id": 1,
+        "eos_token_id": 2,
+        "tie_word_embeddings": true,
+        "rope_parameters": {
+          "main": {
+            "rope_type": "default",
+            "rope_theta": 10000.0,
+            "partial_rotary_factor": 0.25
+          },
+          "compress": {
+            "rope_theta": 160000.0,
+            "partial_rotary_factor": 0.25,
+            "rope_type": "default"
+          }
+        },
+        "partial_rotary_factor": 0.25,
+        "attention_bias": false,
+        "mlp_bias": false,
+        "attention_dropout": 0.0,
+        "_name_or_path": "",
+        "qk_rope_head_dim": 4,
+        "model_type": "deepseek_v4",
+        "output_attentions": false
+      },
+      "initialization": "Same random embedding per seed; native nonembedding initialization; no pretrained weights",
+      "auxiliary_weight": 0.001,
+      "hyperconnection_streams": 2,
+      "expert_intermediate": 20,
+      "profile_updates": [
+        {
+          "ce": 8.32674789428711,
+          "objective": 8.32874870300293,
+          "native_auxiliary": 2.0006461143493652,
+          "gradient_norm": 0.3081649839878082,
+          "seconds": 0.6111997499829158,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 6701.573421969644,
+          "metal_allocated_bytes": 72598784,
+          "process_peak_rss_platform_units": 896188416
+        },
+        {
+          "ce": 8.307195663452148,
+          "objective": 8.309196472167969,
+          "native_auxiliary": 2.0010199546813965,
+          "gradient_norm": 0.3194896876811981,
+          "seconds": 0.29582129197660834,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 13846.19738704909,
+          "metal_allocated_bytes": 72598784,
+          "process_peak_rss_platform_units": 896450560
+        },
+        {
+          "ce": 8.287107467651367,
+          "objective": 8.289109230041504,
+          "native_auxiliary": 2.0014989376068115,
+          "gradient_norm": 0.3379838168621063,
+          "seconds": 0.2555374170187861,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 16028.963772843015,
+          "metal_allocated_bytes": 72598784,
+          "process_peak_rss_platform_units": 896598016
+        },
+        {
+          "ce": 8.266153335571289,
+          "objective": 8.268155097961426,
+          "native_auxiliary": 2.002229928970337,
+          "gradient_norm": 0.36676403880119324,
+          "seconds": 0.2694908749544993,
+          "targets": 4096,
+          "inputs": 4096,
+          "input_tokens_per_second": 15199.030396452446,
+          "metal_allocated_bytes": 72598784,
+          "process_peak_rss_platform_units": 896614400
+        }
+      ],
+      "median_input_tokens_per_second": 15199.030396452446
+    }
+  },
+  "scope": "Four throwaway updates per configuration; not part of HPO or final trained checkpoints"
+}

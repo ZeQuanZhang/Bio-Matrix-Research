@@ -1,0 +1,11 @@
+test_all_models_causal_prefix_equivalence_and_parameter_budgets (evaluations.repaired.test_repaired.Tests.test_all_models_causal_prefix_equivalence_and_parameter_budgets) ... ok
+test_batched_generation_never_reads_gold (evaluations.repaired.test_repaired.Tests.test_batched_generation_never_reads_gold) ... ok
+test_coverage_has_each_target_once_even_for_short_documents (evaluations.repaired.test_repaired.Tests.test_coverage_has_each_target_once_even_for_short_documents) ... ok
+test_data_disjoint_and_objective_no_prompt_or_padding (evaluations.repaired.test_repaired.Tests.test_data_disjoint_and_objective_no_prompt_or_padding) ... ok
+test_full_passage_answer_eos_and_rejection_without_crop (evaluations.repaired.test_repaired.Tests.test_full_passage_answer_eos_and_rejection_without_crop) ... ok
+test_native_mps_backward_finite (evaluations.repaired.test_repaired.Tests.test_native_mps_backward_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.889s
+
+OK
