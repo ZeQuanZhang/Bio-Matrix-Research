@@ -98,7 +98,6 @@
         "record_id": "973ec062f9f7e898d736feb3316e560aee3884a2c7b2068927f449b1f77626bb",
         "source": "train-v1.1.json",
         "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
-        "article_title": "Dissolution_of_the_Soviet_Union",
         "context_id": "c7f40a7892c67e437409b992851520b760829848fec4ac6842bbfaf9485149b7",
         "question_id": "5727e149ff5b5019007d9769",
         "history_start": 6842,
@@ -111,10 +110,6 @@
         "answer_target_end": 425,
         "answer_start_character": 21956,
         "answer_end_character": 21966,
-        "answer_text": "ecological",
-        "reference_answers": [
-          "ecological"
-        ],
         "answer_distance_tokens": 377,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -126,7 +121,6 @@
         "record_id": "2cbc322ba5ed7bcd60b394c6bef1bd51c707ba8981a1ecdfe773ef1621628745",
         "source": "train-v1.1.json",
         "article_id": "4cc4afc5c8a0598475588e2a747ce3b885b3b1ebd9505136173769e639429acd",
-        "article_title": "Computer",
         "context_id": "41292bfa28e549f6746ee0812440d07f03e7100d1a0335023789dcc6a551005f",
         "question_id": "56fdc48f19033b140034cd56",
         "history_start": 28,
@@ -139,10 +133,6 @@
         "answer_target_end": 414,
         "answer_start_character": 582,
         "answer_end_character": 594,
-        "answer_text": "World War II",
-        "reference_answers": [
-          "World War II"
-        ],
         "answer_distance_tokens": 285,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -154,7 +144,6 @@
         "record_id": "85d786c4187880acd2b5d07bac038bb8f4165c9cba37257a4601474a6868df6c",
         "source": "train-v1.1.json",
         "article_id": "6851dd9a014596b4ffbce9749527258e29aaf22b1cb3d60914093c53e7008e75",
-        "article_title": "Liberal_Party_of_Australia",
         "context_id": "13dc8e74a66b9f0e3b667bae5abd697b11898b974c42ffc6b9140d910451037d",
         "question_id": "5728e2be4b864d1900165018",
         "history_start": 3436,
@@ -167,10 +156,6 @@
         "answer_target_end": 418,
         "answer_start_character": 12722,
         "answer_end_character": 12738,
-        "answer_text": "11 November 1975",
-        "reference_answers": [
-          "11 November 1975"
-        ],
         "answer_distance_tokens": 297,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -182,7 +167,6 @@
         "record_id": "7da2bc6262ca3d71db29b9096e1b666f196dd95743bc1e518e066f9c3fa872f6",
         "source": "train-v1.1.json",
         "article_id": "ecb235df74ebd1f0dca73dd0aa28cb4cfa65b64eb4417cdbe5248b605d18264f",
-        "article_title": "United_States_Army",
         "context_id": "533e61b5f3b7ccceb3e9df2ea81f57fa5a474e6d66d1590f804a625c44eb9dc6",
         "question_id": "570d7b58b3d812140066d9d9",
         "history_start": 4308,
@@ -195,10 +179,6 @@
         "answer_target_end": 423,
         "answer_start_character": 15438,
         "answer_end_character": 15447,
-        "answer_text": "1,015,000",
-        "reference_answers": [
-          "1,015,000"
-        ],
         "answer_distance_tokens": 310,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -210,7 +190,6 @@
         "record_id": "1505abec2fc00e65808c4bad4a5bf32cb419a904fa81b99899326d5a87a2ed87",
         "source": "train-v1.1.json",
         "article_id": "f8e7598bc7cc7cb0e86ac0f09b2939bbf6eeaf638843d3ec6b21344bba2506b7",
-        "article_title": "Political_philosophy",
         "context_id": "397a8f3af2258797c8d16c817409629d44aa5d5e58f617b50342de4aa627ffe0",
         "question_id": "5726a6ff5951b619008f792f",
         "history_start": 5012,
@@ -223,10 +202,6 @@
         "answer_target_end": 412,
         "answer_start_character": 17321,
         "answer_end_character": 17338,
-        "answer_text": "Frankfurt School,",
-        "reference_answers": [
-          "Frankfurt School,"
-        ],
         "answer_distance_tokens": 322,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -238,7 +213,6 @@
         "record_id": "80e3cd5634ac7f48f6c67c414bc440cc59642be7fa8a269d93e42619dd5f84a6",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "dd96daab737cbc16901c71ded364516dc789ae74104a87616a05618c84a5dda3",
         "question_id": "5731304e497a881900248c38",
         "history_start": 7181,
@@ -251,10 +225,6 @@
         "answer_target_end": 419,
         "answer_start_character": 22501,
         "answer_end_character": 22510,
-        "answer_text": "300 W/cm2",
-        "reference_answers": [
-          "300 W/cm2"
-        ],
         "answer_distance_tokens": 367,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -266,7 +236,6 @@
         "record_id": "249682143548be1478f27a9906034fed5b98ed52fe9bd5f8fc3a117f817f5005",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "600a55ab48a5001f83e8780c4be8380f17555ffe312ce31092bd1ca578e94dcf",
         "question_id": "57313d9505b4da19006bcf22",
         "history_start": 7732,
@@ -279,10 +248,6 @@
         "answer_target_end": 429,
         "answer_start_character": 24271,
         "answer_end_character": 24285,
-        "answer_text": "microprocessor",
-        "reference_answers": [
-          "microprocessor"
-        ],
         "answer_distance_tokens": 333,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -294,7 +259,6 @@
         "record_id": "719819c1d5a1da09dc378af5fa086d1e45115d2f36f884a53a2f17e511d79574",
         "source": "train-v1.1.json",
         "article_id": "4cc4afc5c8a0598475588e2a747ce3b885b3b1ebd9505136173769e639429acd",
-        "article_title": "Computer",
         "context_id": "5c263aa37ee25a08d8ce3ca2c716541a5e4316e6f195bde495053c482bb4e849",
         "question_id": "56fe00e019033b140034ce2d",
         "history_start": 10867,
@@ -307,10 +271,6 @@
         "answer_target_end": 412,
         "answer_start_character": 38025,
         "answer_end_character": 38031,
-        "answer_text": "DARPA)",
-        "reference_answers": [
-          "DARPA)"
-        ],
         "answer_distance_tokens": 350,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,

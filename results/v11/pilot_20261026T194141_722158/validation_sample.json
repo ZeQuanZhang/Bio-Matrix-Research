@@ -98,7 +98,6 @@
         "record_id": "1d55b38fcaac9ec6cbec5b6acb663dd6e6829a69fa10564ac74d607bc4017572",
         "source": "train-v1.1.json",
         "article_id": "e87065dd4593c0b02e9a6d79a0c917c67e85ea02ad0beae142a594c40b190a0c",
-        "article_title": "Federal_Aviation_Administration",
         "context_id": "44ad2ba342c18877bff86d92a218d5a5eb5fa6574c3039aebaeebc9e50f0a2dd",
         "question_id": "570aa91f4103511400d598cd",
         "history_start": 156,
@@ -111,10 +110,6 @@
         "answer_target_end": 432,
         "answer_start_character": 712,
         "answer_end_character": 724,
-        "answer_text": "Jim Oberstar",
-        "reference_answers": [
-          "Jim Oberstar"
-        ],
         "answer_distance_tokens": 370,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -126,7 +121,6 @@
         "record_id": "6688af8efed99aa62d4cdb4e1ecb0e2359c9a0758e0900981b88d57bb29edbb9",
         "source": "train-v1.1.json",
         "article_id": "f8e7598bc7cc7cb0e86ac0f09b2939bbf6eeaf638843d3ec6b21344bba2506b7",
-        "article_title": "Political_philosophy",
         "context_id": "838957d734b636d9728d15a8e9a612b0b02c9bbd265ca9af912b99f604325ac7",
         "question_id": "57269a5f708984140094cb64",
         "history_start": 1033,
@@ -139,10 +133,6 @@
         "answer_target_end": 411,
         "answer_start_character": 3606,
         "answer_end_character": 3617,
-        "answer_text": "City of Man",
-        "reference_answers": [
-          "City of Man"
-        ],
         "answer_distance_tokens": 355,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -154,7 +144,6 @@
         "record_id": "8ab9b74497173d6de35ae4d7006a70f492999b93e2b5f4d8fcd70584f144ef7a",
         "source": "train-v1.1.json",
         "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
-        "article_title": "Northwestern_University",
         "context_id": "c0167fee4b53940951b0ebebc42ee4496cf7d9ce1c43f93c86cbc64f9b798080",
         "question_id": "5725b464ec44d21400f3d40b",
         "history_start": 4,
@@ -167,10 +156,6 @@
         "answer_target_end": 408,
         "answer_start_character": 36,
         "answer_end_character": 46,
-        "answer_text": "John Evans",
-        "reference_answers": [
-          "John Evans"
-        ],
         "answer_distance_tokens": 396,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -182,7 +167,6 @@
         "record_id": "9f2f3d39db441bf0a80a1733c1a312191227879060601a29db921077cd3b4106",
         "source": "train-v1.1.json",
         "article_id": "21dfdfb6729c2ae87008a8bfc1757d9652fbff41c34952942d2617d1e5bd1e70",
-        "article_title": "East_India_Company",
         "context_id": "9fdfecad63f507b49311b645d6cd06e4b014feeedcb0075da9e33b8f4886804d",
         "question_id": "572686e8dd62a815002e8830",
         "history_start": 5410,
@@ -195,10 +179,6 @@
         "answer_target_end": 420,
         "answer_start_character": 18678,
         "answer_end_character": 18697,
-        "answer_text": "Battle of Pulo Aura",
-        "reference_answers": [
-          "Battle of Pulo Aura"
-        ],
         "answer_distance_tokens": 346,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -210,7 +190,6 @@
         "record_id": "3e3c97691168a0ec7f65ecae5410e34bfc5e0eb1f93d3516a3d7742306e7c289",
         "source": "train-v1.1.json",
         "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
-        "article_title": "Dissolution_of_the_Soviet_Union",
         "context_id": "5a2ff2eb39c00cdaf5f11a28c6df9cd98d89e9dcf9b9043d1f82fe3fdca0ac7d",
         "question_id": "572841874b864d190016481c",
         "history_start": 15567,
@@ -223,10 +202,6 @@
         "answer_target_end": 429,
         "answer_start_character": 50329,
         "answer_end_character": 50373,
-        "answer_text": "upper chamber of the Union's Supreme Soviet,",
-        "reference_answers": [
-          "upper chamber of the Union's Supreme Soviet,"
-        ],
         "answer_distance_tokens": 379,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -238,7 +213,6 @@
         "record_id": "d60c1dfac0eee968184b004f0c8b6f5e2440678b2e48afdb8eec5d9360f1ee36",
         "source": "train-v1.1.json",
         "article_id": "ca96eba45937a5a0da58fe46c6ee8d364f3fe42bb0754576ff9b51b5419f388c",
-        "article_title": "Kanye_West",
         "context_id": "94718b386f4c156631b73d54961568c1a73e6e1bf19a36f859c778f2189de7f2",
         "question_id": "56d1071617492d1400aab77e",
         "history_start": 3890,
@@ -251,10 +225,6 @@
         "answer_target_end": 417,
         "answer_start_character": 14146,
         "answer_end_character": 14161,
-        "answer_text": "Best New Artist",
-        "reference_answers": [
-          "Best New Artist"
-        ],
         "answer_distance_tokens": 344,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -266,7 +236,6 @@
         "record_id": "9d2e7f690ac52994a6da7ee8434c438b57ae4504fa7e826582f0c7639c0bd542",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "d9b8aab30763902d0cf4129c1452c75270ad57dce9c025ea33f27f416464105e",
         "question_id": "5730f39205b4da19006bcc82",
         "history_start": 1893,
@@ -279,10 +248,6 @@
         "answer_target_end": 427,
         "answer_start_character": 6069,
         "answer_end_character": 6085,
-        "answer_text": "indium tin oxide",
-        "reference_answers": [
-          "indium tin oxide"
-        ],
         "answer_distance_tokens": 358,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -294,7 +259,6 @@
         "record_id": "cb635219831b17bea5e7b4ce368d395006a1ec997b68262e86eda27c00ffa598",
         "source": "train-v1.1.json",
         "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
-        "article_title": "Northwestern_University",
         "context_id": "f37291a6587d39648d34eb39245f314d502dd95b63e0f89b1d7934dbc9723332",
         "question_id": "5727fd7e2ca10214002d9ac8",
         "history_start": 6502,
@@ -307,10 +271,6 @@
         "answer_target_end": 424,
         "answer_start_character": 22481,
         "answer_end_character": 22509,
-        "answer_text": "more than 13 million dollars",
-        "reference_answers": [
-          "more than 13 million dollars"
-        ],
         "answer_distance_tokens": 362,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,

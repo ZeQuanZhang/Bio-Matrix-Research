@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "completed_v3_conditions": 12,
+  "updates_per_condition": 1024,
+  "paired_steps_checked": 1024,
+  "source_files_unchanged": 58,
+  "local_links": 224,
+  "missing_links": 0,
+  "private_paths_or_credentials": 0,
+  "raw_data_and_checkpoints": "excluded",
+  "qa_answer_metadata_removed": true,
+  "reserved_test": "not_executed",
+  "extra_inference": "Four existing validation prefixes per Bio condition/seed for state diagnostics only."
+}

@@ -1,0 +1,143 @@
+{
+  "status": "completed",
+  "source_files": 58,
+  "changed_sources": [],
+  "all_12_completed": true,
+  "paired_samples_equal_for_all_1024_steps": true,
+  "conditions": {
+    "trans_local_s11": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 12926,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6882.40966796875,
+      "optimizer_states": 23,
+      "runtime_bytes": 459328
+    },
+    "trans_full_s11": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 12926,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6884.6357421875,
+      "optimizer_states": 23,
+      "runtime_bytes": 1837120
+    },
+    "v3_static_s11": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 12926,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6822.484375,
+      "optimizer_states": 41,
+      "runtime_bytes": 360480
+    },
+    "v3_dynamic_s11": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 12926,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6768.2802734375,
+      "optimizer_states": 43,
+      "runtime_bytes": 360480
+    },
+    "trans_local_s23": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13122,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 7034.78515625,
+      "optimizer_states": 23,
+      "runtime_bytes": 459328
+    },
+    "trans_full_s23": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13122,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 7016.2939453125,
+      "optimizer_states": 23,
+      "runtime_bytes": 1837120
+    },
+    "v3_static_s23": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13122,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6960.28125,
+      "optimizer_states": 41,
+      "runtime_bytes": 360480
+    },
+    "v3_dynamic_s23": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13122,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6969.86962890625,
+      "optimizer_states": 43,
+      "runtime_bytes": 360480
+    },
+    "trans_local_s37": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13068,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6917.95654296875,
+      "optimizer_states": 23,
+      "runtime_bytes": 459328
+    },
+    "trans_full_s37": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13068,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6883.81103515625,
+      "optimizer_states": 23,
+      "runtime_bytes": 1837120
+    },
+    "v3_static_s37": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13068,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6904.9287109375,
+      "optimizer_states": 41,
+      "runtime_bytes": 360480
+    },
+    "v3_dynamic_s37": {
+      "status": "completed",
+      "updates": 1024,
+      "cpt_targets": 1048576,
+      "pt_updates": 512,
+      "answer_targets": 13068,
+      "finite_losses_and_gradients": true,
+      "embedding_changed_l1": 6899.05224609375,
+      "optimizer_states": 43,
+      "runtime_bytes": 360480
+    }
+  },
+  "test_evaluated": false,
+  "extra_inference": "Four existing validation prefixes per Bio condition/seed for state diagnostics only."
+}

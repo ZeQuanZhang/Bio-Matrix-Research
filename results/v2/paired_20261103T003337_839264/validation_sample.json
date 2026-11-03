@@ -602,7 +602,6 @@
         "record_id": "973ec062f9f7e898d736feb3316e560aee3884a2c7b2068927f449b1f77626bb",
         "source": "train-v1.1.json",
         "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
-        "article_title": "Dissolution_of_the_Soviet_Union",
         "context_id": "c7f40a7892c67e437409b992851520b760829848fec4ac6842bbfaf9485149b7",
         "question_id": "5727e149ff5b5019007d9769",
         "history_start": 6842,
@@ -615,10 +614,6 @@
         "answer_target_end": 425,
         "answer_start_character": 21956,
         "answer_end_character": 21966,
-        "answer_text": "ecological",
-        "reference_answers": [
-          "ecological"
-        ],
         "answer_distance_tokens": 377,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -630,7 +625,6 @@
         "record_id": "2cbc322ba5ed7bcd60b394c6bef1bd51c707ba8981a1ecdfe773ef1621628745",
         "source": "train-v1.1.json",
         "article_id": "4cc4afc5c8a0598475588e2a747ce3b885b3b1ebd9505136173769e639429acd",
-        "article_title": "Computer",
         "context_id": "41292bfa28e549f6746ee0812440d07f03e7100d1a0335023789dcc6a551005f",
         "question_id": "56fdc48f19033b140034cd56",
         "history_start": 28,
@@ -643,10 +637,6 @@
         "answer_target_end": 414,
         "answer_start_character": 582,
         "answer_end_character": 594,
-        "answer_text": "World War II",
-        "reference_answers": [
-          "World War II"
-        ],
         "answer_distance_tokens": 285,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -658,7 +648,6 @@
         "record_id": "85d786c4187880acd2b5d07bac038bb8f4165c9cba37257a4601474a6868df6c",
         "source": "train-v1.1.json",
         "article_id": "6851dd9a014596b4ffbce9749527258e29aaf22b1cb3d60914093c53e7008e75",
-        "article_title": "Liberal_Party_of_Australia",
         "context_id": "13dc8e74a66b9f0e3b667bae5abd697b11898b974c42ffc6b9140d910451037d",
         "question_id": "5728e2be4b864d1900165018",
         "history_start": 3436,
@@ -671,10 +660,6 @@
         "answer_target_end": 418,
         "answer_start_character": 12722,
         "answer_end_character": 12738,
-        "answer_text": "11 November 1975",
-        "reference_answers": [
-          "11 November 1975"
-        ],
         "answer_distance_tokens": 297,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -686,7 +671,6 @@
         "record_id": "7da2bc6262ca3d71db29b9096e1b666f196dd95743bc1e518e066f9c3fa872f6",
         "source": "train-v1.1.json",
         "article_id": "ecb235df74ebd1f0dca73dd0aa28cb4cfa65b64eb4417cdbe5248b605d18264f",
-        "article_title": "United_States_Army",
         "context_id": "533e61b5f3b7ccceb3e9df2ea81f57fa5a474e6d66d1590f804a625c44eb9dc6",
         "question_id": "570d7b58b3d812140066d9d9",
         "history_start": 4308,
@@ -699,10 +683,6 @@
         "answer_target_end": 423,
         "answer_start_character": 15438,
         "answer_end_character": 15447,
-        "answer_text": "1,015,000",
-        "reference_answers": [
-          "1,015,000"
-        ],
         "answer_distance_tokens": 310,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -714,7 +694,6 @@
         "record_id": "1505abec2fc00e65808c4bad4a5bf32cb419a904fa81b99899326d5a87a2ed87",
         "source": "train-v1.1.json",
         "article_id": "f8e7598bc7cc7cb0e86ac0f09b2939bbf6eeaf638843d3ec6b21344bba2506b7",
-        "article_title": "Political_philosophy",
         "context_id": "397a8f3af2258797c8d16c817409629d44aa5d5e58f617b50342de4aa627ffe0",
         "question_id": "5726a6ff5951b619008f792f",
         "history_start": 5012,
@@ -727,10 +706,6 @@
         "answer_target_end": 412,
         "answer_start_character": 17321,
         "answer_end_character": 17338,
-        "answer_text": "Frankfurt School,",
-        "reference_answers": [
-          "Frankfurt School,"
-        ],
         "answer_distance_tokens": 322,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -742,7 +717,6 @@
         "record_id": "80e3cd5634ac7f48f6c67c414bc440cc59642be7fa8a269d93e42619dd5f84a6",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "dd96daab737cbc16901c71ded364516dc789ae74104a87616a05618c84a5dda3",
         "question_id": "5731304e497a881900248c38",
         "history_start": 7181,
@@ -755,10 +729,6 @@
         "answer_target_end": 419,
         "answer_start_character": 22501,
         "answer_end_character": 22510,
-        "answer_text": "300 W/cm2",
-        "reference_answers": [
-          "300 W/cm2"
-        ],
         "answer_distance_tokens": 367,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -770,7 +740,6 @@
         "record_id": "249682143548be1478f27a9906034fed5b98ed52fe9bd5f8fc3a117f817f5005",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "600a55ab48a5001f83e8780c4be8380f17555ffe312ce31092bd1ca578e94dcf",
         "question_id": "57313d9505b4da19006bcf22",
         "history_start": 7732,
@@ -783,10 +752,6 @@
         "answer_target_end": 429,
         "answer_start_character": 24271,
         "answer_end_character": 24285,
-        "answer_text": "microprocessor",
-        "reference_answers": [
-          "microprocessor"
-        ],
         "answer_distance_tokens": 333,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -798,7 +763,6 @@
         "record_id": "719819c1d5a1da09dc378af5fa086d1e45115d2f36f884a53a2f17e511d79574",
         "source": "train-v1.1.json",
         "article_id": "4cc4afc5c8a0598475588e2a747ce3b885b3b1ebd9505136173769e639429acd",
-        "article_title": "Computer",
         "context_id": "5c263aa37ee25a08d8ce3ca2c716541a5e4316e6f195bde495053c482bb4e849",
         "question_id": "56fe00e019033b140034ce2d",
         "history_start": 10867,
@@ -811,10 +775,6 @@
         "answer_target_end": 412,
         "answer_start_character": 38025,
         "answer_end_character": 38031,
-        "answer_text": "DARPA)",
-        "reference_answers": [
-          "DARPA)"
-        ],
         "answer_distance_tokens": 350,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -826,7 +786,6 @@
         "record_id": "24bcb746fdffa604c2659558c94fdbbbd0f31ceeec237ae85b1e6cf9b0a8d250",
         "source": "train-v1.1.json",
         "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
-        "article_title": "Northwestern_University",
         "context_id": "39312dbc821feeb045b0512def51a823f3a228a6c9da6538c151cdd2be711a7f",
         "question_id": "5727cb7d3acd2414000dec89",
         "history_start": 279,
@@ -839,10 +798,6 @@
         "answer_target_end": 419,
         "answer_start_character": 1257,
         "answer_end_character": 1267,
-        "answer_text": "Methodists",
-        "reference_answers": [
-          "Methodists"
-        ],
         "answer_distance_tokens": 327,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -854,7 +809,6 @@
         "record_id": "6aae8b01c7d68e4214f23ef8fbde14cbe976a414064c3633312e6a15ad568090",
         "source": "train-v1.1.json",
         "article_id": "c7f80b9b19a4ab0ced68e00a10d3fc6fc027c0db6ec3b15e28541417a43bfd6f",
-        "article_title": "MP3",
         "context_id": "ed1f4455a34577920bfefbc8fa754b19d2127cce8c236931dd7753bd6e2f1bc6",
         "question_id": "57063fcb52bb8914006899b4",
         "history_start": 7041,
@@ -867,10 +821,6 @@
         "answer_target_end": 419,
         "answer_start_character": 21683,
         "answer_end_character": 21700,
-        "answer_text": "imperfect filters",
-        "reference_answers": [
-          "imperfect filters"
-        ],
         "answer_distance_tokens": 318,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -882,7 +832,6 @@
         "record_id": "ab9db082e7c6305e575733bf8d3c02e1624198c39ec5d1657b4fba57642023ae",
         "source": "train-v1.1.json",
         "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
-        "article_title": "Northwestern_University",
         "context_id": "39312dbc821feeb045b0512def51a823f3a228a6c9da6538c151cdd2be711a7f",
         "question_id": "5725b662ec44d21400f3d428",
         "history_start": 335,
@@ -895,10 +844,6 @@
         "answer_target_end": 419,
         "answer_start_character": 1425,
         "answer_end_character": 1451,
-        "answer_text": "Methodist Episcopal Church",
-        "reference_answers": [
-          "Methodist Episcopal Church"
-        ],
         "answer_distance_tokens": 326,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -910,7 +855,6 @@
         "record_id": "aca3566dcecbb40ac308b05cfe339cb0ca6db1fc51b32a6ebc803de52176d310",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "f1f84c4c7b427757b4e75b7e9cbde0bc66e7c6a4bdbe6dfacfb7fa5d15a9a3c4",
         "question_id": "5728d5f23acd2414000dffd1",
         "history_start": 6569,
@@ -923,10 +867,6 @@
         "answer_target_end": 424,
         "answer_start_character": 21802,
         "answer_end_character": 21817,
-        "answer_text": "Hermitage Plaza",
-        "reference_answers": [
-          "Hermitage Plaza"
-        ],
         "answer_distance_tokens": 322,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -938,7 +878,6 @@
         "record_id": "a140264084ad6830dd9b58f46a4782fdecc4638c507ccecad0a113736967eded",
         "source": "train-v1.1.json",
         "article_id": "ecb235df74ebd1f0dca73dd0aa28cb4cfa65b64eb4417cdbe5248b605d18264f",
-        "article_title": "United_States_Army",
         "context_id": "e83c82c8cc806a7b6ad49e4b187eb51816084c418b6ea70d373bbebe17c97077",
         "question_id": "570d4b28b3d812140066d64a",
         "history_start": 2574,
@@ -951,10 +890,6 @@
         "answer_target_end": 419,
         "answer_start_character": 9613,
         "answer_end_character": 9624,
-        "answer_text": "Vietnam War",
-        "reference_answers": [
-          "Vietnam War"
-        ],
         "answer_distance_tokens": 359,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -966,7 +901,6 @@
         "record_id": "5f25ae530566569ce08eac2a9c671f762cba23587347f457424f15e34fbeb8f1",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "87abec10b3f56f359be664deb77865a1d4648178f2d4937318b9d6b51e008234",
         "question_id": "5730c6cbf6cb411900e24489",
         "history_start": 998,
@@ -979,10 +913,6 @@
         "answer_target_end": 424,
         "answer_start_character": 3378,
         "answer_end_character": 3396,
-        "answer_text": "Nick Holonyak, Jr.",
-        "reference_answers": [
-          "Nick Holonyak, Jr."
-        ],
         "answer_distance_tokens": 327,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -994,7 +924,6 @@
         "record_id": "c956954190b4087a5f1c06d846d6af36c47d3f78578eac0761eb22cc45bd6ec8",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "16f7a2db674d40815feeffdce8160bf94438cec63e4772330c8cf042cc0a6aa3",
         "question_id": "572902c3af94a219006a9f34",
         "history_start": 19680,
@@ -1007,10 +936,6 @@
         "answer_target_end": 412,
         "answer_start_character": 63560,
         "answer_end_character": 63579,
-        "answer_text": "1998 FIFA World Cup",
-        "reference_answers": [
-          "1998 FIFA World Cup"
-        ],
         "answer_distance_tokens": 295,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1022,7 +947,6 @@
         "record_id": "ae8dfabeeefd15f5da67eb5a7dda58bd084fb35735e341bcb70ed7a212a777a7",
         "source": "train-v1.1.json",
         "article_id": "2a6ef5cb0cdb7a982034fd0f46b916c6cfd84984902d1ce0762c46c1d173deb6",
-        "article_title": "Sichuan",
         "context_id": "986833ede5e6ff19c282a4a29c3473160214e80e995883ec5e078728259f8350",
         "question_id": "5727bbc1ff5b5019007d93af",
         "history_start": 4695,
@@ -1035,10 +959,6 @@
         "answer_target_end": 428,
         "answer_start_character": 15267,
         "answer_end_character": 15287,
-        "answer_text": "two and a half hours",
-        "reference_answers": [
-          "two and a half hours"
-        ],
         "answer_distance_tokens": 356,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1050,7 +970,6 @@
         "record_id": "ac98b7d8637be11975b382874c960747c2bf4af891ee4faa9a4822c4ee4d79c1",
         "source": "train-v1.1.json",
         "article_id": "dacc4c242d25863cbb3284c1a74c2867b6d3d9b496c7444a3ce4c6064d7d3709",
-        "article_title": "Software_testing",
         "context_id": "67334fb7f6a6a4ef1ca13ba65b503a8836979627382a6e8e5f67efa4d5d9165c",
         "question_id": "5729141f6aef051400154a3c",
         "history_start": 924,
@@ -1063,10 +982,6 @@
         "answer_target_end": 424,
         "answer_start_character": 3573,
         "answer_end_character": 3592,
-        "answer_text": "speed or test depth",
-        "reference_answers": [
-          "speed or test depth"
-        ],
         "answer_distance_tokens": 358,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1078,7 +993,6 @@
         "record_id": "e175645c5d771e3f96248072039ca6e207ae2c731d2d3642d1b3c648e0f4a221",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "fc5bbe7eec10171572aac1c7922188dc39292edad5e577d887114c514df60b8e",
         "question_id": "5731162005b4da19006bcd80",
         "history_start": 5124,
@@ -1091,10 +1005,6 @@
         "answer_target_end": 425,
         "answer_start_character": 16263,
         "answer_end_character": 16271,
-        "answer_text": ">70 lm/W",
-        "reference_answers": [
-          ">70 lm/W"
-        ],
         "answer_distance_tokens": 327,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1106,7 +1016,6 @@
         "record_id": "acdb6a1c562ca1da93e579c944bc09a7401aec7d9b0478adb5f11673d9dd69dc",
         "source": "train-v1.1.json",
         "article_id": "21dfdfb6729c2ae87008a8bfc1757d9652fbff41c34952942d2617d1e5bd1e70",
-        "article_title": "East_India_Company",
         "context_id": "369e7c47ccf08bf067401575ba692d4c563b667763444a033c683a5d06ec8054",
         "question_id": "57267423f1498d1400e8e01d",
         "history_start": 3379,
@@ -1119,10 +1028,6 @@
         "answer_target_end": 430,
         "answer_start_character": 11889,
         "answer_end_character": 11896,
-        "answer_text": "£40,000",
-        "reference_answers": [
-          "£40,000"
-        ],
         "answer_distance_tokens": 357,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1134,7 +1039,6 @@
         "record_id": "e33af77c794cfc648c9b5edd28b9e96e5f890b60601d35367b01dcc5fbb69b52",
         "source": "train-v1.1.json",
         "article_id": "4cc4afc5c8a0598475588e2a747ce3b885b3b1ebd9505136173769e639429acd",
-        "article_title": "Computer",
         "context_id": "7e21458e84cba23c0d939172120e8e2b35e9ec7e87ffe58b5330b912a3a98171",
         "question_id": "56fdcd2e761e401900d28c13",
         "history_start": 2562,
@@ -1147,10 +1051,6 @@
         "answer_target_end": 425,
         "answer_start_character": 8791,
         "answer_end_character": 8803,
-        "answer_text": "H. W. Nieman",
-        "reference_answers": [
-          "H. W. Nieman"
-        ],
         "answer_distance_tokens": 335,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1162,7 +1062,6 @@
         "record_id": "a9bf166b0bcbd3053706d709a45db7fe47ad088166fca3a863b917657e073008",
         "source": "train-v1.1.json",
         "article_id": "ecb235df74ebd1f0dca73dd0aa28cb4cfa65b64eb4417cdbe5248b605d18264f",
-        "article_title": "United_States_Army",
         "context_id": "50d4c610031dca1aee94ca0850b6d0f684eb4b2d3c4907fa437df8a4ec250be7",
         "question_id": "570d7c81fed7b91900d461c8",
         "history_start": 4453,
@@ -1175,10 +1074,6 @@
         "answer_target_end": 424,
         "answer_start_character": 15936,
         "answer_end_character": 15943,
-        "answer_text": "1818–58",
-        "reference_answers": [
-          "1818–58"
-        ],
         "answer_distance_tokens": 315,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1190,7 +1085,6 @@
         "record_id": "abe7b1dd6878016cad1c5ba6373fdd89bd0343b41503ede370320d1653d7753f",
         "source": "train-v1.1.json",
         "article_id": "21dfdfb6729c2ae87008a8bfc1757d9652fbff41c34952942d2617d1e5bd1e70",
-        "article_title": "East_India_Company",
         "context_id": "7d548306ec1376eeffc17a47293edfac580ff482be8987d53c78469f7a0188b4",
         "question_id": "57266a2c5951b619008f7204",
         "history_start": 2191,
@@ -1203,10 +1097,6 @@
         "answer_target_end": 430,
         "answer_start_character": 7754,
         "answer_end_character": 7758,
-        "answer_text": "1673",
-        "reference_answers": [
-          "1673"
-        ],
         "answer_distance_tokens": 352,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1218,7 +1108,6 @@
         "record_id": "6349bab9cf86a54a6a5f0767b571762013b06e1b9621f5c8701cf2f804401c0a",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "180f1efac1766d0c805d2404aa1cfc7dd3707a3bd2fb9cc45c5f1bc0e29bce7e",
         "question_id": "5728c63d2ca10214002da792",
         "history_start": 2971,
@@ -1231,10 +1120,6 @@
         "answer_target_end": 411,
         "answer_start_character": 9487,
         "answer_end_character": 9499,
-        "answer_text": "2.25 million",
-        "reference_answers": [
-          "2.25 million"
-        ],
         "answer_distance_tokens": 393,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1246,7 +1131,6 @@
         "record_id": "0f1a4759eff2e4bd6c0977d66b24d48346d9071283fb70904079795f347b37a0",
         "source": "train-v1.1.json",
         "article_id": "ecb235df74ebd1f0dca73dd0aa28cb4cfa65b64eb4417cdbe5248b605d18264f",
-        "article_title": "United_States_Army",
         "context_id": "bb4ad863c0c3a397390b44ca7b16da96f07ee2d6c2497874a481f6a6817d7b98",
         "question_id": "570d2929b3d812140066d4ad",
         "history_start": 117,
@@ -1259,10 +1143,6 @@
         "answer_target_end": 412,
         "answer_start_character": 921,
         "answer_end_character": 925,
-        "answer_text": "1959",
-        "reference_answers": [
-          "1959"
-        ],
         "answer_distance_tokens": 295,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1274,7 +1154,6 @@
         "record_id": "d6d236503a43d535abafcd86d0083f5681206e80f20c48a263ab9408ac237bdb",
         "source": "train-v1.1.json",
         "article_id": "4cc4afc5c8a0598475588e2a747ce3b885b3b1ebd9505136173769e639429acd",
-        "article_title": "Computer",
         "context_id": "c38bb23c5dd66db356dff17b63ef8e9191d5e7a4c4b6653f7b22e7ce551211d7",
         "question_id": "56fe022c19033b140034ce34",
         "history_start": 11682,
@@ -1287,10 +1166,6 @@
         "answer_target_end": 421,
         "answer_start_character": 40870,
         "answer_end_character": 40902,
-        "answer_text": "photolithographed semiconductors",
-        "reference_answers": [
-          "photolithographed semiconductors"
-        ],
         "answer_distance_tokens": 362,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1302,7 +1177,6 @@
         "record_id": "aa99387c7888560cf42a72a2fe528726759f3779925bee7a789096cb5db85f64",
         "source": "train-v1.1.json",
         "article_id": "97a269a5bb0c36f468b9c1b6b85f3cbfd0cbe0e7b0f2aceba11974313dbb3062",
-        "article_title": "Universal_Studios",
         "context_id": "a64652b8b29c00e77f5c11487ecfd28e2b0c437a4e83c39135794844d84a612a",
         "question_id": "56e162d3cd28a01900c67850",
         "history_start": 5202,
@@ -1315,10 +1189,6 @@
         "answer_target_end": 417,
         "answer_start_character": 16541,
         "answer_end_character": 16548,
-        "answer_text": "Francis",
-        "reference_answers": [
-          "Francis"
-        ],
         "answer_distance_tokens": 317,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1330,7 +1200,6 @@
         "record_id": "df275514950b86da8bc89ac2327d614710a7f31735b6a95354004437a390d0b4",
         "source": "train-v1.1.json",
         "article_id": "562a5ecaa3794058c53b01151df94fe9378c177bb4a096b3f3137f9f2b5b0c7e",
-        "article_title": "Florida",
         "context_id": "8b8a82724963f9935696796b59fc71142bc41b7a049de3c0a4a5fd490b522d8a",
         "question_id": "57265fb55951b619008f70f2",
         "history_start": 1934,
@@ -1343,10 +1212,6 @@
         "answer_target_end": 419,
         "answer_start_character": 7220,
         "answer_end_character": 7245,
-        "answer_text": "Treaty of Payne's Landing",
-        "reference_answers": [
-          "Treaty of Payne's Landing"
-        ],
         "answer_distance_tokens": 387,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1358,7 +1223,6 @@
         "record_id": "ba1f462df9937e599a0bdac06ac2754df565870323d38248f3f70a6c629a6eec",
         "source": "train-v1.1.json",
         "article_id": "37ebc6dfc19fd2849541e52ef9b998462e8fbc3254db07d95f344200377d3f76",
-        "article_title": "Qing_dynasty",
         "context_id": "9abdae0490e744d64e655c27d7f426bb78a68e67a21e9bd1aabb92dd65e89d30",
         "question_id": "5731579e497a881900248e2f",
         "history_start": 17413,
@@ -1371,10 +1235,6 @@
         "answer_target_end": 413,
         "answer_start_character": 56962,
         "answer_end_character": 56974,
-        "answer_text": "18th century",
-        "reference_answers": [
-          "18th century"
-        ],
         "answer_distance_tokens": 400,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1386,7 +1246,6 @@
         "record_id": "23266d23dcfeef1adf321bba935803b5f0d930d3356d2f7179ac4e7867671745",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "b8f9199dfa17e9902656a29a32759ae7c508f1578be4054242b2530ed4a4c6af",
         "question_id": "573143ba497a881900248d27",
         "history_start": 8951,
@@ -1399,10 +1258,6 @@
         "answer_target_end": 413,
         "answer_start_character": 27948,
         "answer_end_character": 27958,
-        "answer_text": "exit signs",
-        "reference_answers": [
-          "exit signs"
-        ],
         "answer_distance_tokens": 344,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1414,7 +1269,6 @@
         "record_id": "59366c6b7d3d5c1bb26cb9fd476f258b58fafddfe3677eace55c67b853413f78",
         "source": "train-v1.1.json",
         "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
-        "article_title": "Dissolution_of_the_Soviet_Union",
         "context_id": "c5154dabdb9b0bc840fc6cc9c846d16d42d141a8cf2c53372a513a72ba293e90",
         "question_id": "572798b8708984140094e1cc",
         "history_start": 4616,
@@ -1427,10 +1281,6 @@
         "answer_target_end": 419,
         "answer_start_character": 14885,
         "answer_end_character": 14899,
-        "answer_text": "Sumgait Pogrom",
-        "reference_answers": [
-          "Sumgait Pogrom"
-        ],
         "answer_distance_tokens": 350,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1442,7 +1292,6 @@
         "record_id": "ad0b87ade0eff6257ca50e3e00a9c5f1c22a1a7ec0e634b6cd1531e021d444c5",
         "source": "train-v1.1.json",
         "article_id": "ca96eba45937a5a0da58fe46c6ee8d364f3fe42bb0754576ff9b51b5419f388c",
-        "article_title": "Kanye_West",
         "context_id": "d27402a271e95f23d6442e8cdb6ed12299487090863312d9d49bf6953ee173a3",
         "question_id": "56d0fdf617492d1400aab6ff",
         "history_start": 1263,
@@ -1455,10 +1304,6 @@
         "answer_target_end": 414,
         "answer_start_character": 4521,
         "answer_end_character": 4523,
-        "answer_text": "20",
-        "reference_answers": [
-          "20"
-        ],
         "answer_distance_tokens": 376,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1470,7 +1315,6 @@
         "record_id": "bb3575d5eb6c42f638fa6b6ee10e359b156b3fde53a257f235385ea1c09e51fc",
         "source": "train-v1.1.json",
         "article_id": "d9ffcc23c3b8779ce980a042e5b50bf0675f2e456743708b3fbb2d35f37870fd",
-        "article_title": "Eton_College",
         "context_id": "8e40038fc5f97cdf758f4eed0306371eaaecd3b14f6b0466cc710d2e0d10da33",
         "question_id": "5727c9f23acd2414000dec6b",
         "history_start": 4518,
@@ -1483,10 +1327,6 @@
         "answer_target_end": 427,
         "answer_start_character": 15453,
         "answer_end_character": 15501,
-        "answer_text": "If any boy produces an outstanding piece of work",
-        "reference_answers": [
-          "If any boy produces an outstanding piece of work"
-        ],
         "answer_distance_tokens": 297,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1498,7 +1338,6 @@
         "record_id": "12762e86195d1bb6d6f3d6259e21ccf722cc01564d3f8d10ae3a4cc831ddd5a7",
         "source": "train-v1.1.json",
         "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
-        "article_title": "Northwestern_University",
         "context_id": "39312dbc821feeb045b0512def51a823f3a228a6c9da6538c151cdd2be711a7f",
         "question_id": "5725b662ec44d21400f3d429",
         "history_start": 198,
@@ -1511,10 +1350,6 @@
         "answer_target_end": 418,
         "answer_start_character": 841,
         "answer_end_character": 853,
-        "answer_text": "May 31, 1850",
-        "reference_answers": [
-          "May 31, 1850"
-        ],
         "answer_distance_tokens": 353,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1526,7 +1361,6 @@
         "record_id": "06dd52f5da8d757c0052edbf435324e21b7968d0de8d45e96115a6e7fdbb66b3",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "fcd3576105d8581b13e3d64e962ed727b1b8cad4ecec6cb36402d39245328fac",
         "question_id": "5728d7cc2ca10214002da938",
         "history_start": 7545,
@@ -1539,10 +1373,6 @@
         "answer_target_end": 412,
         "answer_start_character": 24537,
         "answer_end_character": 24552,
-        "answer_text": "January 1, 2016",
-        "reference_answers": [
-          "January 1, 2016"
-        ],
         "answer_distance_tokens": 378,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1554,7 +1384,6 @@
         "record_id": "081805a6ebab3e9ce5c4dca5097ef99df1304ec588d71fe520e792bc007d666c",
         "source": "train-v1.1.json",
         "article_id": "21dfdfb6729c2ae87008a8bfc1757d9652fbff41c34952942d2617d1e5bd1e70",
-        "article_title": "East_India_Company",
         "context_id": "3d8ff97d8a2d0c51b7f5d9a91bf0dae3e80f34503d5a2588e4329102233d1904",
         "question_id": "57266bc1dd62a815002e8461",
         "history_start": 2483,
@@ -1567,10 +1396,6 @@
         "answer_target_end": 426,
         "answer_start_character": 8610,
         "answer_end_character": 8635,
-        "answer_text": "French Revolutionary Wars",
-        "reference_answers": [
-          "French Revolutionary Wars"
-        ],
         "answer_distance_tokens": 385,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1582,7 +1407,6 @@
         "record_id": "fe1b33085e0d268f28c1a05fa010f50781a10628cf84f3ebb7bc626a32fb7141",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "c2aa99849f79b83e248fe60055f5d3c186341d8123fca30bb7c162a8b30a8d94",
         "question_id": "5728c3cf2ca10214002da73e",
         "history_start": 2408,
@@ -1595,10 +1419,6 @@
         "answer_target_end": 410,
         "answer_start_character": 7868,
         "answer_end_character": 7882,
-        "answer_text": "25 August 1944",
-        "reference_answers": [
-          "25 August 1944"
-        ],
         "answer_distance_tokens": 362,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1610,7 +1430,6 @@
         "record_id": "2a027a5054883a00ffe9038570355db21bf26462013f1c4861a281c737eea9fc",
         "source": "train-v1.1.json",
         "article_id": "f8e7598bc7cc7cb0e86ac0f09b2939bbf6eeaf638843d3ec6b21344bba2506b7",
-        "article_title": "Political_philosophy",
         "context_id": "c89cbbb2f58e51d648b15779a520b4e572e8e8d945af2e879a6af71fb1237889",
         "question_id": "5726a49df1498d1400e8e5d4",
         "history_start": 4190,
@@ -1623,10 +1442,6 @@
         "answer_target_end": 412,
         "answer_start_character": 14328,
         "answer_end_character": 14338,
-        "answer_text": "John Rawls",
-        "reference_answers": [
-          "John Rawls"
-        ],
         "answer_distance_tokens": 375,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1638,7 +1453,6 @@
         "record_id": "e1e8ed5ef8d2b6832fabe9c77ef1918409ad1d31b890f4ca08ba8761d56bdc55",
         "source": "train-v1.1.json",
         "article_id": "37ebc6dfc19fd2849541e52ef9b998462e8fbc3254db07d95f344200377d3f76",
-        "article_title": "Qing_dynasty",
         "context_id": "042451594ef82ba6d2e47e7689d2f2e145965623d1d81601e373529ff67c4e77",
         "question_id": "573160a1a5e9cc1400cdbf12",
         "history_start": 21253,
@@ -1651,10 +1465,6 @@
         "answer_target_end": 411,
         "answer_start_character": 70110,
         "answer_end_character": 70117,
-        "answer_text": "doubled",
-        "reference_answers": [
-          "doubled"
-        ],
         "answer_distance_tokens": 342,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1666,7 +1476,6 @@
         "record_id": "96e50ab9145b68278b122df7b15f7d752066b537e41a4a84762c05e88c8f9b3d",
         "source": "train-v1.1.json",
         "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
-        "article_title": "Dissolution_of_the_Soviet_Union",
         "context_id": "a9ecefe992c4818bddc17ca6fc93bf569ffe45e42fddb3e6ce2cb9d65a05dec3",
         "question_id": "572786a8708984140094dff6",
         "history_start": 1380,
@@ -1679,10 +1488,6 @@
         "answer_target_end": 427,
         "answer_start_character": 4698,
         "answer_end_character": 4714,
-        "answer_text": "Nikolai Tikhonov",
-        "reference_answers": [
-          "Nikolai Tikhonov"
-        ],
         "answer_distance_tokens": 334,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1694,7 +1499,6 @@
         "record_id": "c43b81520a13030ec76423b4746654c6fd15fb67658ff8accbe4da28311364ef",
         "source": "train-v1.1.json",
         "article_id": "b808245122880114c290d16b8e4b88d8700f3a8e93874acbc3c2fcbaa20ac78b",
-        "article_title": "Tajikistan",
         "context_id": "f802c6f950fe79dec4b2dbc64927db2414bc42568876c2b2139aa93f90e1c547",
         "question_id": "5733e8cad058e614000b6568",
         "history_start": 7095,
@@ -1707,10 +1511,6 @@
         "answer_target_end": 428,
         "answer_start_character": 22733,
         "answer_end_character": 22747,
-        "answer_text": "Hizb ut-Tahrir",
-        "reference_answers": [
-          "Hizb ut-Tahrir"
-        ],
         "answer_distance_tokens": 371,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1722,7 +1522,6 @@
         "record_id": "11e07852788239aead23536d8375ea703de049ee67528c4ab81267c9375ec139",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "c68e5d5163bc68a9ddafadc92ce8bd4b8f1fbc4f1ceaad8215bc0e76c31fd16b",
         "question_id": "572900863f37b31900477f5c",
         "history_start": 18867,
@@ -1735,10 +1534,6 @@
         "answer_target_end": 497,
         "answer_start_character": 60444,
         "answer_end_character": 60591,
-        "answer_text": "Malesherbes, Clignancourt-Championnet, Michelet-Institut d'Art et d'Archéologie, Serpente-Maison de la Recherche, and Institut des Etudes Ibériques",
-        "reference_answers": [
-          "Malesherbes, Clignancourt-Championnet, Michelet-Institut d'Art et d'Archéologie, Serpente-Maison de la Recherche, and Institut des Etudes Ibériques"
-        ],
         "answer_distance_tokens": 343,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1750,7 +1545,6 @@
         "record_id": "fea447aadddb904ba78d6e34e378dc69cd6b1930fa1cc1ea1dabb01994eaa917",
         "source": "train-v1.1.json",
         "article_id": "c7f80b9b19a4ab0ced68e00a10d3fc6fc027c0db6ec3b15e28541417a43bfd6f",
-        "article_title": "MP3",
         "context_id": "d4b43fc871247ae6875eca5f700b0e885b123d776725483a6974c5ec47073e6c",
         "question_id": "57062c2552bb891400689928",
         "history_start": 3984,
@@ -1763,10 +1557,6 @@
         "answer_target_end": 415,
         "answer_start_character": 11975,
         "answer_end_character": 11986,
-        "answer_text": "7 July 1994",
-        "reference_answers": [
-          "7 July 1994"
-        ],
         "answer_distance_tokens": 338,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1778,7 +1568,6 @@
         "record_id": "b1e7ea414c1a63308f356b8318c782e7099ef7cae52c4f274983425010a215ee",
         "source": "train-v1.1.json",
         "article_id": "b808245122880114c290d16b8e4b88d8700f3a8e93874acbc3c2fcbaa20ac78b",
-        "article_title": "Tajikistan",
         "context_id": "f802c6f950fe79dec4b2dbc64927db2414bc42568876c2b2139aa93f90e1c547",
         "question_id": "5733e8cad058e614000b6566",
         "history_start": 6929,
@@ -1791,10 +1580,6 @@
         "answer_target_end": 417,
         "answer_start_character": 22369,
         "answer_end_character": 22419,
-        "answer_text": "minority religious groups undermine national unity",
-        "reference_answers": [
-          "minority religious groups undermine national unity"
-        ],
         "answer_distance_tokens": 302,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1806,7 +1591,6 @@
         "record_id": "a772bab3af3c68f690a8b19d257a86a47a187f752400d682b8fb1b72eef18ae8",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "d49765d44f10d4541b0d507e24d82c3aa6bcdd8b8fef08f16b79906a9b5076c7",
         "question_id": "5728fb086aef051400154935",
         "history_start": 15812,
@@ -1819,10 +1603,6 @@
         "answer_target_end": 413,
         "answer_start_character": 50972,
         "answer_end_character": 50975,
-        "answer_text": "150",
-        "reference_answers": [
-          "150"
-        ],
         "answer_distance_tokens": 360,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1834,7 +1614,6 @@
         "record_id": "14432062c2896b371cec529d1c51ee86b8f419acb8171da37b363b4c9cd72789",
         "source": "train-v1.1.json",
         "article_id": "e87065dd4593c0b02e9a6d79a0c917c67e85ea02ad0beae142a594c40b190a0c",
-        "article_title": "Federal_Aviation_Administration",
         "context_id": "7b118a1779e5e69ebc071e851bfa76e0516bb997b02ace9c9c71588470dc6334",
         "question_id": "570aa9676d058f1900183051",
         "history_start": 1928,
@@ -1847,10 +1626,6 @@
         "answer_target_end": 413,
         "answer_start_character": 6956,
         "answer_end_character": 6959,
-        "answer_text": "DOT",
-        "reference_answers": [
-          "DOT"
-        ],
         "answer_distance_tokens": 358,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1862,7 +1637,6 @@
         "record_id": "9d2f66e01998e7df0f0f1e99c77c495031f2c60077b357f3d7f781c3c724b59a",
         "source": "train-v1.1.json",
         "article_id": "6851dd9a014596b4ffbce9749527258e29aaf22b1cb3d60914093c53e7008e75",
-        "article_title": "Liberal_Party_of_Australia",
         "context_id": "f4797ce4a1631419408f9a308416091d7655ad2c173c758402a70fa3184067c4",
         "question_id": "5728eb37ff5b5019007da945",
         "history_start": 5348,
@@ -1875,10 +1649,6 @@
         "answer_target_end": 413,
         "answer_start_character": 19584,
         "answer_end_character": 19589,
-        "answer_text": "11.4%",
-        "reference_answers": [
-          "11.4%"
-        ],
         "answer_distance_tokens": 310,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1890,7 +1660,6 @@
         "record_id": "e11da952ec4cfff5ebb85f80264eab7dde1cdb6fda4e20fd31ff89e22c266654",
         "source": "train-v1.1.json",
         "article_id": "ecb235df74ebd1f0dca73dd0aa28cb4cfa65b64eb4417cdbe5248b605d18264f",
-        "article_title": "United_States_Army",
         "context_id": "5692359941e36f5fa53ef1c258ce2ddbf1df9c78b439e7afe733e722bc6ca045",
         "question_id": "570d386cb3d812140066d564",
         "history_start": 1620,
@@ -1903,10 +1672,6 @@
         "answer_target_end": 413,
         "answer_start_character": 6040,
         "answer_end_character": 6044,
-        "answer_text": "1791",
-        "reference_answers": [
-          "1791"
-        ],
         "answer_distance_tokens": 381,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1918,7 +1683,6 @@
         "record_id": "7171ffbb7eda8129df3c1ced375efba17679cc2f7f242cd366254cfd99e7dff7",
         "source": "train-v1.1.json",
         "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
-        "article_title": "Northwestern_University",
         "context_id": "7d779544ada95469bfd0a658b1b2668ad5a4138b4a86de995584d95cfb64a1a9",
         "question_id": "5727f2323acd2414000df07e",
         "history_start": 4668,
@@ -1931,10 +1695,6 @@
         "answer_target_end": 411,
         "answer_start_character": 16057,
         "answer_end_character": 16061,
-        "answer_text": "need",
-        "reference_answers": [
-          "need"
-        ],
         "answer_distance_tokens": 407,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1946,7 +1706,6 @@
         "record_id": "73f49ec822b14f3ba834663de155746bdda350ff4440419c68ba248d00ec6914",
         "source": "train-v1.1.json",
         "article_id": "ca96eba45937a5a0da58fe46c6ee8d364f3fe42bb0754576ff9b51b5419f388c",
-        "article_title": "Kanye_West",
         "context_id": "c963f8ba9290bb9ea5237fb50af9d18b5f8ea3707e612cbd729baac7ebd8cdaa",
         "question_id": "56cf694f4df3c31400b0d750",
         "history_start": 4795,
@@ -1959,10 +1718,6 @@
         "answer_target_end": 422,
         "answer_start_character": 17207,
         "answer_end_character": 17220,
-        "answer_text": "Alexis Phifer",
-        "reference_answers": [
-          "Alexis Phifer"
-        ],
         "answer_distance_tokens": 378,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -1974,7 +1729,6 @@
         "record_id": "d9f0737d6e650420ba140c157e7e86708fd1a9531435e0a92635b09055139270",
         "source": "train-v1.1.json",
         "article_id": "dacc4c242d25863cbb3284c1a74c2867b6d3d9b496c7444a3ce4c6064d7d3709",
-        "article_title": "Software_testing",
         "context_id": "7e28b40321376374e2f1ecc9264364ee9a26a313eb72d4c73085f9e28a98eea6",
         "question_id": "572914a26aef051400154a41",
         "history_start": 1046,
@@ -1987,10 +1741,6 @@
         "answer_target_end": 427,
         "answer_start_character": 4073,
         "answer_end_character": 4090,
-        "answer_text": "10–100 times more",
-        "reference_answers": [
-          "10–100 times more"
-        ],
         "answer_distance_tokens": 341,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2002,7 +1752,6 @@
         "record_id": "714b612479b315313d21e630a2a7303c871dd6e7633c5252f4d734e0cd885d47",
         "source": "train-v1.1.json",
         "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
-        "article_title": "Dissolution_of_the_Soviet_Union",
         "context_id": "4b2c5accc73d3dfc4766c921863e6fc0223c814d137e223395b7b2dd867f54f0",
         "question_id": "57283d0e2ca10214002da159",
         "history_start": 14248,
@@ -2015,10 +1764,6 @@
         "answer_target_end": 414,
         "answer_start_character": 46010,
         "answer_end_character": 46025,
-        "answer_text": "Communist Party",
-        "reference_answers": [
-          "Communist Party"
-        ],
         "answer_distance_tokens": 327,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2030,7 +1775,6 @@
         "record_id": "cb6475abf20d9505d5824007df12d4bcb81c72c21621ad7eaa7513d39a8f8019",
         "source": "train-v1.1.json",
         "article_id": "37ebc6dfc19fd2849541e52ef9b998462e8fbc3254db07d95f344200377d3f76",
-        "article_title": "Qing_dynasty",
         "context_id": "1762d5f944e93b743707d33acd83741389951a176a8b175f75354a7e614aad57",
         "question_id": "57314c0e05b4da19006bcff6",
         "history_start": 14310,
@@ -2043,10 +1787,6 @@
         "answer_target_end": 411,
         "answer_start_character": 46375,
         "answer_end_character": 46392,
-        "answer_text": "Shandong Province",
-        "reference_answers": [
-          "Shandong Province"
-        ],
         "answer_distance_tokens": 355,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2058,7 +1798,6 @@
         "record_id": "68b3f1db378ac2c4eca668a62a81af4f961779d641b51cf239bdfb1bf33ef235",
         "source": "train-v1.1.json",
         "article_id": "c7f80b9b19a4ab0ced68e00a10d3fc6fc027c0db6ec3b15e28541417a43bfd6f",
-        "article_title": "MP3",
         "context_id": "74f3a85facb1670de7ca5798bd4adc55513eabf58d67200cf90c815982b962a1",
         "question_id": "5706534d75f01819005e7b50",
         "history_start": 8516,
@@ -2071,10 +1810,6 @@
         "answer_target_end": 425,
         "answer_start_character": 26084,
         "answer_end_character": 26097,
-        "answer_text": "legal threats",
-        "reference_answers": [
-          "legal threats"
-        ],
         "answer_distance_tokens": 377,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2086,7 +1821,6 @@
         "record_id": "4f64c8bb72834522f3b1fa9893bdb7e24b5a6f7f38f4db13cff877047172abbe",
         "source": "train-v1.1.json",
         "article_id": "d9ffcc23c3b8779ce980a042e5b50bf0675f2e456743708b3fbb2d35f37870fd",
-        "article_title": "Eton_College",
         "context_id": "440a28adaf46e1d48f7f1022580cd4841805ecc8436215f80f0cc81439c54735",
         "question_id": "5727fc123acd2414000df176",
         "history_start": 9192,
@@ -2099,10 +1833,6 @@
         "answer_target_end": 415,
         "answer_start_character": 31139,
         "answer_end_character": 31153,
-        "answer_text": "Lawrence Oates",
-        "reference_answers": [
-          "Lawrence Oates"
-        ],
         "answer_distance_tokens": 356,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2114,7 +1844,6 @@
         "record_id": "85da398786de52efbbe13d5d1fd89729a2d2e69738a74bfa4a546ac1b6883ffd",
         "source": "train-v1.1.json",
         "article_id": "d9ffcc23c3b8779ce980a042e5b50bf0675f2e456743708b3fbb2d35f37870fd",
-        "article_title": "Eton_College",
         "context_id": "a9945a283c647ba1d7f7000853401d5b0585093caee20985e00901667be83cd2",
         "question_id": "5727c3af3acd2414000dec0e",
         "history_start": 4532,
@@ -2127,10 +1856,6 @@
         "answer_target_end": 421,
         "answer_start_character": 15369,
         "answer_end_character": 15381,
-        "answer_text": "Marsden Fund",
-        "reference_answers": [
-          "Marsden Fund"
-        ],
         "answer_distance_tokens": 345,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2142,7 +1867,6 @@
         "record_id": "d8d0a60713d8a55d11b15b7bce14cd3715bb90be1269ead8c2bd16e34f207d3d",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "dd96daab737cbc16901c71ded364516dc789ae74104a87616a05618c84a5dda3",
         "question_id": "5731304e497a881900248c3b",
         "history_start": 7228,
@@ -2155,10 +1879,6 @@
         "answer_target_end": 423,
         "answer_start_character": 22746,
         "answer_end_character": 22779,
-        "answer_text": "incandescent bulb in a flashlight",
-        "reference_answers": [
-          "incandescent bulb in a flashlight"
-        ],
         "answer_distance_tokens": 320,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2170,7 +1890,6 @@
         "record_id": "28a51fca30867fc8bf90113b1081af978c643f187470d75a82e0f02ddb2f57c4",
         "source": "train-v1.1.json",
         "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
-        "article_title": "Light-emitting_diode",
         "context_id": "c0b264cb08125f3dca540d1659306f23db4455d31d37ff0c9c6a09c9f04928b4",
         "question_id": "5730c888aca1c71400fe5ab7",
         "history_start": 1216,
@@ -2183,10 +1902,6 @@
         "answer_target_end": 425,
         "answer_start_character": 3979,
         "answer_end_character": 4033,
-        "answer_text": "replacements for incandescent and neon indicator lamps",
-        "reference_answers": [
-          "replacements for incandescent and neon indicator lamps"
-        ],
         "answer_distance_tokens": 335,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2198,7 +1913,6 @@
         "record_id": "8a6eeb7b38cff53f4ac58c3037432d5ab5efb7f333455e6e2045f4df3a4a743c",
         "source": "train-v1.1.json",
         "article_id": "d9ffcc23c3b8779ce980a042e5b50bf0675f2e456743708b3fbb2d35f37870fd",
-        "article_title": "Eton_College",
         "context_id": "8869d18fe614a019e09c05c30882687facd0e624e07814c6a8e6df2a8d0aafbe",
         "question_id": "5727d32a3acd2414000ded62",
         "history_start": 5527,
@@ -2211,10 +1925,6 @@
         "answer_target_end": 422,
         "answer_start_character": 18734,
         "answer_end_character": 18744,
-        "answer_text": "didgeridoo",
-        "reference_answers": [
-          "didgeridoo"
-        ],
         "answer_distance_tokens": 312,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2226,7 +1936,6 @@
         "record_id": "39dd8bb90c737d5dd02ca601e98880a258fa261dd01a74e76fc480f24dc4c33b",
         "source": "train-v1.1.json",
         "article_id": "2a6ef5cb0cdb7a982034fd0f46b916c6cfd84984902d1ce0762c46c1d173deb6",
-        "article_title": "Sichuan",
         "context_id": "658baad02ceb420e12b2f7f6b8d9666d4e8a3a0c2c364cd77189bf4c25d07a86",
         "question_id": "5727b8623acd2414000dea8a",
         "history_start": 3451,
@@ -2239,10 +1948,6 @@
         "answer_target_end": 447,
         "answer_start_character": 11409,
         "answer_end_character": 11474,
-        "answer_text": "Chengdu, Suining, Nanchong, Dazhou, Ya'an, Abazhou, and Liangshan",
-        "reference_answers": [
-          "Chengdu, Suining, Nanchong, Dazhou, Ya'an, Abazhou, and Liangshan"
-        ],
         "answer_distance_tokens": 383,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2254,7 +1959,6 @@
         "record_id": "8726a69bdda0874ed919c5d2edcf0f4ba2943a2157a8c9c46da692d868d36839",
         "source": "train-v1.1.json",
         "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
-        "article_title": "Paris",
         "context_id": "4ffa71f391aa5db9e57c9f39864f47f256317467aecd87f93ab6e62b12eb945f",
         "question_id": "5728c8d83acd2414000dfe63",
         "history_start": 3867,
@@ -2267,10 +1971,6 @@
         "answer_target_end": 422,
         "answer_start_character": 12505,
         "answer_end_character": 12509,
-        "answer_text": "1929",
-        "reference_answers": [
-          "1929"
-        ],
         "answer_distance_tokens": 343,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2282,7 +1982,6 @@
         "record_id": "91479abe8e960672ca4cce5a0db630b61f41a409e85768d121c62799c39c4caa",
         "source": "train-v1.1.json",
         "article_id": "15ebb88575502ddc9604b2a0d67093c3294747bcd79df816631e9e8ac5ce37de",
-        "article_title": "Santa_Monica,_California",
         "context_id": "6f8a56e972806561bd014afcb7249b384377bb335d41f7e9e03b9b525724d627",
         "question_id": "572f435f947a6a140053c82a",
         "history_start": 2225,
@@ -2295,10 +1994,6 @@
         "answer_target_end": 412,
         "answer_start_character": 7403,
         "answer_end_character": 7407,
-        "answer_text": "2020",
-        "reference_answers": [
-          "2020"
-        ],
         "answer_distance_tokens": 398,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2310,7 +2005,6 @@
         "record_id": "c66a6d25e1a05eb1a116cbc780f3e7a9754315a6414b211b4fe828c0f1e68d3c",
         "source": "train-v1.1.json",
         "article_id": "97a269a5bb0c36f468b9c1b6b85f3cbfd0cbe0e7b0f2aceba11974313dbb3062",
-        "article_title": "Universal_Studios",
         "context_id": "60ca665c68c97edd847bb848f45c54ea6cbe45bb8e57665385fdfb7eb7bc531a",
         "question_id": "56e15d98e3433e1400422e0d",
         "history_start": 4228,
@@ -2323,10 +2017,6 @@
         "answer_target_end": 428,
         "answer_start_character": 13602,
         "answer_end_character": 13609,
-        "answer_text": "1942–46",
-        "reference_answers": [
-          "1942–46"
-        ],
         "answer_distance_tokens": 299,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2338,7 +2028,6 @@
         "record_id": "d1bf76b4b6cca4befd11a0d027264d3647c24715723b67c35925a9baf19c221e",
         "source": "train-v1.1.json",
         "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
-        "article_title": "Northwestern_University",
         "context_id": "b40827796d13bc810db56c394ec7db14a6c3dfd87d327355fa549dc6bd9885b5",
         "question_id": "5727ee953acd2414000df01f",
         "history_start": 3815,
@@ -2351,10 +2040,6 @@
         "answer_target_end": 413,
         "answer_start_character": 13347,
         "answer_end_character": 13377,
-        "answer_text": "an appointed Board of Trustees",
-        "reference_answers": [
-          "an appointed Board of Trustees"
-        ],
         "answer_distance_tokens": 357,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
@@ -2366,7 +2051,6 @@
         "record_id": "2d3c887c9f976b1d2ca96dcd3774f292cda9fcc2c79d70ad70543e0e13d2d0b2",
         "source": "train-v1.1.json",
         "article_id": "37ebc6dfc19fd2849541e52ef9b998462e8fbc3254db07d95f344200377d3f76",
-        "article_title": "Qing_dynasty",
         "context_id": "0f42d44c4654f8b5eae978d362974b89eeb197eedd7c8269f555aaf4434053e0",
         "question_id": "5731564105b4da19006bd05c",
         "history_start": 17142,
@@ -2379,10 +2063,6 @@
         "answer_target_end": 423,
         "answer_start_character": 56432,
         "answer_end_character": 56457,
-        "answer_text": "jade, ginseng, salt, furs",
-        "reference_answers": [
-          "jade, ginseng, salt, furs"
-        ],
         "answer_distance_tokens": 285,
         "local_answer_text_present": false,
         "local_first_answer_token_present": false,
