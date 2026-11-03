@@ -1,0 +1,279 @@
+{
+  "status": "completed",
+  "trials": {
+    "cpt_search_deepseek4_balanced_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.915963250937676,
+      "development_ppl": 2740.6852269296933
+    },
+    "cpt_search_deepseek4_balanced_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.21422819666368,
+      "development_ppl": 1358.6246722729645
+    },
+    "cpt_search_deepseek4_balanced_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.712116813862062,
+      "development_ppl": 822.309474500792
+    },
+    "cpt_search_deepseek4_tiny_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.909273353908113,
+      "development_ppl": 2722.4115177403505
+    },
+    "cpt_search_deepseek4_tiny_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.216515429553169,
+      "development_ppl": 1361.735719796697
+    },
+    "cpt_search_deepseek4_tiny_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.73559248690808,
+      "development_ppl": 841.8421167887356
+    },
+    "cpt_search_qwen35_tiny_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.933299109139259,
+      "development_ppl": 2788.611579346276
+    },
+    "cpt_search_qwen35_tiny_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.211097277732802,
+      "development_ppl": 1354.3775806857088
+    },
+    "cpt_search_qwen35_tiny_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.711115377589806,
+      "development_ppl": 821.4863961650443
+    },
+    "cpt_search_trans_full_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.8853001138462755,
+      "development_ppl": 2657.922585742627
+    },
+    "cpt_search_trans_full_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.1875884604032265,
+      "development_ppl": 1322.909108111723
+    },
+    "cpt_search_trans_full_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.81174216278646,
+      "development_ppl": 908.4521005550488
+    },
+    "cpt_search_trans_local_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.879903847549944,
+      "development_ppl": 2643.6183570995936
+    },
+    "cpt_search_trans_local_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.180747877034636,
+      "development_ppl": 1313.890519440099
+    },
+    "cpt_search_trans_local_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.791414841380295,
+      "development_ppl": 890.1721236441402
+    },
+    "cpt_search_v3_dynamic_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.911266975355262,
+      "development_ppl": 2727.8443894754632
+    },
+    "cpt_search_v3_dynamic_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.179363614623423,
+      "development_ppl": 1312.0730084279
+    },
+    "cpt_search_v3_dynamic_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.603959163403014,
+      "development_ppl": 738.0113201230943
+    },
+    "cpt_search_v3_static_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.9112853543674255,
+      "development_ppl": 2727.8945250213974
+    },
+    "cpt_search_v3_static_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.17940722051361,
+      "development_ppl": 1312.1302237868779
+    },
+    "cpt_search_v3_static_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.598952542345338,
+      "development_ppl": 734.325611279623
+    },
+    "qa_search_deepseek4_balanced_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.508756843987785
+    },
+    "qa_search_deepseek4_balanced_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.055983222503484
+    },
+    "qa_search_deepseek4_balanced_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.629939762747556
+    },
+    "qa_search_deepseek4_tiny_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.485780487986804
+    },
+    "qa_search_deepseek4_tiny_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.058645944854689
+    },
+    "qa_search_deepseek4_tiny_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.628004561763636
+    },
+    "qa_search_qwen35_tiny_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.494382309984031
+    },
+    "qa_search_qwen35_tiny_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.041220997785911
+    },
+    "qa_search_qwen35_tiny_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.691093129678206
+    },
+    "qa_search_trans_full_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.628142723914904
+    },
+    "qa_search_trans_full_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.2112924060732615
+    },
+    "qa_search_trans_full_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.695939800029775
+    },
+    "qa_search_trans_local_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.6023151857499105
+    },
+    "qa_search_trans_local_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.189817799736384
+    },
+    "qa_search_trans_local_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.696746849776611
+    },
+    "qa_search_v3_dynamic_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.531116006246536
+    },
+    "qa_search_v3_dynamic_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.070799543259213
+    },
+    "qa_search_v3_dynamic_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.572861824976722
+    },
+    "qa_search_v3_static_r0": {
+      "status": "completed",
+      "learning_rate": 0.0003,
+      "seed": 101,
+      "development_nll": 7.526876379804456
+    },
+    "qa_search_v3_static_r1": {
+      "status": "completed",
+      "learning_rate": 0.001,
+      "seed": 101,
+      "development_nll": 7.057404596496203
+    },
+    "qa_search_v3_static_r2": {
+      "status": "completed",
+      "learning_rate": 0.003,
+      "seed": 101,
+      "development_nll": 6.583734277356199
+    }
+  },
+  "scope": "Development selection only; no held-out model scores"
+}

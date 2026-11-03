@@ -1,0 +1,102 @@
+{
+  "status": "registered_before_final_holdout_scoring",
+  "previous_head": "18e744a4c818a9ee2d2b525beccfad703fd8fb76",
+  "files": [
+    {
+      "path": "scripts/repaired_lm_history_controls.py",
+      "original_sha256": "50763b7327a5324ef493b95310d8d668860e22d3627942b59fa86b3affc4b922",
+      "public_sha256": "50763b7327a5324ef493b95310d8d668860e22d3627942b59fa86b3affc4b922"
+    },
+    {
+      "path": "scripts/repaired_bigram_control.py",
+      "original_sha256": "643de86b39bc7982ef788c53056d4ed830bf06a11417eff8b174fc2094fc054b",
+      "public_sha256": "643de86b39bc7982ef788c53056d4ed830bf06a11417eff8b174fc2094fc054b"
+    },
+    {
+      "path": "scripts/repaired_eval_batch_calibration.py",
+      "original_sha256": "32539d93684127080a17753ee69cd326ec035b8fb02c978f1b110f4d22aa5c9f",
+      "public_sha256": "32539d93684127080a17753ee69cd326ec035b8fb02c978f1b110f4d22aa5c9f"
+    },
+    {
+      "path": "scripts/finish_repaired_analysis.py",
+      "original_sha256": "c516d75ea53fa88b945ff82877adf166a6b5a202c4f3df58b6558be45b4ab2ff",
+      "public_sha256": "c516d75ea53fa88b945ff82877adf166a6b5a202c4f3df58b6558be45b4ab2ff"
+    },
+    {
+      "path": "evaluations/repaired/PROTOCOL.md",
+      "original_sha256": "893cb1e5ef16f524e73d4c456b53ead6cbac5c68ee3ec920f5d001feb61e0d95",
+      "public_sha256": "893cb1e5ef16f524e73d4c456b53ead6cbac5c68ee3ec920f5d001feb61e0d95"
+    },
+    {
+      "path": "PUBLICATION_NOTES.md",
+      "original_sha256": "028236bcf820c7023ed594391c3bd6eb332a4343c3bae4795a1486f9e93d3761",
+      "public_sha256": "028236bcf820c7023ed594391c3bd6eb332a4343c3bae4795a1486f9e93d3761"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/lm_history_control_protocol.json",
+      "original_sha256": "37f7c86318415c926f73d62a56c60d5016ff87ec07f7e529cb7f186524d791a7",
+      "public_sha256": "37f7c86318415c926f73d62a56c60d5016ff87ec07f7e529cb7f186524d791a7"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/bigram_control_protocol.json",
+      "original_sha256": "4b8345e2096597917b7ac54fdd2ef876d8b89af49163206bac9db20ecd739155",
+      "public_sha256": "4b8345e2096597917b7ac54fdd2ef876d8b89af49163206bac9db20ecd739155"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/eval_batch_calibration.json",
+      "original_sha256": "1a2fbb3fa92ea04b64b247d368577d0310ecad2aa009f2cb19aeb42869428e89",
+      "public_sha256": "284be4962fa38d783b3fa26712df9486582120f44965ad287af4260ca2fc593b"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/development_prior_control.json",
+      "original_sha256": "84a7c56dacf86471dd4b11dfb4558c22d57682131f26e438fd1536a6b84b220a",
+      "public_sha256": "2011f26dde59095571d50391d6a917afe4cf19cd98e50ee0ae50f5207ac4f5c9"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/selection.json",
+      "original_sha256": "b1438f112a6a9ea8af381e5a0f484b5c3044ee84f8201873f768249924953445",
+      "public_sha256": "4e41fd5416e506198f835f017505ccf03b35fd2446d78e8003a9e8157bad6237"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/development_search_summary.json",
+      "original_sha256": "aea4a5cd04a71577bd37f8ec191a1f90bad74a0886b62450cb3dcdddab412978",
+      "public_sha256": "aea4a5cd04a71577bd37f8ec191a1f90bad74a0886b62450cb3dcdddab412978"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/interim_pairing_audit.json",
+      "original_sha256": "24ca4548f6fd517a70ca0fe93dd24ed0e3e306736cc2bad1b8f699e715445df7",
+      "public_sha256": "24ca4548f6fd517a70ca0fe93dd24ed0e3e306736cc2bad1b8f699e715445df7"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/PUBLIC_ADDENDUM.json",
+      "original_sha256": "3340c2b0ed41f079c393d079176f4ea05e635a74b41a1f31f2613de887b58691",
+      "public_sha256": "3340c2b0ed41f079c393d079176f4ea05e635a74b41a1f31f2613de887b58691"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/registry.json",
+      "original_sha256": "d7bce7ee48edd37043a1ea5570b53ebd93eeaab66f064a5de31968536c3beb45",
+      "public_sha256": "24c0ecd22eed4f62621f9567fecf2660c8b1b022e9447e2c368142682c424c3f"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/analysis/CALIBRATION_NOTES.md",
+      "original_sha256": "408769d943df8f7aa0bf50995a27a48858ddd2f8a3bf36427834726c7414b9c9",
+      "public_sha256": "408769d943df8f7aa0bf50995a27a48858ddd2f8a3bf36427834726c7414b9c9"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/analysis/plot_results.py",
+      "original_sha256": "927d128179af4954f9d6e518d4acf78795a5fb65028aef35f6375ea9b596f1f4",
+      "public_sha256": "927d128179af4954f9d6e518d4acf78795a5fb65028aef35f6375ea9b596f1f4"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/analysis/design_history/lm_history_control_protocol_v1.json",
+      "original_sha256": "4b710eb10323a9da671ab43c8a02e820c285007ea4af6dcd78a5a1de677781ca",
+      "public_sha256": "4b710eb10323a9da671ab43c8a02e820c285007ea4af6dcd78a5a1de677781ca"
+    },
+    {
+      "path": "results/repaired/local333k_corrected_20261103/analysis/design_history/repaired_lm_history_controls_v1.py",
+      "original_sha256": "29faf46704361a9799a176d1081cecb2fe614c40c287ddf8b47bf5bebb5d045b",
+      "public_sha256": "29faf46704361a9799a176d1081cecb2fe614c40c287ddf8b47bf5bebb5d045b"
+    }
+  ],
+  "unchanged": "Main frozen model, data and training source identity; main batch16 retained"
+}

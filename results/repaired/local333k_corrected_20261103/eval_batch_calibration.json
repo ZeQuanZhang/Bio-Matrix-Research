@@ -1,0 +1,96 @@
+{
+  "status": "completed",
+  "source_sha256": "32539d93684127080a17753ee69cd326ec035b8fb02c978f1b110f4d22aa5c9f",
+  "split": "validation only",
+  "production_phase_at_start": "final_deepseek4_tiny_s11_qa",
+  "production_phase_at_end": "final_deepseek4_tiny_s11_qa · 固定开发验证",
+  "started_unix": 1793692365.172,
+  "ended_unix": 1793692509.283521,
+  "conditions": {
+    "trans_local": {
+      "status": "completed",
+      "qa_max_per_question_nll_difference": 4.76837158203125e-07,
+      "lm_nll_difference": 0.0,
+      "first_answer_predictions_agree": true,
+      "first4_greedy_tokens_identical_on64_questions": true,
+      "elapsed_seconds": {
+        "16": 5.503239499987103,
+        "64": 1.2791919589508325
+      },
+      "approximate_speedup": 4.302121711663001
+    },
+    "trans_full": {
+      "status": "completed",
+      "qa_max_per_question_nll_difference": 7.947285975973273e-07,
+      "lm_nll_difference": 0.0,
+      "first_answer_predictions_agree": true,
+      "first4_greedy_tokens_identical_on64_questions": true,
+      "elapsed_seconds": {
+        "16": 0.48227041703648865,
+        "64": 0.407135916990228
+      },
+      "approximate_speedup": 1.184544023041976
+    },
+    "v3_static": {
+      "status": "completed",
+      "qa_max_per_question_nll_difference": 1.7881393432617188e-07,
+      "lm_nll_difference": 0.0,
+      "first_answer_predictions_agree": true,
+      "first4_greedy_tokens_identical_on64_questions": true,
+      "elapsed_seconds": {
+        "16": 10.12557116698008,
+        "64": 6.203286541043781
+      },
+      "approximate_speedup": 1.6322913829604146
+    },
+    "v3_dynamic": {
+      "status": "completed",
+      "qa_max_per_question_nll_difference": 5.960464477539062e-07,
+      "lm_nll_difference": 5.529727786779404e-10,
+      "first_answer_predictions_agree": true,
+      "first4_greedy_tokens_identical_on64_questions": true,
+      "elapsed_seconds": {
+        "16": 5.698751042014919,
+        "64": 5.399879124946892
+      },
+      "approximate_speedup": 1.0553478902309625
+    },
+    "qwen35_tiny": {
+      "status": "completed",
+      "qa_max_per_question_nll_difference": 1.3004649801473533e-07,
+      "lm_nll_difference": 0.0,
+      "first_answer_predictions_agree": true,
+      "first4_greedy_tokens_identical_on64_questions": true,
+      "elapsed_seconds": {
+        "16": 9.326509541948326,
+        "64": 2.8507457920350134
+      },
+      "approximate_speedup": 3.2716033706009853
+    },
+    "deepseek4_tiny": {
+      "status": "completed",
+      "qa_max_per_question_nll_difference": 7.152557373046875e-07,
+      "lm_nll_difference": 4.220055416226387e-09,
+      "first_answer_predictions_agree": true,
+      "first4_greedy_tokens_identical_on64_questions": true,
+      "elapsed_seconds": {
+        "16": 10.677476040902548,
+        "64": 4.342992959078401
+      },
+      "approximate_speedup": 2.458552464051967
+    },
+    "deepseek4_balanced": {
+      "status": "completed",
+      "qa_max_per_question_nll_difference": 7.152557373046875e-07,
+      "lm_nll_difference": 1.3242242857813835e-09,
+      "first_answer_predictions_agree": true,
+      "first4_greedy_tokens_identical_on64_questions": true,
+      "elapsed_seconds": {
+        "16": 4.005968041019514,
+        "64": 2.2775797919603065
+      },
+      "approximate_speedup": 1.7588705586343427
+    }
+  },
+  "note": "Timing is a development calibration under concurrent validation, not a standalone architecture speed benchmark"
+}

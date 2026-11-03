@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "groups": {
+    "search_cpt": {
+      "conditions": 21,
+      "updates_each": 64,
+      "status": "matched"
+    },
+    "search_qa": {
+      "conditions": 21,
+      "updates_each": 64,
+      "status": "matched"
+    },
+    "final_seed11_cpt": {
+      "conditions": 7,
+      "updates_each": 256,
+      "status": "matched"
+    }
+  }
+}

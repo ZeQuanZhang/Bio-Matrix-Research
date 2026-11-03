@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-03T15:45:14.988080",
+  "source": "scripts/repaired_bigram_control.py",
+  "source_sha256": "643de86b39bc7982ef788c53056d4ed830bf06a11417eff8b174fc2094fc054b",
+  "execution": "After main completed, no test-based tuning",
+  "main_protocol_sha256": "5aef7c4ec974a6b07d4b2fcfd38a3b63dbbc87a0e1c90bc0caac6adb97f8aeda",
+  "purpose": "Diagnose whether text prediction gains exceed a count model conditioned only on the preceding token",
+  "planned_before_final_holdout_scoring": true,
+  "status": "not_executed"
+}

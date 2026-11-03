@@ -1,6 +1,6 @@
 {
   "status": "running",
-  "stage": "final_v3_dynamic_s11_cpt · cpt · 开始/恢复",
+  "stage": "final_qwen35_tiny_s23_cpt · cpt · 开始/恢复",
   "pid": 23041,
   "conditions": {
     "overfit_trans_local": {
@@ -396,65 +396,116 @@
       "inputs": 184552
     },
     "final_trans_local_s11_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 14.406989000388421,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_trans_local_s11_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 38.76843582675792,
+      "targets": 31459,
+      "inputs": 1490360
     },
     "final_trans_full_s11_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 13.173436545068398,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_trans_full_s11_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 37.675664470531046,
+      "targets": 31459,
+      "inputs": 1490360
     },
     "final_v3_static_s11_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 112.19136696029454,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_v3_static_s11_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 182.6551843623165,
+      "targets": 31459,
+      "inputs": 1490360
     },
     "final_v3_dynamic_s11_cpt": {
-      "status": "running",
-      "fraction": 0.75,
-      "ce": 5.870354652404785,
-      "updates": 192,
-      "train_seconds": 86.2400490436703,
-      "targets": 786432,
-      "inputs": 786432
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 114.38393850065768,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_v3_dynamic_s11_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 175.42049359413795,
+      "targets": 31459,
+      "inputs": 1490360
     },
     "final_qwen35_tiny_s11_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 62.15932766953483,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_qwen35_tiny_s11_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 140.37919333809987,
+      "targets": 31459,
+      "inputs": 1490360
     },
     "final_deepseek4_tiny_s11_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 131.29392946022563,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_deepseek4_tiny_s11_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 350.1566608083667,
+      "targets": 31459,
+      "inputs": 1490360
     },
     "final_deepseek4_balanced_s11_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 150.41064696060494,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_deepseek4_balanced_s11_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 402.34232216584496,
+      "targets": 31459,
+      "inputs": 1490360
     },
     "final_trans_local_s23_cpt": {
       "status": "not_executed",
@@ -489,8 +540,13 @@
       "fraction": 0.0
     },
     "final_qwen35_tiny_s23_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "running",
+      "fraction": 0.390625,
+      "ce": 6.172487258911133,
+      "updates": 100,
+      "train_seconds": 28.790881789522246,
+      "targets": 409600,
+      "inputs": 409600
     },
     "final_qwen35_tiny_s23_qa": {
       "status": "not_executed",

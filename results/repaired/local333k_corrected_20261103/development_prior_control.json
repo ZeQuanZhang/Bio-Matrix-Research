@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "fit_split": "train",
+  "evaluation_split": "validation",
+  "most_frequent_first_token_training_frequency": 0.05639172688761525,
+  "constant_first_token_development_accuracy": 0.038947639927779214,
+  "test_used": false
+}

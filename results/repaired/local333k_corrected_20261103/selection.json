@@ -1,0 +1,37 @@
+{
+  "trans_local": {
+    "cpt_rate": 0.003,
+    "cpt_trial": "cpt_search_trans_local_r2",
+    "qa_rate": 0.003
+  },
+  "trans_full": {
+    "cpt_rate": 0.003,
+    "cpt_trial": "cpt_search_trans_full_r2",
+    "qa_rate": 0.003
+  },
+  "v3_static": {
+    "cpt_rate": 0.003,
+    "cpt_trial": "cpt_search_v3_static_r2",
+    "qa_rate": 0.003
+  },
+  "v3_dynamic": {
+    "cpt_rate": 0.003,
+    "cpt_trial": "cpt_search_v3_dynamic_r2",
+    "qa_rate": 0.003
+  },
+  "qwen35_tiny": {
+    "cpt_rate": 0.003,
+    "cpt_trial": "cpt_search_qwen35_tiny_r2",
+    "qa_rate": 0.003
+  },
+  "deepseek4_tiny": {
+    "cpt_rate": 0.003,
+    "cpt_trial": "cpt_search_deepseek4_tiny_r2",
+    "qa_rate": 0.003
+  },
+  "deepseek4_balanced": {
+    "cpt_rate": 0.003,
+    "cpt_trial": "cpt_search_deepseek4_balanced_r2",
+    "qa_rate": 0.003
+  }
+}

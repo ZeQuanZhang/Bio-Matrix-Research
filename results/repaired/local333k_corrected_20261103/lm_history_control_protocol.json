@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03T15:27:01.592908",
   "source": "scripts/repaired_lm_history_controls.py",
-  "source_sha256": "29faf46704361a9799a176d1081cecb2fe614c40c287ddf8b47bf5bebb5d045b",
+  "source_sha256": "50763b7327a5324ef493b95310d8d668860e22d3627942b59fa86b3affc4b922",
   "main_protocol_sha256": "5aef7c4ec974a6b07d4b2fcfd38a3b63dbbc87a0e1c90bc0caac6adb97f8aeda",
   "execution": "Only after frozen comparison completes",
   "purpose": "Measure history use directly on the trained text objective, independently of QA competence",
@@ -11,8 +11,14 @@
   "modes": [
     "warm",
     "remote128_replaced",
+    "prefix383_replaced_current_token_kept",
     "prefix384_replaced"
   ],
   "checkpoint": "All21 final CPT checkpoints",
-  "final_holdout_not_yet_scored": true
+  "final_holdout_not_yet_scored": true,
+  "original_source_sha256": "29faf46704361a9799a176d1081cecb2fe614c40c287ddf8b47bf5bebb5d045b",
+  "amendment_date": "2026-11-03T16:16:53.023764",
+  "amendment_reason": "Additional prespecified control keeps the current input token fixed, separating temporal history use from one-token bigram prediction; original modes retained.",
+  "original_public_protocol_commit": "18e744a4c818a9ee2d2b525beccfad703fd8fb76",
+  "test_scores_seen_at_amendment": false
 }

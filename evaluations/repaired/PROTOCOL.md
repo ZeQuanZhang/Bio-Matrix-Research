@@ -62,3 +62,9 @@ python run_biomatrix_repaired.py --output results/repaired/my_corrected_run
 七种配置还通过独立的512-token、371位置非整块边界因果性/前缀检查，以及完整长度CPU/MPS输出和梯度一致性检查；脚本为`scripts/repaired_additional_checks.py`，结果见运行目录`additional_checks.json`。该检查使用单独模型，生产检查点和71份冻结运行源码保持不变。
 
 在保留测试前另行登记文本历史干预：读取全部21个最终预训练检查点，使用128个按文档轮转抽取且评分目标不重叠的测试窗口，只评分尾部128个真实目标；将最远128输入或整个384-token前缀替换成其他文档，目标保持不变。补充协议及源代码哈希见运行目录`lm_history_control_protocol.json`，执行脚本为`scripts/repaired_lm_history_controls.py`；在主实验完成后执行，不影响模型选择。此项把文本任务的历史利用与问答学习能力分开测量，探索性区间单独解读。
+
+额外文本计数诊断在保留测试评分前登记：用每种子完全相同的1M预训练转移计数，拟合仅依赖前一个token的平滑二元模型，平滑强度由训练中的后继类型数确定，不用测试或开发分数调参。其符号状态容量与神经模型不同，作为解释文本学习内容的补充控制，单独报告。见运行目录`bigram_control_protocol.json`和`scripts/repaired_bigram_control.py`。
+
+独立开发批次校准比较16与64，数值检查通过，速度收益随配置不同且计时包含预热和并发影响。本轮主实验保留冻结batch16；校准详见运行目录`eval_batch_calibration.json`和`analysis/CALIBRATION_NOTES.md`。
+
+测试评分前给文本历史补充控制增加一个保留当前输入token的条件：只替换前383个输入，位置383及全部128个被评分目标不变。仅依赖前一个token的二元预测器在此条件下严格不变，因此该控制有助于识别额外历史内容作用。原先替换前128和384输入的条件继续执行；初版脚本与登记保存在运行目录`analysis/design_history/`，修订日期和代码哈希写入`lm_history_control_protocol.json`。

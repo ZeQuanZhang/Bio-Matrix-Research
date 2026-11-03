@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-03T15:27:01.592908",
+  "source": "scripts/repaired_lm_history_controls.py",
+  "source_sha256": "29faf46704361a9799a176d1081cecb2fe614c40c287ddf8b47bf5bebb5d045b",
+  "main_protocol_sha256": "5aef7c4ec974a6b07d4b2fcfd38a3b63dbbc87a0e1c90bc0caac6adb97f8aeda",
+  "execution": "Only after frozen comparison completes",
+  "purpose": "Measure history use directly on the trained text objective, independently of QA competence",
+  "windows": 128,
+  "sampling_seed": 62801,
+  "scored_targets_per_window": 128,
+  "modes": [
+    "warm",
+    "remote128_replaced",
+    "prefix384_replaced"
+  ],
+  "checkpoint": "All21 final CPT checkpoints",
+  "final_holdout_not_yet_scored": true
+}

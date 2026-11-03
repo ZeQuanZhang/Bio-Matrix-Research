@@ -57,11 +57,13 @@ def main():
             assert saved['protocol_sha256'] == digest(protocol)
             model.load_state_dict(saved['model'])
             condition = dict(seed=seed, documents=docs.tolist(), conditions={})
-            for mode, length in [('warm', 0), ('remote128_replaced', 128), ('prefix384_replaced', 384)]:
+            for mode, length in [('warm', 0), ('remote128_replaced', 128), ('prefix383_replaced_current_token_kept', 383), ('prefix384_replaced', 384)]:
                 changed = values.copy()
                 if length:
                     changed[:, :length] = values[donors, :length]
                 assert np.array_equal(changed[:, 384:512], values[:, 384:512])
+                if length <= 383:
+                    assert np.array_equal(changed[:, 383:512], values[:, 383:512])
                 losses = []
                 for start in range(0, 128, 16):
                     x = torch.as_tensor(changed[start:start+16, :-1].copy(), device=device)
@@ -76,7 +78,7 @@ def main():
             print(name, seed, {k: round(v['nll'], 6) for k, v in condition['conditions'].items()}, flush=True)
         effects = {}
         unique = sorted(set(docs.tolist())); random = np.random.default_rng(62809)
-        for mode in ('remote128_replaced', 'prefix384_replaced'):
+        for mode in ('remote128_replaced', 'prefix383_replaced_current_token_kept', 'prefix384_replaced'):
             table = []; counts = []
             for r in per_seed:
                 a = np.asarray(r['conditions'][mode]['per_window_nll_sum'])
@@ -88,7 +90,7 @@ def main():
             effects[mode] = dict(nll_increase=float(table.sum()/counts.sum()), paired_seed_document_95ci=np.quantile(draws, [.025, .975]).tolist())
         results[name] = dict(status='completed', seeds=3, windows_per_seed=128, documents=len(unique), effects=effects)
     write(root/'lm_history_controls.json', dict(status='completed', conditions=results,
-        score='Last128 real text targets; same target positions across modes; first128 or first384 inputs replaced by a different document',
+        score='Last128 real text targets; first128/383/384 inputs replaced by another document. Prefix383 preserves the current token as well as every target, so a one-token predictor is exactly invariant.',
         sample='128 nonoverlapping coverage windows, balanced round-robin over eligible documents; supplementary diagnostic, not full-test PPL',
         scope='Observed-seed/document bootstrap, exploratory intervals; checkpoints remain unchanged'))
 
