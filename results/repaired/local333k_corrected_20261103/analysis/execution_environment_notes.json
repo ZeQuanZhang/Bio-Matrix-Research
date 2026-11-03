@@ -1,0 +1,9 @@
+{
+  "status": "recorded",
+  "recorded_at": "2026-11-03T18:21:52.928659+08:00",
+  "resume_observation": "91 training phases completed; retained-test evaluation had completed two models when the user resumed this chat at 18:20 local.",
+  "sleep_observation": "macOS power log recorded repeated system-sleep intervals between 17:48 and 18:17; holdout evaluation made only intermittent progress during those intervals.",
+  "idle_sleep_prevention": "caffeinate -i bound to the existing postprocessing monitor; exits when that monitor exits; does not prevent forced lid-close sleep.",
+  "measurement_scope": "Core training timings were collected before this sleep period. Evaluation wall-clock timestamps include suspension and must not be used as inference-throughput measurements.",
+  "configuration_changed": false
+}

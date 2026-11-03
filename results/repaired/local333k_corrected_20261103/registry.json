@@ -1,6 +1,6 @@
 {
-  "status": "running",
-  "stage": "final_deepseek4_balanced_s23_qa · qa · 开始/恢复",
+  "status": "completed",
+  "stage": "修正版对比完成；原始结果和独立保留测试已保存",
   "pid": 23041,
   "conditions": {
     "overfit_trans_local": {
@@ -508,20 +508,36 @@
       "inputs": 1490360
     },
     "final_trans_local_s23_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 13.540718087693676,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_trans_local_s23_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 46.63354754005559,
+      "targets": 31229,
+      "inputs": 1506016
     },
     "final_trans_full_s23_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 12.663284421199933,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_trans_full_s23_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 48.730900626513176,
+      "targets": 31229,
+      "inputs": 1506016
     },
     "final_v3_static_s23_cpt": {
       "status": "completed",
@@ -540,12 +556,20 @@
       "inputs": 1506016
     },
     "final_v3_dynamic_s23_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 111.95437629986554,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_v3_dynamic_s23_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 163.8324088891968,
+      "targets": 31229,
+      "inputs": 1506016
     },
     "final_qwen35_tiny_s23_cpt": {
       "status": "completed",
@@ -564,12 +588,20 @@
       "inputs": 1506016
     },
     "final_deepseek4_tiny_s23_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 157.10480603727046,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_deepseek4_tiny_s23_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 398.9138315648306,
+      "targets": 31229,
+      "inputs": 1506016
     },
     "final_deepseek4_balanced_s23_cpt": {
       "status": "completed",
@@ -580,69 +612,124 @@
       "inputs": 1048576
     },
     "final_deepseek4_balanced_s23_qa": {
-      "status": "running",
-      "fraction": 0.783203125,
-      "ce": 5.628811359405518,
-      "updates": 401,
-      "train_seconds": 332.27866833412554,
-      "targets": 24263,
-      "inputs": 1176240
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 394.3322629209142,
+      "targets": 31229,
+      "inputs": 1506016
     },
     "final_trans_local_s37_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 13.676952335983515,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_trans_local_s37_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 45.21466353547294,
+      "targets": 31370,
+      "inputs": 1498784
     },
     "final_trans_full_s37_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 12.935561418998986,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_trans_full_s37_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 45.5249712910736,
+      "targets": 31370,
+      "inputs": 1498784
     },
     "final_v3_static_s37_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 95.88373599830084,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_v3_static_s37_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 175.41902485769242,
+      "targets": 31370,
+      "inputs": 1498784
     },
     "final_v3_dynamic_s37_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 108.00657975370996,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_v3_dynamic_s37_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 175.5828803642653,
+      "targets": 31370,
+      "inputs": 1498784
     },
     "final_qwen35_tiny_s37_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 64.44929345045239,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_qwen35_tiny_s37_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 152.62173555069603,
+      "targets": 31370,
+      "inputs": 1498784
     },
     "final_deepseek4_tiny_s37_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 170.57257782306988,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_deepseek4_tiny_s37_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 417.2408762109699,
+      "targets": 31370,
+      "inputs": 1498784
     },
     "final_deepseek4_balanced_s37_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 148.01505549286958,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_deepseek4_balanced_s37_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 401.6408996991813,
+      "targets": 31370,
+      "inputs": 1498784
     }
   }
 }

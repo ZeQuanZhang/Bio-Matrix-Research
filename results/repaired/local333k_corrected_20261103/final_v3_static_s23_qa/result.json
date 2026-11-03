@@ -1,0 +1,263 @@
+{
+  "status": "completed",
+  "condition": "v3_static",
+  "seed": 23,
+  "phase": "qa",
+  "learning_rate": 0.003,
+  "updates": 512,
+  "train_seconds": 172.9062966647325,
+  "targets": 31229,
+  "inputs": 1506016,
+  "development": {
+    "nll": 5.770979675174037,
+    "answer_nll": 6.373745674018734,
+    "first_nll": 6.712536354608563,
+    "first_accuracy": 0.038947639927779214,
+    "questions": 3877,
+    "records": [
+      {
+        "article_id": "b808245122880114c290d16b8e4b88d8700f3a8e93874acbc3c2fcbaa20ac78b",
+        "question_count": 140.0,
+        "nll_sum": 11396.783524602652,
+        "targets": 1934.0,
+        "answer_nll_sum": 11221.75862583518,
+        "answer_targets": 1794.0,
+        "first_nll_sum": 899.4303040504456,
+        "first_correct_sum": 8.0,
+        "eos_nll_sum": 175.0248987674713
+      },
+      {
+        "article_id": "ca96eba45937a5a0da58fe46c6ee8d364f3fe42bb0754576ff9b51b5419f388c",
+        "question_count": 388.0,
+        "nll_sum": 14430.85371556878,
+        "targets": 2466.0,
+        "answer_nll_sum": 13901.678258568048,
+        "answer_targets": 2078.0,
+        "first_nll_sum": 2653.4006242752075,
+        "first_correct_sum": 0.0,
+        "eos_nll_sum": 529.1754570007324
+      },
+      {
+        "article_id": "97a269a5bb0c36f468b9c1b6b85f3cbfd0cbe0e7b0f2aceba11974313dbb3062",
+        "question_count": 195.0,
+        "nll_sum": 5972.563625469804,
+        "targets": 1126.0,
+        "answer_nll_sum": 5688.5134644806385,
+        "answer_targets": 931.0,
+        "first_nll_sum": 1282.1654922962189,
+        "first_correct_sum": 2.0,
+        "eos_nll_sum": 284.0501609891653
+      },
+      {
+        "article_id": "4cc4afc5c8a0598475588e2a747ce3b885b3b1ebd9505136173769e639429acd",
+        "question_count": 224.0,
+        "nll_sum": 8716.977609321475,
+        "targets": 1547.0,
+        "answer_nll_sum": 8394.915900230408,
+        "answer_targets": 1323.0,
+        "first_nll_sum": 1407.4112350940704,
+        "first_correct_sum": 14.0,
+        "eos_nll_sum": 322.0617090910673
+      },
+      {
+        "article_id": "c7f80b9b19a4ab0ced68e00a10d3fc6fc027c0db6ec3b15e28541417a43bfd6f",
+        "question_count": 284.0,
+        "nll_sum": 10404.790658831596,
+        "targets": 1807.0,
+        "answer_nll_sum": 10005.181022137403,
+        "answer_targets": 1523.0,
+        "first_nll_sum": 1932.635724067688,
+        "first_correct_sum": 10.0,
+        "eos_nll_sum": 399.6096366941929
+      },
+      {
+        "article_id": "e87065dd4593c0b02e9a6d79a0c917c67e85ea02ad0beae142a594c40b190a0c",
+        "question_count": 50.0,
+        "nll_sum": 1410.9426169991493,
+        "targets": 264.0,
+        "answer_nll_sum": 1351.9566556215286,
+        "answer_targets": 214.0,
+        "first_nll_sum": 350.55206871032715,
+        "first_correct_sum": 1.0,
+        "eos_nll_sum": 58.9859613776207
+      },
+      {
+        "article_id": "ecb235df74ebd1f0dca73dd0aa28cb4cfa65b64eb4417cdbe5248b605d18264f",
+        "question_count": 142.0,
+        "nll_sum": 4422.256086021662,
+        "targets": 823.0,
+        "answer_nll_sum": 4249.720569372177,
+        "answer_targets": 681.0,
+        "first_nll_sum": 961.712292432785,
+        "first_correct_sum": 6.0,
+        "eos_nll_sum": 172.53551664948463
+      },
+      {
+        "article_id": "4ff550ecac573b709836ba82afd3d3d9c5003c7c0cdb85403e1eef7959878a0f",
+        "question_count": 207.0,
+        "nll_sum": 8319.722314164042,
+        "targets": 1445.0,
+        "answer_nll_sum": 8047.490165352821,
+        "answer_targets": 1238.0,
+        "first_nll_sum": 1342.086368560791,
+        "first_correct_sum": 12.0,
+        "eos_nll_sum": 272.2321488112211
+      },
+      {
+        "article_id": "21dfdfb6729c2ae87008a8bfc1757d9652fbff41c34952942d2617d1e5bd1e70",
+        "question_count": 169.0,
+        "nll_sum": 5997.598565787077,
+        "targets": 1112.0,
+        "answer_nll_sum": 5776.860721111298,
+        "answer_targets": 943.0,
+        "first_nll_sum": 1144.56280875206,
+        "first_correct_sum": 3.0,
+        "eos_nll_sum": 220.73784467577934
+      },
+      {
+        "article_id": "562a5ecaa3794058c53b01151df94fe9378c177bb4a096b3f3137f9f2b5b0c7e",
+        "question_count": 141.0,
+        "nll_sum": 21421.345512509346,
+        "targets": 3443.0,
+        "answer_nll_sum": 21265.34979081154,
+        "answer_targets": 3302.0,
+        "first_nll_sum": 1012.2990226745605,
+        "first_correct_sum": 12.0,
+        "eos_nll_sum": 155.9957216978073
+      },
+      {
+        "article_id": "f8e7598bc7cc7cb0e86ac0f09b2939bbf6eeaf638843d3ec6b21344bba2506b7",
+        "question_count": 67.0,
+        "nll_sum": 2681.3377473950386,
+        "targets": 484.0,
+        "answer_nll_sum": 2582.713910281658,
+        "answer_targets": 417.0,
+        "first_nll_sum": 444.9425377845764,
+        "first_correct_sum": 6.0,
+        "eos_nll_sum": 98.62383711338043
+      },
+      {
+        "article_id": "2d391b37fbab4ed83cb7572517165ca734c14ba22613ba8c7106ac4d1cc1539e",
+        "question_count": 105.0,
+        "nll_sum": 5809.263301372528,
+        "targets": 963.0,
+        "answer_nll_sum": 5662.038489222527,
+        "answer_targets": 858.0,
+        "first_nll_sum": 690.6569457054138,
+        "first_correct_sum": 16.0,
+        "eos_nll_sum": 147.22481215000153
+      },
+      {
+        "article_id": "3866a1028ecfca58b310da5bb55bf3f16dcdd6d44c36bc623506536d93c323b4",
+        "question_count": 291.0,
+        "nll_sum": 10728.069900244474,
+        "targets": 1936.0,
+        "answer_nll_sum": 10280.608498454094,
+        "answer_targets": 1645.0,
+        "first_nll_sum": 1925.612014055252,
+        "first_correct_sum": 10.0,
+        "eos_nll_sum": 447.4614017903805
+      },
+      {
+        "article_id": "d9ffcc23c3b8779ce980a042e5b50bf0675f2e456743708b3fbb2d35f37870fd",
+        "question_count": 168.0,
+        "nll_sum": 8195.649166852236,
+        "targets": 1398.0,
+        "answer_nll_sum": 7953.794798642397,
+        "answer_targets": 1230.0,
+        "first_nll_sum": 1129.0483779907227,
+        "first_correct_sum": 13.0,
+        "eos_nll_sum": 241.85436820983887
+      },
+      {
+        "article_id": "2a6ef5cb0cdb7a982034fd0f46b916c6cfd84984902d1ce0762c46c1d173deb6",
+        "question_count": 113.0,
+        "nll_sum": 5601.695549786091,
+        "targets": 1015.0,
+        "answer_nll_sum": 5453.096911609173,
+        "answer_targets": 902.0,
+        "first_nll_sum": 693.2433235645294,
+        "first_correct_sum": 7.0,
+        "eos_nll_sum": 148.59863817691803
+      },
+      {
+        "article_id": "991bedb8738089b84f80a4cf483f3d033a65dc6060ed2ed1ef7c1fe1fb4ed808",
+        "question_count": 375.0,
+        "nll_sum": 13463.681146502495,
+        "targets": 2521.0,
+        "answer_nll_sum": 12980.734574496746,
+        "answer_targets": 2146.0,
+        "first_nll_sum": 2537.1954715251923,
+        "first_correct_sum": 6.0,
+        "eos_nll_sum": 482.94657200574875
+      },
+      {
+        "article_id": "6851dd9a014596b4ffbce9749527258e29aaf22b1cb3d60914093c53e7008e75",
+        "question_count": 88.0,
+        "nll_sum": 5138.803421378136,
+        "targets": 885.0,
+        "answer_nll_sum": 5025.10123822093,
+        "answer_targets": 797.0,
+        "first_nll_sum": 559.5993187427521,
+        "first_correct_sum": 11.0,
+        "eos_nll_sum": 113.70218315720558
+      },
+      {
+        "article_id": "dacc4c242d25863cbb3284c1a74c2867b6d3d9b496c7444a3ce4c6064d7d3709",
+        "question_count": 99.0,
+        "nll_sum": 7208.061403989792,
+        "targets": 1128.0,
+        "answer_nll_sum": 7058.361310005188,
+        "answer_targets": 1029.0,
+        "first_nll_sum": 768.1314108371735,
+        "first_correct_sum": 3.0,
+        "eos_nll_sum": 149.70009398460388
+      },
+      {
+        "article_id": "15ebb88575502ddc9604b2a0d67093c3294747bcd79df816631e9e8ac5ce37de",
+        "question_count": 105.0,
+        "nll_sum": 3015.6168002337217,
+        "targets": 573.0,
+        "answer_nll_sum": 2881.8204550743103,
+        "answer_targets": 468.0,
+        "first_nll_sum": 699.9310598373413,
+        "first_correct_sum": 0.0,
+        "eos_nll_sum": 133.79634515941143
+      },
+      {
+        "article_id": "cb690b24078136644c118a8c55e144b674c03e10f7f4976669888d3e610eff56",
+        "question_count": 89.0,
+        "nll_sum": 13475.956842049956,
+        "targets": 2146.0,
+        "answer_nll_sum": 13329.385113149881,
+        "answer_targets": 2057.0,
+        "first_nll_sum": 626.2702689170837,
+        "first_correct_sum": 3.0,
+        "eos_nll_sum": 146.57172890007496
+      },
+      {
+        "article_id": "55739cb34aa6909c9956ba6f4db42de767adef880a5f64f5ca6117856b255bef",
+        "question_count": 186.0,
+        "nll_sum": 8531.795932427049,
+        "targets": 1438.0,
+        "answer_nll_sum": 8269.88935032487,
+        "answer_targets": 1252.0,
+        "first_nll_sum": 1284.4233558177948,
+        "first_correct_sum": 6.0,
+        "eos_nll_sum": 261.9065821021795
+      },
+      {
+        "article_id": "37ebc6dfc19fd2849541e52ef9b998462e8fbc3254db07d95f344200377d3f76",
+        "question_count": 251.0,
+        "nll_sum": 9337.50560721755,
+        "targets": 1721.0,
+        "answer_nll_sum": 8983.285260379314,
+        "answer_targets": 1470.0,
+        "first_nll_sum": 1679.193421125412,
+        "first_correct_sum": 2.0,
+        "eos_nll_sum": 354.22034683823586
+      }
+    ],
+    "public_projection": "Full QA per-question numerical rows aggregated by article; original rows retained locally; paired article statistics preserved."
+  }
+}

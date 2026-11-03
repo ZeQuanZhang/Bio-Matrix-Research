@@ -18,14 +18,15 @@ Bio-Matrix Research 记录了把神经网络节点扩展为有限矩阵状态系
 
 **本地33万参数补充对照已完成。** 新增Qwen3.5、DeepSeek-V4缩小原型各三种子，6144步输入/mask与原V3逐步匹配。三种子文本PPL：Bio动态902.826、Qwen原型982.251、DeepSeek原型1024.990；首答案token命中全部为0%。seed11同64题实际生成的六组EM/F1也全0，基础问答仍弱。见[完整分析](results/tiny_arch/paired_20261103_local333k/analysis/REPORT.md)与[架构/实现范围](evaluations/tiny_arch/README.md)。0.133B队列保持未启动。
 
-**V3 修正版微型对照正在执行。** 新流程保留完整问答证据、监督EOS、清理跨任务训练重合，采用同等有限学习率搜索和独立保留测试。七个配置包含原/均衡DeepSeek，最终各三种子；原始实验保留。见[修正版协议](evaluations/repaired/PROTOCOL.md)、[运行状态](results/repaired/local333k_corrected_20261103/registry.json)及[上一轮方法审计](results/tiny_arch/paired_20261103_local333k/analysis/method_audit_20261103/REPORT.md)。PyCharm入口为[run_biomatrix_repaired.py](run_biomatrix_repaired.py)，活跃队列自动附着，每秒原位刷新。
+**V3 修正版微型对照已完成：91个训练阶段、21个模型独立测试及补充诊断。** 完整证据、EOS监督、训练重合清理、同等有限学习率搜索与三种子配对后，预训练PPL为Bio动态334.44、静态335.04、Qwen微型320.46、DeepSeek原微型326.90、Transformer512为475.47。动态地址的额外收益未稳定分离；两种Bio生成F1均为0.40%，正常/无关上下文相同，输出严重坍缩。保留当前token的文本历史干预测得Bio微小正效应，远距效应仍弱。见[完整结果与图](results/repaired/local333k_corrected_20261103/REPORT.md)、[冻结协议](evaluations/repaired/PROTOCOL.md)、[配对统计](results/repaired/local333k_corrected_20261103/summary.json)及[上一轮方法审计](results/tiny_arch/paired_20261103_local333k/analysis/method_audit_20261103/REPORT.md)。原实验281个文件、71份源码及42份最终检查点通过完整性核对；0.133B/10B-token队列仍未启动。
 
-在 PyCharm 选择 **Bio-Matrix V3**，运行 [run_biomatrix_v3.py](run_biomatrix_v3.py)。默认12条配对运行每秒原位刷新，使用本机 MPS，不连接过期 A800。完整队列由用户启动。全新环境的数据准备见 [V3 快速开始](v3/README.md#配对对照与数据)。
+本轮在 PyCharm 选择 **Bio-Matrix 修正版架构对比**，运行 [run_biomatrix_repaired.py](run_biomatrix_repaired.py)，使用本机MPS、每秒原位刷新。默认目录已有完成记录时显示归档状态；复现新训练请在运行参数填入 `--output results/repaired/my_corrected_run`，保留归档。活跃任务自动附着查看。全新环境准备见[修正版协议](evaluations/repaired/PROTOCOL.md#从公开副本重建数据)。历史四模型入口 [run_biomatrix_v3.py](run_biomatrix_v3.py) 继续保留。
 
 ```bash
 python3.12 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python run_biomatrix_v3.py --mode verify
+.venv/bin/python -m pip install -r evaluations/repaired/requirements.txt
+.venv/bin/python scripts/prepare_repaired_sources.py
+.venv/bin/python run_biomatrix_repaired.py --mode prepare
 ```
 
 **V2 四条件×三种子已完成。** 矩阵记忆出现小幅远史依赖，动态地址与固定地址几乎等效，问答NLL仍略逊于Transformer。[完整分析](results/v2/paired_20261103T003337_839264/analysis/review_20261103/REPORT.md)与[实现说明](v2/README.md)保留。V1.0、V1.1 的源码、协议和结果同时归档；V3 四组从零训练，与早期预训练适配结果分别解读。

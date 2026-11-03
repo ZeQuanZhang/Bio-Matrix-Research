@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "seeds": {
+    "11": {
+      "status": "completed",
+      "nll": 5.195227077050273,
+      "ppl": 180.40910491344155,
+      "test_targets": 368132,
+      "training_target_draws": 1048576,
+      "observed_transition_types": 217665,
+      "dense_count_table_bytes": 67108864,
+      "same_target_unigram_ppl": 986.5708066417302
+    },
+    "23": {
+      "status": "completed",
+      "nll": 5.192362705984299,
+      "ppl": 179.89308568137992,
+      "test_targets": 368132,
+      "training_target_draws": 1048576,
+      "observed_transition_types": 216107,
+      "dense_count_table_bytes": 67108864,
+      "same_target_unigram_ppl": 987.0166049863187
+    },
+    "37": {
+      "status": "completed",
+      "nll": 5.1981984349344055,
+      "ppl": 180.94596213216897,
+      "test_targets": 368132,
+      "training_target_draws": 1048576,
+      "observed_transition_types": 216260,
+      "dense_count_table_bytes": 67108864,
+      "same_target_unigram_ppl": 985.944503765802
+    }
+  },
+  "ppl_mean": 180.4160509089968,
+  "formula": "p(v|u)=[count(u,v)+max(1,distinct_followers(u))*p_unigram(v)]/[count(u)+max(1,distinct_followers(u))]",
+  "fitting": "Exactly the same CPT token-transition draws as each final neural seed; all smoothing quantities derived from train counts; no test or dev tuning",
+  "scope": "One-token-context diagnostic; dense symbolic count state is not matched to neural parameter or compute budgets. Not a flagship comparison."
+}

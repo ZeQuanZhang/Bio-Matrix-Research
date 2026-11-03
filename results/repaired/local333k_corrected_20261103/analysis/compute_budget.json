@@ -1,0 +1,100 @@
+{
+  "trans_local": {
+    "cpt": {
+      "final_core_seconds": 41.62465942406561,
+      "final_supervised_targets": 3145728,
+      "final_input_tokens": 3145728,
+      "search_core_seconds": 6.351853718748316
+    },
+    "qa": {
+      "final_core_seconds": 130.61664690228645,
+      "final_supervised_targets": 94058,
+      "final_input_tokens": 4495160,
+      "search_core_seconds": 15.480666212388314
+    }
+  },
+  "trans_full": {
+    "cpt": {
+      "final_core_seconds": 38.77228238526732,
+      "final_supervised_targets": 3145728,
+      "final_input_tokens": 3145728,
+      "search_core_seconds": 6.461298463167623
+    },
+    "qa": {
+      "final_core_seconds": 131.93153638811782,
+      "final_supervised_targets": 94058,
+      "final_input_tokens": 4495160,
+      "search_core_seconds": 14.015063711092807
+    }
+  },
+  "v3_static": {
+    "cpt": {
+      "final_core_seconds": 306.4886059166165,
+      "final_supervised_targets": 3145728,
+      "final_input_tokens": 3145728,
+      "search_core_seconds": 68.09159612085205
+    },
+    "qa": {
+      "final_core_seconds": 530.9805058847414,
+      "final_supervised_targets": 94058,
+      "final_input_tokens": 4495160,
+      "search_core_seconds": 72.99757782951929
+    }
+  },
+  "v3_dynamic": {
+    "cpt": {
+      "final_core_seconds": 334.3448945542332,
+      "final_supervised_targets": 3145728,
+      "final_input_tokens": 3145728,
+      "search_core_seconds": 76.7011712139938
+    },
+    "qa": {
+      "final_core_seconds": 514.8357828476001,
+      "final_supervised_targets": 94058,
+      "final_input_tokens": 4495160,
+      "search_core_seconds": 71.3054764221888
+    }
+  },
+  "qwen35_tiny": {
+    "cpt": {
+      "final_core_seconds": 198.9933531959541,
+      "final_supervised_targets": 3145728,
+      "final_input_tokens": 3145728,
+      "search_core_seconds": 47.95096674701199
+    },
+    "qa": {
+      "final_core_seconds": 441.74942467862274,
+      "final_supervised_targets": 94058,
+      "final_input_tokens": 4495160,
+      "search_core_seconds": 50.80642029608134
+    }
+  },
+  "deepseek4_tiny": {
+    "cpt": {
+      "final_core_seconds": 458.97131332056597,
+      "final_supervised_targets": 3145728,
+      "final_input_tokens": 3145728,
+      "search_core_seconds": 83.9590120462235
+    },
+    "qa": {
+      "final_core_seconds": 1166.3113685841672,
+      "final_supervised_targets": 94058,
+      "final_input_tokens": 4495160,
+      "search_core_seconds": 114.85732950968668
+    }
+  },
+  "deepseek4_balanced": {
+    "cpt": {
+      "final_core_seconds": 443.53668124298565,
+      "final_supervised_targets": 3145728,
+      "final_input_tokens": 3145728,
+      "search_core_seconds": 77.48771358153317
+    },
+    "qa": {
+      "final_core_seconds": 1198.3154847859405,
+      "final_supervised_targets": 94058,
+      "final_input_tokens": 4495160,
+      "search_core_seconds": 113.25240349408705
+    }
+  }
+}

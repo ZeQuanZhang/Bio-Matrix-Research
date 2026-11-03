@@ -39,6 +39,10 @@
 
 入口：[run_biomatrix_repaired.py](../../run_biomatrix_repaired.py)。PyCharm选择“Bio-Matrix 修正版架构对比”，启用模拟终端。首次运行训练；已有活跃任务时自动附着查看；已有任务可直接再次Run附着；命令行`--mode follow`只查看。运行中保持冻结源码不变。每秒原位刷新详细条、阶段、损失与资源，不逐步打印。
 
+本轮已完成，默认目录含归档记录，直接Run会显示保存状态。复现新训练请在PyCharm运行参数填写`--output results/repaired/my_corrected_run`，使用新目录保留归档；训练和主评估会重新执行。此次补充诊断脚本和登记绑定原归档路径，新目录的补充诊断需单独建立新登记。
+
+冻结查看器有一个已知显示问题：已完成条件不再带ce字段，界面会显示默认0。真实末步损失保存在各阶段metrics.jsonl，训练和统计均读取原始数值；本轮冻结源码保持不变。
+
 状态分为not_executed、running、completed、failed、aborted；保留测试另存执行状态。支持从同一目录恢复；源码、数据、包版本及协议不一致时拒绝混用。原实验所有文件在开始和结束时核对哈希。
 
 本轮仍属于333K规模研究。当前协议提高测量和比较的可信度；更大规模、跨领域任务、长期连续会话和专用GPU算子的结论需要后续实测。
@@ -48,6 +52,7 @@
 本机已有固定来源，训练期间无需执行下列准备。新机器先按`evaluations/tiny_arch/README.md`安装固定Transformers运行环境及项目依赖，然后运行：
 
 ```bash
+python -m pip install -r evaluations/repaired/requirements.txt
 python scripts/prepare_repaired_sources.py
 python run_biomatrix_repaired.py --mode prepare
 python run_biomatrix_repaired.py --output results/repaired/my_corrected_run

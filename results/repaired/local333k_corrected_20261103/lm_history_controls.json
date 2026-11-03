@@ -1,0 +1,421 @@
+{
+  "status": "completed",
+  "conditions": {
+    "trans_local": {
+      "status": "completed",
+      "seeds": 3,
+      "windows_per_seed": 128,
+      "documents": 60,
+      "effects": {
+        "remote128_replaced": {
+          "nll_increase": 0.0,
+          "paired_seed_document_95ci": [
+            0.0,
+            0.0
+          ],
+          "first_target_nll_increase": 0.0,
+          "first_target_paired_seed_document_95ci": [
+            0.0,
+            0.0
+          ],
+          "first32_nll_increase": 0.0,
+          "first32_paired_seed_document_95ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "prefix383_replaced_current_token_kept": {
+          "nll_increase": 0.0012093868050821281,
+          "paired_seed_document_95ci": [
+            -0.00016413003906639505,
+            0.00277968784715097
+          ],
+          "first_target_nll_increase": 0.0032088394897679486,
+          "first_target_paired_seed_document_95ci": [
+            -0.018559836168802316,
+            0.025184966563759542
+          ],
+          "first32_nll_increase": 0.0026218990387860686,
+          "first32_paired_seed_document_95ci": [
+            -0.00036450811086119857,
+            0.005594619202590727
+          ]
+        },
+        "prefix384_replaced": {
+          "nll_increase": 0.012396620342769893,
+          "paired_seed_document_95ci": [
+            0.009741890835722296,
+            0.015277377252186853
+          ],
+          "first_target_nll_increase": 1.4365731972890596,
+          "first_target_paired_seed_document_95ci": [
+            1.1367495690147082,
+            1.7461196190224109
+          ],
+          "first32_nll_increase": 0.04738384190810999,
+          "first32_paired_seed_document_95ci": [
+            0.03739625348882269,
+            0.0577519474288952
+          ]
+        }
+      }
+    },
+    "trans_full": {
+      "status": "completed",
+      "seeds": 3,
+      "windows_per_seed": 128,
+      "documents": 60,
+      "effects": {
+        "remote128_replaced": {
+          "nll_increase": 0.00045613930524268653,
+          "paired_seed_document_95ci": [
+            -0.00039218922990888434,
+            0.00140196408178899
+          ],
+          "first_target_nll_increase": 2.852284039060275e-05,
+          "first_target_paired_seed_document_95ci": [
+            -0.004927979728103907,
+            0.004970616171526332
+          ],
+          "first32_nll_increase": 0.0007816999617110317,
+          "first32_paired_seed_document_95ci": [
+            -0.0004003271865328769,
+            0.0020713369936913293
+          ]
+        },
+        "prefix383_replaced_current_token_kept": {
+          "nll_increase": 0.0031788865283791288,
+          "paired_seed_document_95ci": [
+            0.0004587923479329054,
+            0.0064501724564906245
+          ],
+          "first_target_nll_increase": -0.0034440504387021065,
+          "first_target_paired_seed_document_95ci": [
+            -0.015594337038810437,
+            0.008904185226330364
+          ],
+          "first32_nll_increase": 0.0029331384090861925,
+          "first32_paired_seed_document_95ci": [
+            -0.0004067894355201994,
+            0.007048754830261368
+          ]
+        },
+        "prefix384_replaced": {
+          "nll_increase": 0.014121337257771907,
+          "paired_seed_document_95ci": [
+            0.009670404478391894,
+            0.018964100440677537
+          ],
+          "first_target_nll_increase": 1.399492262241741,
+          "first_target_paired_seed_document_95ci": [
+            1.0704454325955044,
+            1.7549808880050974
+          ],
+          "first32_nll_increase": 0.046798674501284644,
+          "first32_paired_seed_document_95ci": [
+            0.03501314495902044,
+            0.059437344063096746
+          ]
+        }
+      }
+    },
+    "v3_static": {
+      "status": "completed",
+      "seeds": 3,
+      "windows_per_seed": 128,
+      "documents": 60,
+      "effects": {
+        "remote128_replaced": {
+          "nll_increase": 0.00014550165481826602,
+          "paired_seed_document_95ci": [
+            -3.368827520900186e-05,
+            0.0003679581494405823
+          ],
+          "first_target_nll_increase": 0.00039460998959839344,
+          "first_target_paired_seed_document_95ci": [
+            -0.0016129499331546894,
+            0.002374730037649471
+          ],
+          "first32_nll_increase": 0.0002460321823794705,
+          "first32_paired_seed_document_95ci": [
+            -2.613187988919697e-05,
+            0.0005632893034785224
+          ]
+        },
+        "prefix383_replaced_current_token_kept": {
+          "nll_increase": 0.0017199052878519676,
+          "paired_seed_document_95ci": [
+            0.0008713520884029109,
+            0.00262099540377831
+          ],
+          "first_target_nll_increase": 0.0038282034608225026,
+          "first_target_paired_seed_document_95ci": [
+            -0.012396127477183137,
+            0.019254433967106608
+          ],
+          "first32_nll_increase": 0.004711108350117381,
+          "first32_paired_seed_document_95ci": [
+            0.001874553886987269,
+            0.00774178623075799
+          ]
+        },
+        "prefix384_replaced": {
+          "nll_increase": 0.016822618469935453,
+          "paired_seed_document_95ci": [
+            0.013633079874585187,
+            0.020131899571486624
+          ],
+          "first_target_nll_increase": 1.9324943372048438,
+          "first_target_paired_seed_document_95ci": [
+            1.5570332506352014,
+            2.3190989079533586
+          ],
+          "first32_nll_increase": 0.06512113359106782,
+          "first32_paired_seed_document_95ci": [
+            0.05252516789505733,
+            0.078173535539897
+          ]
+        }
+      }
+    },
+    "v3_dynamic": {
+      "status": "completed",
+      "seeds": 3,
+      "windows_per_seed": 128,
+      "documents": 60,
+      "effects": {
+        "remote128_replaced": {
+          "nll_increase": 0.00018084670288468865,
+          "paired_seed_document_95ci": [
+            -5.264545107284226e-05,
+            0.00041846308253585927
+          ],
+          "first_target_nll_increase": 0.0012539650779217482,
+          "first_target_paired_seed_document_95ci": [
+            -0.0008910727110749304,
+            0.003934766306116342
+          ],
+          "first32_nll_increase": 0.0003425890196619245,
+          "first32_paired_seed_document_95ci": [
+            -0.00015414329063639706,
+            0.0008188205627017735
+          ]
+        },
+        "prefix383_replaced_current_token_kept": {
+          "nll_increase": 0.002246318157631322,
+          "paired_seed_document_95ci": [
+            0.0009447707668008783,
+            0.0036555516902106308
+          ],
+          "first_target_nll_increase": 0.007343746954575181,
+          "first_target_paired_seed_document_95ci": [
+            -0.008252739397779344,
+            0.02191914932564235
+          ],
+          "first32_nll_increase": 0.005626778596100242,
+          "first32_paired_seed_document_95ci": [
+            0.0012152958011388518,
+            0.010370551076567333
+          ]
+        },
+        "prefix384_replaced": {
+          "nll_increase": 0.01731942514864689,
+          "paired_seed_document_95ci": [
+            0.01380940345313484,
+            0.02109460842258607
+          ],
+          "first_target_nll_increase": 1.9305881943243246,
+          "first_target_paired_seed_document_95ci": [
+            1.5593653765387017,
+            2.3166974889993655
+          ],
+          "first32_nll_increase": 0.06588590695901075,
+          "first32_paired_seed_document_95ci": [
+            0.05249175461103181,
+            0.08031761040606004
+          ]
+        }
+      }
+    },
+    "qwen35_tiny": {
+      "status": "completed",
+      "seeds": 3,
+      "windows_per_seed": 128,
+      "documents": 60,
+      "effects": {
+        "remote128_replaced": {
+          "nll_increase": 0.0005170945530229195,
+          "paired_seed_document_95ci": [
+            0.0002155262405985174,
+            0.0009013561444511186
+          ],
+          "first_target_nll_increase": -0.0015266573367019494,
+          "first_target_paired_seed_document_95ci": [
+            -0.005418963490566709,
+            0.0024847289621024223
+          ],
+          "first32_nll_increase": 0.0006086575096257244,
+          "first32_paired_seed_document_95ci": [
+            -0.0001104742260968441,
+            0.0014131272546825328
+          ]
+        },
+        "prefix383_replaced_current_token_kept": {
+          "nll_increase": 0.006255851404792641,
+          "paired_seed_document_95ci": [
+            0.0044620466906324366,
+            0.00825598101018836
+          ],
+          "first_target_nll_increase": 0.25420933644636534,
+          "first_target_paired_seed_document_95ci": [
+            0.13651597729185977,
+            0.3764096985350865
+          ],
+          "first32_nll_increase": 0.01790327045061228,
+          "first32_paired_seed_document_95ci": [
+            0.011167537767924373,
+            0.02594962649435895
+          ]
+        },
+        "prefix384_replaced": {
+          "nll_increase": 0.02192788871328351,
+          "paired_seed_document_95ci": [
+            0.018294583006157068,
+            0.025538613155876345
+          ],
+          "first_target_nll_increase": 1.9710271084525932,
+          "first_target_paired_seed_document_95ci": [
+            1.6161923938649085,
+            2.330371025810769
+          ],
+          "first32_nll_increase": 0.08057378823256538,
+          "first32_paired_seed_document_95ci": [
+            0.06669479400052146,
+            0.09477539301982978
+          ]
+        }
+      }
+    },
+    "deepseek4_tiny": {
+      "status": "completed",
+      "seeds": 3,
+      "windows_per_seed": 128,
+      "documents": 60,
+      "effects": {
+        "remote128_replaced": {
+          "nll_increase": 5.381315228684495e-06,
+          "paired_seed_document_95ci": [
+            -4.000221760504552e-05,
+            5.402018665636882e-05
+          ],
+          "first_target_nll_increase": -5.6349982817967735e-05,
+          "first_target_paired_seed_document_95ci": [
+            -0.0005540070168319202,
+            0.00022561162938545558
+          ],
+          "first32_nll_increase": -3.7559276582517974e-05,
+          "first32_paired_seed_document_95ci": [
+            -0.0001338053791559513,
+            1.629196390030657e-05
+          ]
+        },
+        "prefix383_replaced_current_token_kept": {
+          "nll_increase": 0.0025597801237987974,
+          "paired_seed_document_95ci": [
+            0.0007837241244981928,
+            0.0045311674838567845
+          ],
+          "first_target_nll_increase": 0.0037314053624868393,
+          "first_target_paired_seed_document_95ci": [
+            -0.017369436953459272,
+            0.024640124990935416
+          ],
+          "first32_nll_increase": 0.004823224063632854,
+          "first32_paired_seed_document_95ci": [
+            0.001400772826320593,
+            0.009029126003899822
+          ]
+        },
+        "prefix384_replaced": {
+          "nll_increase": 0.01751658335888351,
+          "paired_seed_document_95ci": [
+            0.013771401572521956,
+            0.021319590936923427
+          ],
+          "first_target_nll_increase": 1.9146942447405308,
+          "first_target_paired_seed_document_95ci": [
+            1.536825002024738,
+            2.3068459413347733
+          ],
+          "first32_nll_increase": 0.06458958146928732,
+          "first32_paired_seed_document_95ci": [
+            0.05170536257986009,
+            0.07789911521832894
+          ]
+        }
+      }
+    },
+    "deepseek4_balanced": {
+      "status": "completed",
+      "seeds": 3,
+      "windows_per_seed": 128,
+      "documents": 60,
+      "effects": {
+        "remote128_replaced": {
+          "nll_increase": 2.8304792067501694e-05,
+          "paired_seed_document_95ci": [
+            -2.8707975106700993e-05,
+            0.00010196971949744249
+          ],
+          "first_target_nll_increase": 0.0005414557332793871,
+          "first_target_paired_seed_document_95ci": [
+            -0.0004623641127579067,
+            0.0027685353308916083
+          ],
+          "first32_nll_increase": 5.132742808200419e-05,
+          "first32_paired_seed_document_95ci": [
+            -3.835891001075745e-05,
+            0.0001949516078958436
+          ]
+        },
+        "prefix383_replaced_current_token_kept": {
+          "nll_increase": 0.0017401926731205701,
+          "paired_seed_document_95ci": [
+            0.0005270740577099286,
+            0.003170057704559215
+          ],
+          "first_target_nll_increase": 0.001043215161189437,
+          "first_target_paired_seed_document_95ci": [
+            -0.015489145295935284,
+            0.02164449110598354
+          ],
+          "first32_nll_increase": 0.0025856755067555546,
+          "first32_paired_seed_document_95ci": [
+            -0.0005293544361161758,
+            0.006281409251926038
+          ]
+        },
+        "prefix384_replaced": {
+          "nll_increase": 0.01632957031870319,
+          "paired_seed_document_95ci": [
+            0.013442707562760604,
+            0.019317899551408668
+          ],
+          "first_target_nll_increase": 1.8653043969534338,
+          "first_target_paired_seed_document_95ci": [
+            1.5261686763745967,
+            2.2162756739902147
+          ],
+          "first32_nll_increase": 0.06092135156844355,
+          "first32_paired_seed_document_95ci": [
+            0.04984285529820373,
+            0.07203865190059175
+          ]
+        }
+      }
+    }
+  },
+  "score": "Last128 real text targets; first128/383/384 inputs replaced by another document. Prefix383 preserves the current token as well as every target, so a one-token predictor is exactly invariant.",
+  "sample": "128 nonoverlapping coverage windows, balanced round-robin over eligible documents; supplementary diagnostic, not full-test PPL",
+  "scope": "Observed-seed/document bootstrap, exploratory intervals; checkpoints remain unchanged"
+}

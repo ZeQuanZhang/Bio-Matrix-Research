@@ -1,0 +1,65 @@
+{
+  "trans_local_s11": {
+    "status": "completed"
+  },
+  "trans_full_s11": {
+    "status": "completed"
+  },
+  "v3_static_s11": {
+    "status": "completed"
+  },
+  "v3_dynamic_s11": {
+    "status": "completed"
+  },
+  "qwen35_tiny_s11": {
+    "status": "completed"
+  },
+  "deepseek4_tiny_s11": {
+    "status": "completed"
+  },
+  "deepseek4_balanced_s11": {
+    "status": "completed"
+  },
+  "trans_local_s23": {
+    "status": "completed"
+  },
+  "trans_full_s23": {
+    "status": "completed"
+  },
+  "v3_static_s23": {
+    "status": "completed"
+  },
+  "v3_dynamic_s23": {
+    "status": "completed"
+  },
+  "qwen35_tiny_s23": {
+    "status": "completed"
+  },
+  "deepseek4_tiny_s23": {
+    "status": "completed"
+  },
+  "deepseek4_balanced_s23": {
+    "status": "completed"
+  },
+  "trans_local_s37": {
+    "status": "completed"
+  },
+  "trans_full_s37": {
+    "status": "completed"
+  },
+  "v3_static_s37": {
+    "status": "completed"
+  },
+  "v3_dynamic_s37": {
+    "status": "completed"
+  },
+  "qwen35_tiny_s37": {
+    "status": "completed"
+  },
+  "deepseek4_tiny_s37": {
+    "status": "completed"
+  },
+  "deepseek4_balanced_s37": {
+    "status": "completed"
+  }
+}

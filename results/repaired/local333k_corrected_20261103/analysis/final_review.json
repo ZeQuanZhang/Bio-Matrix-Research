@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "reviewed_at": "2026-11-03 19:39:33 +0800",
+  "training_conditions": 91,
+  "heldout_models": 21,
+  "formal_failed": 0,
+  "formal_aborted": 0,
+  "formal_not_executed": 0,
+  "frozen_source_files": 71,
+  "final_checkpoints": 42,
+  "data_payload_files": 13,
+  "historical_files": 281,
+  "source_hashes_match": true,
+  "checkpoints_match_preanalysis_snapshot": true,
+  "all_input_mask_pairs_match": true,
+  "plot_visual_review": {
+    "status": "completed",
+    "figures": [
+      "comparison",
+      "learning_curves",
+      "text_history"
+    ],
+    "labels_legible": true,
+    "layouts_not_clipped": true,
+    "error_bars": "seed SD in main plots; exploratory intervals in text-history plot"
+  },
+  "descriptive_generation_audit_selfcheck": "passed",
+  "core_training_cost_by_stage": {
+    "overfit": {
+      "conditions": 7,
+      "updates": 3584,
+      "core_seconds": 266.9243758339435,
+      "supervised_targets": 136192,
+      "input_tokens": 3698688
+    },
+    "cpt_search": {
+      "conditions": 21,
+      "updates": 1344,
+      "core_seconds": 367.00361189153045,
+      "supervised_targets": 5505024,
+      "input_tokens": 5505024
+    },
+    "qa_search": {
+      "conditions": 21,
+      "updates": 1344,
+      "core_seconds": 452.7149374750443,
+      "supervised_targets": 81627,
+      "input_tokens": 3875592
+    },
+    "final_cpt": {
+      "conditions": 21,
+      "updates": 5376,
+      "core_seconds": 1822.7317900396883,
+      "supervised_targets": 22020096,
+      "input_tokens": 22020096
+    },
+    "final_qa": {
+      "conditions": 21,
+      "updates": 10752,
+      "core_seconds": 4114.740750071476,
+      "supervised_targets": 658406,
+      "input_tokens": 31466120
+    }
+  },
+  "total_core_training_seconds": 7024.115465311683,
+  "interpretation": "Only current micro-configurations/budgets; model/candidate selection unchanged after heldout opening. Generation-collapse audit is explicitly post-hoc. Sleep interrupted evaluation wall-clock, not core training."
+}

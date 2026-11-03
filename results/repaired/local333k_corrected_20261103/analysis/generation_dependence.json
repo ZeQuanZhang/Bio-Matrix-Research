@@ -1,0 +1,891 @@
+{
+  "status": "completed",
+  "conditions": {
+    "trans_local": {
+      "per_seed": [
+        {
+          "seed": 11,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "c7e20a5888b2fc0c45e75f49d3a753560ed379e1852f1850c89e562f456064d9",
+            "unrelated_context": "92ecc440d28839260c6460cf66824e33f7ce42c2a01e55be59613399f690792d"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 22,
+                "modal_count": 48,
+                "modal_share": 0.22370874913546093,
+                "modal_sha256": "d942a1f97c6b396b455044a2006a6de7e60b79297fd746eaa04af6ebe14a76a3"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 172,
+                "modal_share": 0.8817187036854066,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 19,
+                "modal_count": 60,
+                "modal_share": 0.3178508793597471,
+                "modal_sha256": "d942a1f97c6b396b455044a2006a6de7e60b79297fd746eaa04af6ebe14a76a3"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 179,
+                "modal_share": 0.9357045375950993,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.8474242910779568,
+          "normalized_changed_fraction": 0.14789021588775814
+        },
+        {
+          "seed": 23,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "78fd0cc5972067134edabac70fd319d41a20933ec3315067981dd44201eac362",
+            "unrelated_context": "78fd0cc5972067134edabac70fd319d41a20933ec3315067981dd44201eac362"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "4f55a9802013d283a081843e52876b621d62bf585475b7947403dbd0fb88981f"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "4f55a9802013d283a081843e52876b621d62bf585475b7947403dbd0fb88981f"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            }
+          },
+          "raw_changed_fraction": 0,
+          "normalized_changed_fraction": 0
+        },
+        {
+          "seed": 37,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "24f8e2f9120b3507aa52ebadf5df3a54cc247b1d2676e0f9b5d3c418accb9df3",
+            "unrelated_context": "c7da37a248dea5f2f09bd3b6210db2b4de288d6284c48dd7e893c3134afbc0af"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 9,
+                "modal_count": 125,
+                "modal_share": 0.6646159593913645,
+                "modal_sha256": "4f55a9802013d283a081843e52876b621d62bf585475b7947403dbd0fb88981f"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 189,
+                "modal_share": 0.994845185752396,
+                "modal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 11,
+                "modal_count": 131,
+                "modal_share": 0.7015256027072424,
+                "modal_sha256": "4f55a9802013d283a081843e52876b621d62bf585475b7947403dbd0fb88981f"
+              },
+              "normalized": {
+                "distinct_outputs": 5,
+                "modal_count": 188,
+                "modal_share": 0.9773830402134177,
+                "modal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.43402177403418635,
+          "normalized_changed_fraction": 0.02433523120245035
+        }
+      ],
+      "mean_normalized_changed_fraction": 0.057408482363402825,
+      "mean_warm_normalized_modal_share": 0.9582818726739782
+    },
+    "trans_full": {
+      "per_seed": [
+        {
+          "seed": 11,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "c76db42bc13e73fa0edc1303a065d896fc013ed170fe846fbdc1e0b6df337610",
+            "unrelated_context": "5c52e73bb2e8231baeacf72402d9447e0999c023df837785af9cb9e42f51793b"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 4,
+                "modal_count": 189,
+                "modal_share": 0.9844521909890327,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 189,
+                "modal_share": 0.9844521909890327,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.015547809010967296,
+          "normalized_changed_fraction": 0.015547809010967296
+        },
+        {
+          "seed": 23,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "020d402f3f740e1bd1cdb4e8103237ee5b8327a8d9d451707e74942c11a80eb9",
+            "unrelated_context": "28335a38205f1c72e5e42dfe3124a30f5db799c941d16080c84daf0845df3098"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 9,
+                "modal_count": 181,
+                "modal_share": 0.9393726533939335,
+                "modal_sha256": "6eba33d56feef7ac0f4b1e12140af272fc5977c648de4fbb9b7963c53c4b1231"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 186,
+                "modal_share": 0.9688271909890327,
+                "modal_sha256": "ebecac3dbb3428c344df1b9e9656e0648db6b480513e8c763a69b5f0675465d3"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 7,
+                "modal_count": 183,
+                "modal_share": 0.9637495677304615,
+                "modal_sha256": "6eba33d56feef7ac0f4b1e12140af272fc5977c648de4fbb9b7963c53c4b1231"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 189,
+                "modal_share": 0.9896486883707144,
+                "modal_sha256": "ebecac3dbb3428c344df1b9e9656e0648db6b480513e8c763a69b5f0675465d3"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.09344123604386918,
+          "normalized_changed_fraction": 0.038087577808516945
+        },
+        {
+          "seed": 37,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "b6e34284c243d85f148d35eec11d91f58a939fc278adbe7e63e65b1c9256d2b1",
+            "unrelated_context": "068b5915d49e1e6c80e3d023fb37eff6c64dfca55b95659a4e3d8e81e425e60b"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 53,
+                "modal_count": 36,
+                "modal_share": 0.1872684270329019,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 18,
+                "modal_count": 73,
+                "modal_share": 0.39773583390969275,
+                "modal_sha256": "339efeab70b4cc6e2755ec57d2290484ef2363f955c16df3900ad44382227429"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 56,
+                "modal_count": 41,
+                "modal_share": 0.20159661841715246,
+                "modal_sha256": "a0531498436f9895d16360c089fcef2e9e07ea9278313baf4ddc801b7d94e952"
+              },
+              "normalized": {
+                "distinct_outputs": 26,
+                "modal_count": 79,
+                "modal_share": 0.39245597025985574,
+                "modal_sha256": "339efeab70b4cc6e2755ec57d2290484ef2363f955c16df3900ad44382227429"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.8956254322695386,
+          "normalized_changed_fraction": 0.6772968950696572
+        }
+      ],
+      "mean_normalized_changed_fraction": 0.24364409396304712,
+      "mean_warm_normalized_modal_share": 0.7836717386292528
+    },
+    "v3_static": {
+      "per_seed": [
+        {
+          "seed": 11,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "5c52e73bb2e8231baeacf72402d9447e0999c023df837785af9cb9e42f51793b",
+            "unrelated_context": "5c52e73bb2e8231baeacf72402d9447e0999c023df837785af9cb9e42f51793b"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0,
+          "normalized_changed_fraction": 0
+        },
+        {
+          "seed": 23,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "8168a71fec255e3f536ca7d301ad68ea4701b1eb7b34e57149cbf90a9b1b8eb3",
+            "unrelated_context": "3cd755c14070d7af8236d92145ed60de0f2d0dd3363e27bcae204dc76711e9fd"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9913669597865824,
+                "modal_sha256": "a6194673157d21789df8be538c4c6deffda50a30afab24bc7bd6d6125faa68f1"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9913669597865824,
+                "modal_sha256": "0acf5741d05ff5083252df7b858fac5dcee8375f4152c52b49d30696701b7a63"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "a6194673157d21789df8be538c4c6deffda50a30afab24bc7bd6d6125faa68f1"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "0acf5741d05ff5083252df7b858fac5dcee8375f4152c52b49d30696701b7a63"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.0069147687975496495,
+          "normalized_changed_fraction": 0.0069147687975496495
+        },
+        {
+          "seed": 37,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "ffe94c8df3b57cb0e7ba0acf7d9ceba4c410a6c734c9ad7893ae20c0659378b4",
+            "unrelated_context": "c8d298533c0ade5d09f2193fdb80b49353a30006632e9c6ae369aad780005596"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 6,
+                "modal_count": 103,
+                "modal_share": 0.55390864292066,
+                "modal_sha256": "a157e3f293c932f267a3ef9182b5413feaea1139401aefcd0f06bcc1b9f3afec"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 106,
+                "modal_share": 0.5694564519316273,
+                "modal_sha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 6,
+                "modal_count": 102,
+                "modal_share": 0.5631237031913843,
+                "modal_sha256": "a157e3f293c932f267a3ef9182b5413feaea1139401aefcd0f06bcc1b9f3afec"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 105,
+                "modal_share": 0.5735522058097027,
+                "modal_sha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.5483200153146922,
+          "normalized_changed_fraction": 0.5240619751012746
+        }
+      ],
+      "mean_normalized_changed_fraction": 0.17699224796627475,
+      "mean_warm_normalized_modal_share": 0.8530350467674473
+    },
+    "v3_dynamic": {
+      "per_seed": [
+        {
+          "seed": 11,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "36f359253c586583590785e48e52b391727fa4de30eef67d9375b0edc9318536",
+            "unrelated_context": "0f23c7cde0a5bb303cc21b7d05c50ca8a0db71b0bd7c01cbfdfff69cf92df6c1"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9913669597865824,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9913669597865824,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9912897687975497,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9912897687975497,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.013906728584132003,
+          "normalized_changed_fraction": 0.013906728584132003
+        },
+        {
+          "seed": 23,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "0356b2edc9c57993ec84081207e46c35d649089d2ce1c71b3fefe999c7b650b6",
+            "unrelated_context": "72d4215b3e0ef9eea6650a3992110b79ac024df49d786424e7b47680c1ae2d17"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 4,
+                "modal_count": 177,
+                "modal_share": 0.9427381805157593,
+                "modal_sha256": "a6194673157d21789df8be538c4c6deffda50a30afab24bc7bd6d6125faa68f1"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 177,
+                "modal_share": 0.9427381805157593,
+                "modal_sha256": "0acf5741d05ff5083252df7b858fac5dcee8375f4152c52b49d30696701b7a63"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 4,
+                "modal_count": 170,
+                "modal_share": 0.9151207884596384,
+                "modal_sha256": "a6194673157d21789df8be538c4c6deffda50a30afab24bc7bd6d6125faa68f1"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 170,
+                "modal_share": 0.9151207884596384,
+                "modal_sha256": "0acf5741d05ff5083252df7b858fac5dcee8375f4152c52b49d30696701b7a63"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.10745448819286632,
+          "normalized_changed_fraction": 0.10745448819286632
+        },
+        {
+          "seed": 37,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "685677c626ffc70d131daef11d50fce997a1f5cc34ee9e73f3d2e6efe73828a8",
+            "unrelated_context": "de9e1bd0d7b66d251079d4f22bf2e5b8df15a3ae9fd8fdfede6447ba4f663091"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 4,
+                "modal_count": 183,
+                "modal_share": 0.963595185752396,
+                "modal_sha256": "a157e3f293c932f267a3ef9182b5413feaea1139401aefcd0f06bcc1b9f3afec"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 183,
+                "modal_share": 0.963595185752396,
+                "modal_sha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 180,
+                "modal_share": 0.9531666831340777,
+                "modal_sha256": "a157e3f293c932f267a3ef9182b5413feaea1139401aefcd0f06bcc1b9f3afec"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 180,
+                "modal_share": 0.9531666831340777,
+                "modal_sha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.07980158828179033,
+          "normalized_changed_fraction": 0.07980158828179033
+        }
+      ],
+      "mean_normalized_changed_fraction": 0.06705426835292956,
+      "mean_warm_normalized_modal_share": 0.9659001086849126
+    },
+    "qwen35_tiny": {
+      "per_seed": [
+        {
+          "seed": 11,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "5c52e73bb2e8231baeacf72402d9447e0999c023df837785af9cb9e42f51793b",
+            "unrelated_context": "5c52e73bb2e8231baeacf72402d9447e0999c023df837785af9cb9e42f51793b"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0,
+          "normalized_changed_fraction": 0
+        },
+        {
+          "seed": 23,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "2efe9b56a54f3eade717e183333bc5289b176fe2ac256bed7affe6b270111f18",
+            "unrelated_context": "661dfec2bea09b9e3055d87b414d056cd327d97108968dd26dc6f8ad1be0ab60"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 4,
+                "modal_count": 135,
+                "modal_share": 0.6875355078549551,
+                "modal_sha256": "1a5f24d8a4d421fbe6996c0fcf074d369b352c6f77e410a9176c4ef2a38ddf57"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 135,
+                "modal_share": 0.6875355078549551,
+                "modal_sha256": "e75a6cd43a16c2f31d1a3c17700af64d3658a380c49d65b20cc75b1f7c0e001b"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 149,
+                "modal_share": 0.7431562469123605,
+                "modal_sha256": "1a5f24d8a4d421fbe6996c0fcf074d369b352c6f77e410a9176c4ef2a38ddf57"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 149,
+                "modal_share": 0.7431562469123605,
+                "modal_sha256": "e75a6cd43a16c2f31d1a3c17700af64d3658a380c49d65b20cc75b1f7c0e001b"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.2915658037743306,
+          "normalized_changed_fraction": 0.2915658037743306
+        },
+        {
+          "seed": 37,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "f2d91143d1cc28b6b770e97227bce748b92a9e251eb009ee44c828f45d1bd23b",
+            "unrelated_context": "30275069c05610327a2a8c4871e4e41ac7cf529601b3742d3f2ab70b05784b39"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 5,
+                "modal_count": 133,
+                "modal_share": 0.6734743972927577,
+                "modal_sha256": "4f55a9802013d283a081843e52876b621d62bf585475b7947403dbd0fb88981f"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 133,
+                "modal_share": 0.6734743972927577,
+                "modal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 5,
+                "modal_count": 139,
+                "modal_share": 0.7098437036854066,
+                "modal_sha256": "4f55a9802013d283a081843e52876b621d62bf585475b7947403dbd0fb88981f"
+              },
+              "normalized": {
+                "distinct_outputs": 4,
+                "modal_count": 139,
+                "modal_share": 0.7098437036854066,
+                "modal_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.4412097989329118,
+          "normalized_changed_fraction": 0.4377732561011758
+        }
+      ],
+      "mean_normalized_changed_fraction": 0.24311301995850212,
+      "mean_warm_normalized_modal_share": 0.7864305445772816
+    },
+    "deepseek4_tiny": {
+      "per_seed": [
+        {
+          "seed": 11,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "b8fd6985cf82775f68e388d48491d537254600c0aa936c4522c93b2e4737e594",
+            "unrelated_context": "5041914cb3b4aa507bc43d6ac1e6cf68a14a67a73c0466506d67abbb67289c74"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9913669597865824,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9913669597865824,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9912897687975497,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9912897687975497,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.013906728584132003,
+          "normalized_changed_fraction": 0.013906728584132003
+        },
+        {
+          "seed": 23,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "8249b333f62528443dda8dde64589bc02d2f7ad47e71e9469fff07c092648ed2",
+            "unrelated_context": "a3c71d11c0e53df0a7b9720e3acb216fc9c190c1746314d080b7983e4ddd0f06"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 5,
+                "modal_count": 180,
+                "modal_share": 0.9427736883707144,
+                "modal_sha256": "1a5f24d8a4d421fbe6996c0fcf074d369b352c6f77e410a9176c4ef2a38ddf57"
+              },
+              "normalized": {
+                "distinct_outputs": 5,
+                "modal_count": 180,
+                "modal_share": 0.9427736883707144,
+                "modal_sha256": "e75a6cd43a16c2f31d1a3c17700af64d3658a380c49d65b20cc75b1f7c0e001b"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 6,
+                "modal_count": 183,
+                "modal_share": 0.9583986883707144,
+                "modal_sha256": "1a5f24d8a4d421fbe6996c0fcf074d369b352c6f77e410a9176c4ef2a38ddf57"
+              },
+              "normalized": {
+                "distinct_outputs": 6,
+                "modal_count": 183,
+                "modal_share": 0.9583986883707144,
+                "modal_sha256": "e75a6cd43a16c2f31d1a3c17700af64d3658a380c49d65b20cc75b1f7c0e001b"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.09539108042683529,
+          "normalized_changed_fraction": 0.09539108042683529
+        },
+        {
+          "seed": 37,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "aa1a50916bfc701b4e276faca511f52bd678005cfc1c68c14b7c0b1d00b6797f",
+            "unrelated_context": "57efdbd564e43f7fb85938a9171d7e37070c81685a98815d5e38610b04f1f49b"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 11,
+                "modal_count": 149,
+                "modal_share": 0.779531728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 6,
+                "modal_count": 152,
+                "modal_share": 0.7952339195731647,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 10,
+                "modal_count": 143,
+                "modal_share": 0.7376571608536706,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 5,
+                "modal_count": 146,
+                "modal_share": 0.7533593518427033,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.37523157296709814,
+          "normalized_changed_fraction": 0.35781111056219744
+        }
+      ],
+      "mean_normalized_changed_fraction": 0.15570297319105492,
+      "mean_warm_normalized_modal_share": 0.9097915225768206
+    },
+    "deepseek4_balanced": {
+      "per_seed": [
+        {
+          "seed": 11,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "5c52e73bb2e8231baeacf72402d9447e0999c023df837785af9cb9e42f51793b",
+            "unrelated_context": "5c52e73bb2e8231baeacf72402d9447e0999c023df837785af9cb9e42f51793b"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 2,
+                "modal_count": 191,
+                "modal_share": 0.998281728584132,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0,
+          "normalized_changed_fraction": 0
+        },
+        {
+          "seed": 23,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "4bec989dfb1e8846b7f3a848365f90759c2212a31db6688c6c8d08de7cb11798",
+            "unrelated_context": "d1623346abd20ee152800c7bd593136b452b90499e6fb9d09a4c96cffe64db14"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 6,
+                "modal_count": 180,
+                "modal_share": 0.947970185752396,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 184,
+                "modal_share": 0.97578364292066,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 5,
+                "modal_count": 179,
+                "modal_share": 0.9303536582353523,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 182,
+                "modal_share": 0.9407049698646379,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.11823961318051576,
+          "normalized_changed_fraction": 0.08007484438296611
+        },
+        {
+          "seed": 37,
+          "questions": 192,
+          "input_sha256": {
+            "warm": "1438b043e816ccc8fd71d35a5e2aca22bb25fffd61fb58685c5ae25d2a0b6cd0",
+            "unrelated_context": "49b7d5f73e8b18f8015bb22c2b4d269879efab594f6684adc088ecf424279da1"
+          },
+          "distributions": {
+            "warm": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 189,
+                "modal_share": 0.9896486883707144,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 189,
+                "modal_share": 0.9896486883707144,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            },
+            "unrelated_context": {
+              "raw": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9912897687975497,
+                "modal_sha256": "328d162c45461fcf6b448fe83d23470d042d94be5a687e86c56bb7df39cc0449"
+              },
+              "normalized": {
+                "distinct_outputs": 3,
+                "modal_count": 190,
+                "modal_share": 0.9912897687975497,
+                "modal_sha256": "981e5b396726008318fcca73b116e69d1680fdbe17a7fb078d10197731f1e700"
+              }
+            }
+          },
+          "raw_changed_fraction": 0.015625,
+          "normalized_changed_fraction": 0.015625
+        }
+      ],
+      "mean_normalized_changed_fraction": 0.03189994812765537,
+      "mean_warm_normalized_modal_share": 0.9879046866251687
+    }
+  },
+  "scope": "Post-hoc descriptive audit of every completed model and seed. Uses fixed heldout outputs only; no training, checkpoint changes, or selection. Population weights match primary generation metrics.",
+  "mode_selection": "Most frequent output by unweighted sample count, lexicographic tie break; modal_share uses population weights.",
+  "privacy": "Prediction and answer strings remain local; only hashes, counts, and fractions are exported.",
+  "normalization": "Existing scale.engine.normalize used by the primary QA metric"
+}

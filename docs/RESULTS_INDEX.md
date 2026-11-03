@@ -44,8 +44,8 @@ N128 dense的3,099,250目标检查点属于中止条件，没有完成12M或最�
 | V3 LoCoMo | [完整分析](../results/locomo/v3_20261103_seed11/analysis/REPORT.md)、[统计](../results/locomo/v3_20261103_seed11/analysis/statistics.json) | completed：seed11，10/10条件；1540题主F1及1527题证据直给F1全0，生成退化；未追加训练 |
 | V3规模验证工程 | [参数配置](../results/scale/capacity_20261103/capacity.json)、[14项验收](../results/scale/acceptance_0133b_final_20261103/verification.json)、[原生MPS有限更新](../results/scale/mps_0133b_delivery_20261103/profile.json) | completed：0.133B三个模型各3次合成更新，长度32；10B正式训练、完整2048 CUDA测速、LoCoMo均not_executed |
 | V3本地Qwen/DeepSeek对照 | [分析](../results/tiny_arch/paired_20261103_local333k/analysis/REPORT.md)、[数值](../results/tiny_arch/paired_20261103_local333k/analysis/statistics.json)、[实际生成](../results/tiny_arch/paired_20261103_local333k/analysis/generation_summary.json) | completed：约33万参数，新增2架构×3种子；6144步逐样本匹配；六组seed11生成EM/F1全0 |
-| V3修正版微型架构对照 | [协议](../evaluations/repaired/PROTOCOL.md)、[执行状态](../results/repaired/local333k_corrected_20261103/registry.json)、[上一轮方法审计](../results/tiny_arch/paired_20261103_local333k/analysis/method_audit_20261103/REPORT.md) | running：7配置，同等有限学习率搜索，最终各3种子；完整段落/EOS与独立保留测试 |
+| V3修正版微型架构对照 | [完整结果与图](../results/repaired/local333k_corrected_20261103/REPORT.md)、[协议](../evaluations/repaired/PROTOCOL.md)、[配对统计](../results/repaired/local333k_corrected_20261103/summary.json)、[执行状态](../results/repaired/local333k_corrected_20261103/registry.json) | completed：91训练阶段、21保留测试；Bio动态/静态CPT PPL334.44/335.04、生成F1均0.40%；动态增量弱，问答坍缩；三项补充诊断与图完成 |
 
-V3短程验收用于检查执行、配对和保存，不能用于判断架构优劣。最终测试未评分。
+历史V3短程验收用于检查执行、配对和保存。旧V3默认队列未评分最终测试；随后独立修正版已完成保留测试，两轮口径分别记录。
 
 V3完整结果：相同目标预算下动态Bio文本PPL降低约16.3%，答案NLL小幅降低；四组首答案token命中均为0%，正确远史替换的影响很小，训练耗时约10.9倍。详见完整分析，保留工程短测与正式训练两种口径。

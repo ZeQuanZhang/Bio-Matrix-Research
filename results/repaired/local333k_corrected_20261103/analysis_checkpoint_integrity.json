@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "checkpoints": 42,
+  "frozen_sources": 71,
+  "weights_unchanged": true,
+  "source_files_unchanged": true,
+  "note": "All supplementary measurements are read-only"
+}

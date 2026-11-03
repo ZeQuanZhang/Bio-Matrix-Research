@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "controls": {
+    "empty_answer": {
+      "full_test_questions": 10121,
+      "full_test_em": 0.00029641339788558443,
+      "full_test_f1": 0.00029641339788558443,
+      "generation_sample_questions": 192,
+      "prediction_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "same_generation_strata_weighted_em": 0.0,
+      "same_generation_strata_weighted_f1": 0.0
+    },
+    "most_frequent_training_answer": {
+      "full_test_questions": 10121,
+      "full_test_em": 0.00464380990020749,
+      "full_test_f1": 0.00546466819475183,
+      "generation_sample_questions": 192,
+      "prediction_sha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+      "same_generation_strata_weighted_em": 0.0,
+      "same_generation_strata_weighted_f1": 0.00031241298470327224
+    },
+    "most_frequent_training_first_token": {
+      "first_accuracy": 0.044659618614761386,
+      "training_frequency": 0.05639172688761525
+    }
+  },
+  "selection": "Constants derived only from training annotations; no model or test-based tuning",
+  "note": "Supplement declared before final holdout evaluation; separate from the frozen main protocol"
+}

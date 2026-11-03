@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "files": 13,
+  "manifest_matches_frozen_protocol": true,
+  "all_prepared_payload_hashes_match": true,
+  "scope": "Rechecked after all 91 training stages and 21 heldout evaluations; no data mutation"
+}

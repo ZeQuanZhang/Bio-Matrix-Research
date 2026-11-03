@@ -1,0 +1,123 @@
+{
+  "status": "completed",
+  "condition": "v3_dynamic",
+  "seed": 101,
+  "phase": "qa",
+  "learning_rate": 0.003,
+  "updates": 512,
+  "train_seconds": 57.09874853293877,
+  "targets": 19456,
+  "inputs": 528384,
+  "development": {
+    "nll": 0.0011279270310248983,
+    "answer_nll": 0.001242635144929712,
+    "first_nll": 0.0014201472949935123,
+    "first_accuracy": 1.0,
+    "questions": 8,
+    "records": [
+      {
+        "question_id": "56e0cc407aa994140058e712",
+        "article_id": "573db405817558e6dd40b74eb1aa5dab5243e2808774611c1d5267dd5d089b61",
+        "distance": 76,
+        "nll_sum": 0.003000351192895323,
+        "targets": 3,
+        "answer_nll_sum": 0.0023042920511215925,
+        "answer_targets": 2,
+        "first_nll": 0.0012350797187536955,
+        "first_correct": 1,
+        "eos_nll": 0.0006960591417737305
+      },
+      {
+        "question_id": "56e427248c00841900fbaeff",
+        "article_id": "d3d4c1b76fa0042beae98a24c9be0ebef4703e8bd35ac7ed144a23e571656c8e",
+        "distance": 86,
+        "nll_sum": 0.0019306651083752513,
+        "targets": 2,
+        "answer_nll_sum": 0.0012299600057303905,
+        "answer_targets": 1,
+        "first_nll": 0.0012299600057303905,
+        "first_correct": 1,
+        "eos_nll": 0.0007007051026448607
+      },
+      {
+        "question_id": "56e6dde2de9d3714000680aa",
+        "article_id": "fb3c6ffb1f798bae4cff090d99efdd91e4198cfe155fafd0c45c424a377ce46e",
+        "distance": 65,
+        "nll_sum": 0.012678729079198092,
+        "targets": 11,
+        "answer_nll_sum": 0.011977071000728756,
+        "answer_targets": 10,
+        "first_nll": 0.0014223469188436866,
+        "first_correct": 1,
+        "eos_nll": 0.000701658078469336
+      },
+      {
+        "question_id": "56d3762f59d6e41400146479",
+        "article_id": "380efe9376161c16fd10b1d6cefb3d003ea79fcc3aea710cd089471f45f8f4c2",
+        "distance": 65,
+        "nll_sum": 0.007941587478853762,
+        "targets": 7,
+        "answer_nll_sum": 0.007247910834848881,
+        "answer_targets": 6,
+        "first_nll": 0.0014227039646357298,
+        "first_correct": 1,
+        "eos_nll": 0.0006936766440048814
+      },
+      {
+        "question_id": "56e87f7f0b45c0140094ccde",
+        "article_id": "747a5da108d4f8d1ce6ef2c204bed4d2380533643a21bab62abce836b6dbebc5",
+        "distance": 75,
+        "nll_sum": 0.002023885608650744,
+        "targets": 2,
+        "answer_nll_sum": 0.0013252056669443846,
+        "answer_targets": 1,
+        "first_nll": 0.0013252056669443846,
+        "first_correct": 1,
+        "eos_nll": 0.0006986799417063594
+      },
+      {
+        "question_id": "5706c6190eeca41400aa0e22",
+        "article_id": "a098289a5f8ddd6f55219196b32cd70eb2f69719558ba7be6bc51ef058d67305",
+        "distance": 39,
+        "nll_sum": 0.004669971123803407,
+        "targets": 4,
+        "answer_nll_sum": 0.003972244216129184,
+        "answer_targets": 3,
+        "first_nll": 0.0015499494038522243,
+        "first_correct": 1,
+        "eos_nll": 0.0006977269076742232
+      },
+      {
+        "question_id": "5706a43e75f01819005e7cad",
+        "article_id": "1ba48479c38261cda4685a7554db6342ed8a45870f547d80cecb915d423953c8",
+        "distance": 110,
+        "nll_sum": 0.007075859874021262,
+        "targets": 6,
+        "answer_nll_sum": 0.00637539301533252,
+        "answer_targets": 5,
+        "first_nll": 0.001441036001779139,
+        "first_correct": 1,
+        "eos_nll": 0.0007004668586887419
+      },
+      {
+        "question_id": "56f8ca0f9e9bad19000a04fe",
+        "article_id": "1b12e6b096362ab423c7dce8077fb19d20988a3003ee246e7e4e5ec4e01608b5",
+        "distance": 45,
+        "nll_sum": 0.003540177713148296,
+        "targets": 3,
+        "answer_nll_sum": 0.002846977557055652,
+        "answer_targets": 2,
+        "first_nll": 0.0017348966794088483,
+        "first_correct": 1,
+        "eos_nll": 0.0006932001560926437
+      }
+    ]
+  },
+  "generation": {
+    "em": 1.0,
+    "f1": 1.0,
+    "cap_rate": 0.0,
+    "questions": 8
+  },
+  "diagnostic_passed": true
+}

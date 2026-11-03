@@ -6,3 +6,4 @@ pyarrow==26.0.0
 tqdm==4.70.1
 safetensors==0.8.0
 huggingface-hub==2.4.0
+matplotlib==3.11.2

@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "purpose": "Descriptive training-exposure audit; no model or hyperparameter choices. TF512 reference traces; main summary verifies exact input/mask pairing across all models.",
+  "per_seed": [
+    {
+      "seed": 11,
+      "source_metrics_sha256": {
+        "cpt": "782e4dd57b5ae80d18416972e655c9d7d7d948b268b5dd5c471a90f25b6b6ff6",
+        "qa": "1d81c2c25370d5ce86bd684027cbf84afd2b44eeef1f6c178d87ab8c7fcb0b70"
+      },
+      "cpt_target_draws": 1048576,
+      "cpt_unique_target_positions": 883390,
+      "cpt_unique_train_coverage": 0.28927527765370664,
+      "cpt_unique_documents": 499,
+      "qa_question_draws": 4096,
+      "qa_unique_questions": 4003,
+      "qa_unique_train_coverage": 0.04987540493396461
+    },
+    {
+      "seed": 23,
+      "source_metrics_sha256": {
+        "cpt": "2670c8488d77cb675bf61a7ec623a08048ca047af113d9bbee6c5b1263783d8f",
+        "qa": "673eaa1e4fd2ca7d4eab55ac48904493b916fc9777bbf7088700e5a257c8ef87"
+      },
+      "cpt_target_draws": 1048576,
+      "cpt_unique_target_positions": 874236,
+      "cpt_unique_train_coverage": 0.28627770479048426,
+      "cpt_unique_documents": 501,
+      "qa_question_draws": 4096,
+      "qa_unique_questions": 3980,
+      "qa_unique_train_coverage": 0.04958883628208323
+    },
+    {
+      "seed": 37,
+      "source_metrics_sha256": {
+        "cpt": "5e7d833b7cd80d7b865e19c13b8af2c2600bcf2e962b2840c792955d7a7a18ba",
+        "qa": "baad0fc46982ae5738e2bc46569e721c3c8b307a746422ec796b3d743f94c228"
+      },
+      "cpt_target_draws": 1048576,
+      "cpt_unique_target_positions": 873134,
+      "cpt_unique_train_coverage": 0.28591684338615053,
+      "cpt_unique_documents": 494,
+      "qa_question_draws": 4096,
+      "qa_unique_questions": 3987,
+      "qa_unique_train_coverage": 0.049676052828308
+    }
+  ],
+  "train_text_nonbos_targets": 3053804,
+  "train_qa_questions": 80260
+}
