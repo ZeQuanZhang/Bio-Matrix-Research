@@ -1,0 +1,65 @@
+{
+  "seconds": 38.26817170798313,
+  "conversations": [
+    {
+      "conversation": "conv-26",
+      "history_seconds": 0.004902625107206404,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-30",
+      "history_seconds": 0.002837457926943898,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-41",
+      "history_seconds": 0.0028256250079721212,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-42",
+      "history_seconds": 0.0028612089809030294,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-43",
+      "history_seconds": 0.00293804204557091,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-44",
+      "history_seconds": 0.0027227919781580567,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-47",
+      "history_seconds": 0.0028912920970469713,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-48",
+      "history_seconds": 0.0028990829596295953,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-49",
+      "history_seconds": 0.0027626249939203262,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    },
+    {
+      "conversation": "conv-50",
+      "history_seconds": 0.012079208041541278,
+      "runtime_state_bytes": 90120,
+      "oracle_context_limit": 128
+    }
+  ]
+}

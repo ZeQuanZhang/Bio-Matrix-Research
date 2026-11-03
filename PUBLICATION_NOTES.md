@@ -36,3 +36,9 @@
 ### V3完整结果追加
 
 2026-11-03，追加用户完成的V3四条件×三种子1024步正式运行。同步净化后的原始数值轨迹、阶段评分、执行状态、干预、统计分析与图；不包含数据原文、token序列或二进制检查点。最终测试未评分；额外推理仅回放4条既有验证历史作状态诊断。发布清单见 `provenance/V3_RESULTS_EXPORT_MANIFEST.json`。
+
+### V3 LoCoMo冻结评估追加
+
+同日完成seed11的10条件LoCoMo评估，未追加训练。公开独立评估器、许可证、PyCharm入口、固定协议、数据审计、状态、汇总、分析和图。每条件`metrics.jsonl`是本地`cXX_bXXX.json`的数值投影：保留题目身份哈希、对话分组、类别、执行状态、F1、答案NLL、首token命中与生成长度，移除问题、参考答案、证据列表、生成原文与token序列，仅保留预测SHA256。
+
+本地完整原始结果、历史状态缓存、四个检查点和LoCoMo数据继续保留。公开逐题数值未挑选或重算；全部零分及oracle不适用记录一并发布。原始与公开文件哈希见`provenance/LOCOMO_EXPORT_MANIFEST.json`，检查见`provenance/LOCOMO_PUBLICATION_CHECKS.json`。LoCoMo词级F1单独报告，与LLM裁判准确率口径分开。

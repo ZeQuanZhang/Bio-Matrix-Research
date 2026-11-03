@@ -1,0 +1,65 @@
+{
+  "conversations": [
+    {
+      "id": "conv-26",
+      "history_tokens": 26687,
+      "questions": 199,
+      "oracle_eligible": 149
+    },
+    {
+      "id": "conv-30",
+      "history_tokens": 20643,
+      "questions": 105,
+      "oracle_eligible": 81
+    },
+    {
+      "id": "conv-41",
+      "history_tokens": 38627,
+      "questions": 193,
+      "oracle_eligible": 152
+    },
+    {
+      "id": "conv-42",
+      "history_tokens": 33766,
+      "questions": 260,
+      "oracle_eligible": 197
+    },
+    {
+      "id": "conv-43",
+      "history_tokens": 39046,
+      "questions": 242,
+      "oracle_eligible": 177
+    },
+    {
+      "id": "conv-44",
+      "history_tokens": 38535,
+      "questions": 158,
+      "oracle_eligible": 123
+    },
+    {
+      "id": "conv-47",
+      "history_tokens": 35657,
+      "questions": 190,
+      "oracle_eligible": 149
+    },
+    {
+      "id": "conv-48",
+      "history_tokens": 35396,
+      "questions": 239,
+      "oracle_eligible": 191
+    },
+    {
+      "id": "conv-49",
+      "history_tokens": 28731,
+      "questions": 196,
+      "oracle_eligible": 153
+    },
+    {
+      "id": "conv-50",
+      "history_tokens": 36546,
+      "questions": 204,
+      "oracle_eligible": 155
+    }
+  ],
+  "main_answerable_questions": 1540
+}

@@ -1,0 +1,927 @@
+{
+  "conditions": {
+    "D-main": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.030886761372422,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.12428745526772,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.030265723330717,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.126741883172346,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 79.7420685829129,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1540,
+      "most_common_prediction_count": 1986,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": [
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120
+      ]
+    },
+    "D-clear": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.030943893798428,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.107716614704628,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.030586708653777,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.1102698102212845,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 38.26817170798313,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1540,
+      "most_common_prediction_count": 1986,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": [
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120
+      ]
+    },
+    "D-donor": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.030443651266953,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.12411978384117,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.029873700796454,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.126585504941559,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 65.08617583394516,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1540,
+      "most_common_prediction_count": 1986,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": [
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120
+      ]
+    },
+    "D-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.032350408452148,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.131260361949368,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.032350408452148,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.131260361949368,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 62.37198483396787,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1527,
+      "most_common_prediction_count": 1527,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": null
+    },
+    "S-main": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.0275837523585,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.132194528332004,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.0270934078271186,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.134441792925902,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 71.29875512502622,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1540,
+      "most_common_prediction_count": 1986,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": [
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120,
+        90120
+      ]
+    },
+    "S-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.029690799686486,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.127725196025226,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.029690799686486,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.127725196025226,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 69.7074317500228,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1527,
+      "most_common_prediction_count": 1527,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": null
+    },
+    "L128": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.100145618785772,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.34822265885093,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.099924348843834,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.350225258123352,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 21.743404166889377,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1540,
+      "most_common_prediction_count": 1986,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": [
+        114832,
+        114832,
+        114832,
+        114832,
+        114832,
+        114832,
+        114832,
+        114832,
+        114832,
+        114832
+      ]
+    },
+    "L-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.1032144547175,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.3454453162922135,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.1032144547175,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.3454453162922135,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 127.14921670791227,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1527,
+      "most_common_prediction_count": 1527,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": null
+    },
+    "F512": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.101418755759747,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.334738913449374,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.101884882324358,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.3364993646867775,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 50.02156991697848,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1540,
+      "most_common_prediction_count": 1986,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": [
+        459280,
+        459280,
+        459280,
+        459280,
+        459280,
+        459280,
+        459280,
+        459280,
+        459280,
+        459280
+      ]
+    },
+    "F-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.096625278798009,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.32846240959842,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.096625278798009,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.32846240959842,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      },
+      "seconds": 44.3959634170169,
+      "f1_positive_questions": 0,
+      "normalized_exact_matches": 0,
+      "nonempty_normalized_references": 1527,
+      "most_common_prediction_count": 1527,
+      "most_common_prediction_sha256": "d84c6708443dc244039824bd16fa4007865b2dad2a59f4781cab09a402769c80",
+      "most_common_generated_word": "the",
+      "main_first_hits": 7,
+      "history_state_bytes": null
+    }
+  },
+  "paired_answer_nll": {
+    "D-main-minus-D-clear": {
+      "questions": 1540,
+      "answer_nll_difference": -5.7132426005847366e-05,
+      "conversation_bootstrap_95ci": [
+        -0.0036710623654358796,
+        0.004381998708996087
+      ]
+    },
+    "D-main-minus-D-donor": {
+      "questions": 1540,
+      "answer_nll_difference": 0.0004431101054688,
+      "conversation_bootstrap_95ci": [
+        -0.0005558720190876762,
+        0.00134809782912145
+      ]
+    },
+    "D-main-minus-D-oracle": {
+      "questions": 1527,
+      "answer_nll_difference": -0.002084685121430328,
+      "conversation_bootstrap_95ci": [
+        -0.004584787344286312,
+        0.0007392913656630325
+      ]
+    },
+    "D-main-minus-S-main": {
+      "questions": 1540,
+      "answer_nll_difference": 0.0033030090139225025,
+      "conversation_bootstrap_95ci": [
+        -0.0005372450294015841,
+        0.007118536709921037
+      ]
+    },
+    "D-main-minus-L128": {
+      "questions": 1540,
+      "answer_nll_difference": -0.06925885741334983,
+      "conversation_bootstrap_95ci": [
+        -0.07580400757089693,
+        -0.06274593755616656
+      ]
+    },
+    "D-main-minus-F512": {
+      "questions": 1540,
+      "answer_nll_difference": -0.07053199438732526,
+      "conversation_bootstrap_95ci": [
+        -0.07975845383927582,
+        -0.062284824329801085
+      ]
+    }
+  },
+  "total_group_seconds": 629.7847420426551,
+  "seed": 11,
+  "note": "Official word F1, one frozen seed; all ten conditions. Analysis reads saved predictions only."
+}

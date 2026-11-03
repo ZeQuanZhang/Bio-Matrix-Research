@@ -1,0 +1,215 @@
+{
+  "format": "biomatrix-v3-locomo-1",
+  "seed": 11,
+  "source_run": "<PROJECT>/results/v3/paired_20261103T094249_111075",
+  "device": "mps",
+  "torch": "2.14.1",
+  "evaluator_sources": {
+    "evaluations/locomo/__init__.py": "8dff96608b761346847d874dd1103a3a0c2a451097dc035e8ec9a84a9819e743",
+    "evaluations/locomo/data.py": "4d738ee7ea047ed1724678708d3d0bcd1a5d7168443051f247b30207f4a2be49",
+    "evaluations/locomo/report.py": "a27310a799bb7cf69a41ae1951869c4565579e23b575d949900c49c8acb5e856",
+    "evaluations/locomo/run.py": "e0c32dc17ce2d6295fd356d0489a331bda42a8b48ef6883b39d8450616aa4f07",
+    "evaluations/locomo/scoring.py": "fafb5c1921856f28c000aa692f0494e126b2be0348dbb04b8d45db44fb3b9c71",
+    "evaluations/locomo/test_locomo.py": "f3bfa8072f672b0fdb1709657e1fd558d6c3b4ee84bfa47b06607dd9cdc0c666",
+    "evaluations/locomo/requirements.txt": "85aff979d85cca58ca118c1d699d3efb8c21d805f0a24f0a2194b607330c8dc1",
+    "evaluations/locomo/LICENSE.locomo.txt": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+    "run_biomatrix_v3_locomo.py": "786d854f029415047ba2415d1e21ef2fbec0c79bc91806a09cbbc0a957d0919b",
+    ".run/Bio-Matrix V3 LoCoMo.run.xml": "89d1eebd0ce9c055aeb63c18d49c51064b16602209e1562443d334ceb4565108"
+  },
+  "model_sources": {
+    "v3/__init__.py": "2f79f0f766bdf53211004249deeafcaded674fc4a633a60364495027933778f0",
+    "v3/benchmark.py": "3e4eddf78c89b6975b773f6329a799c35d6dcaf68730ae3ae706b746c5944704",
+    "v3/console.py": "e68f9e99beeec2efd8e1a888b87e388427a5799ecdfc3140ff6679119184dc0d",
+    "v3/evaluate.py": "efcff2bc478322d2ee84c5708ca3b448d51a757e9f76a88f0a421cbd5c33805d",
+    "v3/model.py": "9e8c6320f679d35867506c120b2b8511a492360c5403c2093f176f1cda94d7a3",
+    "v3/report.py": "6dc3e232b7780fcafced51f8d10bfceb150ee0af32829cd86092dcc831ccff87",
+    "v3/test_evaluate.py": "5b42958a0f1c8477fa4285fc28bc546a5233f9804859e5f4e8f1d55338b07194",
+    "v3/test_model.py": "262dd7ff8113a90cf5e3b7852bd8e0e906a4794e1253ce7e73f94451caeb2f10",
+    "v3/test_train.py": "d964019781ccec1fd04a17c3856ce536179560de64a6399b0c78bcadbeaed687",
+    "v3/train.py": "1b3d65007d024bc3c944fa26090990b17060bdd35f8c051b77995cbc30b1ec88",
+    "v2/__init__.py": "128f11dae9355c1888414b8b3c88c846e75e5a1a555224c811042ee1c75f0ee5",
+    "v2/evaluate.py": "5427ed9d6c8c0381f3672bbc12593fd7a02810a74800eedec46b2de21d5f2760",
+    "v2/model.py": "285cc329b0236a971fc8e526ba8774db7f49d39eb7c6d8479813dee401363427",
+    "v2/report.py": "db5faffd087127cb94b2fbea8b2a9a6996de6a46d193734bf60020442dbf0f3c",
+    "v2/test_evaluate.py": "b5038967f82fd317669138f290d2a395756ffc3397fe76224380ca5225f10d27",
+    "v2/test_model.py": "c0654a53812a78acb380e2f4742c3c2ba4e04cb7c24e0b2f1b6d731d4513d4dd",
+    "v2/test_train.py": "c5eb1ad43cd96d06bda65d61399b41eb2a649d7463410adabd9c573f31cfbac4",
+    "v2/train.py": "c265896675e7b76af4b040e883a2a0018b14b64d8a6c77309813f1a95f08d24d",
+    "v11/__init__.py": "555439e63b63439ed21a13302391b9a9f2e1cae66111ccd7a116a7e06f211941",
+    "v11/data.py": "d8326be0d94d1bbe77896cc43e331dfdaf341a64ae871642e1cafd4100086587",
+    "v11/dynamics.py": "7e34c0eb1b4334ac4b3b5bf199aca720f5a14bb47eb82f10661aaed75e28acd5",
+    "v11/evaluate.py": "0c2e0f92cf20aabc8bdad6811a3f42e2ea0126bfa32ae1e4362f4ff1b143b7fa",
+    "v11/model.py": "7471d0033cc1206ebd4dc9ba5940cdce04e0e7d9865b03f466498306f0011952",
+    "v11/test_data.py": "c223fa89e9be71696fa39de40d15adc190011ef14d03d414fedcc2a47dbcd626",
+    "v11/test_dynamics.py": "2f387174cc179ca44dca96dc1928d402197b8dfdf10ac7e347c982ad9b63e43b",
+    "v11/test_evaluate.py": "9af03fe1147e1d8b1a6421d721cfb24df1fa75def354a7fbdffe60854f4aacaa",
+    "v11/test_model.py": "05779e72f2e19bd12cf89d7f8f1fe9d76fa0544dd7216fb882ed1ee42838a327",
+    "v11/test_train.py": "0d8d94b3159d7d218c9f95f06cff08abd63e7d3b1efdb02f8909c855e3e397fc",
+    "v11/train.py": "788f918ffdd2224ceeb7a07c2dd707809405aa65e041edc187bebd6af1ccb4d6",
+    "v1/__init__.py": "1a535fa652816b721f434c323d87c572dacb489a46636693777d2d2fb2b9e7fe",
+    "v1/dynamics.py": "ea7b9ce420054f54be1a97f8f01a7bf9d6cfaeb410f35958a33c49d05a0baa43",
+    "v1/evaluate.py": "943b632ff1789250f6d92f212229081b1f6568dd01965fdefdb91ac37fa3b286",
+    "v1/model.py": "b0a910d4cc558938769f97729939e05b392df44bfc602cdcddb0e8c92497c6e2",
+    "v1/test_dynamics.py": "d263dfb2ce5738bfe80ac314f812be0eb6cdad27219cd8e456f9c78c8ff052c0",
+    "v1/test_evaluate.py": "955b45c7c522e95c12903e64678bf8d265483b88a7832c0e450790b45366f26e",
+    "v1/test_model.py": "88793661e11adcedb3b2b3cbfdd20f21a32a51b2bd39226105aa61d667d8f886",
+    "v1/test_train.py": "7d4e4cc2d856e75e04e1b73e6d477fdddc39e8ee570734a9cad660a38ad9991e",
+    "v1/train.py": "28ac4c181256b642efd10767784c2117ccf713b6b00ca62a60a5749d272a7b5c",
+    "run_biomatrix_v3.py": "98d0988fecc37e83d1ca485f6199a7c2abbdb1b5a4fb0b398c2c0a6efad762d1",
+    ".run/Bio-Matrix V3.run.xml": "e9a9644e7eaeb2cae461daa7a8672b5539d7c81d14fcda18f551cba38cd8f447",
+    "scripts/v2_console.py": "8947ffa77d87c0a184d1a0854cfa7d381d72cd802d764fab241b4ae956a1e969",
+    "v03/graph.py": "7e327f9045b61160e80229e180338ddcf17f43bff3f6cf177fd78e84659da29f",
+    "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+    "v05/model.py": "a966293cc3ae183a07237483b3076a9097c1ffc1d30b0353299a03ba2a3a04c7",
+    "v06/model.py": "1bb708bafae8100f550a21b69da7c93c3f5234c25428e8b294e5af30ef6cb96a",
+    "v06/common.py": "03f2671fb07d8c2bf33f332bb6aeb068eedb8dc7f4362c572202e52885fae19a",
+    "v06/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/common.py": "78f2ad472506cc644a26621c05c5eb2214ad3e537ab938cc67e0dfad960524a9",
+    "v07/data.py": "1dbe9bc5e63ee530a8fb47d4db8cb0a270641067f75df7c9ceb5fa145347d14d",
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "v07/run.py": "8d75f8e0f60809972d5104927e05c05acedfd828ed209ff005d0073cee622405",
+    "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/evaluate.py": "598cf490247ef35c3cafd0cb83ec6ed35dcf1d626bbd994f32cfe274299d5e6a",
+    "v08/benchmark.py": "6f384db239330d63f5e9813953462a0248863e5a5848d2d458ae2c3a17c4dadb",
+    "v08/model.py": "087e47af6039b053bd5448b471a276e393c1f5414ac27473df1bbdd8a009e230",
+    "v08/recurrence.py": "f61fe0e8a7333b1f86e2d80d9ea854d8d9578b6a37ea0754fc24fdd33b0ff4c4",
+    "v09/benchmark.py": "1b4859d41a880700d8a98c656fe674d0b1805db86b5cc991f94a7aec6d54b50c",
+    "v09/train.py": "d54a5caf223bc74fefbd2c8e3a5273f14a57e007307b5d2d59c76d9d802695e5"
+  },
+  "dataset": {
+    "revision": "3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376",
+    "files": {
+      "locomo10.json": {
+        "url": "https://raw.githubusercontent.com/snap-research/locomo/3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376/data/locomo10.json",
+        "bytes": 2805274,
+        "git_blob_sha1": "d95b872480b413d935821fdc3c84f8a8f5f29e73",
+        "sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4"
+      },
+      "evaluation.py": {
+        "url": "https://raw.githubusercontent.com/snap-research/locomo/3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376/task_eval/evaluation.py",
+        "bytes": 9441,
+        "git_blob_sha1": "8f597dd687e66832da1f6f04a169e05622049576",
+        "sha256": "8e3be5d57ff2ff9ec5cd05939592f468c5f3f1fd95d13e431932bdf6bf0fd6fd"
+      },
+      "LICENSE.txt": {
+        "url": "https://raw.githubusercontent.com/snap-research/locomo/3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376/LICENSE.txt",
+        "bytes": 19347,
+        "git_blob_sha1": "fe463e0f7888bbf8b82e42d55f5743508ddafb7e",
+        "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+      }
+    },
+    "license": "CC-BY-NC-4.0",
+    "conversations": 10,
+    "category_counts": {
+      "2": 321,
+      "3": 96,
+      "1": 282,
+      "4": 841,
+      "5": 446
+    }
+  },
+  "tokenizer_sha256": "8a07d56860213cf851f88670f29a3cd9187ef541c8328313d02f9a2d9103ee9c",
+  "checkpoint_sha256": {
+    "trans_local": "f2545a655c204be07726ae724c602018b159ccb020f8e789058484b5a7417656",
+    "trans_full": "f14128ff289d98992cebd1cfffad0db63cc42393ea1f097ee3017ccc47e5171f",
+    "v3_static": "af3e79ca03f47cce15f70853dfb2d956c4b5545a8a14a7a076d4761a7bb50b96",
+    "v3_dynamic": "44a08d6bffd3af651e992e723fc48d2eb92cca613f7fdb7539426a8123d6d81f"
+  },
+  "batch": 16,
+  "max_new_tokens": 50,
+  "decode": "greedy, EOS stop; no answer text in generation",
+  "groups": [
+    [
+      "D-main",
+      "v3_dynamic",
+      "warm"
+    ],
+    [
+      "D-clear",
+      "v3_dynamic",
+      "clear"
+    ],
+    [
+      "D-donor",
+      "v3_dynamic",
+      "donor"
+    ],
+    [
+      "D-oracle",
+      "v3_dynamic",
+      "oracle"
+    ],
+    [
+      "S-main",
+      "v3_static",
+      "warm"
+    ],
+    [
+      "S-oracle",
+      "v3_static",
+      "oracle"
+    ],
+    [
+      "L128",
+      "trans_local",
+      "warm"
+    ],
+    [
+      "L-oracle",
+      "trans_local",
+      "oracle"
+    ],
+    [
+      "F512",
+      "trans_full",
+      "warm"
+    ],
+    [
+      "F-oracle",
+      "trans_full",
+      "oracle"
+    ]
+  ],
+  "history": "chronological dates/speakers/turn IDs and supplied image captions; no summaries or QA annotations",
+  "main_metric": "Official stemmed word F1, categories 1-4; category5 raw-refusal diagnostic separate. No LLM judge.",
+  "query": "Each question branches from the same history snapshot; no previous answers retained. Native question/answer formatting.",
+  "oracle": "Annotated original evidence only, no gold answer; invalid/missing evidence is not_applicable. Transformer oracle window is extended to fit all selected evidence; diagnostic only.",
+  "donor": "Other conversation token stream repeated/truncated to identical token count; clocks exactly matched.",
+  "planned_conversations": 10,
+  "planned_questions": 1986,
+  "parameter_counts": {
+    "trans_local": {
+      "total_parameters": 333106,
+      "trainable_parameters": 333106,
+      "context_limit": 128,
+      "explicit_kv_tokens": 128,
+      "runtime_state": "token KV",
+      "parameter_difference": -30
+    },
+    "trans_full": {
+      "total_parameters": 333106,
+      "trainable_parameters": 333106,
+      "context_limit": 512,
+      "explicit_kv_tokens": 512,
+      "runtime_state": "token KV",
+      "parameter_difference": -30
+    },
+    "v3_static": {
+      "total_parameters": 333136,
+      "trainable_parameters": 333136,
+      "context_limit": 128,
+      "explicit_kv_tokens": 0,
+      "runtime_state": "vector key/value/phase only",
+      "parameter_difference": 0
+    },
+    "v3_dynamic": {
+      "total_parameters": 333136,
+      "trainable_parameters": 333136,
+      "context_limit": 128,
+      "explicit_kv_tokens": 0,
+      "runtime_state": "vector key/value/phase only",
+      "parameter_difference": 0
+    }
+  },
+  "training": "No parameter updates; one predeclared seed, all official conversations, no tuning on this evaluation."
+}

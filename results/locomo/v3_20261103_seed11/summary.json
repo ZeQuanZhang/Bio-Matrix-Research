@@ -1,0 +1,786 @@
+{
+  "status": "completed",
+  "conditions": {
+    "D-main": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.030886761372422,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.12428745526772,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.030265723330717,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.126741883172346,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "D-clear": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.030943893798428,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.107716614704628,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.030586708653777,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.1102698102212845,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "D-donor": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.030443651266953,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.12411978384117,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.029873700796454,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.126585504941559,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "D-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.032350408452148,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.131260361949368,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.032350408452148,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.131260361949368,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "S-main": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.0275837523585,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.132194528332004,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.0270934078271186,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.134441792925902,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "S-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.029690799686486,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.127725196025226,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.029690799686486,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.127725196025226,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "L128": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.100145618785772,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.34822265885093,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.099924348843834,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.350225258123352,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "L-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.1032144547175,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.3454453162922135,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.1032144547175,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.3454453162922135,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "F512": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1986,
+      "not_applicable": 0,
+      "main_questions": 1540,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 282,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 321,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 96,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 841,
+          "f1": 0.0
+        },
+        "5": {
+          "questions": 446,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.101418755759747,
+      "answer_tokens": 14641,
+      "first_token_accuracy": 0.004545454545454545,
+      "first_answer_nll": 7.334738913449374,
+      "adversarial_questions": 446,
+      "adversarial_refusal": 0.0,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.101884882324358,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.3364993646867775,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    },
+    "F-oracle": {
+      "status": "completed",
+      "processed": 1986,
+      "completed": 1527,
+      "not_applicable": 459,
+      "main_questions": 1527,
+      "main_f1": 0.0,
+      "per_category": {
+        "1": {
+          "questions": 278,
+          "f1": 0.0
+        },
+        "2": {
+          "questions": 320,
+          "f1": 0.0
+        },
+        "3": {
+          "questions": 89,
+          "f1": 0.0
+        },
+        "4": {
+          "questions": 840,
+          "f1": 0.0
+        }
+      },
+      "answer_nll": 7.096625278798009,
+      "answer_tokens": 14315,
+      "first_token_accuracy": 0.0045841519318926,
+      "first_answer_nll": 7.32846240959842,
+      "adversarial_questions": 0,
+      "adversarial_refusal": null,
+      "mean_generated_tokens": 50.0,
+      "token_limit_fraction": 1.0,
+      "distinct_generated_answers": 1,
+      "oracle_eligible_subset": {
+        "processed": 1527,
+        "completed": 1527,
+        "not_applicable": 0,
+        "main_questions": 1527,
+        "main_f1": 0.0,
+        "per_category": {
+          "1": {
+            "questions": 278,
+            "f1": 0.0
+          },
+          "2": {
+            "questions": 320,
+            "f1": 0.0
+          },
+          "3": {
+            "questions": 89,
+            "f1": 0.0
+          },
+          "4": {
+            "questions": 840,
+            "f1": 0.0
+          }
+        },
+        "answer_nll": 7.096625278798009,
+        "answer_tokens": 14315,
+        "first_token_accuracy": 0.0045841519318926,
+        "first_answer_nll": 7.32846240959842,
+        "adversarial_questions": 0,
+        "adversarial_refusal": null,
+        "mean_generated_tokens": 50.0,
+        "token_limit_fraction": 1.0,
+        "distinct_generated_answers": 1
+      }
+    }
+  },
+  "paired_differences": {
+    "D-main-minus-S-main": {
+      "questions": 1540,
+      "conversations": 10,
+      "f1_difference": 0.0,
+      "conversation_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "note": "One predeclared training seed; confidence interval covers evaluation conversation sampling only."
+    },
+    "D-main-minus-D-clear": {
+      "questions": 1540,
+      "conversations": 10,
+      "f1_difference": 0.0,
+      "conversation_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "note": "One predeclared training seed; confidence interval covers evaluation conversation sampling only."
+    },
+    "D-main-minus-D-donor": {
+      "questions": 1540,
+      "conversations": 10,
+      "f1_difference": 0.0,
+      "conversation_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "note": "One predeclared training seed; confidence interval covers evaluation conversation sampling only."
+    },
+    "D-main-minus-D-oracle": {
+      "questions": 1527,
+      "conversations": 10,
+      "f1_difference": 0.0,
+      "conversation_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "note": "One predeclared training seed; confidence interval covers evaluation conversation sampling only."
+    },
+    "D-main-minus-L128": {
+      "questions": 1540,
+      "conversations": 10,
+      "f1_difference": 0.0,
+      "conversation_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "note": "One predeclared training seed; confidence interval covers evaluation conversation sampling only."
+    },
+    "D-main-minus-F512": {
+      "questions": 1540,
+      "conversations": 10,
+      "f1_difference": 0.0,
+      "conversation_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "note": "One predeclared training seed; confidence interval covers evaluation conversation sampling only."
+    }
+  },
+  "seed": 11,
+  "metric": "Official LoCoMo stemmed word F1, categories 1-4; category5 separately",
+  "judge_used": false,
+  "training_performed": false,
+  "not_comparable_to_memt_llm_judge_accuracy": true
+}

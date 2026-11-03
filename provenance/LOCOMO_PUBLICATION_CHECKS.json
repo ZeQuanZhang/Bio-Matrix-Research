@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "conditions_completed": 10,
+  "seed": 11,
+  "raw_records": 19860,
+  "actual_generations": 18024,
+  "main_questions": 1540,
+  "oracle_questions": 1527,
+  "model_sources_unchanged": 58,
+  "evaluator_tests": 10,
+  "training_performed": false,
+  "python_syntax_files": 197,
+  "local_links": 240,
+  "missing_links": 0,
+  "private_paths_or_credentials": 0,
+  "raw_data_checkpoints_latent_states": "excluded",
+  "public_records": "exact numeric projection"
+}

@@ -1,0 +1,15 @@
+test_missing_evidence_does_not_remove_main_question (evaluations.locomo.test_locomo.Checks.test_missing_evidence_does_not_remove_main_question) ... ok
+test_mixed_clock_bio_batch_matches_independent_generation (evaluations.locomo.test_locomo.Checks.test_mixed_clock_bio_batch_matches_independent_generation) ... ok
+test_native_mps_ragged_batching (evaluations.locomo.test_locomo.Checks.test_native_mps_ragged_batching) ... ok
+test_official_f1_reference_parity (evaluations.locomo.test_locomo.Checks.test_official_f1_reference_parity) ... ok
+test_official_main_excludes_adversarial_and_weights_nll_by_tokens (evaluations.locomo.test_locomo.Checks.test_official_main_excludes_adversarial_and_weights_nll_by_tokens) ... ok
+test_prefill_buckets_match_individual_prefixes (evaluations.locomo.test_locomo.Checks.test_prefill_buckets_match_individual_prefixes) ... ok
+test_query_is_independent_of_answer_and_oracle_labels (evaluations.locomo.test_locomo.Checks.test_query_is_independent_of_answer_and_oracle_labels) ... ok
+test_ragged_transformer_kv_matches_independent_generation (evaluations.locomo.test_locomo.Checks.test_ragged_transformer_kv_matches_independent_generation) ... ok
+test_serialization_uses_only_chronological_raw_dialogue (evaluations.locomo.test_locomo.Checks.test_serialization_uses_only_chronological_raw_dialogue) ... ok
+test_tampered_official_data_is_rejected (evaluations.locomo.test_locomo.Checks.test_tampered_official_data_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.863s
+
+OK

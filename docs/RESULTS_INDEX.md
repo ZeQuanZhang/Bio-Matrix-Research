@@ -41,6 +41,7 @@ N128 dense的3,099,250目标检查点属于中止条件，没有完成12M或最�
 | V3 双重计算 | [工程测速](../results/v3/engineering_20261103_dual/REPORT.md) | 原生MPS工程完成，约11倍耗时 |
 | V3 有限数据验收 | [短程配对](../results/v3/acceptance_mps_20261103/COMPARISON.md) | 四条件×两种子，每条3次更新，完成 |
 | V3 完整默认训练 | [完整分析](../results/v3/paired_20261103T094249_111075/analysis/review_20261103/REPORT.md) | completed：四条件×三种子12条，每条1024步；最终测试未执行 |
+| V3 LoCoMo | [完整分析](../results/locomo/v3_20261103_seed11/analysis/REPORT.md)、[统计](../results/locomo/v3_20261103_seed11/analysis/statistics.json) | completed：seed11，10/10条件；1540题主F1及1527题证据直给F1全0，生成退化；未追加训练 |
 
 V3短程验收用于检查执行、配对和保存，不能用于判断架构优劣。最终测试未评分。
 

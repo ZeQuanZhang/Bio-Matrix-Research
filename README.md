@@ -12,6 +12,8 @@ Bio-Matrix Research 记录了把神经网络节点扩展为有限矩阵状态系
 
 **V3完整四条件×三种子共12条运行已完成。** 相同token预算下，动态Bio的文本PPL为902.826，局部Transformer为1078.345，降低约16.3%；答案NLL小幅较低，但四组首答案token命中率均为0%，远史替换收益很弱，动态地址对问答无明显增量。动态Bio训练耗时约10.9倍。见[完整分析](results/v3/paired_20261103T094249_111075/analysis/review_20261103/REPORT.md)与[原始配对汇总](results/v3/paired_20261103T094249_111075/COMPARISON.md)。
 
+**V3 LoCoMo评估已完成10/10条件，问答生成失败。** 使用冻结seed11四模型检查点，主评估1540题及证据直给1527题F1均为0%；动态Bio清空/错换历史也为0%。所有生成都重复`the`直到50 token上限。当前文本loss优势尚未转化为可用问答能力。见[LoCoMo完整分析](results/locomo/v3_20261103_seed11/analysis/REPORT.md)、[数值统计](results/locomo/v3_20261103_seed11/analysis/statistics.json)与[独立评估入口说明](evaluations/locomo/README.md)。本轮未追加训练。
+
 在 PyCharm 选择 **Bio-Matrix V3**，运行 [run_biomatrix_v3.py](run_biomatrix_v3.py)。默认12条配对运行每秒原位刷新，使用本机 MPS，不连接过期 A800。完整队列由用户启动。全新环境的数据准备见 [V3 快速开始](v3/README.md#配对对照与数据)。
 
 ```bash

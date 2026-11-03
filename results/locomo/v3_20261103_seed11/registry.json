@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "conditions": {
+    "D-main": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "D-clear": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "D-donor": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "D-oracle": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "S-main": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "S-oracle": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "L128": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "L-oracle": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "F512": {
+      "status": "completed",
+      "completed_questions": 1986
+    },
+    "F-oracle": {
+      "status": "completed",
+      "completed_questions": 1986
+    }
+  }
+}

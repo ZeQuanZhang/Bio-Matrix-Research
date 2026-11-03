@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "conditions": 10,
+  "raw_question_records": 19860,
+  "model_sources_unchanged": 58,
+  "evaluator_sources_unchanged": 10,
+  "checkpoints_unchanged": 4,
+  "model_parameter_runtime_digest_checks": "passed for all ten conditions",
+  "full_main_questions_per_condition": 1540,
+  "oracle_questions_per_condition": 1527,
+  "main_missing_evidence_not_removed": true,
+  "training_performed": false,
+  "extra_model_inference_in_analysis": false,
+  "seed": 11,
+  "judge_used": false
+}
