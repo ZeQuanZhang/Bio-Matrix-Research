@@ -1,0 +1,7 @@
+lm_eval[hf]==0.4.13
+torch==2.15.0
+transformers==5.22.1
+datasets==5.1.0
+tokenizers==0.23.3
+numpy==2.5.4
+pyarrow==26.0.1

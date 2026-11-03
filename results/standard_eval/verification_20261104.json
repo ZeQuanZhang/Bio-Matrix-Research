@@ -1,0 +1,150 @@
+{
+  "status": "completed",
+  "harness": "0.4.13",
+  "upstream_files_hash_locked": true,
+  "loaded_cache_revisions_verified": true,
+  "adapter_tests": {
+    "status": "completed",
+    "tests": 3,
+    "official_loglikelihood_and_rolling_parity": true,
+    "bio_batch_padding": true
+  },
+  "full_task_counts": {
+    "wikitext": 62,
+    "lambada_openai": 5153,
+    "piqa": 1838,
+    "arc_easy": 2376,
+    "hellaswag": 10042
+  },
+  "smoke": {
+    "status": "completed",
+    "models": 3,
+    "tasks": 5,
+    "conditions": {
+      "trans_full-wikitext": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 62,
+        "result_sha256": "e432e67ca7d7f82537a575e19b78a0080b8a20d7b348495bbe3878738d17cc0f"
+      },
+      "trans_full-lambada_openai": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 5153,
+        "result_sha256": "15bf3a0622be903bf703cae5f78d3175f39da73822be78be4860a8b0e7964b74"
+      },
+      "trans_full-piqa": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "validation",
+        "full_split_samples": 1838,
+        "result_sha256": "fce78f765a33c36c78bbf03779d780088b4f269614431c03d65853f847c5e03a"
+      },
+      "trans_full-arc_easy": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 2376,
+        "result_sha256": "78724d641b16f4be2f8967eaf95fe0f61ba5522ae609184de10d96a9e69abcfb"
+      },
+      "trans_full-hellaswag": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "validation",
+        "full_split_samples": 10042,
+        "result_sha256": "0fb147252ea052914b4a853de2f04c2244263db8ee11a906929728f67d0ab995"
+      },
+      "v3_static-wikitext": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 62,
+        "result_sha256": "27982eaebc3d90bc9bcf8a4fdfb94e54928e3b816c49c210aebfe1f0d87ee860"
+      },
+      "v3_static-lambada_openai": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 5153,
+        "result_sha256": "a5fa054a46e93d3d3a48cdfc4db27e8f8d7e3c1416fe2b2d9bf268044a6e3b72"
+      },
+      "v3_static-piqa": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "validation",
+        "full_split_samples": 1838,
+        "result_sha256": "d24fc70fc5b8817ef876a5fb5e39dc23bf77d78a298c43d642ba019c5655713c"
+      },
+      "v3_static-arc_easy": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 2376,
+        "result_sha256": "7adabb13e88fb3157768fa52df198e1ad58b5cd21372d26c4751744f09ab6ecd"
+      },
+      "v3_static-hellaswag": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "validation",
+        "full_split_samples": 10042,
+        "result_sha256": "5a42e3ea1b8619cdd3df69a8e0e9f9735312d836b6d860dee98da454084644d1"
+      },
+      "v3_dynamic-wikitext": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 62,
+        "result_sha256": "8342e4ea81d4e451a6f503a939fc57ffdeab8565c081b9ba2f1a62fbf66c8833"
+      },
+      "v3_dynamic-lambada_openai": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 5153,
+        "result_sha256": "0e6166184a0846fab2e1f91918a2ba4d9d391c313b13646e5ace98d4ff0a207e"
+      },
+      "v3_dynamic-piqa": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "validation",
+        "full_split_samples": 1838,
+        "result_sha256": "fdfe32e6d34647d30a5cd95152781833d66b41fbe5222a90ea7aa7e3251e4022"
+      },
+      "v3_dynamic-arc_easy": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "test",
+        "full_split_samples": 2376,
+        "result_sha256": "73a6b90d2a6d9f6efab9dd7976bc81fcfb8335f0aafcd16bc81d9a28476f85fb"
+      },
+      "v3_dynamic-hellaswag": {
+        "status": "completed",
+        "evaluated": 2,
+        "split": "validation",
+        "full_split_samples": 10042,
+        "result_sha256": "52196bb543b842812ba869d56baee07565fb7cee9cbaee548e6e5973c108a201"
+      }
+    },
+    "samples_per_condition": 2,
+    "device": "mps",
+    "offline_cached_run": true,
+    "reference_seed": 11,
+    "reference_phase": "cpt",
+    "interpretation": "Engineering acceptance only"
+  },
+  "earlier_attempt": {
+    "status": "failed",
+    "reason": "A task-ID-only dict was interpreted as inline configuration; official YAML loader now supplies full original definition.",
+    "record_retained_locally": true
+  },
+  "full_standard_evaluation": "not_executed",
+  "local_31m_evaluation": "not_executed",
+  "future_fineweb_cross_benchmark_audit": "not_executed",
+  "frozen_reference_sources": 71,
+  "frozen_checkpoints_verified": 3,
+  "console_frame_test": "passed at 80x8",
+  "pycharm_xml": "parsed",
+  "raw_benchmark_examples_exported": false
+}

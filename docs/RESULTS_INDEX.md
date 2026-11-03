@@ -45,7 +45,20 @@ N128 dense的3,099,250目标检查点属于中止条件，没有完成12M或最�
 | V3规模验证工程 | [参数配置](../results/scale/capacity_20261103/capacity.json)、[14项验收](../results/scale/acceptance_0133b_final_20261103/verification.json)、[原生MPS有限更新](../results/scale/mps_0133b_delivery_20261103/profile.json) | completed：0.133B三个模型各3次合成更新，长度32；10B正式训练、完整2048 CUDA测速、LoCoMo均not_executed |
 | V3本地Qwen/DeepSeek对照 | [分析](../results/tiny_arch/paired_20261103_local333k/analysis/REPORT.md)、[数值](../results/tiny_arch/paired_20261103_local333k/analysis/statistics.json)、[实际生成](../results/tiny_arch/paired_20261103_local333k/analysis/generation_summary.json) | completed：约33万参数，新增2架构×3种子；6144步逐样本匹配；六组seed11生成EM/F1全0 |
 | V3修正版微型架构对照 | [完整结果与图](../results/repaired/local333k_corrected_20261103/REPORT.md)、[协议](../evaluations/repaired/PROTOCOL.md)、[配对统计](../results/repaired/local333k_corrected_20261103/summary.json)、[执行状态](../results/repaired/local333k_corrected_20261103/registry.json) | completed：91训练阶段、21保留测试；Bio动态/静态CPT PPL334.44/335.04、生成F1均0.40%；动态增量弱，问答坍缩；三项补充诊断与图完成 |
+| V3 公开标准评测 | [冻结协议](../evaluations/standard/protocol.json)、[验收结果](../results/standard_eval/verification_20261104.json)、[PyCharm入口](../run_biomatrix_standard_eval.py) | 15项MPS短验收和3项数值自检通过；正式全量评分和31M评分均not_executed |
 
 历史V3短程验收用于检查执行、配对和保存。旧V3默认队列未评分最终测试；随后独立修正版已完成保留测试，两轮口径分别记录。
 
 V3完整结果：相同目标预算下动态Bio文本PPL降低约16.3%，答案NLL小幅降低；四组首答案token命中均为0%，正确远史替换的影响很小，训练耗时约10.9倍。详见完整分析，保留工程短测与正式训练两种口径。
+
+V3标准评测固定使用 [EleutherAI lm-evaluation-harness v0.4.13](https://github.com/EleutherAI/lm-evaluation-harness/releases/tag/v0.4.13)。内置任务为 WikiText、LAMBADA OpenAI、PIQA、ARC-Easy、HellaSwag；沿用上游模板、任务默认划分和指标，冻结任务代码哈希及数据修订。统一0-shot、512 token上下文、不加聊天模板，正式评测覆盖默认划分的全部样本。原问答和历史替换结果继续作为机制诊断单独报告。31M新语料还需执行跨基准重合检查。
+
+在本机 PyCharm 选择 **Bio-Matrix 标准评测**，以原生MPS运行，每秒原位显示任务进度。当前入口读取已完成的33万参数修正版预训练检查点，可用 `--reference` 指定复跑目录。公开副本保留代码与数值验收记录；使用入口前需先复现本地权重和分词数据。模型包装只转交因果 logits，似然、滚动窗口和聚合均由上游评分器执行。
+
+```bash
+uv venv --python 3.12 results/standard_eval/runtime
+uv pip install --python results/standard_eval/runtime/bin/python -r evaluations/standard/requirements.txt
+results/standard_eval/runtime/bin/python run_biomatrix_standard_eval.py --smoke
+```
+
+`--smoke` 每任务取两条真实样本，仅验收程序。去掉该参数后评测完整默认划分，结果写入独立目录；`--seed 11/23/37` 分别选择一个旧实验种子。首次需下载公开评测数据，已缓存的固定版本可以离线读取，程序会核对实际缓存修订。报告保留各任务原生指标和样本数，不汇成自定义总分。

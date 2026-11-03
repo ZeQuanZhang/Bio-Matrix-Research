@@ -1,0 +1,77 @@
+{
+  "format": "bio-v3-standard-eval-1",
+  "harness": "0.4.13",
+  "num_fewshot": 0,
+  "chat_template": false,
+  "max_length": 512,
+  "tasks": {
+    "wikitext": {
+      "yaml": "tasks/wikitext/wikitext.yaml",
+      "dataset": "EleutherAI/wikitext_document_level",
+      "revision": "647234772b9554e208af6c826f23b99e3cac88c8",
+      "split": "test",
+      "metrics": [
+        "word_perplexity",
+        "byte_perplexity",
+        "bits_per_byte"
+      ]
+    },
+    "lambada_openai": {
+      "yaml": "tasks/lambada/lambada_openai.yaml",
+      "dataset": "EleutherAI/lambada_openai",
+      "revision": "900124bf3b8235c6daf21033af9948b3f07346c4",
+      "split": "test",
+      "metrics": [
+        "acc",
+        "perplexity"
+      ]
+    },
+    "piqa": {
+      "yaml": "tasks/piqa/piqa.yaml",
+      "dataset": "baber/piqa",
+      "revision": "142f6d7367fd9877f0fb3b5734ea6a545f54cdd1",
+      "split": "validation",
+      "metrics": [
+        "acc",
+        "acc_norm"
+      ]
+    },
+    "arc_easy": {
+      "yaml": "tasks/arc/arc_easy.yaml",
+      "dataset": "allenai/ai2_arc",
+      "revision": "210d026faf9955653af8916fad021475a3f00453",
+      "split": "test",
+      "metrics": [
+        "acc",
+        "acc_norm"
+      ]
+    },
+    "hellaswag": {
+      "yaml": "tasks/hellaswag/hellaswag.yaml",
+      "dataset": "Rowan/hellaswag",
+      "revision": "218ec52e09a7e7462a5400043bb9a69a41d06b76",
+      "split": "validation",
+      "metrics": [
+        "acc",
+        "acc_norm"
+      ]
+    }
+  },
+  "upstream_files": {
+    "tasks/wikitext/wikitext.yaml": "f6d1a228da486466ac91922c99cb5ff197610ec045decb2009599a16b80eaf45",
+    "tasks/lambada/lambada_openai.yaml": "96dee2fe378666b6b5411958a25ad5c83f5b43eb6b3c830f4b0fd485f9adb6a5",
+    "tasks/piqa/piqa.yaml": "e874f7956ccac325b888d4a5dc600bad867b79fba2bd358fe8761ab8263270fb",
+    "tasks/arc/arc_easy.yaml": "96da1d9efe1df88659481cedc13985cb347dc068554a2eae561303fa39bfab3f",
+    "tasks/hellaswag/hellaswag.yaml": "e9ef8ac3fed02bf283777d946ae76cbf906152e9c92533c9794e5a9dad78d1cf",
+    "tasks/wikitext/preprocess_wikitext.py": "a44020374b172159bf5be80a64d2c4194c9d5c77284f696ac666361338c8da7d",
+    "tasks/hellaswag/utils.py": "07d23b60b28f2a4f658dcf8440623a63fe6644854ce9b846a114dde980dc1214",
+    "api/task.py": "4c25a4f1949488483b833ce4fcf91cfd3e066084a9ea00079c6879ae3ba95657",
+    "api/metrics.py": "f4794761c3f53fc036336e79c65dca355ea26a8d4cb00b27155ea2ab4846dbb2",
+    "api/model.py": "b8b1db336e168b53d9ca808fe837d5bf8943d9dca76a14cf747e4f3a22d50545",
+    "evaluator.py": "628120153cf24471ead0789106e5c18b02855a7cc77a9aa5da8069fdeab57ed5",
+    "models/huggingface.py": "56d215b8f713d7579f9c7b58a9b8771b09c88e0e4fb8d1b6dd9068033b614b80",
+    "models/utils.py": "bf4c2b9690c653f40319b8e9e92c4da5905b70d3662de4eff81377b223a04739",
+    "utils.py": "2729d2dc6c822a0142707d9f81b92f5da85d962b58f760430bd362db8a1bb704"
+  },
+  "scope": "Built-in prompts, splits, task functions and metrics; only dataset revisions pinned. Formal evaluation covers complete default splits. Engineering smoke uses two samples per task."
+}
