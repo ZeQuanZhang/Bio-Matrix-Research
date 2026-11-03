@@ -18,6 +18,19 @@ from transformers.utils import logging
 
 
 @torch.inference_mode()
+def token_losses(model, changed, reference, device):
+    result = []
+    for start in range(0, len(changed), 16):
+        x = torch.as_tensor(changed[start:start+16, :-1].copy(), device=device)
+        y = torch.as_tensor(reference[start:start+16, 384:512].copy(), device=device)
+        logits = model(x)[0][:, 383:511]
+        ce = F.cross_entropy(logits.float().reshape(-1, 4096), y.reshape(-1), reduction='none').reshape(len(x), 128)
+        # MPS has no float64 tensors; accumulate in float64 only after moving to CPU.
+        result.append(ce.cpu().double().numpy())
+    return np.concatenate(result)
+
+
+@torch.inference_mode()
 def main():
     root = PROJECT/'results/repaired/local333k_corrected_20261103'
     assert json.loads((root/'registry.json').read_text())['status'] == 'completed'
@@ -64,14 +77,12 @@ def main():
                 assert np.array_equal(changed[:, 384:512], values[:, 384:512])
                 if length <= 383:
                     assert np.array_equal(changed[:, 383:512], values[:, 383:512])
-                losses = []
-                for start in range(0, 128, 16):
-                    x = torch.as_tensor(changed[start:start+16, :-1].copy(), device=device)
-                    y = torch.as_tensor(values[start:start+16, 384:512].copy(), device=device)
-                    logits = model(x)[0][:, 383:511]
-                    ce = F.cross_entropy(logits.float().reshape(-1, 4096), y.reshape(-1), reduction='none').reshape(len(x), 128)
-                    losses.extend(ce.double().sum(-1).cpu().tolist())
-                condition['conditions'][mode] = dict(nll=sum(losses)/(128*128), per_window_nll_sum=losses, targets_per_window=128)
+                array = token_losses(model, changed, values, device)
+                losses, first_losses = array.sum(-1).tolist(), array[:, 0].tolist()
+                first32_losses = array[:, :32].sum(-1).tolist()
+                condition['conditions'][mode] = dict(nll=sum(losses)/(128*128), per_window_nll_sum=losses, targets_per_window=128,
+                    first_target_nll=float(np.mean(first_losses)), per_window_first_nll=first_losses,
+                    per_window_first32_nll_sum=first32_losses, mean_nll_by_position=array.mean(axis=0).tolist())
             write(target, condition); per_seed.append(condition)
             model.to('cpu'); del model
             torch.mps.empty_cache()
@@ -88,6 +99,15 @@ def main():
             ss = random.integers(0, 3, (20000, 3)); dd = random.integers(0, len(unique), (20000, len(unique)))
             draws = table[ss[:, :, None], dd[:, None, :]].sum((1, 2))/counts[ss[:, :, None], dd[:, None, :]].sum((1, 2))
             effects[mode] = dict(nll_increase=float(table.sum()/counts.sum()), paired_seed_document_95ci=np.quantile(draws, [.025, .975]).tolist())
+            for label, field, size in [('first_target', 'per_window_first_nll', 1), ('first32', 'per_window_first32_nll_sum', 32)]:
+                early = []; denominators = []
+                for r in per_seed:
+                    diff = np.asarray(r['conditions'][mode][field])-np.asarray(r['conditions']['warm'][field])
+                    early.append([diff[docs == d].sum() for d in unique]); denominators.append([int((docs == d).sum())*size for d in unique])
+                early, denominators = np.asarray(early), np.asarray(denominators)
+                estimates = early[ss[:, :, None], dd[:, None, :]].sum((1, 2))/denominators[ss[:, :, None], dd[:, None, :]].sum((1, 2))
+                effects[mode][label+'_nll_increase'] = float(early.sum()/denominators.sum())
+                effects[mode][label+'_paired_seed_document_95ci'] = np.quantile(estimates, [.025, .975]).tolist()
         results[name] = dict(status='completed', seeds=3, windows_per_seed=128, documents=len(unique), effects=effects)
     write(root/'lm_history_controls.json', dict(status='completed', conditions=results,
         score='Last128 real text targets; first128/383/384 inputs replaced by another document. Prefix383 preserves the current token as well as every target, so a one-token predictor is exactly invariant.',

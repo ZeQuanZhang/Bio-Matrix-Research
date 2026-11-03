@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-03T16:18:37.905104",
+  "status": "registered_before_final_holdout_scoring",
+  "parent_public_commit": "18e744a4c818a9ee2d2b525beccfad703fd8fb76",
+  "final_holdout_scored": false,
+  "main_frozen_sources_unchanged": 71,
+  "changes": [
+    "Add history intervention that preserves the current token",
+    "Add train-count bigram diagnostic with no test-based tuning",
+    "Record independent development batch calibration; main evaluation batch16 unchanged"
+  ],
+  "development_choices_frozen": true,
+  "note": "Original supplementary modes are retained and their original source/declaration archived; models, training budgets, data, and final selection are unchanged."
+}

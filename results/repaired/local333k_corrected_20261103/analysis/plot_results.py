@@ -24,6 +24,8 @@ means, sd = mean_sd('cpt_ppl')
 axes[0, 0].bar(range(7), means, yerr=sd, color=colors, capsize=3)
 unigram = np.mean(list(summary['unigram_same_cpt_targets_test_ppl'].values()))
 axes[0, 0].axhline(unigram, color='#555555', ls='--', label='Train-only unigram')
+bigram = json.loads((ROOT/'bigram_control.json').read_text())['ppl_mean']
+axes[0, 0].axhline(bigram, color='#aa574b', ls=':', label='Count bigram (different state budget)')
 axes[0, 0].set_title('Pretraining checkpoint: full held-out text PPL')
 axes[0, 0].legend(fontsize=8)
 x = np.arange(7)
@@ -77,4 +79,19 @@ for ax in axes:
 fig.suptitle('Raw training traces | 16-update moving average | mean +/- seed SD')
 fig.savefig(OUT/'learning_curves.png', dpi=170); fig.savefig(OUT/'learning_curves.svg'); plt.close(fig)
 (OUT/'compute_budget.json').write_text(json.dumps(budgets, ensure_ascii=False, indent=2)+'\n')
+
+history = json.loads((ROOT/'lm_history_controls.json').read_text())['conditions']
+fig, axes = plt.subplots(1, 3, figsize=(17, 5.5), layout='constrained')
+modes = [('remote128_replaced', 'Replace farthest 128 inputs'),
+         ('prefix383_replaced_current_token_kept', 'Replace history; keep current token'),
+         ('prefix384_replaced', 'Replace history + first current token')]
+for ax, (mode, title) in zip(axes, modes):
+    for i, (name, color) in enumerate(zip(names, colors)):
+        point = history[name]['effects'][mode]
+        lo, hi = point['paired_seed_document_95ci']
+        ax.vlines(i, lo, hi, color=color, lw=2); ax.scatter(i, point['nll_increase'], color=color, s=40)
+    ax.axhline(0, color='#555555', ls='--', lw=.8); ax.grid(axis='y', alpha=.2)
+    ax.set_xticks(x, labels, rotation=30, ha='right'); ax.set_title(title); ax.set_ylabel('Paired text-NLL increase')
+fig.suptitle('Pretraining checkpoints | 128 fixed text windows | exploratory seed/document 95% intervals')
+fig.savefig(OUT/'text_history.png', dpi=170); fig.savefig(OUT/'text_history.svg'); plt.close(fig)
 print('Saved completed holdout plots, learning curves and measured compute budgets.')

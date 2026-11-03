@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "device": "mps",
+  "current_kept_invariance_max_abs": 0.0,
+  "only_first_target_changes_when_current_input_changes": true,
+  "cpu_float64_aggregation": true,
+  "control_source_sha256": "9d09d59325abfba18ff3cf2cc370b8bf6c197d7c42dfd06f8ae6b6c15ebd83e3"
+}

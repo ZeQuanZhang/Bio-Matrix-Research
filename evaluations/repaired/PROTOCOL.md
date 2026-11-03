@@ -68,3 +68,7 @@ python run_biomatrix_repaired.py --output results/repaired/my_corrected_run
 独立开发批次校准比较16与64，数值检查通过，速度收益随配置不同且计时包含预热和并发影响。本轮主实验保留冻结batch16；校准详见运行目录`eval_batch_calibration.json`和`analysis/CALIBRATION_NOTES.md`。
 
 测试评分前给文本历史补充控制增加一个保留当前输入token的条件：只替换前383个输入，位置383及全部128个被评分目标不变。仅依赖前一个token的二元预测器在此条件下严格不变，因此该控制有助于识别额外历史内容作用。原先替换前128和384输入的条件继续执行；初版脚本与登记保存在运行目录`analysis/design_history/`，修订日期和代码哈希写入`lm_history_control_protocol.json`。
+
+“Bio静态”指单个序列内节点key/相位地址固定，节点value仍随历史写入；全局地址参数仍参与训练。动态/静态配对检验地址动态调整的额外作用；是否实际利用历史，还需结合内容替换干预。
+
+文本历史诊断同时保留首个续写目标、前32目标和全部128目标的效应及区间，并保存逐位置均值；用于观察teacher forcing逐步提供新正确输入后历史效应的衰减。MPS损失先移至CPU再以float64累计。独立单token预测器自检确认：保留当前token时历史替换效应严格为0；改变当前token只影响第一个评分位置。见运行目录`lm_control_smoke.json`与`scripts/test_repaired_lm_control.py`。

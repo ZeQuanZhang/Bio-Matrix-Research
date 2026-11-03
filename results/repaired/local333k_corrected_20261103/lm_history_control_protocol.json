@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03T15:27:01.592908",
   "source": "scripts/repaired_lm_history_controls.py",
-  "source_sha256": "50763b7327a5324ef493b95310d8d668860e22d3627942b59fa86b3affc4b922",
+  "source_sha256": "9d09d59325abfba18ff3cf2cc370b8bf6c197d7c42dfd06f8ae6b6c15ebd83e3",
   "main_protocol_sha256": "5aef7c4ec974a6b07d4b2fcfd38a3b63dbbc87a0e1c90bc0caac6adb97f8aeda",
   "execution": "Only after frozen comparison completes",
   "purpose": "Measure history use directly on the trained text objective, independently of QA competence",
@@ -20,5 +20,15 @@
   "amendment_date": "2026-11-03T16:16:53.023764",
   "amendment_reason": "Additional prespecified control keeps the current input token fixed, separating temporal history use from one-token bigram prediction; original modes retained.",
   "original_public_protocol_commit": "18e744a4c818a9ee2d2b525beccfad703fd8fb76",
-  "test_scores_seen_at_amendment": false
+  "test_scores_seen_at_amendment": false,
+  "measurement_detail_date": "2026-11-03T16:33:31.806307",
+  "retained_diagnostics": [
+    "All128-target mean and interval",
+    "First continuation target NLL and interval",
+    "First32 continuation targets NLL and interval",
+    "Mean NLL by continuation position"
+  ],
+  "measurement_detail_reason": "Preserve early history effects before teacher-forced continuation dilutes them; all metrics reported as supplementary diagnostics, not used for selection",
+  "implementation_check_date": "2026-11-03T16:35:30.595095",
+  "implementation_note": "CPU float64 accumulation after MPS float32 loss; original diagnostics retained"
 }

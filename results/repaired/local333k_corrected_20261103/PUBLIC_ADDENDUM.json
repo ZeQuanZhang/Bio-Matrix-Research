@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T16:18:37.905104",
+  "date": "2026-11-03T16:37:50.491784",
   "status": "registered_before_final_holdout_scoring",
   "parent_public_commit": "18e744a4c818a9ee2d2b525beccfad703fd8fb76",
   "final_holdout_scored": false,
@@ -7,8 +7,13 @@
   "changes": [
     "Add history intervention that preserves the current token",
     "Add train-count bigram diagnostic with no test-based tuning",
-    "Record independent development batch calibration; main evaluation batch16 unchanged"
+    "Record independent development batch calibration; main evaluation batch16 unchanged",
+    "Accumulate float64 only on CPU after MPS float32 losses",
+    "Retain first-target and first32-target diagnostics alongside original128 targets",
+    "One-token predictor assay smoke test passed on MPS"
   ],
   "development_choices_frozen": true,
-  "note": "Original supplementary modes are retained and their original source/declaration archived; models, training budgets, data, and final selection are unchanged."
+  "note": "Original supplementary modes are retained and their original source/declaration archived; models, training budgets, data, and final selection are unchanged.",
+  "previous_public_commit": "78ee6095c54742da82bca884b9d4aab47f8fdcb5",
+  "revision": 2
 }

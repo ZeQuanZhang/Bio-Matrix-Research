@@ -1,6 +1,6 @@
 {
   "status": "running",
-  "stage": "final_qwen35_tiny_s23_cpt · cpt · 开始/恢复",
+  "stage": "final_deepseek4_balanced_s23_qa · qa · 开始/恢复",
   "pid": 23041,
   "conditions": {
     "overfit_trans_local": {
@@ -524,12 +524,20 @@
       "fraction": 0.0
     },
     "final_v3_static_s23_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 98.41350295802113,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_v3_static_s23_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 172.9062966647325,
+      "targets": 31229,
+      "inputs": 1506016
     },
     "final_v3_dynamic_s23_cpt": {
       "status": "not_executed",
@@ -540,17 +548,20 @@
       "fraction": 0.0
     },
     "final_qwen35_tiny_s23_cpt": {
-      "status": "running",
-      "fraction": 0.390625,
-      "ce": 6.172487258911133,
-      "updates": 100,
-      "train_seconds": 28.790881789522246,
-      "targets": 409600,
-      "inputs": 409600
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 72.3847320759669,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_qwen35_tiny_s23_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 512,
+      "train_seconds": 148.74849578982685,
+      "targets": 31229,
+      "inputs": 1506016
     },
     "final_deepseek4_tiny_s23_cpt": {
       "status": "not_executed",
@@ -561,12 +572,21 @@
       "fraction": 0.0
     },
     "final_deepseek4_balanced_s23_cpt": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "completed",
+      "fraction": 1.0,
+      "updates": 256,
+      "train_seconds": 145.11097878951114,
+      "targets": 1048576,
+      "inputs": 1048576
     },
     "final_deepseek4_balanced_s23_qa": {
-      "status": "not_executed",
-      "fraction": 0.0
+      "status": "running",
+      "fraction": 0.783203125,
+      "ce": 5.628811359405518,
+      "updates": 401,
+      "train_seconds": 332.27866833412554,
+      "targets": 24263,
+      "inputs": 1176240
     },
     "final_trans_local_s37_cpt": {
       "status": "not_executed",
