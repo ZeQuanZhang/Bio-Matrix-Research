@@ -1,0 +1,70 @@
+{
+  "status": "completed",
+  "config": {
+    "vocab_size": 50257,
+    "width": 768,
+    "layers": 12,
+    "heads": 12,
+    "ff": 3072,
+    "nodes": 128,
+    "phase_bands": 8,
+    "segment_tokens": 128,
+    "context_limit": 2048,
+    "dynamic_addresses": true
+  },
+  "transformer_ff": 3596,
+  "parameters": {
+    "transformer": 133281168,
+    "bio_static": 133284672,
+    "bio_dynamic": 133284672
+  },
+  "parameter_difference": 3504,
+  "fp32_parameters_gradients_adam_bytes": {
+    "transformer": 2132498688,
+    "bio_static": 2132554752,
+    "bio_dynamic": 2132554752
+  },
+  "note": "Activation, temporary tensor, CUDA allocator and checkpoint staging memory require device profiling.",
+  "settings": {
+    "format": "bio-v3-scale-1",
+    "model": {
+      "vocab_size": 50257,
+      "width": 768,
+      "layers": 12,
+      "heads": 12,
+      "ff": 3072,
+      "nodes": 128,
+      "phase_bands": 8,
+      "segment_tokens": 128,
+      "context_limit": 2048
+    },
+    "seed": 11,
+    "data_seed": 31001,
+    "pretrain_tokens": 10000000000,
+    "milestones": [
+      1000000000,
+      3000000000,
+      10000000000
+    ],
+    "sequence": 2048,
+    "microbatch": 2,
+    "accumulation": 32,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.1,
+    "warmup_tokens": 100000000,
+    "minimum_lr_fraction": 0.1,
+    "gradient_clip": 1.0,
+    "activation_checkpoint": true,
+    "checkpoint_every": 100,
+    "eval_every": 500,
+    "validation_sequences": 32,
+    "sft_updates": 3000,
+    "sft_learning_rate": 3e-05,
+    "qa_eval_examples": 128,
+    "qa_gate_f1": 0.2,
+    "threads": 4
+  },
+  "full_training": "not_executed",
+  "cuda_profile": "not_executed",
+  "data_preparation": "not_executed"
+}

@@ -14,6 +14,8 @@ Bio-Matrix Research 记录了把神经网络节点扩展为有限矩阵状态系
 
 **V3 LoCoMo评估已完成10/10条件，问答生成失败。** 使用冻结seed11四模型检查点，主评估1540题及证据直给1527题F1均为0%；动态Bio清空/错换历史也为0%。所有生成都重复`the`直到50 token上限。当前文本loss优势尚未转化为可用问答能力。见[LoCoMo完整分析](results/locomo/v3_20261103_seed11/analysis/REPORT.md)、[数值统计](results/locomo/v3_20261103_seed11/analysis/statistics.json)与[独立评估入口说明](evaluations/locomo/README.md)。本轮未追加训练。
 
+**V3规模验证代码已准备：约0.133B，每模型10B有效预训练目标。** 三组为普通Transformer、静态地址Bio、动态Bio，采用公开FineWeb-Edu `sample-100BT`及SQuAD答案/EOS监督。14项自检、本机完整参数规模的有限MPS更新通过；完整CUDA测速、10B训练与下游能力尚未执行。入口为[run_biomatrix_scale.py](run_biomatrix_scale.py)，默认只核算配置；新GPU启动与实际边界见[规模实验说明](scale/README.md)。历史V3模型和结果保持原样。
+
 在 PyCharm 选择 **Bio-Matrix V3**，运行 [run_biomatrix_v3.py](run_biomatrix_v3.py)。默认12条配对运行每秒原位刷新，使用本机 MPS，不连接过期 A800。完整队列由用户启动。全新环境的数据准备见 [V3 快速开始](v3/README.md#配对对照与数据)。
 
 ```bash

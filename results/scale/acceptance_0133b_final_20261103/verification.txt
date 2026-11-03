@@ -1,0 +1,19 @@
+test_accumulation_weights_actual_targets_and_preserves_update (scale.test_scale.Tests.test_accumulation_weights_actual_targets_and_preserves_update) ... ok
+test_bad_download_never_replaces_verified_target (scale.test_scale.Tests.test_bad_download_never_replaces_verified_target) ... ok
+test_bf16_cpu_autocast_state_and_gradients_remain_finite (scale.test_scale.Tests.test_bf16_cpu_autocast_state_and_gradients_remain_finite) ... ok
+test_compact_checkpointed_bio_matches_frozen_outputs_and_gradients (scale.test_scale.Tests.test_compact_checkpointed_bio_matches_frozen_outputs_and_gradients) ... ok
+test_complete_partial_download_recovers_without_network (scale.test_scale.Tests.test_complete_partial_download_recovers_without_network) ... ok
+test_evidence_crop_and_answer_eos_mask (scale.test_scale.Tests.test_evidence_crop_and_answer_eos_mask) ... ok
+test_full_sdpa_matches_existing_causal_block_and_blocks_future (scale.test_scale.Tests.test_full_sdpa_matches_existing_causal_block_and_blocks_future) ... ok
+test_insufficient_disk_stops_before_any_dataset_download (scale.test_scale.Tests.test_insufficient_disk_stops_before_any_dataset_download) ... ok
+test_known_clock_path_preserves_full_state_at_partial_and_complete_boundaries (scale.test_scale.Tests.test_known_clock_path_preserves_full_state_at_partial_and_complete_boundaries) ... ok
+test_native_mps_real_forward_backward_and_checkpointing (scale.test_scale.Tests.test_native_mps_real_forward_backward_and_checkpointing) ... ok
+test_real_parquet_fixture_hash_split_and_bounded_packing (scale.test_scale.Tests.test_real_parquet_fixture_hash_split_and_bounded_packing) ... ok
+test_shared_initialization_and_production_parameter_match (scale.test_scale.Tests.test_shared_initialization_and_production_parameter_match) ... ok
+test_three_way_milestones_sft_and_stop_resume_match_uninterrupted (scale.test_scale.Tests.test_three_way_milestones_sft_and_stop_resume_match_uninterrupted) ... ok
+test_uint16_pack_cross_file_and_exact_partial_budget (scale.test_scale.Tests.test_uint16_pack_cross_file_and_exact_partial_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.266s
+
+OK

@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "source_revision": "eee5fdbf62f8613a7812b03419e6b29617b74fd1",
+  "source_sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+  "sequence": 2048,
+  "counts": {
+    "train": 83484,
+    "validation": 4115
+  },
+  "skipped": 0,
+  "files": {
+    "train.npy": "808a0336581634a0bd67e27172ae453b4231821722dde7f20dc7b177f8e89ce3",
+    "train.jsonl": "e3b5ae9a81c687d779863ba688961a1fef16d24054d2ec499618e01fb42ffd43",
+    "validation.npy": "d5d9f3747ff19efccb7108e0a2573bfd759b9df7bc00f96be8894e42220b8169",
+    "validation.jsonl": "c29ca1bf70ea9dea2d9d62f7eae4ce6ee5001d307553a022696b8d06c82fc8d7"
+  },
+  "supervision": "Answer tokens and EOS only; evidence is retained. Mixed <=384 and available full-context evidence. Article-disjoint validation; official dev untouched.",
+  "tokenizer_fingerprint": "14c151900514f3cfec72550db0e05f05094c4eb8536ffb877d27b28534a7ffab",
+  "source": "Official SQuAD train v1.1; original dev untouched",
+  "actual_model_training": "not_executed"
+}

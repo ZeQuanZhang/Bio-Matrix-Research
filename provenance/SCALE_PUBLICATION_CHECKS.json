@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "tests": 14,
+  "source_files_unchanged": 58,
+  "source_shards": 140,
+  "source_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "production_parameters": {
+    "transformer": 133281168,
+    "bio_static": 133284672,
+    "bio_dynamic": 133284672
+  },
+  "native_mps_updates": 9,
+  "native_mps_sequence": 32,
+  "full_training": "not_executed",
+  "cuda_profile": "not_executed",
+  "private_data_weights": "excluded",
+  "python_files": 268,
+  "local_links": 250,
+  "missing_links": 0,
+  "private_paths_or_credentials": 0
+}

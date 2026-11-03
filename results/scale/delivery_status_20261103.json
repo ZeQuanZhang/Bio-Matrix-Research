@@ -1,0 +1,26 @@
+{
+  "status": "code_and_finite_acceptance_completed",
+  "production_parameters": {
+    "transformer": 133281168,
+    "bio_static": 133284672,
+    "bio_dynamic": 133284672
+  },
+  "pretrain_targets_per_model": 10000000000,
+  "conditions": 3,
+  "seeds": [
+    11
+  ],
+  "verification_tests": 14,
+  "native_mps_full_parameter_updates": 9,
+  "native_mps_sequence": 32,
+  "source_files_unchanged": 58,
+  "full_2048_cuda_profile": "not_executed",
+  "full_pretraining": "not_executed",
+  "production_sft": "not_executed",
+  "locomo": "not_executed",
+  "fineweb_shard_download": "not_executed",
+  "squad_preparation": "completed",
+  "corpus": "FineWeb-Edu sample-100BT",
+  "train_qa": 83484,
+  "validation_qa": 4115
+}

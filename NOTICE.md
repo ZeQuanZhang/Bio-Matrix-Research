@@ -15,3 +15,5 @@
 V1.1—V3还使用[官方SQuAD v1.1](https://rajpurkar.github.io/SQuAD-explorer/)派生的远史问答。源文件固定提交与校验位于 `v11/data.py`，准备协议记录切分、答案位置、分词器与文件身份。公开仓库保留数值与代码，原文、输入token、编码缓存和权重不随发布上传。
 
 V3长对话评估使用[LoCoMo官方仓库](https://github.com/snap-research/locomo/tree/3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376)的`data/locomo10.json`。官方项目采用CC-BY-NC-4.0；本仓库只发布数值投影与评分代码适配，原始数据不上传。`evaluations/locomo/scoring.py`改编自官方`task_eval/evaluation.py`，保留归一化、词干与多答案F1计算，去除无关BERT依赖并增加分类包装。出处与固定提交见该文件头部，完整许可证见[LICENSE.locomo.txt](evaluations/locomo/LICENSE.locomo.txt)。
+
+V3规模验证使用[FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu)的`sample-100BT`，数据卡采用ODC-By-1.0并说明Common Crawl使用条件。固定提交、分片LFS SHA256和tokenizer身份保存在`scale/data.py`及准备清单。只复用[openai-community/gpt2](https://huggingface.co/openai-community/gpt2)的MIT分词器，不加载其权重。实际训练预算为每模型10B目标，语料原文、编码缓存、SQuAD原文与权重不随仓库发布。

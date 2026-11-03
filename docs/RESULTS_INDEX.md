@@ -42,6 +42,7 @@ N128 dense的3,099,250目标检查点属于中止条件，没有完成12M或最�
 | V3 有限数据验收 | [短程配对](../results/v3/acceptance_mps_20261103/COMPARISON.md) | 四条件×两种子，每条3次更新，完成 |
 | V3 完整默认训练 | [完整分析](../results/v3/paired_20261103T094249_111075/analysis/review_20261103/REPORT.md) | completed：四条件×三种子12条，每条1024步；最终测试未执行 |
 | V3 LoCoMo | [完整分析](../results/locomo/v3_20261103_seed11/analysis/REPORT.md)、[统计](../results/locomo/v3_20261103_seed11/analysis/statistics.json) | completed：seed11，10/10条件；1540题主F1及1527题证据直给F1全0，生成退化；未追加训练 |
+| V3规模验证工程 | [参数配置](../results/scale/capacity_20261103/capacity.json)、[14项验收](../results/scale/acceptance_0133b_final_20261103/verification.json)、[原生MPS有限更新](../results/scale/mps_0133b_delivery_20261103/profile.json) | completed：0.133B三个模型各3次合成更新，长度32；10B正式训练、完整2048 CUDA测速、LoCoMo均not_executed |
 
 V3短程验收用于检查执行、配对和保存，不能用于判断架构优劣。最终测试未评分。
 

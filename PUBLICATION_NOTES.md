@@ -42,3 +42,7 @@
 同日完成seed11的10条件LoCoMo评估，未追加训练。公开独立评估器、许可证、PyCharm入口、固定协议、数据审计、状态、汇总、分析和图。每条件`metrics.jsonl`是本地`cXX_bXXX.json`的数值投影：保留题目身份哈希、对话分组、类别、执行状态、F1、答案NLL、首token命中与生成长度，移除问题、参考答案、证据列表、生成原文与token序列，仅保留预测SHA256。
 
 本地完整原始结果、历史状态缓存、四个检查点和LoCoMo数据继续保留。公开逐题数值未挑选或重算；全部零分及oracle不适用记录一并发布。原始与公开文件哈希见`provenance/LOCOMO_EXPORT_MANIFEST.json`，检查见`provenance/LOCOMO_PUBLICATION_CHECKS.json`。LoCoMo词级F1单独报告，与LLM裁判准确率口径分开。
+
+### V3规模验证代码与工程记录
+
+追加`scale/`、0.133B配置、PyCharm入口和单GPU三模型10B预算。公开参数核算、14项验收、完整参数规模的32长度MPS合成更新、公开源身份和SQuAD准备计数/哈希。预训练大分片、二进制缓存、问答原文、检查点及`.private`预测不上传。正式训练、完整2048 CUDA测速和能力评估继续登记not_executed；合成更新的loss与计时只用于工程验收。新增清单与核对见`provenance/SCALE_EXPORT_MANIFEST.json`和`provenance/SCALE_PUBLICATION_CHECKS.json`。

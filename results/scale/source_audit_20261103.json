@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "source_manifest_sha256": "50e4453a13e9b3c01583d2b0b228ddc37151ecd5693d7fb28c9dac6325a8f1ae",
+  "tokenizer_sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+  "dataset_raw_shards": "not_downloaded",
+  "pretrain_tokens_prepared": 0,
+  "dataset_license": "ODC-By-1.0",
+  "fixed_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "shards": 140,
+  "source_bytes": 286394522604
+}

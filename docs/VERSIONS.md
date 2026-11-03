@@ -18,6 +18,7 @@
 | V1.1 | `v11/` | 远史问答、信用与训练修正 | `run_biomatrix_v11.py` |
 | V2 | `v2/` | Transformer 加块并行矩阵记忆 | `run_biomatrix_v2_console.py`；四条件×三种子已完成 |
 | **V3** | `v3/` | **独立向量节点、相位路由、因果双重计算** | **`run_biomatrix_v3.py`**；12条训练完成；`run_biomatrix_v3_locomo.py`的10条件冻结评估完成，生成F1全0 |
+| V3规模验证 | `scale/` | V3机制扩大至约0.133B，三模型各10B目标 | `run_biomatrix_scale.py`；代码、14项验收与有限MPS更新完成；正式CUDA训练未执行 |
 
 `v11` 表示 V1.1，`v09` 表示 V0.9。路径属于实现兼容标识，README、设计文档和新发布说明使用上表展示编号。
 
