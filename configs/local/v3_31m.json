@@ -1,0 +1,23 @@
+{
+  "format": "bio-v3-local-train-1",
+  "model": {"vocab_size": 50257, "width": 384, "layers": 6, "heads": 6, "ff": 1536, "nodes": 128, "phase_bands": 8, "segment_tokens": 128, "context_limit": 512},
+  "seed": 11,
+  "data_seed": 31001,
+  "pretrain_tokens": 100000000,
+  "milestones": [10000000, 50000000, 100000000],
+  "sequence": 512,
+  "microbatch": 4,
+  "accumulation": 4,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.1,
+  "warmup_tokens": 1000000,
+  "minimum_lr_fraction": 0.1,
+  "gradient_clip": 1.0,
+  "activation_checkpoint": true,
+  "checkpoint_every": 100,
+  "eval_every": 500,
+  "validation_sequences": 64,
+  "eval_batch": 4,
+  "threads": 4,
+  "mps_limit_gib": 14
+}

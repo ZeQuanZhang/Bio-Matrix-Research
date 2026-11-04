@@ -1,0 +1,566 @@
+{
+  "status": "completed",
+  "mode": "engineering_acceptance",
+  "full_training": "not_executed",
+  "full_standard_evaluation": "not_executed",
+  "default_config": {
+    "format": "bio-v3-local-train-1",
+    "model": {
+      "vocab_size": 50257,
+      "width": 384,
+      "layers": 6,
+      "heads": 6,
+      "ff": 1536,
+      "nodes": 128,
+      "phase_bands": 8,
+      "segment_tokens": 128,
+      "context_limit": 512
+    },
+    "seed": 11,
+    "data_seed": 31001,
+    "pretrain_tokens": 100000000,
+    "milestones": [
+      10000000,
+      50000000,
+      100000000
+    ],
+    "sequence": 512,
+    "microbatch": 4,
+    "accumulation": 4,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.1,
+    "warmup_tokens": 1000000,
+    "minimum_lr_fraction": 0.1,
+    "gradient_clip": 1.0,
+    "activation_checkpoint": true,
+    "checkpoint_every": 100,
+    "eval_every": 500,
+    "validation_sequences": 64,
+    "eval_batch": 4,
+    "threads": 4,
+    "mps_limit_gib": 14
+  },
+  "capacity": {
+    "config": {
+      "vocab_size": 50257,
+      "width": 384,
+      "layers": 6,
+      "heads": 6,
+      "ff": 1536,
+      "nodes": 128,
+      "phase_bands": 8,
+      "segment_tokens": 128,
+      "context_limit": 512,
+      "dynamic_addresses": true
+    },
+    "transformer_ff": 1868,
+    "parameters": {
+      "transformer": 31468872,
+      "bio_static": 31469328,
+      "bio_dynamic": 31469328
+    },
+    "parameter_difference": 456,
+    "fp32_parameters_gradients_adam_bytes": {
+      "transformer": 503501952,
+      "bio_static": 503509248,
+      "bio_dynamic": 503509248
+    },
+    "note": "Activation, temporary tensor, CUDA allocator and checkpoint staging memory require device profiling."
+  },
+  "source_hashes": {
+    "v3/__init__.py": "2f79f0f766bdf53211004249deeafcaded674fc4a633a60364495027933778f0",
+    "v3/benchmark.py": "3e4eddf78c89b6975b773f6329a799c35d6dcaf68730ae3ae706b746c5944704",
+    "v3/console.py": "e68f9e99beeec2efd8e1a888b87e388427a5799ecdfc3140ff6679119184dc0d",
+    "v3/evaluate.py": "efcff2bc478322d2ee84c5708ca3b448d51a757e9f76a88f0a421cbd5c33805d",
+    "v3/model.py": "9e8c6320f679d35867506c120b2b8511a492360c5403c2093f176f1cda94d7a3",
+    "v3/report.py": "6dc3e232b7780fcafced51f8d10bfceb150ee0af32829cd86092dcc831ccff87",
+    "v3/test_evaluate.py": "5b42958a0f1c8477fa4285fc28bc546a5233f9804859e5f4e8f1d55338b07194",
+    "v3/test_model.py": "262dd7ff8113a90cf5e3b7852bd8e0e906a4794e1253ce7e73f94451caeb2f10",
+    "v3/test_train.py": "d964019781ccec1fd04a17c3856ce536179560de64a6399b0c78bcadbeaed687",
+    "v3/train.py": "1b3d65007d024bc3c944fa26090990b17060bdd35f8c051b77995cbc30b1ec88",
+    "v2/__init__.py": "128f11dae9355c1888414b8b3c88c846e75e5a1a555224c811042ee1c75f0ee5",
+    "v2/evaluate.py": "5427ed9d6c8c0381f3672bbc12593fd7a02810a74800eedec46b2de21d5f2760",
+    "v2/model.py": "285cc329b0236a971fc8e526ba8774db7f49d39eb7c6d8479813dee401363427",
+    "v2/report.py": "db5faffd087127cb94b2fbea8b2a9a6996de6a46d193734bf60020442dbf0f3c",
+    "v2/test_evaluate.py": "b5038967f82fd317669138f290d2a395756ffc3397fe76224380ca5225f10d27",
+    "v2/test_model.py": "c0654a53812a78acb380e2f4742c3c2ba4e04cb7c24e0b2f1b6d731d4513d4dd",
+    "v2/test_train.py": "c5eb1ad43cd96d06bda65d61399b41eb2a649d7463410adabd9c573f31cfbac4",
+    "v2/train.py": "c265896675e7b76af4b040e883a2a0018b14b64d8a6c77309813f1a95f08d24d",
+    "v11/__init__.py": "555439e63b63439ed21a13302391b9a9f2e1cae66111ccd7a116a7e06f211941",
+    "v11/data.py": "d8326be0d94d1bbe77896cc43e331dfdaf341a64ae871642e1cafd4100086587",
+    "v11/dynamics.py": "7e34c0eb1b4334ac4b3b5bf199aca720f5a14bb47eb82f10661aaed75e28acd5",
+    "v11/evaluate.py": "0c2e0f92cf20aabc8bdad6811a3f42e2ea0126bfa32ae1e4362f4ff1b143b7fa",
+    "v11/model.py": "7471d0033cc1206ebd4dc9ba5940cdce04e0e7d9865b03f466498306f0011952",
+    "v11/test_data.py": "c223fa89e9be71696fa39de40d15adc190011ef14d03d414fedcc2a47dbcd626",
+    "v11/test_dynamics.py": "2f387174cc179ca44dca96dc1928d402197b8dfdf10ac7e347c982ad9b63e43b",
+    "v11/test_evaluate.py": "9af03fe1147e1d8b1a6421d721cfb24df1fa75def354a7fbdffe60854f4aacaa",
+    "v11/test_model.py": "05779e72f2e19bd12cf89d7f8f1fe9d76fa0544dd7216fb882ed1ee42838a327",
+    "v11/test_train.py": "0d8d94b3159d7d218c9f95f06cff08abd63e7d3b1efdb02f8909c855e3e397fc",
+    "v11/train.py": "788f918ffdd2224ceeb7a07c2dd707809405aa65e041edc187bebd6af1ccb4d6",
+    "v1/__init__.py": "1a535fa652816b721f434c323d87c572dacb489a46636693777d2d2fb2b9e7fe",
+    "v1/dynamics.py": "ea7b9ce420054f54be1a97f8f01a7bf9d6cfaeb410f35958a33c49d05a0baa43",
+    "v1/evaluate.py": "943b632ff1789250f6d92f212229081b1f6568dd01965fdefdb91ac37fa3b286",
+    "v1/model.py": "b0a910d4cc558938769f97729939e05b392df44bfc602cdcddb0e8c92497c6e2",
+    "v1/test_dynamics.py": "d263dfb2ce5738bfe80ac314f812be0eb6cdad27219cd8e456f9c78c8ff052c0",
+    "v1/test_evaluate.py": "955b45c7c522e95c12903e64678bf8d265483b88a7832c0e450790b45366f26e",
+    "v1/test_model.py": "88793661e11adcedb3b2b3cbfdd20f21a32a51b2bd39226105aa61d667d8f886",
+    "v1/test_train.py": "7d4e4cc2d856e75e04e1b73e6d477fdddc39e8ee570734a9cad660a38ad9991e",
+    "v1/train.py": "28ac4c181256b642efd10767784c2117ccf713b6b00ca62a60a5749d272a7b5c",
+    "run_biomatrix_v3.py": "98d0988fecc37e83d1ca485f6199a7c2abbdb1b5a4fb0b398c2c0a6efad762d1",
+    ".run/Bio-Matrix V3.run.xml": "e9a9644e7eaeb2cae461daa7a8672b5539d7c81d14fcda18f551cba38cd8f447",
+    "scripts/v2_console.py": "8947ffa77d87c0a184d1a0854cfa7d381d72cd802d764fab241b4ae956a1e969",
+    "v03/graph.py": "7e327f9045b61160e80229e180338ddcf17f43bff3f6cf177fd78e84659da29f",
+    "v04/model.py": "1435db22eb211621b850c7825b2b474b3e1bc5c4b6680b0d20e05716cdd31ecb",
+    "v05/model.py": "a966293cc3ae183a07237483b3076a9097c1ffc1d30b0353299a03ba2a3a04c7",
+    "v06/model.py": "1bb708bafae8100f550a21b69da7c93c3f5234c25428e8b294e5af30ef6cb96a",
+    "v06/common.py": "03f2671fb07d8c2bf33f332bb6aeb068eedb8dc7f4362c572202e52885fae19a",
+    "v06/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/common.py": "78f2ad472506cc644a26621c05c5eb2214ad3e537ab938cc67e0dfad960524a9",
+    "v07/data.py": "1dbe9bc5e63ee530a8fb47d4db8cb0a270641067f75df7c9ceb5fa145347d14d",
+    "v07/model.py": "93df5bb5488f410b6d8268f7f721c06f725b5a154da71b7800db4ec93dc2b611",
+    "v07/run.py": "8d75f8e0f60809972d5104927e05c05acedfd828ed209ff005d0073cee622405",
+    "v07/graph.py": "2d585e07e1fbc33ec8488beb0b5b5eaab3713677480e7e3153f11767a0d66a67",
+    "v07/evaluate.py": "598cf490247ef35c3cafd0cb83ec6ed35dcf1d626bbd994f32cfe274299d5e6a",
+    "v08/benchmark.py": "6f384db239330d63f5e9813953462a0248863e5a5848d2d458ae2c3a17c4dadb",
+    "v08/model.py": "087e47af6039b053bd5448b471a276e393c1f5414ac27473df1bbdd8a009e230",
+    "v08/recurrence.py": "f61fe0e8a7333b1f86e2d80d9ea854d8d9578b6a37ea0754fc24fdd33b0ff4c4",
+    "v09/benchmark.py": "1b4859d41a880700d8a98c656fe674d0b1805db86b5cc991f94a7aec6d54b50c",
+    "v09/train.py": "d54a5caf223bc74fefbd2c8e3a5273f14a57e007307b5d2d59c76d9d802695e5",
+    "scale/__init__.py": "e0bd6dbe4aa25157319992a59f58640e065689262477596b355856c03fd2486c",
+    "scale/data.py": "c2f79ec31c91f50c0c8fd752b62be807d77dc5be9e65dd8e9d6f6204938a4949",
+    "scale/engine.py": "385263a1b202657b1540ce830f2442561569a7b724685a0b9adc504621a06daa",
+    "scale/model.py": "c484b5a50f49b3630a4474941f4e47ed1a16635e4c20cc3bc6659859b3023758",
+    "scale/run.py": "d057bc96019c74030b2ead643134f48920fa59b5a4089f0c5a2fd4621d7907ab",
+    "scale/test_scale.py": "4b305cb2004131d5c258a5f0079e7351286be999e0b012c5c1760bc100279f5b",
+    "scale/requirements.txt": "1d3ead0c574c28772d1718faafd699f1581ee3bbf02754644bafe56ae3a2340c",
+    "run_biomatrix_scale.py": "97a0ed7238a977946557bfc50ea35e7737b800eb8b9b722e784b0f6cb067d52e",
+    ".run/Bio-Matrix V3 Scale.run.xml": "67408ff1a1bd4ccb82598c57b9c8cb4b53b6c191edb4932fe496860410821728",
+    "local_train/console.py": "19599de4d2db334f3ca573d3db2956757134e97172caf1ea3a4610062bc3fd56",
+    "local_train/run.py": "b4282ce3c80f6f434d822c9ac944694b9c8ef42c87cc6c7657e48eb91b9924dd",
+    "local_train/evaluate.py": "4bf3c4f789e9f98d05535947888812ea870e5ea20f4d586a1daa9b08fe269521",
+    "local_train/test_local.py": "a07688a4e2430c675c8c0cb29992f73d2220df1f2874472816aa3c08e5c7caf5",
+    "local_train/data.py": "3437ebd6c9e46f047016c45293550891107554c31aea9223700949a30a4c05b3",
+    "evaluations/standard/run.py": "664354d03f867a2772d8291a602e99871003b9a9ca52a0b961cbb13f45578d20",
+    "evaluations/standard/test_adapter.py": "f0f6ae5032b1b0740462b202c1769776f4f0dd7bb646d756410968c45191d82e",
+    "evaluations/standard/protocol.json": "455b6149ab66c0aec458da425af44823fb94e9a4384eb6be36c51a4b0a6f4f70"
+  },
+  "unit_tests": 6,
+  "original_frozen_sources_verified": 67,
+  "conditions": {
+    "transformer": {
+      "status": "completed",
+      "updates": 2,
+      "tokens": 16384,
+      "training": [
+        {
+          "ce": 10.895170211791992,
+          "gradient_norm": 6.489399433135986,
+          "targets": 8192,
+          "input_slots": 8192,
+          "seconds": 1.501775500000349,
+          "targets_per_second": 5454.876577756194,
+          "tokens": 8192,
+          "blocks": 16,
+          "updates": 1,
+          "train_seconds": 1.501775500000349,
+          "batch_chain": "5f18b381420801e65eb204333dc27a9f55f884957843c9b8bee2c1810b882854",
+          "lr": 0.0003
+        },
+        {
+          "ce": 10.398391723632812,
+          "gradient_norm": 3.436915159225464,
+          "targets": 8192,
+          "input_slots": 8192,
+          "seconds": 1.5164957919996596,
+          "targets_per_second": 5401.927287380062,
+          "tokens": 16384,
+          "blocks": 32,
+          "updates": 2,
+          "train_seconds": 3.0182712920000085,
+          "batch_chain": "c6d9af87606b6bf5e1794f0c4890bf7c2b3dc2c5aeb651d68450805499ec8520",
+          "lr": 2.9999999999999997e-05
+        }
+      ],
+      "scores": {
+        "wikitext": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "wikitext",
+            "alias": "wikitext",
+            "sample_len": 2,
+            "word_perplexity,none": 94752.41796887545,
+            "word_perplexity_stderr,none": "N/A",
+            "byte_perplexity,none": 9.179023778491427,
+            "byte_perplexity_stderr,none": "N/A",
+            "bits_per_byte,none": 3.198340726098758,
+            "bits_per_byte_stderr,none": "N/A"
+          },
+          "result_sha256": "52a4e08fa034100fff4d90671de750bb85842e4923ea56f88bae43b0bbfa30f6"
+        },
+        "lambada_openai": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "lambada_openai",
+            "alias": "lambada_openai",
+            "sample_len": 2,
+            "perplexity,none": 52215.908625834774,
+            "perplexity_stderr,none": "N/A",
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A"
+          },
+          "result_sha256": "226eed1d005c389dd89440dfa98d8e0324e5f1a0dff1c8e32c2cc367ca399f09"
+        },
+        "piqa": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "piqa",
+            "alias": "piqa",
+            "sample_len": 2,
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.0,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "1c2d0767945144187425d15bb07def3a9c2c69c670d150ff52dda80c3c27c93a"
+        },
+        "arc_easy": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "arc_easy",
+            "alias": "arc_easy",
+            "sample_len": 2,
+            "acc,none": 0.5,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.5,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "435a8869870a3120fd4d9f6059ea91ff51e4328bc46a3c93c94a3665f267dc27"
+        },
+        "hellaswag": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "hellaswag",
+            "alias": "hellaswag",
+            "sample_len": 2,
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.5,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "6b063ca6e3cb9804eb67c28760d82591a15995d520105010105ac85808850190"
+        }
+      },
+      "resumed_vs_uninterrupted_max_parameter_error": 1.1920928955078125e-07
+    },
+    "bio_static": {
+      "status": "completed",
+      "updates": 2,
+      "tokens": 16384,
+      "training": [
+        {
+          "ce": 10.901458740234375,
+          "gradient_norm": 3.8082468509674072,
+          "targets": 8192,
+          "input_slots": 8192,
+          "seconds": 2.921972250000181,
+          "targets_per_second": 2803.5858314532225,
+          "tokens": 8192,
+          "blocks": 16,
+          "updates": 1,
+          "train_seconds": 2.921972250000181,
+          "batch_chain": "5f18b381420801e65eb204333dc27a9f55f884957843c9b8bee2c1810b882854",
+          "lr": 0.0003
+        },
+        {
+          "ce": 10.311838150024414,
+          "gradient_norm": 2.5873804092407227,
+          "targets": 8192,
+          "input_slots": 8192,
+          "seconds": 2.9033532500002366,
+          "targets_per_second": 2821.5650300215216,
+          "tokens": 16384,
+          "blocks": 32,
+          "updates": 2,
+          "train_seconds": 5.825325500000417,
+          "batch_chain": "c6d9af87606b6bf5e1794f0c4890bf7c2b3dc2c5aeb651d68450805499ec8520",
+          "lr": 2.9999999999999997e-05
+        }
+      ],
+      "scores": {
+        "wikitext": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "wikitext",
+            "alias": "wikitext",
+            "sample_len": 2,
+            "word_perplexity,none": 92168.32799399708,
+            "word_perplexity_stderr,none": "N/A",
+            "byte_perplexity,none": 9.130052009360375,
+            "byte_perplexity_stderr,none": "N/A",
+            "bits_per_byte,none": 3.1906230785482244,
+            "bits_per_byte_stderr,none": "N/A"
+          },
+          "result_sha256": "50e797373e641e3dfa3b79341b9ee9eee71bdedaf140357fa2a47fc5eeb9cc3e"
+        },
+        "lambada_openai": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "lambada_openai",
+            "alias": "lambada_openai",
+            "sample_len": 2,
+            "perplexity,none": 52176.0613625381,
+            "perplexity_stderr,none": "N/A",
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A"
+          },
+          "result_sha256": "069036f7478b0156a8f3d6b9927b1d899a6792d8c40e8821d56fdf6d963237aa"
+        },
+        "piqa": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "piqa",
+            "alias": "piqa",
+            "sample_len": 2,
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.0,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "ea89c88f68de5a8aaca5d58b7abc918744257ecb999e1ffb5d62c2fbf7e901be"
+        },
+        "arc_easy": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "arc_easy",
+            "alias": "arc_easy",
+            "sample_len": 2,
+            "acc,none": 0.5,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.5,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "dd5024371631e85d7e83505f9f277b56aa41d5061914a50471ad13d43063f4b3"
+        },
+        "hellaswag": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "hellaswag",
+            "alias": "hellaswag",
+            "sample_len": 2,
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.5,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "8b206a2d23b0fb1604ae34cde13653c84ea0cdb17950821d8e9e6e6c488cafdb"
+        }
+      },
+      "resumed_vs_uninterrupted_max_parameter_error": 3.073364496231079e-08
+    },
+    "bio_dynamic": {
+      "status": "completed",
+      "updates": 2,
+      "tokens": 16384,
+      "training": [
+        {
+          "ce": 10.901457786560059,
+          "gradient_norm": 3.8082306385040283,
+          "targets": 8192,
+          "input_slots": 8192,
+          "seconds": 3.2531706670001768,
+          "targets_per_second": 2518.158694561829,
+          "tokens": 8192,
+          "blocks": 16,
+          "updates": 1,
+          "train_seconds": 3.2531706670001768,
+          "batch_chain": "5f18b381420801e65eb204333dc27a9f55f884957843c9b8bee2c1810b882854",
+          "lr": 0.0003
+        },
+        {
+          "ce": 10.311827659606934,
+          "gradient_norm": 2.587188243865967,
+          "targets": 8192,
+          "input_slots": 8192,
+          "seconds": 3.3011660830002256,
+          "targets_per_second": 2481.547366606529,
+          "tokens": 16384,
+          "blocks": 32,
+          "updates": 2,
+          "train_seconds": 6.554336750000402,
+          "batch_chain": "c6d9af87606b6bf5e1794f0c4890bf7c2b3dc2c5aeb651d68450805499ec8520",
+          "lr": 2.9999999999999997e-05
+        }
+      ],
+      "scores": {
+        "wikitext": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "wikitext",
+            "alias": "wikitext",
+            "sample_len": 2,
+            "word_perplexity,none": 92167.12281084449,
+            "word_perplexity_stderr,none": "N/A",
+            "byte_perplexity,none": 9.130028912683626,
+            "byte_perplexity_stderr,none": "N/A",
+            "bits_per_byte,none": 3.1906194288972562,
+            "bits_per_byte_stderr,none": "N/A"
+          },
+          "result_sha256": "53d301e9c09a526866b91c3693ee27c4e5e9bb1aa2ff5eb268080be67a7f9604"
+        },
+        "lambada_openai": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "lambada_openai",
+            "alias": "lambada_openai",
+            "sample_len": 2,
+            "perplexity,none": 52173.772500139516,
+            "perplexity_stderr,none": "N/A",
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A"
+          },
+          "result_sha256": "e497a1d766474a7162d3cbb3275e571f3f1203c5068db3ce2c083fb383562203"
+        },
+        "piqa": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "piqa",
+            "alias": "piqa",
+            "sample_len": 2,
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.0,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "c912687ecf4d252c956ff67f9fbe18f1d443483af8a67c669dce201af565c35c"
+        },
+        "arc_easy": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "arc_easy",
+            "alias": "arc_easy",
+            "sample_len": 2,
+            "acc,none": 0.5,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.5,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "46915f899a9c4bb8b8cf4030e3f171462f60a3280bcace41ca25b25e238c4189"
+        },
+        "hellaswag": {
+          "status": "completed",
+          "samples": 2,
+          "metrics": {
+            "name": "hellaswag",
+            "alias": "hellaswag",
+            "sample_len": 2,
+            "acc,none": 0.0,
+            "acc_stderr,none": "N/A",
+            "acc_norm,none": 0.5,
+            "acc_norm_stderr,none": "N/A"
+          },
+          "result_sha256": "5542f267f52e0c1d0e2d6e6e1c8013fb96a12a1dd0b7d61619062776d5659587"
+        }
+      },
+      "resumed_vs_uninterrupted_max_parameter_error": 1.1920928955078125e-07
+    }
+  },
+  "terminal_tests": [
+    {
+      "attempt": "stop",
+      "status": "aborted",
+      "frames": 4,
+      "resize": "0x0 to 80x8",
+      "all_nine_bars_visible": true,
+      "refresh_mean_seconds": 1.0151824999999615,
+      "refresh_max_seconds": 1.017519583000194,
+      "elapsed_seconds": 5.205479207999815
+    },
+    {
+      "attempt": "resume",
+      "status": "completed",
+      "frames": 33,
+      "resize": "0x0 to 80x8",
+      "all_nine_bars_visible": true,
+      "refresh_mean_seconds": 1.0217659270937531,
+      "refresh_max_seconds": 1.0332060420000744,
+      "elapsed_seconds": 34.76753712500022
+    }
+  ],
+  "attempts": [
+    {
+      "status": "running",
+      "mode": "smoke",
+      "time": "2026-11-04T10:09:27.082441"
+    },
+    {
+      "status": "aborted",
+      "mode": "smoke",
+      "time": "2026-11-04T10:09:30.299184"
+    },
+    {
+      "status": "running",
+      "mode": "smoke",
+      "time": "2026-11-04T10:09:31.961759"
+    },
+    {
+      "status": "completed",
+      "mode": "smoke",
+      "time": "2026-11-04T10:10:05.008953"
+    }
+  ],
+  "pycharm_shared_configuration": "EMULATE_TERMINAL=true; installed pinned interpreter",
+  "pycharm_visual_check": {
+    "status": "not_executed",
+    "reason": "macOS ScreenCaptureKit -3811; pseudo-terminal regression completed"
+  },
+  "data_audit": {
+    "scanned": 224,
+    "duplicate_documents": 0,
+    "benchmark_overlap_documents": 0,
+    "benchmark_documents": {
+      "wikitext": 62,
+      "lambada_openai": 5153,
+      "piqa": 1838,
+      "arc_easy": 2376,
+      "hellaswag": 10042
+    },
+    "benchmark_13grams": 1626639,
+    "source_shards": [
+      {
+        "path": "sample/100BT/003_00009.parquet",
+        "bytes": 2151098528,
+        "sha256": "56aa32ba078320a9841b8c8bfec5485a0ee91d62f2358f23035c6f2b59e47e62"
+      }
+    ]
+  },
+  "earlier_attempts": [
+    {
+      "name": "initial_31m_smoke",
+      "status": "completed"
+    },
+    {
+      "name": "terminal_harness_first",
+      "status": "aborted",
+      "reason": "Private test harness needed an EOF check; training stopped and saved correctly"
+    },
+    {
+      "name": "terminal_resume_first",
+      "status": "completed"
+    }
+  ],
+  "notes": "Exact CPU interrupted/resumed parameter equality passed; MPS resume compared numerically against the uninterrupted real-data smoke. Smoke scores do not measure task capability. No full queue started."
+}

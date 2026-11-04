@@ -1,6 +1,6 @@
 # 实验记录索引
 
-更新时点：2026-11-03。保留完成、失败、中止和未执行条件。下表优先引用各阶段最后保存的结果；工程检查与能力训练分开解读。
+更新时点：2026-11-04。保留完成、失败、中止和未执行条件。下表优先引用各阶段最后保存的结果；工程检查与能力训练分开解读。
 
 | 阶段 | 主要记录 | 执行口径 |
 |---|---|---|
@@ -46,12 +46,13 @@ N128 dense的3,099,250目标检查点属于中止条件，没有完成12M或最�
 | V3本地Qwen/DeepSeek对照 | [分析](../results/tiny_arch/paired_20261103_local333k/analysis/REPORT.md)、[数值](../results/tiny_arch/paired_20261103_local333k/analysis/statistics.json)、[实际生成](../results/tiny_arch/paired_20261103_local333k/analysis/generation_summary.json) | completed：约33万参数，新增2架构×3种子；6144步逐样本匹配；六组seed11生成EM/F1全0 |
 | V3修正版微型架构对照 | [完整结果与图](../results/repaired/local333k_corrected_20261103/REPORT.md)、[协议](../evaluations/repaired/PROTOCOL.md)、[配对统计](../results/repaired/local333k_corrected_20261103/summary.json)、[执行状态](../results/repaired/local333k_corrected_20261103/registry.json) | completed：91训练阶段、21保留测试；Bio动态/静态CPT PPL334.44/335.04、生成F1均0.40%；动态增量弱，问答坍缩；三项补充诊断与图完成 |
 | V3 公开标准评测 | [冻结协议](../evaluations/standard/protocol.json)、[验收结果](../results/standard_eval/verification_20261104.json)、[PyCharm入口](../run_biomatrix_standard_eval.py) | 15项MPS短验收和3项数值自检通过；正式全量评分和31M评分均not_executed |
+| V3 本地31M训练入口 | [运行说明](../local_train/README.md)、[配置](../configs/local/v3_31m.json)、[验收](../results/local_train/verification_20261104.json) | 真实 FineWeb-Edu、三模型各16,384 token与15项标准任务短评分完成；100M完整队列由用户在PyCharm启动 |
 
 历史V3短程验收用于检查执行、配对和保存。旧V3默认队列未评分最终测试；随后独立修正版已完成保留测试，两轮口径分别记录。
 
 V3完整结果：相同目标预算下动态Bio文本PPL降低约16.3%，答案NLL小幅降低；四组首答案token命中均为0%，正确远史替换的影响很小，训练耗时约10.9倍。详见完整分析，保留工程短测与正式训练两种口径。
 
-V3标准评测固定使用 [EleutherAI lm-evaluation-harness v0.4.13](https://github.com/EleutherAI/lm-evaluation-harness/releases/tag/v0.4.13)。内置任务为 WikiText、LAMBADA OpenAI、PIQA、ARC-Easy、HellaSwag；沿用上游模板、任务默认划分和指标，冻结任务代码哈希及数据修订。统一0-shot、512 token上下文、不加聊天模板，正式评测覆盖默认划分的全部样本。原问答和历史替换结果继续作为机制诊断单独报告。31M新语料还需执行跨基准重合检查。
+V3标准评测固定使用 [EleutherAI lm-evaluation-harness v0.4.13](https://github.com/EleutherAI/lm-evaluation-harness/releases/tag/v0.4.13)。内置任务为 WikiText、LAMBADA OpenAI、PIQA、ARC-Easy、HellaSwag；沿用上游模板、任务默认划分和指标，冻结任务代码哈希及数据修订。统一0-shot、512 token上下文、不加聊天模板，正式评测覆盖默认划分的全部样本。原问答和历史替换结果继续作为机制诊断单独报告。新的本地31M入口在编码前过滤与五项官方评测划分重合的13词片段并保存计数；完整100M语料准备尚未执行。
 
 在本机 PyCharm 选择 **Bio-Matrix 标准评测**，以原生MPS运行，每秒原位显示任务进度。当前入口读取已完成的33万参数修正版预训练检查点，可用 `--reference` 指定复跑目录。公开副本保留代码与数值验收记录；使用入口前需先复现本地权重和分词数据。模型包装只转交因果 logits，似然、滚动窗口和聚合均由上游评分器执行。
 
